@@ -1,0 +1,301 @@
+{
+	"id_Ext": "4923949059",
+	"id": "8435065601503",
+	"entryContainerID": "5005",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Variantes_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Code",
+					"type": "STRING",
+					"value": "8435065601503"
+				},
+				{
+					"id": "EAN",
+					"type": "STRING",
+					"value": "8435065601503"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "4923949059"
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaCreacion",
+							"type": "DATE",
+							"value": "20141202_000000"
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20141202_000000"
+						}
+					]
+				}
+			]
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Informacion_Alimentaria_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Gtin",
+					"type": "STRING",
+					"value": "08435065601503"
+				},
+				{
+					"id": "Mercado",
+					"type": "GROUPING",
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "MercadoObjetivo",
+							"type": "STRING",
+							"value": "724"
+						},
+						{
+							"id": "Variante",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Vino tinto LE NATUREL, 75 cl."
+								}
+							]
+						},
+						{
+							"id": "Basicos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarca",
+									"type": "STRING",
+									"value": "LE NATUREL"
+								}
+							]
+						},
+						{
+							"id": "DatosProducto",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "DenominacionAlimento",
+									"type": "STRING",
+									"children": [
+										{
+											"id": "es_ES",
+											"type": "STRING",
+											"value": "Vino tinto"
+										}
+									]
+								},
+								{
+									"id": "Operador",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Nombre",
+											"type": "STRING",
+											"value": "Vintae Luxury Wines"
+										},
+										{
+											"id": "Direccion",
+											"type": "STRING",
+											"value": "C/ Vara de Rey 5, 26003 La rioja"
+										}
+									]
+								},
+								{
+									"id": "Localizaciones",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Procedencia",
+											"type": "STRING",
+											"ocurrence": 0,
+											"value": "D.O. Navarra"
+										}
+									]
+								},
+								{
+									"id": "MarcasProducto",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "SignoE",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								},
+								{
+									"id": "Instrucciones",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "InstruccionesConsumidor",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Recomendable entre 10°C-15°C."
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Medidas",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "ContenidoNeto",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "75"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "C3",
+													"featureGroupID": "5019",
+													"id_Ext": "4366366090"
+												}
+											]
+										},
+										{
+											"id": "PorcentajeAlcohol",
+											"type": "STRING",
+											"value": "14"
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "Alimentacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Alergenicos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionAlergenicos",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"value": "sulfitos"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Ingredientes",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionIngredientes",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Descripcion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Vino. Contiene sulfitos"
+														}
+													]
+												},
+												{
+													"id": "PatronResaltado",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "(1,p),(16,em),(24,/em),(24,/p)"
+														}
+													]
+												},
+												{
+													"id": "DescripcionResaltada",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Vino. Contiene #!#sulfitos#!#"
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": "MencionesObligatorias",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Mencion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Sin sulfitos"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "ProveedorInformacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Codigo",
+									"type": "STRING",
+									"value": "8439000026055"
+								},
+								{
+									"id": "Descripcion",
+									"type": "STRING",
+									"value": "VINTAE LUXURY WINES"
+								}
+							]
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20210814_025939"
+						}
+					]
+				}
+			]
+		}
+	]
+}

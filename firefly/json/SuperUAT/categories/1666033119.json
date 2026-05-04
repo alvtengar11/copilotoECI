@@ -1,0 +1,113 @@
+{
+	"id": "10420018405",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "10420018405"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Champú anticaspa"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Xampú anticaspa"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Anti-dandruff shampoo"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Shampoo gegen Schuppen"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20251210_140539"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20220726_000000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "8405"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"idExt": "47143190",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "0006"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1666033119"
+				},
+				{
+					"id": "OrdenGlovo",
+					"type": "INTEGER",
+					"value": "1732"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6807",
+			"categoryId": "1042001",
+			"idExt": "1666027119",
+			"id_Ext": "1666027119"
+		}
+	],
+	"idExt": "1666033119",
+	"id_Ext": "1666033119",
+	"entryContainerID": "6807"
+}

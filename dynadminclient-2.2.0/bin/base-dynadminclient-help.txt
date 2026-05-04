@@ -1,0 +1,49 @@
+
+dynadminclient.sh: Tool for invoke ATG DynAdmin
+Usage: dynadminclient.sh  
+           [-f { config file } ] 
+           [-d { host or ip address } ]  
+           [-p { port number } ]
+           [-q ]
+           [-s { session id }] 
+           [-t { target comma-separated list } ] 
+           [-u { user:pass } ]
+           [-v ] 
+           [-y ]           
+           [-h ] 
+           [-b '{ launch | cancel | continue | skip | status } { flow-type }' ]
+           [-c '{ property-name property-value } { file { filename } | nucleus-component-list }' ] 
+           [-i '{ file {filename} | nucleus-component-list }' ]
+           [-g ] 
+           [-l '{ restore | enable | disable } { file { filename } | nucleus-component-list }' ]
+           [-m '{ method-name nucleus-component-name }' ] 
+           [-r '{ url } [ atg-rest-rql-value ]' ]
+
+Options (configuration)
+-f,--config-file <arg>      Sets the config file (json) (dynadminclient.json by default)
+-d,--host <arg>             Sets the target host (localhost by default)
+-p,--port <arg>             Sets the target port (number between 5000 and 65535) (7001 by default)
+-q,--quiet                  Silences output
+-s,--session <arg>          Sets the session id if we have nucleus components with session scope
+-t,--target <arg>           Sets the targets (host:port, alias in config file or comma-separated list of both) (localhost:7001 by default)
+-u,--user <arg>             Sets the user and password for dynadmin (admin:admin by default)
+-v,--verbose                Verbose output (shows config file, etc.)
+-y,--yes <arg>              Assume yes
+
+Actions (dynadmin invoking action)
+-b,--backend-process <arg>  Invokes the ProcessFlowStatusManager to execute an action on a flow
+-c,--change-property <arg>  Changes the value of a property of nucleus components
+-i,--invalidate-cache <arg> Invalidates caches of nucleus components  
+-g,--get-sessions           Returns sessions (/atg/dynamo/servlet/sessiontracking/GenericSessionManager/)
+-l,--logging <arg>          Manages (restore, enable or disable) logging properties (trace,debug,info,warning,error) of nucleus components
+-m,--method <arg>           Invokes a method of a nucleus component
+-r,--rest-api <arg>         Invokes a REST API Method on a nucleus component
+
+Notes
+- if you want to use -q or -v, you have to set it as the first option, before anyone option
+- if you want to use -f or --config-file, you have to set it as the first option, before anyone option (except -q or -v)
+- use simple quote for invoking dynadmin actions (like -b, -c, -i, -l, -m or -r)
+- we must reference a nucleus component ending with the character '/', for example, /atg/commerce/order/OrderRepository/
+- we can pass the nucleus-component-list as comma-separated list or using an external file with nucleus component name (one by line)
+- we need jq utility to use configuration files
+- we need xmllint utility to use -get-sessions action

@@ -1,0 +1,818 @@
+{
+	"idExt": "1222152101",
+	"coreAttribs": [
+		{
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0118081203871"
+				},
+				{
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"idExt": "26871190",
+							"featureGroupID": "6616",
+							"id_Ext": "26871190",
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "1"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Supermercado/Congelados/Aves y carne congelada/Carne congelada"
+						}
+					],
+					"id": "Informacion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"idExt": "282804190",
+							"featureGroupID": "6602",
+							"id_Ext": "282804190",
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"value": "17460"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "ROSA SEFARAD"
+						},
+						{
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "jarrete de ternera congelada kosher"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Kosher frozen beef shank"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Tiefgekühlte Rinderbacke koscher"
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "Jarret de vedella congelada caixer"
+								}
+							],
+							"id": "DescripcionVariedad",
+							"type": "STRING"
+						},
+						{
+							"idExt": "39914190",
+							"featureGroupID": "6612",
+							"id_Ext": "39914190",
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"value": "BANDEJA"
+						},
+						{
+							"id": "PresentacionDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "bandeja"
+						},
+						{
+							"id": "CodigoPresentacionHidden",
+							"type": "STRING",
+							"value": "BANDEJA"
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "800"
+						},
+						{
+							"idExt": "27995190",
+							"featureGroupID": "6610",
+							"id_Ext": "27995190",
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"value": "G"
+						},
+						{
+							"id": "FormatoDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "g"
+						},
+						{
+							"id": "CodigoFormatoHidden",
+							"type": "STRING",
+							"value": "G"
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "ROSA SEFARAD jarrete de ternera congelada kosher bandeja 800 g"
+						},
+						{
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							],
+							"id": "Temporal",
+							"type": "GROUPING"
+						},
+						{
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "JARRETE"
+								}
+							],
+							"id": "DescripcionTicket",
+							"type": "STRING"
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						}
+					],
+					"id": "Descripcion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"idExt": "47143190",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "U"
+						},
+						{
+							"id": "PesoPieza",
+							"type": "STRING",
+							"value": "800"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20181031_113228"
+						}
+					],
+					"id": "Venta",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "009"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "02"
+						}
+					],
+					"id": "Ordenacion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/24/00118081203871____2__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/24/00118081203871____2__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/24/00118081203871____2__150x150.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/24/00118081203871____2__325x325.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/24/00118081203871____2__600x600.jpg"
+						},
+						{
+							"children": [
+								{
+									"id": "UrlTamVariablePrincipal",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/24/00118081203871____1__1x1.png"
+								},
+								{
+									"id": "UrlTamVariableGrande",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/24/00118081203871____1__380x380.png"
+								},
+								{
+									"id": "UrlTamVariableMediana",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/24/00118081203871____1__300x300.png"
+								},
+								{
+									"id": "UrlTamVariablePequena",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/24/00118081203871____1__200x200.png"
+								}
+							],
+							"id": "Mobile",
+							"type": "GROUPING"
+						}
+					],
+					"id": "Imagenes",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto congelado"
+								},
+								{
+									"idExt": "46904190",
+									"featureGroupID": "6604",
+									"id_Ext": "46904190",
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "Congelados"
+								}
+							],
+							"id": "Tematico",
+							"type": "GROUPING"
+						}
+					],
+					"id": "Tematicos",
+					"type": "GROUPING"
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20181018_235137"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20181029_161646"
+				},
+				{
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Promocional"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "Promocional"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						}
+					],
+					"id": "Publicacion",
+					"type": "GROUPING"
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"children": [
+						{
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "18081203871"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "180"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "812"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "03871"
+								}
+							],
+							"id": "Referencia",
+							"type": "GROUPING"
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000144469464"
+						},
+						{
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "2180812038717"
+								}
+							],
+							"id": "Ean",
+							"type": "GROUPING"
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "14"
+						},
+						{
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0466250"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "IMPORTACIONES DELI KOSCHER, S.L."
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "2100011011953"
+								},
+								{
+									"idExt": "618243160",
+									"id_Ext": "618243160",
+									"groupID": "666",
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010466250"
+								},
+								{
+									"idExt": "618243160",
+									"id_Ext": "618243160",
+									"groupID": "666",
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"value": "010466250"
+								}
+							],
+							"id": "Proveedor",
+							"type": "GROUPING"
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "TK"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "TK"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "TK"
+						},
+						{
+							"id": "CodigoCalificacion6",
+							"type": "STRING",
+							"value": "ED"
+						},
+						{
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "ROSA SEFARAD"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "JARRETE DE TERNERA"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "JARRETE"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "TERNERA"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "ENVASE"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "00001"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "UD"
+								}
+							],
+							"id": "Descripcion",
+							"type": "GROUPING"
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "800.0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5018081203855"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20170228_000000"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000000,000"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "000"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "UnidadDeMedidaBase",
+							"type": "STRING",
+							"value": "UNI"
+						}
+					],
+					"id": "Codificacion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"ocurrence": 0,
+							"children": [
+								{
+									"idExt": "26867190",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS"
+								},
+								{
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										}
+									],
+									"id": "Temporal",
+									"type": "GROUPING"
+								}
+							],
+							"id": "Regiones",
+							"type": "GROUPING"
+						}
+					],
+					"id": "Excepciones",
+					"type": "GROUPING"
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1222152101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EsAlcohol",
+					"type": "FLAG",
+					"value": "false"
+				}
+			],
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC"
+		}
+	],
+	"specificAttribs": [
+		{
+			"children": [
+				{
+					"id": "ActivarDocPropia",
+					"type": "FLAG",
+					"value": "false"
+				}
+			],
+			"id": "/Alimentacion ISS",
+			"type": "SPEC"
+		}
+	],
+	"id_Ext": "1222152101",
+	"entryContainerID": "6639",
+	"link": [
+		{
+			"idExt": "1067904123",
+			"hierarchyId": "6809",
+			"id_Ext": "1067904123",
+			"categoryId": "010733"
+		},
+		{
+			"idExt": "845442119",
+			"hierarchyId": "6807",
+			"id_Ext": "845442119",
+			"categoryId": "10090093546"
+		},
+		{
+			"idExt": "1001002123",
+			"hierarchyId": "6809",
+			"id_Ext": "1001002123",
+			"categoryId": "010697"
+		},
+		{
+			"idExt": "26836111",
+			"hierarchyId": "25402",
+			"id_Ext": "26836111",
+			"categoryId": "0001"
+		},
+		{
+			"idExt": "8558123",
+			"hierarchyId": "6809",
+			"id_Ext": "8558123",
+			"categoryId": "010006"
+		},
+		{
+			"idExt": "3046113",
+			"hierarchyId": "6803",
+			"id_Ext": "3046113",
+			"categoryId": "01180812"
+		},
+		{
+			"idExt": "8559123",
+			"hierarchyId": "6809",
+			"id_Ext": "8559123",
+			"categoryId": "010007"
+		}
+	],
+	"id": "001018081203871   ",
+	"prices": [
+		{
+			"idExt": "12221521010006199",
+			"offerType": "00",
+			"centerId": "010006",
+			"offerPrice": "0000011,95",
+			"productId": "001018081203871   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000011,95",
+			"id_Ext": "12221521010006199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20210607"
+		},
+		{
+			"idExt": "12221521010020199",
+			"offerType": "00",
+			"centerId": "010020",
+			"offerPrice": "0000011,95",
+			"productId": "001018081203871   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000011,95",
+			"id_Ext": "12221521010020199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20210607"
+		},
+		{
+			"idExt": "12221521010098199",
+			"offerType": "00",
+			"centerId": "010098",
+			"offerPrice": "0000011,95",
+			"productId": "001018081203871   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000011,95",
+			"id_Ext": "12221521010098199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20210607"
+		},
+		{
+			"idExt": "12221521010725199",
+			"offerType": "00",
+			"centerId": "010725",
+			"offerPrice": "0000011,95",
+			"productId": "001018081203871   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000011,95",
+			"id_Ext": "12221521010725199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20210607"
+		},
+		{
+			"idExt": "12221521010007199",
+			"offerType": "00",
+			"centerId": "010007",
+			"offerPrice": "0000011,95",
+			"productId": "001018081203871   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000011,95",
+			"id_Ext": "12221521010007199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "12221521010697199",
+			"offerType": "00",
+			"centerId": "010697",
+			"offerPrice": "0000011,95",
+			"productId": "001018081203871   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000011,95",
+			"id_Ext": "12221521010697199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "12221521010733199",
+			"offerType": "00",
+			"centerId": "010733",
+			"offerPrice": "0000011,95",
+			"productId": "001018081203871   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000011,95",
+			"id_Ext": "12221521010733199",
+			"containerId": "6639",
+			"delete": "false"
+		}
+	],
+	"movement": "MODIFIED"
+}

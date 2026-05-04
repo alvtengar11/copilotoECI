@@ -1,0 +1,923 @@
+{
+	"id_Ext": "58766101",
+	"id": "001007113810407",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PUM",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UnidadesProducto",
+									"type": "STRING",
+									"value": "001"
+								},
+								{
+									"id": "EnlacePUM",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6618",
+									"id_Ext": "26847190",
+									"value": "004"
+								},
+								{
+									"id": "CantidadProducto",
+									"type": "NUMBER",
+									"value": "1.000"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/10/40/7/0107113810407/0107113810407000q01011.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201505/12/00118644000087____2__600x600.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/10/40/7/0107113810407/0107113810407000m01011.jpg"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "06"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "BA"
+						},
+						{
+							"id": "Calificacion4",
+							"type": "STRING",
+							"value": "AD"
+						},
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "R"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "A"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MarcaMostradaEnWeb",
+							"type": "RELATIONSHIP",
+							"featureGroupID": "6602",
+							"groupID": "6602",
+							"id_Ext": "35054190",
+							"value": "11079"
+						},
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0155994"
+						},
+						{
+							"id": "Marca",
+							"type": "STRING",
+							"value": "TETRAFAUNA REPTO MIN"
+						},
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "PRODUCTOS SAN DIMAS S.A."
+						}
+					]
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000101163023"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "SUP"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"value": "TETRAFAUNA REPTO MIN alimento completo para tortugas envase 1 l"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": " "
+						},
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "01"
+						}
+					]
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTipoPiel",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosFormatos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTamanos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "B001007113810407"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "401",
+							"id_Ext": "347190090",
+							"value": "No voluminoso"
+						},
+						{
+							"id": "SusceptibleDeEnvolver",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "InStorePickUp",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "400",
+							"id_Ext": "274969090",
+							"value": "Recogida en tienda"
+						},
+						{
+							"id": "DeliveryPoint",
+							"type": "STRING_ENUMERATION",
+							"value": "C"
+						},
+						{
+							"id": "EntregaDomicilio",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "58766101"
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001007113810407   "
+				},
+				{
+					"id": "Precios",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IvaPorcentaje",
+							"type": "STRING",
+							"value": "01"
+						},
+						{
+							"id": "IgicPorcentaje",
+							"type": "STRING",
+							"value": "91"
+						}
+					]
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "1077005119",
+			"hierarchyId": "6807",
+			"categoryId": "18570000857"
+		},
+		{
+			"id_Ext": "2527113",
+			"hierarchyId": "6803",
+			"categoryId": "01071138"
+		},
+		{
+			"id_Ext": "24385031012",
+			"hierarchyId": "998",
+			"categoryId": "00326"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Supermercado_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Promocional"
+						}
+					]
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"value": "CANARIAS"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Alimentacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ActivarDocPropia",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "ArchivosMultimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Imagenes",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "ImagenDiminutaUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/10/40/7/0107113810407/0107113810407000x01011.jpg"
+								},
+								{
+									"id": "ImagenPrincipalUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/10/40/7/0107113810407/0107113810407000q01011.jpg"
+								},
+								{
+									"id": "ImagenPequenaUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/10/40/7/0107113810407/0107113810407000p01011.jpg"
+								},
+								{
+									"id": "ImagenMedianaUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/10/40/7/0107113810407/0107113810407000m01011.jpg"
+								},
+								{
+									"id": "ImagenGrandeUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201505/12/00118644000087____2__600x600.jpg"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000001,000"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"value": "U"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "TETRAFAUNA REPTO MIN"
+						},
+						{
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6612",
+							"id_Ext": "39937190",
+							"value": "ENVASE"
+						},
+						{
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6610",
+							"id_Ext": "27998190",
+							"value": "L"
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6602",
+							"id_Ext": "35054190",
+							"value": "11079"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Komplettfutter für Schildkröten"
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "aliment complet per a tortugues"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "complete turtle food"
+								},
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "alimento completo para tortugas"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "020"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "50"
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20170422_031856"
+						},
+						{
+							"id": "FechaDespublicacionWWW",
+							"type": "DATE",
+							"value": "29991230_000001"
+						}
+					]
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0001",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0002",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0003",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0004",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0005",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0006",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0007",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0008",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0009",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0010",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0011",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0012",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "91",
+			"igic": "91"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0013",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0014",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0015",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0017",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0018",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0019",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0020",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0021",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0022",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0023",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0027",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0029",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0036",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0097",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0098",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"startDate": "        ",
+			"catalogPrice": "24.90",
+			"taxPercentage": "91",
+			"igic": "91"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0692",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0695",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0697",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0814",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0864",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0900",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0911",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0913",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0941",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0970",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0974",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0975",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001007113810407   ",
+			"centerId": "0989",
+			"regularPrice": "24.90",
+			"avaliable": "false",
+			"catalogPrice": "24.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		}
+	]
+}

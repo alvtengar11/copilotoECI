@@ -1,0 +1,306 @@
+{
+	"entity_related": {
+		"promotion": "",
+		"subpromotion": "",
+		"promotional_action": "23509924",
+		"promotional_subaction": "0001",
+		"action_subactions": [
+			{
+				"action_subaction_id": "235099240001"
+			}
+		],
+		"type": "D1",
+		"subtype": "02",
+		"level": "4",
+		"level_name": "Prueba",
+		"priority": "5",
+		"is_search_filter": false
+	},
+	"start_date": "20260304",
+	"end_date": "20990130",
+	"start_time": "1100",
+	"end_time": "2359",
+	"identifier": "20885",
+	"is_hidden_action_app": false,
+	"is_visible_action_app": false,
+	"is_pack": false,
+	"recipients": [
+		{
+			"identifier": "ECIWEB"
+		},
+		{
+			"identifier": "FIREFLY"
+		},
+		{
+			"identifier": "SPC"
+		}
+	],
+	"categories": [
+		{
+			"name": "Supermercado",
+			"identifier": "1"
+		},
+		{
+			"name": "Perfumería y parafarmacia",
+			"identifier": "10"
+		},
+		{
+			"name": "Bebés",
+			"identifier": "11"
+		},
+		{
+			"name": "Bisutería, joyería y relojes",
+			"identifier": "12"
+		},
+		{
+			"name": "Libros y papelería",
+			"identifier": "13"
+		},
+		{
+			"name": "Cine y música",
+			"identifier": "14"
+		},
+		{
+			"name": "Club del gourmet",
+			"identifier": "15"
+		},
+		{
+			"name": "Mascotas",
+			"identifier": "16"
+		},
+		{
+			"name": "BriCor",
+			"identifier": "17"
+		},
+		{
+			"name": "Regalos originales",
+			"identifier": "18"
+		},
+		{
+			"name": "Equipaje",
+			"identifier": "19"
+		},
+		{
+			"name": "Moda, zapatos y accesorios Mujer",
+			"identifier": "2"
+		},
+		{
+			"name": "Entradas",
+			"identifier": "20"
+		},
+		{
+			"name": "Primeriti",
+			"identifier": "21"
+		},
+		{
+			"name": "Bodamás",
+			"identifier": "22"
+		},
+		{
+			"name": "Seguros",
+			"identifier": "23"
+		},
+		{
+			"name": "Agencia de viajes",
+			"identifier": "24"
+		},
+		{
+			"name": "Toda la compra",
+			"identifier": "25"
+		},
+		{
+			"name": "Moda, zapatos y accesorios Hombre",
+			"identifier": "26"
+		},
+		{
+			"name": "Moda, zapatos y accesorios Infantil",
+			"identifier": "27"
+		},
+		{
+			"name": "Otras",
+			"identifier": "28"
+		},
+		{
+			"name": "Designers",
+			"identifier": "3"
+		},
+		{
+			"name": "Informática y electrónica",
+			"identifier": "4"
+		},
+		{
+			"name": "Electrodomésticos",
+			"identifier": "5"
+		},
+		{
+			"name": "Hogar y decoración",
+			"identifier": "6"
+		},
+		{
+			"name": "Deportes",
+			"identifier": "7"
+		},
+		{
+			"name": "Juguetes",
+			"identifier": "8"
+		},
+		{
+			"name": "Videojuegos",
+			"identifier": "9"
+		}
+	],
+	"rules": [],
+	"collectives": [],
+	"content_spots": [
+		{
+			"identifier": "4102",
+			"position": "IMAGEN SVG",
+			"collection_spot": "promotions.image_urls.medium",
+			"type": "Imagen",
+			"in_language": "ES",
+			"description": "https://dam.elcorteingles.es/marketing/campana/2025/0010101201780/23509924/0001.svg",
+			"tag": "promo_image_svg",
+			"zone_rules": [],
+			"attributes": []
+		},
+		{
+			"identifier": "4103",
+			"position": "IMAGEN JPG",
+			"collection_spot": "promotions.image_urls.big",
+			"type": "Imagen",
+			"in_language": "ES",
+			"description": "https://dam.elcorteingles.es/marketing/campana/2025/0010101201780/23509924/0001.jpg",
+			"tag": "promo_image_jpg",
+			"zone_rules": [],
+			"attributes": []
+		},
+		{
+			"identifier": "650",
+			"position": "TITULO",
+			"collection_spot": "",
+			"type": "Texto",
+			"in_language": "ES",
+			"description": "3 REGALO N REGALANTE",
+			"tag": "promo_title",
+			"zone_rules": [
+				{
+					"identifier": "97100",
+					"type": "DESTINO"
+				},
+				{
+					"identifier": "97101",
+					"type": "DESTINO"
+				}
+			],
+			"attributes": []
+		},
+		{
+			"identifier": "951",
+			"position": "Texto explicativo de la promoción",
+			"collection_spot": "",
+			"type": "Texto",
+			"in_language": "ES",
+			"description": "3 REGALO N REGALANTE",
+			"tag": "promo_description",
+			"zone_rules": [
+				{
+					"identifier": "97101",
+					"type": "DESTINO"
+				}
+			],
+			"attributes": []
+		},
+		{
+			"identifier": "5000",
+			"position": "Texto promoción en listado de artículos",
+			"collection_spot": "",
+			"type": "Texto",
+			"in_language": "ES",
+			"description": "3 REGALO N REGALANTE",
+			"tag": "promo_text_list_agrupation",
+			"zone_rules": [
+				{
+					"identifier": "97100",
+					"type": "DESTINO"
+				},
+				{
+					"identifier": "97101",
+					"type": "DESTINO"
+				},
+				{
+					"identifier": "97102",
+					"type": "DESTINO"
+				}
+			],
+			"attributes": []
+		},
+		{
+			"identifier": "601",
+			"position": "TEXTO AGRUPACION ARTICULOS",
+			"collection_spot": "",
+			"type": "Texto",
+			"in_language": "ES",
+			"description": "3 REGALO N REGALANTE",
+			"tag": "promo_text_agrupation",
+			"zone_rules": [
+				{
+					"identifier": "97100",
+					"type": "DESTINO"
+				},
+				{
+					"identifier": "97101",
+					"type": "DESTINO"
+				},
+				{
+					"identifier": "97102",
+					"type": "DESTINO"
+				}
+			],
+			"attributes": []
+		},
+		{
+			"identifier": "952",
+			"position": "Información página de tramitación del saldo",
+			"collection_spot": "",
+			"type": "Texto",
+			"in_language": "ES",
+			"description": "3 REGALO N REGALANTE",
+			"tag": "promo_cesta",
+			"zone_rules": [
+				{
+					"identifier": "97101",
+					"type": "DESTINO"
+				},
+				{
+					"identifier": "97102",
+					"type": "DESTINO"
+				}
+			],
+			"attributes": []
+		},
+		{
+			"identifier": "43",
+			"position": "Texto promoción detalle de artículos",
+			"collection_spot": "",
+			"type": "Texto",
+			"in_language": "ES",
+			"description": "3 REGALO N REGALANTE",
+			"tag": "promo_text_detail_agrupation",
+			"zone_rules": [
+				{
+					"identifier": "97100",
+					"type": "DESTINO"
+				},
+				{
+					"identifier": "97101",
+					"type": "DESTINO"
+				},
+				{
+					"identifier": "97102",
+					"type": "DESTINO"
+				}
+			],
+			"attributes": []
+		}
+	]
+}

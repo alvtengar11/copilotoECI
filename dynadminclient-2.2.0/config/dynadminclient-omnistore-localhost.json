@@ -1,0 +1,21 @@
+{
+	"log": {
+		"filename": ""
+	}
+	, "auth": {
+		"user_pass": "admin:admin123"
+	}
+	, "targets": {
+		"localhost": [ "localhost_servicesfront"
+			,"localhost_ca"
+
+
+
+
+			,"localhost_loader"                           ,          "localhost_worker" ]	
+		, "localhost_servicesfront": [ "localhost:8080" ]	
+		, "localhost_ca": [ "localhost:8180" ]		
+		, "localhost_loader": [ "localhost:8280" ]		
+		, "localhost_worker": [ "localhost:9080" ]		
+	}	
+}

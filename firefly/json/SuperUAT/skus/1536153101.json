@@ -1,0 +1,775 @@
+{
+	"id_Ext": "1536153101",
+	"id": "001018027501701   ",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0118027501701"
+				},
+				{
+					"id": "Informacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "1",
+							"featureGroupID": "6616",
+							"id_Ext": "26871190"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Supermercado/Alimentación general/Conservas vegetales/Tomate natural triturado"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"value": "20703",
+							"featureGroupID": "6602",
+							"id_Ext": "989207190"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "MENSAJERO"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "tomate  natural triturado"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Crushed natural tomato"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Tomatenpüree"
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "tomàquet natural triturat"
+								}
+							]
+						},
+						{
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"value": "LATA",
+							"featureGroupID": "6612",
+							"id_Ext": "39944190"
+						},
+						{
+							"id": "PresentacionDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "lata"
+						},
+						{
+							"id": "CodigoPresentacionHidden",
+							"type": "STRING",
+							"value": "LATA"
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "780"
+						},
+						{
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"value": "GNE",
+							"featureGroupID": "6610",
+							"id_Ext": "27996190"
+						},
+						{
+							"id": "FormatoDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "g neto escurrido"
+						},
+						{
+							"id": "CodigoFormatoHidden",
+							"type": "STRING",
+							"value": "GNE"
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "MENSAJERO tomate  natural triturado lata 780 g neto escurrido"
+						},
+						{
+							"id": "Temporal",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "TOMATE TRITUR"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "U"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20240228_101808"
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "060"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "00"
+						}
+					]
+				},
+				{
+					"id": "Imagenes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202106/18/00118027501701____1__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202106/18/00118027501701____1__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202106/18/00118027501701____1__150x150.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202106/18/00118027501701____1__325x325.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202106/18/00118027501701____1__600x600.jpg"
+						},
+						{
+							"id": "Imagen520x520Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202106/18/00118027501701____1__520x520.jpg"
+						},
+						{
+							"id": "Imagen1200x1200Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202106/18/00118027501701____1__1200x1200.jpg"
+						},
+						{
+							"id": "Mobile",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UrlTamVariablePrincipal",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202106/18/00118027501701____2__1x1.png"
+								},
+								{
+									"id": "UrlTamVariableGrande",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202106/18/00118027501701____2__380x380.png"
+								},
+								{
+									"id": "UrlTamVariableMediana",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202106/18/00118027501701____2__300x300.png"
+								},
+								{
+									"id": "UrlTamVariablePequena",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202106/18/00118027501701____2__200x200.png"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20210512_031638"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20210902_113911"
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20210902_120555"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "IndicadorBloqueoPublicacionConceptosSAP",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Referencia",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "18027501701"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "180"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "275"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "01701"
+								}
+							]
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000151340348"
+						},
+						{
+							"id": "Ean",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8410244775213"
+								}
+							]
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "14"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0004885"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "MENSAJERO ALIMENTACION, S.L."
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "8410244775213"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010004885",
+									"id_Ext": "840403160",
+									"groupID": "666"
+								}
+							]
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "MU"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "MU"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "RG"
+						},
+						{
+							"id": "Descripcion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "MENSAJERO"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "TOMATE TRITURADO"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "TOMATE"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "TRITURADO"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "LATA"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "00840"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "GNE"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "870.0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5018027502220"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20210511_000000"
+						},
+						{
+							"id": "EnlacePUM",
+							"type": "LOOKUP_TABLE",
+							"value": "013",
+							"featureGroupID": "6618",
+							"id_Ext": "26856190"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000840,000"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "12"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "12"
+						},
+						{
+							"id": "UnidadDeMedidaBase",
+							"type": "STRING",
+							"value": "UNI"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190"
+								},
+								{
+									"id": "Temporal",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1536153101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "8410244775213",
+									"id_Ext": "1536152159",
+									"groupID": "6636"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8410244775213"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20210511_000000"
+								},
+								{
+									"id": "FechaHastaEanPromocional",
+									"type": "DATE",
+									"value": "20210512_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EsAlcohol",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "1842421115",
+			"hierarchyId": "6805",
+			"categoryId": "012625011"
+		},
+		{
+			"id_Ext": "1844210115",
+			"hierarchyId": "6805",
+			"categoryId": "012625164"
+		},
+		{
+			"id_Ext": "8561123",
+			"hierarchyId": "6809",
+			"categoryId": "010009"
+		},
+		{
+			"id_Ext": "576119",
+			"hierarchyId": "6807",
+			"categoryId": "10100111289"
+		},
+		{
+			"id_Ext": "2961113",
+			"hierarchyId": "6803",
+			"categoryId": "01180275"
+		},
+		{
+			"id_Ext": "26836111",
+			"hierarchyId": "25402",
+			"categoryId": "0001"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Alimentacion ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ActivarDocPropia",
+					"type": "FLAG",
+					"value": "false"
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"id_Ext": "15361531010009199",
+			"containerId": "6639",
+			"offerPrice": "1.59",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210902",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "true",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018027501701   ",
+			"centerId": "0009",
+			"regularPrice": "1.59",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		}
+	]
+}

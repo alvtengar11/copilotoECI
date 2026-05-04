@@ -1,0 +1,279 @@
+{
+  "id_Ext": "390054159",
+  "id": "8433329052382",
+  "entryContainerID": "6636",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Variantes_CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Code",
+          "type": "STRING",
+          "value": "8433329052382"
+        },
+        {
+          "id": "EAN",
+          "type": "STRING",
+          "value": "8433329052382"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "390054159"
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaCreacion",
+              "type": "DATE",
+              "value": "20141111_000000"
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20141111_000000"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "specificAttribs": [
+    {
+      "id": "/Informacion_Alimentaria_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Gtin",
+          "type": "STRING",
+          "value": "08433329052382"
+        },
+        {
+          "id": "Mercado",
+          "type": "GROUPING",
+          "ocurrence": 0,
+          "children": [
+            {
+              "id": "MercadoObjetivo",
+              "type": "STRING",
+              "value": "724"
+            },
+            {
+              "id": "Variante",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "Sirope de Arce"
+                }
+              ]
+            },
+            {
+              "id": "Basicos",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoMarca",
+                  "type": "STRING",
+                  "value": "El Club del Gourmet"
+                }
+              ]
+            },
+            {
+              "id": "DatosProducto",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Localizaciones",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Procedencia",
+                      "type": "STRING",
+                      "ocurrence": 0,
+                      "value": "Producto de Canadá"
+                    }
+                  ]
+                },
+                {
+                  "id": "Instrucciones",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "InstruccionesConsumidor",
+                      "type": "STRING",
+                      "children": [
+                        {
+                          "id": "pt_PT",
+                          "type": "STRING",
+                          "ocurrence": 0,
+                          "value": "Conservar num lugar fesco e seco e ao abrigo da luz.\nDepois da abertura da embalagem, conservar no frigorífico (máx. 6 meses)"
+                        },
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "ocurrence": 0,
+                          "value": "Conservar en un lugar fresco y seco y alejado de la luz.\nUna vez abierto conservar en el frigorífico (durante 6 meses)."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Medidas",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "ContenidoNeto",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "330"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "GR",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387540190"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Alimentacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Ingredientes",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "DescripcionIngredientes",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Descripcion",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "pt_PT",
+                              "type": "STRING",
+                              "value": "Xarope de ácer 100% puro"
+                            },
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "100% puro sirope de arce"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "DescripcionResaltada",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "pt_PT",
+                              "type": "STRING",
+                              "value": "Xarope de ácer 100% puro"
+                            },
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "100% puro sirope de arce"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Nutrientes",
+                  "type": "GROUPING",
+                  "ocurrence": 0,
+                  "children": [
+                    {
+                      "id": "EstadoPreparacion",
+                      "type": "LOOKUP_TABLE",
+                      "value": "PREPARED",
+                      "featureGroupID": "6652",
+                      "id_Ext": "387412190"
+                    }
+                  ]
+                },
+                {
+                  "id": "Nutrientes",
+                  "type": "GROUPING",
+                  "ocurrence": 1,
+                  "children": [
+                    {
+                      "id": "EstadoPreparacion",
+                      "type": "LOOKUP_TABLE",
+                      "value": "PREPARED",
+                      "featureGroupID": "6652",
+                      "id_Ext": "387412190"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Marketing",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "SugerenciasServir",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "pt_PT",
+                      "type": "STRING",
+                      "value": "Uso:  Como alternativa ao açúcar e caramelos líquidos para acompanhar as panquecas, gelados, tartes, iogurte,  proporcionando um aroma único e delicado."
+                    },
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Usos:  Como alternativa al azúcar y caramelos líquidos para acompañar las tortitas, helados, tartas, yogurt,  confiriendo un aroma único y delicado."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ProveedorInformacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Codigo",
+                  "type": "STRING",
+                  "value": "8422416000504"
+                },
+                {
+                  "id": "Descripcion",
+                  "type": "STRING",
+                  "value": "El Corte Inglés"
+                }
+              ]
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20201210_221839"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

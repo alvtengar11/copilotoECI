@@ -1,0 +1,820 @@
+{
+  "id_Ext": "730289101",
+  "id": "001018600301503   ",
+  "entryContainerID": "6639",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Supermercado Peninsula CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Codigo",
+          "type": "STRING",
+          "value": "0118600301503"
+        },
+        {
+          "id": "Informacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "MetadataEstado",
+              "type": "STRING_ENUMERATION",
+              "value": "Revisado"
+            },
+            {
+              "id": "CodigoArea",
+              "type": "LOOKUP_TABLE",
+              "value": "1",
+              "featureGroupID": "6616",
+              "id_Ext": "26871190"
+            },
+            {
+              "id": "AreaDescripcion",
+              "type": "STRING",
+              "value": "Supermercado"
+            },
+            {
+              "id": "Reasignado",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CategoriaSupermercado",
+              "type": "STRING",
+              "value": "Supermercado/Cervezas/Cerveza/FP7 Antes - SUP"
+            }
+          ]
+        },
+        {
+          "id": "Descripcion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoMarca",
+              "type": "LOOKUP_TABLE",
+              "value": "09771",
+              "featureGroupID": "6602",
+              "id_Ext": "33750190"
+            },
+            {
+              "id": "MarcaDescripcion",
+              "type": "STRING",
+              "value": "DORADA"
+            },
+            {
+              "id": "DescripcionVariedad",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "cerveza sin alcohol con limón natural"
+                },
+                {
+                  "id": "en_GB",
+                  "type": "STRING",
+                  "value": "alcohol-free beer with lemon"
+                },
+                {
+                  "id": "de_DE",
+                  "type": "STRING",
+                  "value": "Alkoholfreies Bier mit natürlicher Zitrone"
+                }
+              ]
+            },
+            {
+              "id": "CodigoPresentacion",
+              "type": "LOOKUP_TABLE",
+              "value": "LATA",
+              "featureGroupID": "6612",
+              "id_Ext": "39944190"
+            },
+            {
+              "id": "PresentacionDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "lata"
+            },
+            {
+              "id": "CodigoPresentacionHidden",
+              "type": "STRING",
+              "value": "LATA"
+            },
+            {
+              "id": "Cantidad",
+              "type": "STRING",
+              "value": "33"
+            },
+            {
+              "id": "CodigoFormato",
+              "type": "LOOKUP_TABLE",
+              "value": "CL",
+              "featureGroupID": "6610",
+              "id_Ext": "27991190"
+            },
+            {
+              "id": "FormatoDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "cl"
+            },
+            {
+              "id": "CodigoFormatoHidden",
+              "type": "STRING",
+              "value": "CL"
+            },
+            {
+              "id": "DescripcionArticulo",
+              "type": "STRING",
+              "value": "DORADA cerveza sin alcohol con limón natural lata 33 cl"
+            },
+            {
+              "id": "Temporal",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Visible",
+                  "type": "FLAG",
+                  "value": "true"
+                }
+              ]
+            },
+            {
+              "id": "DescripcionTicket",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "DORADA SIN CO"
+                }
+              ]
+            },
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Venta",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoTipoVenta",
+              "type": "LOOKUP_TABLE",
+              "value": "U",
+              "featureGroupID": "6614",
+              "id_Ext": "47143190"
+            },
+            {
+              "id": "TipoVentaDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "Unidad"
+            },
+            {
+              "id": "CodigoTipoVentaHidden",
+              "type": "STRING",
+              "value": "U"
+            },
+            {
+              "id": "EsProductoAlCorte",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ProductoDePanificacion",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "UsuarioSalvadoAlCorte",
+              "type": "STRING",
+              "value": "PostProcesing"
+            },
+            {
+              "id": "FechaSalvadoAlCorte",
+              "type": "DATE",
+              "value": "20230203_114548"
+            }
+          ]
+        },
+        {
+          "id": "Ordenacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "OrdenacionMarca",
+              "type": "STRING",
+              "value": "078"
+            },
+            {
+              "id": "OrdenacionTamano",
+              "type": "STRING",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "id": "Imagenes",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ImagenDiminutaUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202201/28/00118600301503____5__40x40.jpg"
+            },
+            {
+              "id": "ImagenPequenaUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202201/28/00118600301503____5__75x75.jpg"
+            },
+            {
+              "id": "ImagenMedianaUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202201/28/00118600301503____5__150x150.jpg"
+            },
+            {
+              "id": "ImagenPrincipalUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202201/28/00118600301503____5__325x325.jpg"
+            },
+            {
+              "id": "ImagenGrandeUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202201/28/00118600301503____5__600x600.jpg"
+            },
+            {
+              "id": "Imagen1200x1200Url",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202201/28/00118600301503____5__1200x1200.jpg"
+            },
+            {
+              "id": "Imagen520x640Url",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202201/28/00118600301503____5__520x640.jpg"
+            },
+            {
+              "id": "Imagen520x520Url",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202201/28/00118600301503____5__520x520.jpg"
+            },
+            {
+              "id": "Mobile",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "UrlTamVariablePrincipal",
+                  "type": "IMAGE_URL",
+                  "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202201/28/00118600301503____6__1x1.png"
+                },
+                {
+                  "id": "UrlTamVariableGrande",
+                  "type": "IMAGE_URL",
+                  "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202201/28/00118600301503____6__380x380.png"
+                },
+                {
+                  "id": "UrlTamVariableMediana",
+                  "type": "IMAGE_URL",
+                  "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202201/28/00118600301503____6__300x300.png"
+                },
+                {
+                  "id": "UrlTamVariablePequena",
+                  "type": "IMAGE_URL",
+                  "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202201/28/00118600301503____6__200x200.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FechaAlta",
+          "type": "DATE",
+          "value": "20150515_000000"
+        },
+        {
+          "id": "MetadataFechaModificacion",
+          "type": "DATE",
+          "value": "20191019_012004"
+        },
+        {
+          "id": "Publicacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoRegion",
+              "type": "STRING",
+              "value": "Supermercado Peninsula"
+            },
+            {
+              "id": "Promocion",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Publicado",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "PublicadoEnum",
+              "type": "STRING_ENUMERATION",
+              "value": "Publicar"
+            },
+            {
+              "id": "FechaDesde",
+              "type": "DATE",
+              "value": "20150707_000000"
+            },
+            {
+              "id": "PublicadoCanarias",
+              "type": "STRING_ENUMERATION",
+              "value": "Publicar"
+            },
+            {
+              "id": "NoGestionCedial",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "IndicadorBloqueoPublicacionConceptosSAP",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "MetadataPerecedero",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Codificacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Referencia",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoReferencia",
+                  "type": "STRING",
+                  "value": "18600301503"
+                },
+                {
+                  "id": "CodigoUneco",
+                  "type": "STRING",
+                  "value": "186"
+                },
+                {
+                  "id": "CodigoFamilia",
+                  "type": "STRING",
+                  "value": "003"
+                },
+                {
+                  "id": "CodigoBarra",
+                  "type": "STRING",
+                  "value": "01503"
+                }
+              ]
+            },
+            {
+              "id": "NumeroMaterialSAP",
+              "type": "STRING",
+              "value": "000000000140268950"
+            },
+            {
+              "id": "Ean",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "8414161000007"
+                }
+              ]
+            },
+            {
+              "id": "TipoGestion",
+              "type": "STRING",
+              "value": "14"
+            },
+            {
+              "id": "Proveedor",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoProveedor",
+                  "type": "STRING",
+                  "value": "0380550"
+                },
+                {
+                  "id": "ProveedorDescripcion",
+                  "type": "STRING",
+                  "value": "COMPAÑIA CERVECERA DE CANARIAS, S.A."
+                },
+                {
+                  "id": "ReferenciaFabricante",
+                  "type": "STRING",
+                  "value": "8414161000007"
+                },
+                {
+                  "id": "Proveedor",
+                  "type": "RELATIONSHIP",
+                  "value": "010380550",
+                  "id_Ext": "515716160",
+                  "groupID": "666"
+                },
+                {
+                  "id": "Fabricante",
+                  "type": "RELATIONSHIP",
+                  "value": "010380550",
+                  "id_Ext": "515716160",
+                  "groupID": "666"
+                }
+              ]
+            },
+            {
+              "id": "CodigoCalificacion1",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "CodigoCalificacion2",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "CodigoCalificacion4",
+              "type": "STRING",
+              "value": "VV"
+            },
+            {
+              "id": "CodigoCalificacion5",
+              "type": "STRING",
+              "value": "1I"
+            },
+            {
+              "id": "Descripcion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoMarcaCodificacion",
+                  "type": "STRING",
+                  "value": "DORADA"
+                },
+                {
+                  "id": "DescripcionArticuloCodificacion",
+                  "type": "STRING",
+                  "value": "DORADA SIN CON LIMON LATA 33 C"
+                },
+                {
+                  "id": "Variedad1",
+                  "type": "STRING",
+                  "value": "DORADA SIN"
+                },
+                {
+                  "id": "Variedad2",
+                  "type": "STRING",
+                  "value": "CON LIMON"
+                },
+                {
+                  "id": "PresentacionCodificacion",
+                  "type": "STRING",
+                  "value": "LATA"
+                },
+                {
+                  "id": "CantidadCodificacion",
+                  "type": "STRING",
+                  "value": "33"
+                },
+                {
+                  "id": "FormatoCodificacion",
+                  "type": "STRING",
+                  "value": "CL"
+                },
+                {
+                  "id": "DescripcionTicketCodificacion",
+                  "type": "STRING",
+                  "value": "DORADA SIN CON LIMON"
+                }
+              ]
+            },
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PesoPiezaCodificacion",
+              "type": "STRING",
+              "value": "330,0"
+            },
+            {
+              "id": "Entorno",
+              "type": "STRING",
+              "value": "4"
+            },
+            {
+              "id": "CodigoCompraEmpresa",
+              "type": "STRING",
+              "value": "50"
+            },
+            {
+              "id": "CodigoCompraReferencia",
+              "type": "STRING",
+              "value": "5018600302055"
+            },
+            {
+              "id": "FechaAgenda",
+              "type": "DATE",
+              "value": "20150514_000000"
+            },
+            {
+              "id": "EnlacePUM",
+              "type": "LOOKUP_TABLE",
+              "value": "005",
+              "featureGroupID": "6618",
+              "id_Ext": "26848190"
+            },
+            {
+              "id": "IsMercanciaGeneral",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "GPER",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CantidadProducto",
+              "type": "STRING",
+              "value": "000033,000"
+            },
+            {
+              "id": "UnidadesProducto",
+              "type": "STRING",
+              "value": "001"
+            },
+            {
+              "id": "UnidadEmbalaje",
+              "type": "STRING",
+              "value": "24"
+            },
+            {
+              "id": "UnidadSurtido",
+              "type": "STRING",
+              "value": "24"
+            },
+            {
+              "id": "UnidadDeMedidaBase",
+              "type": "STRING",
+              "value": "UNI"
+            }
+          ]
+        },
+        {
+          "id": "Excepciones",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Regiones",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "CodigoRegion",
+                  "type": "LOOKUP_TABLE",
+                  "value": "CANARIAS",
+                  "featureGroupID": "6619",
+                  "id_Ext": "26867190"
+                },
+                {
+                  "id": "Temporal",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Anulacion",
+                      "type": "FLAG",
+                      "value": "true"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Enviado",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "TipoDocumentacion",
+          "type": "STRING",
+          "value": "Gran Consumo"
+        },
+        {
+          "id": "IsInWorkFlow",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Filled",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "730289101"
+        },
+        {
+          "id": "NumDiasCadGarantizadaRef",
+          "type": "INTEGER",
+          "value": "0"
+        },
+        {
+          "id": "EansVariantes",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "EanVariante",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "CodigoVariante",
+                  "type": "RELATIONSHIP",
+                  "value": "8414161000007",
+                  "id_Ext": "730288159",
+                  "groupID": "6636"
+                },
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "8414161000007"
+                },
+                {
+                  "id": "FechaAltaEanCompras",
+                  "type": "DATE",
+                  "value": "20150514_000000"
+                },
+                {
+                  "id": "EsEanCompraPrincipal",
+                  "type": "FLAG",
+                  "value": "true"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Modificado",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Oferta",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "LimiteUnidades",
+          "type": "NUMBER",
+          "value": "120.0"
+        },
+        {
+          "id": "EciExpress",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "ProductoExclusivoEciExpress",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "EsAlcohol",
+          "type": "FLAG",
+          "value": "true"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "id_Ext": "219119",
+      "hierarchyId": "6807",
+      "categoryId": "11720021977"
+    },
+    {
+      "id_Ext": "1191011119",
+      "hierarchyId": "6807",
+      "categoryId": "11720012511"
+    },
+    {
+      "id_Ext": "1614601119",
+      "hierarchyId": "6807",
+      "categoryId": "11720012878"
+    },
+    {
+      "id_Ext": "8564123",
+      "hierarchyId": "6809",
+      "categoryId": "010012"
+    },
+    {
+      "id_Ext": "8580123",
+      "hierarchyId": "6809",
+      "categoryId": "010098"
+    },
+    {
+      "id_Ext": "1067877123",
+      "hierarchyId": "6809",
+      "categoryId": "010712"
+    },
+    {
+      "id_Ext": "3830113",
+      "hierarchyId": "6803",
+      "categoryId": "01186003"
+    },
+    {
+      "id_Ext": "26836111",
+      "hierarchyId": "25402",
+      "categoryId": "0001"
+    }
+  ],
+  "specificAttribs": [
+    {
+      "id": "/Alimentacion ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "ActivarDocPropia",
+          "type": "FLAG",
+          "value": "false"
+        }
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "id_Ext": "7302891010012199",
+      "containerId": "6639",
+      "offerPrice": "0.63",
+      "offerType": "01",
+      "globalDiscount": "",
+      "avaliable": "true",
+      "startDate": "20150707",
+      "endDate": "",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "productId": "001018600301503   ",
+      "centerId": "0012",
+      "regularPrice": "0.63",
+      "TaxPercentage": "92",
+      "Igic": "92"
+    },
+    {
+      "id_Ext": "7302891010098199",
+      "containerId": "6639",
+      "offerPrice": "0.63",
+      "offerType": "01",
+      "globalDiscount": "",
+      "avaliable": "true",
+      "startDate": "20151110",
+      "endDate": "",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "productId": "001018600301503   ",
+      "centerId": "0098",
+      "regularPrice": "0.63",
+      "TaxPercentage": "92",
+      "Igic": "92"
+    },
+    {
+      "id_Ext": "7302891010712199",
+      "containerId": "6639",
+      "offerPrice": "0.63",
+      "offerType": "01",
+      "globalDiscount": "",
+      "avaliable": "true",
+      "startDate": "20171030",
+      "endDate": "        ",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "        ",
+      "depublishEndDate": "        ",
+      "productId": "001018600301503   ",
+      "centerId": "0712",
+      "regularPrice": "0.63",
+      "TaxPercentage": "92",
+      "Igic": "92"
+    }
+  ]
+}

@@ -1,0 +1,984 @@
+{
+	"id_Ext": "1095067101",
+	"id": "001018466600436   ",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0118466600436"
+				},
+				{
+					"id": "Informacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "1",
+							"featureGroupID": "6616",
+							"id_Ext": "26871190",
+							"idExt": "26871190"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Supermercado/Carnicería/Aves y pollo/Pollo"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Lote de pollo: 1kg filetes de pechuga +1kg traseros + 1kg de alas"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Chicken pack: 1 kg breast fillets + 1 kg legs and thighs + 1 kg wings"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Hähnchenkombipaket: 1 kg Hähnchenbrustfilets + 1 kg Hinterviertel + 1 kg Flügel"
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "lot d'1kg filets de pit +1kg posteriors + 1 kg d'ales de pollastre"
+								}
+							]
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "Lote de pollo: 1kg filetes de pechuga +1kg traseros + 1kg de alas"
+						},
+						{
+							"id": "Temporal",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "LOTE POLLO GR"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "K",
+							"featureGroupID": "6614",
+							"id_Ext": "47141190",
+							"idExt": "47141190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "K"
+						},
+						{
+							"id": "PesoPieza",
+							"type": "STRING",
+							"value": "3000"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "56295561"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20200211_135531"
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "018"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "01"
+						}
+					]
+				},
+				{
+					"id": "Imagenes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201701/16/00202666600412____2__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201701/16/00202666600412____2__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201701/16/00202666600412____2__150x150.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201701/16/00202666600412____2__325x325.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201701/16/00202666600412____2__600x600.jpg"
+						}
+					]
+				},
+				{
+					"id": "Tematicos",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tematico",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto refrigerado"
+								},
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "refrigerado",
+									"featureGroupID": "6604",
+									"id_Ext": "46914190",
+									"idExt": "46914190"
+								}
+							]
+						},
+						{
+							"id": "Tematico",
+							"type": "GROUPING",
+							"ocurrence": 1,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto de peso variable"
+								},
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "al peso",
+									"featureGroupID": "6604",
+									"id_Ext": "46907190",
+									"idExt": "46907190"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20171020_030438"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20190720_004454"
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20201202_092617"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "IndicadorBloqueoPublicacionConceptosSAP",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Referencia",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "18466600436"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "184"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "666"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "00436"
+								}
+							]
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000107499103"
+						},
+						{
+							"id": "Ean",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "2184666004362"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 0,
+									"value": "2184666004362"
+								}
+							]
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "14"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0154260"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "AVICOLA DE GALICIA S.A.U"
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "33"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010154260",
+									"id_Ext": "497918160",
+									"groupID": "666",
+									"idExt": "497918160"
+								},
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"value": "010154260",
+									"id_Ext": "497918160",
+									"groupID": "666",
+									"idExt": "497918160"
+								}
+							]
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "BA"
+						},
+						{
+							"id": "Descripcion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "AVIGAL"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "LOTE POLLO GRANEL AVIGAL"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "LOTE POLLO"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "GRANEL"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "AL PESO"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "1"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "KG"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "1000.0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5018466600477"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20150121_000000"
+						},
+						{
+							"id": "EnlacePUM",
+							"type": "LOOKUP_TABLE",
+							"value": "001",
+							"featureGroupID": "6618",
+							"id_Ext": "26844190",
+							"idExt": "26844190"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000001,000"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "2"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "2"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "MercanciaGeneral",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Serie",
+							"type": "STRING",
+							"value": "LOTE MOSTRADOR"
+						}
+					]
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"idExt": "26867190"
+								},
+								{
+									"id": "Temporal",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1095067101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "3"
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "3748113",
+			"hierarchyId": "6803",
+			"categoryId": "01184666",
+			"idExt": "3748113"
+		},
+		{
+			"id_Ext": "8599123",
+			"hierarchyId": "6809",
+			"categoryId": "010941",
+			"idExt": "8599123"
+		},
+		{
+			"id_Ext": "1067890123",
+			"hierarchyId": "6809",
+			"categoryId": "010720",
+			"idExt": "1067890123"
+		},
+		{
+			"id_Ext": "1067915123",
+			"hierarchyId": "6809",
+			"categoryId": "010786",
+			"idExt": "1067915123"
+		},
+		{
+			"id_Ext": "8563123",
+			"hierarchyId": "6809",
+			"categoryId": "010011",
+			"idExt": "8563123"
+		},
+		{
+			"id_Ext": "1083615123",
+			"hierarchyId": "6809",
+			"categoryId": "010647",
+			"idExt": "1083615123"
+		},
+		{
+			"id_Ext": "8569123",
+			"hierarchyId": "6809",
+			"categoryId": "010018",
+			"idExt": "8569123"
+		},
+		{
+			"id_Ext": "26836111",
+			"hierarchyId": "25402",
+			"categoryId": "0001",
+			"idExt": "26836111"
+		},
+		{
+			"id_Ext": "1371119",
+			"hierarchyId": "6807",
+			"categoryId": "10520045130",
+			"idExt": "1371119"
+		},
+		{
+			"id_Ext": "1067866123",
+			"hierarchyId": "6809",
+			"categoryId": "010703",
+			"idExt": "1067866123"
+		},
+		{
+			"id_Ext": "1067899123",
+			"hierarchyId": "6809",
+			"categoryId": "010728",
+			"idExt": "1067899123"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Alimentacion ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ActivarDocPropia",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "InformacionGeneral",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Registro sanitario: ES 10.02415/PO CE"
+						}
+					]
+				},
+				{
+					"id": "Conservacion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Conservar entre 0 y 4ºC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "/Perecederos Peninsula ISS",
+			"type": "SPEC",
+			"children": []
+		}
+	],
+	"prices": [
+		{
+			"id_Ext": "10950671010011199",
+			"containerId": "6639",
+			"offerPrice": "9.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018466600436   ",
+			"centerId": "0011",
+			"regularPrice": "9.99",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "10950671010011199"
+		},
+		{
+			"id_Ext": "10950671010018199",
+			"containerId": "6639",
+			"offerPrice": "9.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018466600436   ",
+			"centerId": "0018",
+			"regularPrice": "9.99",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "10950671010018199"
+		},
+		{
+			"id_Ext": "10950671010647199",
+			"containerId": "6639",
+			"offerPrice": "9.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "        ",
+			"endDate": "        ",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "        ",
+			"depublishEndDate": "        ",
+			"productId": "001018466600436   ",
+			"centerId": "0647",
+			"regularPrice": "9.99",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "10950671010647199"
+		},
+		{
+			"id_Ext": "10950671010703199",
+			"containerId": "6639",
+			"offerPrice": "9.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "20170118",
+			"depublishEndDate": "20170201",
+			"productId": "001018466600436   ",
+			"centerId": "0703",
+			"regularPrice": "9.99",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "10950671010703199"
+		},
+		{
+			"id_Ext": "10950671010720199",
+			"containerId": "6639",
+			"offerPrice": "9.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "20170118",
+			"depublishEndDate": "20170201",
+			"productId": "001018466600436   ",
+			"centerId": "0720",
+			"regularPrice": "9.99",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "10950671010720199"
+		},
+		{
+			"id_Ext": "10950671010728199",
+			"containerId": "6639",
+			"offerPrice": "9.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "20170118",
+			"depublishEndDate": "20170201",
+			"productId": "001018466600436   ",
+			"centerId": "0728",
+			"regularPrice": "9.99",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "10950671010728199"
+		},
+		{
+			"id_Ext": "10950671010786199",
+			"containerId": "6639",
+			"offerPrice": "9.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018466600436   ",
+			"centerId": "0786",
+			"regularPrice": "9.99",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "10950671010786199"
+		},
+		{
+			"id_Ext": "10950671010786199",
+			"containerId": "6639",
+			"offerPrice": "9.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20250404",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018466600436   ",
+			"centerId": "0713",
+			"regularPrice": "9.99",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "10950671010786199"
+		},
+		{
+			"id_Ext": "10950671010786199",
+			"containerId": "6639",
+			"offerPrice": "9.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20250404",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018466600436   ",
+			"centerId": "0003",
+			"regularPrice": "9.99",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "10950671010786199"
+		},
+		{
+			"id_Ext": "10950671010786199",
+			"containerId": "6639",
+			"offerPrice": "9.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20250404",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018466600436   ",
+			"centerId": "0006",
+			"regularPrice": "9.99",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "10950671010786199"
+		},
+		{
+			"id_Ext": "10950671010941199",
+			"containerId": "6639",
+			"offerPrice": "9.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018466600436   ",
+			"centerId": "0941",
+			"regularPrice": "9.99",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "10950671010941199"
+		}
+	],
+	"idExt": "1095067101"
+}

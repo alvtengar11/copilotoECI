@@ -1,0 +1,1515 @@
+{
+	"id_Ext": "2837629001",
+	"id": "001005337501307",
+	"entryContainerID": "1",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "2837629001"
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001005337501307   "
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "01"
+						},
+						{
+							"id": "EanGtin",
+							"type": "STRING",
+							"value": "4000984095012"
+						},
+						{
+							"id": "Eani",
+							"type": "STRING",
+							"value": "2401510976096"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "BEB"
+						},
+						{
+							"id": "UnidadVenta",
+							"type": "STRING",
+							"value": "0001"
+						},
+						{
+							"id": "UnidadSurtidoCodificacion",
+							"type": "STRING",
+							"value": "0001"
+						},
+						{
+							"id": "SenalEntorno",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "395",
+							"id_Ext": "274981090",
+							"value": "VPR"
+						},
+						{
+							"id": "Serie",
+							"type": "STRING",
+							"value": "ENCARGO"
+						},
+						{
+							"id": "CodigoModelo",
+							"type": "STRING",
+							"value": "20545"
+						},
+						{
+							"id": "CodigoModeloWeb",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "20545"
+								},
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"value": "20545"
+								}
+							]
+						},
+						{
+							"id": "DescripcionModelo",
+							"type": "STRING",
+							"value": "ADAPTADORES BOB"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Adaptador Baby-Safe BOB para Capazo Bob y Capazo Britax azul"
+								},
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"value": "ADAPTADORES BOB"
+								}
+							]
+						},
+						{
+							"id": "Perecedero",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Validated",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000100524275"
+						},
+						{
+							"id": "CodigoUnicoPrincipal",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Royaltis",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PermiteDevolucion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaGenerica",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PeticionPrecioDeVenta",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "ReferenciaDigital",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "AnillosDeCompromiso",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaDeLujo",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaMadre",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CodigoUnicoOrigen",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0030825"
+						},
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "MATIAS MASSO, S.A."
+						},
+						{
+							"id": "Fabricante",
+							"type": "STRING",
+							"value": "0030825"
+						},
+						{
+							"id": "DescripcionFabricante",
+							"type": "STRING",
+							"value": "MATIAS MASSO, S.A."
+						},
+						{
+							"id": "Marca",
+							"type": "STRING",
+							"value": "BOB"
+						},
+						{
+							"id": "MarcaMostradaEnWeb",
+							"type": "RELATIONSHIP",
+							"groupID": "391",
+							"id_Ext": "2523780056",
+							"value": "BOB"
+						}
+					]
+				},
+				{
+					"id": "DescripcionCorta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TituloNombreDescripcionArticuloWeb",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"value": "Artigo disponível mediante confirmação do fornecedor. Prazo estimado de entrega: 2 semanas."
+								}
+							]
+						},
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"value": "ADAPTADORES"
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion4",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "BM"
+						},
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "00"
+						}
+					]
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UOM!Dimensiones!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "204",
+							"id_Ext": "347186090",
+							"value": "cm"
+						},
+						{
+							"id": "UOM!PesoBruto!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "206",
+							"id_Ext": "347187090",
+							"value": "g"
+						},
+						{
+							"id": "UOM!VolumenContenidoNeto!VolumenContenidoNeto",
+							"type": "NUMBER",
+							"value": "0.0"
+						},
+						{
+							"id": "UOM!VolumenContenidoNeto!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "213",
+							"id_Ext": "347188090",
+							"value": "ml"
+						}
+					]
+				},
+				{
+					"id": "ColoresYTallas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ColorFabricante",
+							"type": "STRING",
+							"value": "."
+						},
+						{
+							"id": "DescripcionDelColor",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "135",
+							"id_Ext": "347189090",
+							"value": "Azul"
+						},
+						{
+							"id": "ColorBasico",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10153",
+							"id_Ext": "351091090",
+							"value": "Azul"
+						},
+						{
+							"id": "Dibujo",
+							"type": "STRING",
+							"value": "PV14"
+						}
+					]
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "A11184805"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTamanos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosFormatos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTipoPiel",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDeAltaCompras",
+							"type": "DATE",
+							"value": "20131203_000000"
+						},
+						{
+							"id": "FechaDeAltaPrecatalogo",
+							"type": "DATE",
+							"value": "20131204_102219"
+						},
+						{
+							"id": "FechaDeAltaCatalogo",
+							"type": "DATE",
+							"value": "20140207_171757"
+						},
+						{
+							"id": "FechaDisponibilidadLanzamientoAlMercado",
+							"type": "DATE",
+							"value": "20220821_000100"
+						}
+					]
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201403/21/00104741405593____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201403/21/00104741405593____1__40x40.jpg"
+										},
+										{
+											"id": "UrlImagen520x520",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201403/21/00104741405593____1__520x520.jpg"
+										},
+										{
+											"id": "UrlImagen967x1200",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201403/21/00104741405593____1__967x1200.jpg"
+										},
+										{
+											"id": "UrlImagen516x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201403/21/00104741405593____1__516x640.jpg"
+										},
+										{
+											"id": "UrlImagen440x546",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201403/21/00104741405593____1__440x546.jpg"
+										},
+										{
+											"id": "UrlImagen340x421",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201403/21/00104741405593____1__340x421.jpg"
+										},
+										{
+											"id": "UrlImagen290x360",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201403/21/00104741405593____1__290x360.jpg"
+										},
+										{
+											"id": "UrlImagen210x260",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201403/21/00104741405593____1__210x260.jpg"
+										}
+									]
+								},
+								{
+									"id": "SecondaryFotosSinModelo",
+									"ocurrence": 0,
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Id",
+											"type": "STRING",
+											"value": "1"
+										},
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____5__100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____5__40x40.jpg"
+										},
+										{
+											"id": "UrlImagen520x520",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____5__520x520.jpg"
+										},
+										{
+											"id": "UrlImagen967x1200",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____5__967x1200.jpg"
+										},
+										{
+											"id": "UrlImagen516x640",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____5__516x640.jpg"
+										},
+										{
+											"id": "UrlImagen440x546",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____5__440x546.jpg"
+										},
+										{
+											"id": "UrlImagen340x421",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____5__340x421.jpg"
+										},
+										{
+											"id": "UrlImagen290x360",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____5__290x360.jpg"
+										},
+										{
+											"id": "UrlImagen210x260",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____5__210x260.jpg"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Target",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "BestSellersExcluded",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SusceptibleDeEnvolver",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "401",
+							"id_Ext": "347190090",
+							"value": "No voluminoso"
+						},
+						{
+							"id": "InStorePickUp",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "400",
+							"id_Ext": "274969090",
+							"value": "Recogida en tienda"
+						},
+						{
+							"id": "EntregaDomicilio",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "DeliveryPoint",
+							"type": "STRING_ENUMERATION",
+							"value": "A"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDeRetirada",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServicioDeRetirada",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"value": "N - No Disponible"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDePuestaEnMarcha",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServicioDePuestaEnMarcha",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"value": "N - No Disponible"
+						},
+						{
+							"id": "ModoDeServicioPuestaEnMarcha",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1030",
+							"id_Ext": "347192090",
+							"value": "N - No Disponible"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDePuerta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServiciosDePuerta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"value": "N - No Disponible"
+						},
+						{
+							"id": "ModoDeServiciocambiodePuerta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1028",
+							"id_Ext": "347193090",
+							"value": "N - No Disponible"
+						}
+					]
+				},
+				{
+					"id": "Financiacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FinancedServiceNoInterest",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Calculadora",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Pending",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Precios",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IvaPorcentaje",
+							"type": "STRING",
+							"value": "02"
+						},
+						{
+							"id": "IgicPorcentaje",
+							"type": "STRING",
+							"value": "91"
+						}
+					]
+				},
+				{
+					"id": "Validar",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Carteleria",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Reference",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ReferenceType",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1686",
+							"id_Ext": "346300090",
+							"value": "E"
+						},
+						{
+							"id": "ReferenceSourceOrigin",
+							"type": "STRING",
+							"value": "C"
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "x",
+					"type": "STRING",
+					"value": "x"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "EnvioAtg",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0090"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "02"
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 1,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0143"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "02"
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 2,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0424"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "02"
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 3,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0909"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "01"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "94149949"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "13339018",
+			"hierarchyId": "5001",
+			"categoryId": "01.053.375"
+		},
+		{
+			"id_Ext": "13478741024",
+			"hierarchyId": "5007",
+			"categoryId": "1456154260"
+		},
+		{
+			"id_Ext": "13478933024",
+			"hierarchyId": "5007",
+			"categoryId": "1456155766"
+		},
+		{
+			"id_Ext": "11869311013",
+			"hierarchyId": "999",
+			"categoryId": "1459764410"
+		},
+		{
+			"id_Ext": "2663093016",
+			"hierarchyId": "2013",
+			"categoryId": "1390311656"
+		},
+		{
+			"id_Ext": "5529012",
+			"hierarchyId": "998",
+			"categoryId": "00228"
+		}
+	],
+	"unlink": [],
+	"specificAttribs": [
+		{
+			"id": "/Generica_Bebes_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "DescripcionLarga",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Descripcion_OLD",
+							"ocurrence": 0,
+							"type": "STRING",
+							"value": "Adaptador Baby-Safe para Capazo Bob y Capazo Britax, en azul."
+						},
+						{
+							"id": "Descripcion_OLD",
+							"ocurrence": 1,
+							"type": "STRING",
+							"value": "Compatible con todos los cochecitos BOB europeos de una plaza, combina con el capazo BOB, el Capazo Britax y el Portabebés Römer."
+						},
+						{
+							"id": "Descripcion_OLD",
+							"ocurrence": 2,
+							"type": "STRING",
+							"value": "Instalación sencilla."
+						},
+						{
+							"id": "Descripcion_OLD",
+							"ocurrence": 3,
+							"type": "STRING",
+							"value": "Se pliega con el cochecito."
+						},
+						{
+							"id": "Descripcion_OLD",
+							"ocurrence": 4,
+							"type": "STRING",
+							"value": "Debido al centro de gravedad más alto, el adaptador del portabebés solo está pensado para pasear y permite a los recién nacidos viajar seguros en el cochecito."
+						},
+						{
+							"id": "Descripcion",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"ocurrence": 0,
+									"type": "STRING",
+									"value": "Adaptador Baby-Safe para Capazo Bob y Capazo Britax, en azul."
+								},
+								{
+									"id": "es_ES",
+									"ocurrence": 1,
+									"type": "STRING",
+									"value": "Compatible con todos los cochecitos BOB europeos de una plaza, combina con el capazo BOB, el Capazo Britax y el Portabebés Römer."
+								},
+								{
+									"id": "es_ES",
+									"ocurrence": 2,
+									"type": "STRING",
+									"value": "Instalación sencilla."
+								},
+								{
+									"id": "es_ES",
+									"ocurrence": 3,
+									"type": "STRING",
+									"value": "Se pliega con el cochecito."
+								},
+								{
+									"id": "es_ES",
+									"ocurrence": 4,
+									"type": "STRING",
+									"value": "Debido al centro de gravedad más alto, el adaptador del portabebés solo está pensado para pasear y permite a los recién nacidos viajar seguros en el cochecito."
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "CaracteristicasGenerales",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DescripcionProducto",
+							"type": "STRING",
+							"value": "Necesario para instalar el capcazo o portabebés en el cochecito BOB."
+						},
+						{
+							"id": "DescripcionProducto_New",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Necesario para instalar el capcazo o portabebés en el cochecito BOB."
+								}
+							]
+						},
+						{
+							"id": "Subtipo",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10148",
+							"id_Ext": "233133090",
+							"value": "Adaptadores"
+						},
+						{
+							"id": "Estilo",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1579",
+							"id_Ext": "351092090",
+							"value": "Urban"
+						},
+						{
+							"id": "PesoNino",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UOM!PesoDesde!Cantidad",
+									"type": "NUMBER",
+									"value": "0.0"
+								},
+								{
+									"id": "UOM!PesoHasta!Cantidad",
+									"type": "NUMBER",
+									"value": "13.0"
+								},
+								{
+									"id": "UOM!Peso!Unidad",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "206",
+									"id_Ext": "348777090",
+									"value": "kg"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "94149949"
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "DespublicadoPorMargen",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "DespublicadoPorStock",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20140327_111135"
+						},
+						{
+							"id": "NovedadWWW",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicarAutomaticamente",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "FechaDePrimeraPublicacionWWW",
+							"type": "DATE",
+							"value": "20140207_172058"
+						},
+						{
+							"id": "NoPublicarAutomaticamente",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "FechaDesPubAutomaticaWWW",
+							"type": "DATE",
+							"value": "20140327_111135"
+						},
+						{
+							"id": "XPUBLICA",
+							"type": "STRING",
+							"value": "P"
+						},
+						{
+							"id": "MotivoPubDesWWW",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10110",
+							"id_Ext": "233765090",
+							"value": "004"
+						},
+						{
+							"id": "ModSP2",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Foto",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "94149949"
+				}
+			]
+		},
+		{
+			"id": "/LTC_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fecha de Publicacion",
+					"type": "DATE",
+					"value": "20180401_154000"
+				},
+				{
+					"id": "DespublicadoPorMargen",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "DespublicadoPorStock",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "FechaDePrimeraPublicacionWWW",
+					"type": "DATE",
+					"value": "20180401_154000"
+				},
+				{
+					"id": "NovedadWWW",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "PublicarAutomaticamente",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Foto",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "132444110"
+				}
+			]
+		},
+		{
+			"id": "/Comunes_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "destacado",
+					"type": "INTEGER",
+					"value": "9999999"
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "SecondaryFotosSinModelo",
+									"ocurrence": 0,
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__40x40.jpg"
+										},
+										{
+											"id": "UrlImagenL",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__225x225.jpg"
+										},
+										{
+											"id": "UrlImagenM",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__150x150.jpg"
+										},
+										{
+											"id": "UrlImagenG",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__600x600.jpg"
+										},
+										{
+											"id": "UrlImagenP",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__1000x1000.jpg"
+										},
+										{
+											"id": "UrlImagen170x170",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__170x170.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__210x210.jpg"
+										},
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__440x440.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__640x640.jpg"
+										},
+										{
+											"id": "UrlImagen1200x1200",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__1200x1200.jpg"
+										}
+									]
+								},
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__40x40.jpg"
+										},
+										{
+											"id": "UrlImagen520x520",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__520x520.jpg"
+										},
+										{
+											"id": "UrlImagen967x1200",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__967x1200.jpg"
+										},
+										{
+											"id": "UrlImagen516x640",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__516x640.jpg"
+										},
+										{
+											"id": "UrlImagen440x546",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__440x546.jpg"
+										},
+										{
+											"id": "UrlImagen340x421",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__340x421.jpg"
+										},
+										{
+											"id": "UrlImagen290x360",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__290x360.jpg"
+										},
+										{
+											"id": "UrlImagen210x260",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__210x260.jpg"
+										}
+									]
+								},
+								{
+									"id": "Foto_OLD",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "MostrarSoloRebajado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "210259932"
+				}
+			]
+		},
+		{
+			"id": "/Portugal_ISS",
+			"type": "SPEC",
+			"children": [
+			{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____4__100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____4__40x40.jpg"
+										},
+										{
+											"id": "UrlImagen520x520",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____4__520x520.jpg"
+										},
+										{
+											"id": "UrlImagen967x1200",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____4__967x1200.jpg"
+										},
+										{
+											"id": "UrlImagen516x640",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____4__516x640.jpg"
+										},
+										{
+											"id": "UrlImagen440x546",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____4__440x546.jpg"
+										},
+										{
+											"id": "UrlImagen340x421",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____4__340x421.jpg"
+										},
+										{
+											"id": "UrlImagen290x360",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____4__290x360.jpg"
+										},
+										{
+											"id": "UrlImagen210x260",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____4__210x260.jpg"
+										}
+									]
+								},
+								{
+									"id": "SecondaryFotosSinModelo",
+									"ocurrence": 0,
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagenG",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagen1200x1200",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagen520x520",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagen967x1200",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagen516x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagen440x546",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagen340x421",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagen290x360",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagen210x260",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201401/16/00111980301755____1__100x100.jpg"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "destacado",
+					"type": "INTEGER",
+					"value": "9999999"
+				},
+				{
+					"id": "MostrarSoloRebajado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "FechaDePublicacionPOR",
+					"type": "DATE",
+					"value": "20160118_163705"
+				},
+				{
+					"id": "DespublicadoPorMargen",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "DespublicadoPorStock",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "FechaDePrimeraPublicacionPOR",
+					"type": "DATE",
+					"value": "20160118_163705"
+				},
+				{
+					"id": "NovedadPOR",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "PublicarAutomaticamentePOR",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Foto",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "94149949"
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"productId": "001005337501307   ",
+			"centerId": "0090",
+			"regularPrice": "37.00",
+			"catalogPrice": "37.00",
+			"taxPercentage": "02",
+			"igic": "91"
+		},
+		{
+			"productId": "001005337501307   ",
+			"centerId": "0143",
+			"regularPrice": "39.00",
+			"catalogPrice": "39.00",
+			"taxPercentage": "02",
+			"igic": "91"
+		},
+		{
+			"productId": "001005337501307   ",
+			"centerId": "0143",
+			"regularPrice": "39.00",
+			"catalogPrice": "39.00",
+			"taxPercentage": "02",
+			"igic": "91"
+		},
+		{
+			"productId": "001005337501307   ",
+			"centerId": "0424",
+			"regularPrice": "37.00",
+			"catalogPrice": "37.00",
+			"taxPercentage": "02",
+			"igic": "91"
+		},
+		{
+			"productId": "001005337501307   ",
+			"centerId": "0909",
+			"regularPrice": "36.69",
+			"catalogPrice": "36.69",
+			"taxPercentage": "02",
+			"igic": "91"
+		}
+	]
+}

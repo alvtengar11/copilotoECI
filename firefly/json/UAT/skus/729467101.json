@@ -1,0 +1,1004 @@
+{
+	"id_Ext": "729467101",
+	"id": "001018427200052   ",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0118427200052"
+				},
+				{
+					"id": "Informacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "1",
+							"featureGroupID": "6616",
+							"id_Ext": "26871190",
+							"idExt": "26871190"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Supermercado/Carnicería/Cabrito/Cabrito"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"value": "17964",
+							"featureGroupID": "6602",
+							"id_Ext": "347607190",
+							"idExt": "347607190"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "TACISA"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "pierna de cabrito"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "leg of kid goat"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Zickleinkeule"
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "cuixa de cabrit"
+								}
+							]
+						},
+						{
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"value": "PIEZA",
+							"featureGroupID": "6612",
+							"id_Ext": "39948190",
+							"idExt": "39948190"
+						},
+						{
+							"id": "PresentacionDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "pieza"
+						},
+						{
+							"id": "CodigoPresentacionHidden",
+							"type": "STRING",
+							"value": "PIEZA"
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "500"
+						},
+						{
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"value": "G",
+							"featureGroupID": "6610",
+							"id_Ext": "27995190",
+							"idExt": "27995190"
+						},
+						{
+							"id": "FormatoDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "g"
+						},
+						{
+							"id": "CodigoFormatoHidden",
+							"type": "STRING",
+							"value": "G"
+						},
+						{
+							"id": "RestoDescripcion",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "peso aproximado"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "approximate weight"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Gewicht ca."
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "pes aproximat"
+								}
+							]
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "TACISA pierna de cabrito pieza 500 g peso aproximado"
+						},
+						{
+							"id": "Temporal",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "CABRITO PIERN"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "P",
+							"featureGroupID": "6614",
+							"id_Ext": "47142190",
+							"idExt": "47142190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Pieza"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "P"
+						},
+						{
+							"id": "PesoPieza",
+							"type": "STRING",
+							"value": "500"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20250822_125555"
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "024"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "04"
+						}
+					]
+				},
+				{
+					"id": "Imagenes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201507/31/00118427200052____1__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201507/31/00118427200052____1__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201507/31/00118427200052____1__150x150.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201507/31/00118427200052____1__325x325.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201507/31/00118427200052____1__600x600.jpg"
+						},
+						{
+							"id": "Imagen520x520Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/CONTENIDOS/201507/31/00118427200052____1__520x520.jpg"
+						},
+						{
+							"id": "Imagen520x640Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/CONTENIDOS/201507/31/00118427200052____1__520x640.jpg"
+						}
+					]
+				},
+				{
+					"id": "Tematicos",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tematico",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto de peso variable"
+								},
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "al peso",
+									"featureGroupID": "6604",
+									"id_Ext": "46907190",
+									"idExt": "46907190"
+								}
+							]
+						},
+						{
+							"id": "Tematico",
+							"type": "GROUPING",
+							"ocurrence": 1,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto refrigerado"
+								},
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "refrigerado",
+									"featureGroupID": "6604",
+									"id_Ext": "46914190",
+									"idExt": "46914190"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20150513_000000"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20250430_002444"
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Promocional"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "Promocional"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "IndicadorBloqueoPublicacionConceptosSAP",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Referencia",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "18427200052"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "184"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "272"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "00052"
+								}
+							]
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000105836179"
+						},
+						{
+							"id": "Ean",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "2184272000529"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 0,
+									"value": "2184272000529"
+								}
+							]
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "03"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0283747"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "TACISA"
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "AB0328"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010283747",
+									"id_Ext": "508227160",
+									"groupID": "666",
+									"idExt": "508227160"
+								},
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"value": "010283747",
+									"id_Ext": "508227160",
+									"groupID": "666",
+									"idExt": "508227160"
+								}
+							]
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "BA"
+						},
+						{
+							"id": "Descripcion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "TACISA"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "CABRITO PIERNA ESCANDALLO"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "PIERNA CABRITO"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "ESCNADALLO"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "AL PESO"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "1"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "KG"
+								},
+								{
+									"id": "DescripcionTicketCodificacion",
+									"type": "STRING",
+									"value": "CABRITO PIERN"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "1000,0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5018427200052"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20120416_000000"
+						},
+						{
+							"id": "EnlacePUM",
+							"type": "LOOKUP_TABLE",
+							"value": "001",
+							"featureGroupID": "6618",
+							"id_Ext": "26844190",
+							"idExt": "26844190"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000001,000"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "2"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "2"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"idExt": "26867190"
+								},
+								{
+									"id": "Temporal",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "729467101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "1067868123",
+			"hierarchyId": "6809",
+			"categoryId": "010705",
+			"idExt": "1067868123"
+		},
+		{
+			"id_Ext": "8597123",
+			"hierarchyId": "6809",
+			"categoryId": "010915",
+			"idExt": "8597123"
+		},
+		{
+			"id_Ext": "8561123",
+			"hierarchyId": "6809",
+			"categoryId": "010009",
+			"idExt": "8561123"
+		},
+		{
+			"id_Ext": "8577123",
+			"hierarchyId": "6809",
+			"categoryId": "010029",
+			"idExt": "8577123"
+		},
+		{
+			"id_Ext": "3699113",
+			"hierarchyId": "6803",
+			"categoryId": "01184272",
+			"idExt": "3699113"
+		},
+		{
+			"id_Ext": "1406119",
+			"hierarchyId": "6807",
+			"categoryId": "10520135124",
+			"idExt": "1406119"
+		},
+		{
+			"id_Ext": "26836111",
+			"hierarchyId": "25402",
+			"categoryId": "0001",
+			"idExt": "26836111"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Alimentacion ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ActivarDocPropia",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "InformacionGeneral1",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Registro sanitario: ES 10.1010/B CE"
+						}
+					]
+				},
+				{
+					"id": "Conservacion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Conservar entre 0 i 4 ºC"
+						},
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Conservar entre 0 y 4ºC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "/Perecederos Peninsula ISS",
+			"type": "SPEC",
+			"children": []
+		}
+	],
+	"prices": [
+		{
+			"id_Ext": "7294671010009199",
+			"containerId": "6639",
+			"offerPrice": "23.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018427200052   ",
+			"centerId": "0009",
+			"regularPrice": "23.95",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "7294671010009199"
+		},
+		{
+			"id_Ext": "7294671010029199",
+			"containerId": "6639",
+			"offerPrice": "23.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018427200052   ",
+			"centerId": "0029",
+			"regularPrice": "23.95",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "7294671010029199"
+		},
+		{
+			"id_Ext": "7294671010705199",
+			"containerId": "6639",
+			"offerPrice": "23.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018427200052   ",
+			"centerId": "0705",
+			"regularPrice": "23.95",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "7294671010705199"
+		},
+		{
+			"id_Ext": "7294671010705199",
+			"containerId": "6639",
+			"offerPrice": "23.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20220421",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018427200052   ",
+			"centerId": "0713",
+			"regularPrice": "23.95",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "7294671010705199"
+		},
+		{
+			"id_Ext": "7294671010705199",
+			"containerId": "6639",
+			"offerPrice": "23.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20220421",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018427200052   ",
+			"centerId": "0003",
+			"regularPrice": "23.95",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "7294671010705199"
+		},
+		{
+			"id_Ext": "7294671010705199",
+			"containerId": "6639",
+			"offerPrice": "23.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20220421",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018427200052   ",
+			"centerId": "0006",
+			"regularPrice": "23.95",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "7294671010705199"
+		},
+		{
+			"id_Ext": "7294671010705199",
+			"containerId": "6639",
+			"offerPrice": "23.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20220421",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018427200052   ",
+			"centerId": "0012",
+			"regularPrice": "23.95",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "7294671010705199"
+		},
+		{
+			"id_Ext": "7294671010705199",
+			"containerId": "6639",
+			"offerPrice": "23.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20220421",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018427200052   ",
+			"centerId": "0098",
+			"regularPrice": "23.95",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "7294671010705199"
+		},
+		{
+			"id_Ext": "7294671010915199",
+			"containerId": "6639",
+			"offerPrice": "23.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018427200052   ",
+			"centerId": "0915",
+			"regularPrice": "23.95",
+			"TaxPercentage": "01",
+			"Igic": "01",
+			"idExt": "7294671010915199"
+		}
+	],
+	"idExt": "729467101"
+}

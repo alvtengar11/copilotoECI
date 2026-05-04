@@ -1,0 +1,71 @@
+#!/bin/bash
+
+./2_import_elastic_manager.sh uat002_cateringstore_es-redirects uat uat002_cateringstore_es
+./2_import_elastic_manager.sh uat002_cateringstore_es-hierarchies uat uat002_cateringstore_es
+./2_import_elastic_manager.sh uat002_cateringstore_es-synonyms uat uat002_cateringstore_es
+./2_import_elastic_searchfilter.sh uat002_cateringstore_es-searchfilters uat uat002_cateringstore_es
+./2_import_elastic_merchandiser.sh uat002_cateringstore_es-custom-sorts uat uat002_cateringstore_es
+
+./2_import_elastic_manager.sh uat002_ecistore_es-redirects uat uat002_ecistore_es
+./2_import_elastic_manager.sh uat002_ecistore_es-hierarchies uat uat002_ecistore_es
+./2_import_elastic_manager.sh uat002_ecistore_es-synonyms uat uat002_ecistore_es
+./2_import_elastic_searchfilter.sh uat002_ecistore_es-searchfilters uat uat002_ecistore_es
+./2_import_elastic_merchandiser.sh uat002_ecistore_es-custom-sorts uat uat002_ecistore_es
+
+./2_import_elastic_manager.sh uat002_ecistore_en-redirects uat uat002_ecistore_en
+./2_import_elastic_manager.sh uat002_ecistore_en-hierarchies uat uat002_ecistore_en
+./2_import_elastic_manager.sh uat002_ecistore_en-synonyms uat uat002_ecistore_en
+./2_import_elastic_searchfilter.sh uat002_ecistore_en-searchfilters uat uat002_ecistore_en
+./2_import_elastic_merchandiser.sh uat002_ecistore_en-custom-sorts uat uat002_ecistore_en
+
+./2_import_elastic_manager.sh uat002_ecistore_fr-redirects uat uat002_ecistore_fr
+./2_import_elastic_manager.sh uat002_ecistore_fr-hierarchies uat uat002_ecistore_fr
+./2_import_elastic_manager.sh uat002_ecistore_fr-synonyms uat uat002_ecistore_fr
+./2_import_elastic_searchfilter.sh uat002_ecistore_fr-searchfilters uat uat002_ecistore_fr
+./2_import_elastic_merchandiser.sh uat002_ecistore_fr-custom-sorts uat uat002_ecistore_fr
+
+./2_import_elastic_manager.sh uat002_gcstore_es-redirects uat uat002_gcstore_es
+./2_import_elastic_manager.sh uat002_gcstore_es-hierarchies uat uat002_gcstore_es
+./2_import_elastic_manager.sh uat002_gcstore_es-synonyms uat uat002_gcstore_es
+./2_import_elastic_searchfilter.sh uat002_gcstore_es-searchfilters uat uat002_gcstore_es
+./2_import_elastic_merchandiser.sh uat002_gcstore_es-custom-sorts uat uat002_gcstore_es
+
+./2_import_elastic_manager.sh uat002_hipercorstore_es-redirects uat uat002_hipercorstore_es
+./2_import_elastic_manager.sh uat002_hipercorstore_es-hierarchies uat uat002_hipercorstore_es
+./2_import_elastic_manager.sh uat002_hipercorstore_es-synonyms uat uat002_hipercorstore_es
+./2_import_elastic_searchfilter.sh uat002_hipercorstore_es-searchfilters uat uat002_hipercorstore_es
+./2_import_elastic_merchandiser.sh uat002_hipercorstore_es-custom-sorts uat uat002_hipercorstore_es
+
+./2_import_elastic_manager.sh uat002_lloydsstore_es-redirects uat uat002_lloydsstore_es
+./2_import_elastic_manager.sh uat002_lloydsstore_es-hierarchies uat uat002_lloydsstore_es
+./2_import_elastic_manager.sh uat002_lloydsstore_es-synonyms uat uat002_lloydsstore_es
+./2_import_elastic_searchfilter.sh uat002_lloydsstore_es-searchfilters uat uat002_lloydsstore_es
+./2_import_elastic_merchandiser.sh uat002_lloydsstore_es-custom-sorts uat uat002_lloydsstore_es
+
+./2_import_elastic_manager.sh uat002_ltcstore_es-redirects uat uat002_ltcstore_es
+./2_import_elastic_manager.sh uat002_ltcstore_es-hierarchies uat uat002_ltcstore_es
+./2_import_elastic_manager.sh uat002_ltcstore_es-synonyms uat uat002_ltcstore_es
+./2_import_elastic_searchfilter.sh uat002_ltcstore_es-searchfilters uat uat002_ltcstore_es
+./2_import_elastic_merchandiser.sh uat002_ltcstore_es-custom-sorts uat uat002_ltcstore_es
+
+./2_import_elastic_manager.sh uat002_portugalstore_pt-redirects uat uat002_portugalstore_pt
+./2_import_elastic_manager.sh uat002_portugalstore_pt-hierarchies uat uat002_portugalstore_pt
+./2_import_elastic_manager.sh uat002_portugalstore_pt-synonyms uat uat002_portugalstore_pt
+./2_import_elastic_searchfilter.sh uat002_portugalstore_pt-searchfilters uat uat002_portugalstore_pt
+./2_import_elastic_merchandiser.sh uat002_portugalstore_pt-custom-sorts uat uat002_portugalstore_pt
+
+./2_import_elastic_manager.sh uat002_primeritistore_es-redirects uat uat002_primeritistore_es
+./2_import_elastic_manager.sh uat002_primeritistore_es-hierarchies uat uat002_primeritistore_es
+./2_import_elastic_manager.sh uat002_primeritistore_es-synonyms uat uat002_primeritistore_es
+./2_import_elastic_searchfilter.sh uat002_primeritistore_es-searchfilters uat uat002_primeritistore_es
+./2_import_elastic_merchandiser.sh uat002_primeritistore_es-custom-sorts uat uat002_primeritistore_es
+
+./2_import_elastic_manager.sh uat002_supermarket_es-redirects uat uat002_supermarket_es
+./2_import_elastic_manager.sh uat002_supermarket_es-hierarchies uat uat002_supermarket_es
+./2_import_elastic_manager.sh uat002_supermarket_es-synonyms uat uat002_supermarket_es
+./2_import_elastic_searchfilter.sh uat002_supermarket_es-searchfilters uat uat002_supermarket_es
+./2_import_elastic_merchandiser.sh uat002_supermarket_es-custom-sorts uat uat002_supermarket_es
+
+
+
+

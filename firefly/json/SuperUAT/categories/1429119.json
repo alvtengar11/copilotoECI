@@ -1,0 +1,113 @@
+{
+	"id": "10800039221",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "10800039221"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Talla 1 y 2"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Talles 1 i 2"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "size 1 - 2"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Größe 1 und 2"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20251215_180939"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20021231_000000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "9221"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"idExt": "47143190",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "0001"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1429119"
+				},
+				{
+					"id": "OrdenGlovo",
+					"type": "INTEGER",
+					"value": "1527"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6807",
+			"categoryId": "1080003",
+			"idExt": "1427119",
+			"id_Ext": "1427119"
+		}
+	],
+	"idExt": "1429119",
+	"id_Ext": "1429119",
+	"entryContainerID": "6807"
+}

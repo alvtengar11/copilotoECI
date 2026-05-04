@@ -1,0 +1,745 @@
+{
+  "id_Ext": "922297101",
+  "id": "001018316400094   ",
+  "entryContainerID": "6639",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Supermercado Peninsula CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Codigo",
+          "type": "STRING",
+          "value": "0118316400094"
+        },
+        {
+          "id": "Informacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "MetadataEstado",
+              "type": "STRING_ENUMERATION",
+              "value": "Revisado"
+            },
+            {
+              "id": "CodigoArea",
+              "type": "LOOKUP_TABLE",
+              "value": "1",
+              "featureGroupID": "6616",
+              "id_Ext": "26871190"
+            },
+            {
+              "id": "AreaDescripcion",
+              "type": "STRING",
+              "value": "Supermercado"
+            },
+            {
+              "id": "Reasignado",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CategoriaSupermercado",
+              "type": "STRING",
+              "value": "Supermercado/Charcutería y quesos al corte/Cocidos y fiambres/Jamón cocido y paleta cocida al corte"
+            }
+          ]
+        },
+        {
+          "id": "Descripcion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoMarca",
+              "type": "LOOKUP_TABLE",
+              "value": "12120",
+              "featureGroupID": "6602",
+              "id_Ext": "36093190"
+            },
+            {
+              "id": "MarcaDescripcion",
+              "type": "STRING",
+              "value": "LEONCINI"
+            },
+            {
+              "id": "DescripcionVariedad",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "jamón a la brasa con hierbas"
+                },
+                {
+                  "id": "en_GB",
+                  "type": "STRING",
+                  "value": "grilled ham with herbs"
+                },
+                {
+                  "id": "de_DE",
+                  "type": "STRING",
+                  "value": "Gegrillter Schinken mit Kräutern"
+                }
+              ]
+            },
+            {
+              "id": "DescripcionArticulo",
+              "type": "STRING",
+              "value": "LEONCINI jamón a la brasa con hierbas"
+            },
+            {
+              "id": "Temporal",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Visible",
+                  "type": "FLAG",
+                  "value": "true"
+                }
+              ]
+            },
+            {
+              "id": "DescripcionTicket",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "JAMON BRASA"
+                }
+              ]
+            },
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "id": "Venta",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoTipoVenta",
+              "type": "LOOKUP_TABLE",
+              "value": "K",
+              "featureGroupID": "6614",
+              "id_Ext": "47141190"
+            },
+            {
+              "id": "TipoVentaDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "Peso"
+            },
+            {
+              "id": "CodigoTipoVentaHidden",
+              "type": "STRING",
+              "value": "K"
+            },
+            {
+              "id": "EsProductoAlCorte",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "ProductoDePanificacion",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "UsuarioSalvadoAlCorte",
+              "type": "STRING",
+              "value": "PostProcesing"
+            },
+            {
+              "id": "FechaSalvadoAlCorte",
+              "type": "DATE",
+              "value": "20231114_140718"
+            }
+          ]
+        },
+        {
+          "id": "Ordenacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "OrdenacionMarca",
+              "type": "STRING",
+              "value": "039"
+            },
+            {
+              "id": "OrdenacionTamano",
+              "type": "STRING",
+              "value": "05"
+            }
+          ]
+        },
+        {
+          "id": "Imagenes",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ImagenDiminutaUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201602/29/00118316400094____1__40x40.jpg"
+            },
+            {
+              "id": "ImagenPequenaUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201602/29/00118316400094____1__75x75.jpg"
+            },
+            {
+              "id": "ImagenMedianaUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201602/29/00118316400094____1__150x150.jpg"
+            },
+            {
+              "id": "ImagenPrincipalUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201602/29/00118316400094____1__325x325.jpg"
+            },
+            {
+              "id": "ImagenGrandeUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201602/29/00118316400094____1__600x600.jpg"
+            }
+          ]
+        },
+        {
+          "id": "Tematicos",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Tematico",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "CodigoEnum",
+                  "type": "STRING_ENUMERATION",
+                  "value": "Producto de peso variable"
+                },
+                {
+                  "id": "Codigo",
+                  "type": "LOOKUP_TABLE",
+                  "value": "al peso",
+                  "featureGroupID": "6604",
+                  "id_Ext": "46907190"
+                }
+              ]
+            },
+            {
+              "id": "Tematico",
+              "type": "GROUPING",
+              "ocurrence": 1,
+              "children": [
+                {
+                  "id": "CodigoEnum",
+                  "type": "STRING_ENUMERATION",
+                  "value": "Producto refrigerado"
+                },
+                {
+                  "id": "Codigo",
+                  "type": "LOOKUP_TABLE",
+                  "value": "refrigerado",
+                  "featureGroupID": "6604",
+                  "id_Ext": "46914190"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FechaAlta",
+          "type": "DATE",
+          "value": "20160820_045707"
+        },
+        {
+          "id": "MetadataFechaModificacion",
+          "type": "DATE",
+          "value": "20201024_013318"
+        },
+        {
+          "id": "Publicacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoRegion",
+              "type": "STRING",
+              "value": "Supermercado Peninsula"
+            },
+            {
+              "id": "Promocion",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "Publicado",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PublicadoEnum",
+              "type": "STRING_ENUMERATION",
+              "value": "Promocional"
+            },
+            {
+              "id": "PublicadoCanarias",
+              "type": "STRING_ENUMERATION",
+              "value": "Promocional"
+            },
+            {
+              "id": "NoGestionCedial",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "IndicadorBloqueoPublicacionConceptosSAP",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "MetadataPerecedero",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Codificacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Referencia",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoReferencia",
+                  "type": "STRING",
+                  "value": "18316400094"
+                },
+                {
+                  "id": "CodigoUneco",
+                  "type": "STRING",
+                  "value": "183"
+                },
+                {
+                  "id": "CodigoFamilia",
+                  "type": "STRING",
+                  "value": "164"
+                },
+                {
+                  "id": "CodigoBarra",
+                  "type": "STRING",
+                  "value": "00094"
+                }
+              ]
+            },
+            {
+              "id": "NumeroMaterialSAP",
+              "type": "STRING",
+              "value": "000000000105821719"
+            },
+            {
+              "id": "Ean",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "2183164000944"
+                },
+                {
+                  "id": "MetadataHistoriaEan",
+                  "type": "STRING",
+                  "ocurrence": 0,
+                  "value": "2183164000944"
+                }
+              ]
+            },
+            {
+              "id": "TipoGestion",
+              "type": "STRING",
+              "value": "23"
+            },
+            {
+              "id": "Proveedor",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoProveedor",
+                  "type": "STRING",
+                  "value": "0171108"
+                },
+                {
+                  "id": "ProveedorDescripcion",
+                  "type": "STRING",
+                  "value": "MESA SOCORRO, S.L."
+                },
+                {
+                  "id": "ReferenciaFabricante",
+                  "type": "STRING",
+                  "value": "LEONCINI"
+                },
+                {
+                  "id": "Proveedor",
+                  "type": "RELATIONSHIP",
+                  "value": "010171108",
+                  "id_Ext": "499499160",
+                  "groupID": "666"
+                },
+                {
+                  "id": "Fabricante",
+                  "type": "RELATIONSHIP",
+                  "value": "010171108",
+                  "id_Ext": "499499160",
+                  "groupID": "666"
+                }
+              ]
+            },
+            {
+              "id": "CodigoCalificacion1",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "CodigoCalificacion2",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "CodigoCalificacion4",
+              "type": "STRING",
+              "value": "VV"
+            },
+            {
+              "id": "CodigoCalificacion5",
+              "type": "STRING",
+              "value": "VV"
+            },
+            {
+              "id": "Descripcion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoMarcaCodificacion",
+                  "type": "STRING",
+                  "value": "LEONCINI"
+                },
+                {
+                  "id": "DescripcionArticuloCodificacion",
+                  "type": "STRING",
+                  "value": "JAMON ESPECIALIDAD AL PESO"
+                },
+                {
+                  "id": "Variedad1",
+                  "type": "STRING",
+                  "value": "JAMON A L BRASA"
+                },
+                {
+                  "id": "Variedad2",
+                  "type": "STRING",
+                  "value": "CON HIERBAS"
+                },
+                {
+                  "id": "PresentacionCodificacion",
+                  "type": "STRING",
+                  "value": "PIEZA"
+                },
+                {
+                  "id": "CantidadCodificacion",
+                  "type": "STRING",
+                  "value": "7"
+                },
+                {
+                  "id": "FormatoCodificacion",
+                  "type": "STRING",
+                  "value": "KG"
+                }
+              ]
+            },
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "PesoPiezaCodificacion",
+              "type": "STRING",
+              "value": "7000.0"
+            },
+            {
+              "id": "Entorno",
+              "type": "STRING",
+              "value": "4"
+            },
+            {
+              "id": "CodigoCompraEmpresa",
+              "type": "STRING",
+              "value": "50"
+            },
+            {
+              "id": "CodigoCompraReferencia",
+              "type": "STRING",
+              "value": "5018316400110"
+            },
+            {
+              "id": "FechaAgenda",
+              "type": "DATE",
+              "value": "20120508_000000"
+            },
+            {
+              "id": "EnlacePUM",
+              "type": "LOOKUP_TABLE",
+              "value": "001",
+              "featureGroupID": "6618",
+              "id_Ext": "26844190"
+            },
+            {
+              "id": "IsMercanciaGeneral",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "GPER",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CantidadProducto",
+              "type": "STRING",
+              "value": "000007,000"
+            },
+            {
+              "id": "UnidadesProducto",
+              "type": "STRING",
+              "value": "001"
+            },
+            {
+              "id": "UnidadEmbalaje",
+              "type": "STRING",
+              "value": "7"
+            },
+            {
+              "id": "UnidadSurtido",
+              "type": "STRING",
+              "value": "7"
+            },
+            {
+              "id": "StockInfinito",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VentaSinStock",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Excepciones",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Regiones",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "CodigoRegion",
+                  "type": "LOOKUP_TABLE",
+                  "value": "CANARIAS",
+                  "featureGroupID": "6619",
+                  "id_Ext": "26867190"
+                },
+                {
+                  "id": "Temporal",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Anulacion",
+                      "type": "FLAG",
+                      "value": "true"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Enviado",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "TipoDocumentacion",
+          "type": "STRING",
+          "value": "Gran Consumo"
+        },
+        {
+          "id": "IsInWorkFlow",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Filled",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "922297101"
+        },
+        {
+          "id": "NumDiasCadGarantizadaRef",
+          "type": "INTEGER",
+          "value": "0"
+        },
+        {
+          "id": "Modificado",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Oferta",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "EciExpress",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "ProductoExclusivoEciExpress",
+          "type": "FLAG",
+          "value": "false"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "id_Ext": "1735404115",
+      "hierarchyId": "6805",
+      "categoryId": "012584003"
+    },
+    {
+      "id_Ext": "3436113",
+      "hierarchyId": "6803",
+      "categoryId": "01183164"
+    },
+    {
+      "id_Ext": "8564123",
+      "hierarchyId": "6809",
+      "categoryId": "010012"
+    },
+    {
+      "id_Ext": "1029119",
+      "hierarchyId": "6807",
+      "categoryId": "10280048060"
+    },
+    {
+      "id_Ext": "8580123",
+      "hierarchyId": "6809",
+      "categoryId": "010098"
+    },
+    {
+      "id_Ext": "1816759115",
+      "hierarchyId": "6805",
+      "categoryId": "012618721"
+    },
+    {
+      "id_Ext": "1067877123",
+      "hierarchyId": "6809",
+      "categoryId": "010712"
+    },
+    {
+      "id_Ext": "26836111",
+      "hierarchyId": "25402",
+      "categoryId": "0001"
+    },
+    {
+      "id_Ext": "1739605115",
+      "hierarchyId": "6805",
+      "categoryId": "012585405"
+    }
+  ],
+  "specificAttribs": [
+    {
+      "id": "/Alimentacion ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "ActivarDocPropia",
+          "type": "FLAG",
+          "value": "false"
+        }
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "id_Ext": "9222971010012199",
+      "containerId": "6639",
+      "offerPrice": "19.75",
+      "offerType": "00",
+      "globalDiscount": "",
+      "avaliable": "false",
+      "startDate": "",
+      "endDate": "",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "productId": "001018316400094   ",
+      "centerId": "0012",
+      "regularPrice": "19.75",
+      "TaxPercentage": "91",
+      "Igic": "91"
+    },
+    {
+      "id_Ext": "9222971010098199",
+      "containerId": "6639",
+      "offerPrice": "19.75",
+      "offerType": "00",
+      "globalDiscount": "",
+      "avaliable": "false",
+      "startDate": "",
+      "endDate": "",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "productId": "001018316400094   ",
+      "centerId": "0098",
+      "regularPrice": "19.75",
+      "TaxPercentage": "91",
+      "Igic": "91"
+    },
+    {
+      "id_Ext": "9222971010712199",
+      "containerId": "6639",
+      "offerPrice": "19.30",
+      "offerType": "00",
+      "globalDiscount": "      ",
+      "avaliable": "true",
+      "startDate": "        ",
+      "endDate": "        ",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "        ",
+      "depublishEndDate": "        ",
+      "productId": "001018316400094   ",
+      "centerId": "0712",
+      "regularPrice": "19.30",
+      "TaxPercentage": "91",
+      "Igic": "91"
+    }
+  ]
+}

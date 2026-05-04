@@ -1,0 +1,1040 @@
+{
+	"id_Ext": "110144101",
+	"id": "001018840200036   ",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0118840200036"
+				},
+				{
+					"id": "Informacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "1",
+							"featureGroupID": "6616",
+							"id_Ext": "26871190",
+							"idExt": "26871190"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Supermercado/Alimentación general/Huevos/Huevos ecológicos"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"value": "01345",
+							"featureGroupID": "6602",
+							"id_Ext": "29100190",
+							"idExt": "29100190"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "TIMOTEO"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "huevos ecológicos categoría A clase L"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "organic eggs category A size L"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Eier aus ökologischer Haltung Kategorie A Klasse L"
+								}
+							]
+						},
+						{
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"value": "ESTUCHE",
+							"featureGroupID": "6612",
+							"id_Ext": "39938190",
+							"idExt": "39938190"
+						},
+						{
+							"id": "PresentacionDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "estuche"
+						},
+						{
+							"id": "CodigoPresentacionHidden",
+							"type": "STRING",
+							"value": "ESTUCHE"
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "10"
+						},
+						{
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"value": "C12",
+							"featureGroupID": "6610",
+							"id_Ext": "27988190",
+							"idExt": "27988190"
+						},
+						{
+							"id": "FormatoDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "unidades"
+						},
+						{
+							"id": "CodigoFormatoHidden",
+							"type": "STRING",
+							"value": "C12"
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "TIMOTEO huevos ecológicos categoría A clase L estuche 10 unidades"
+						},
+						{
+							"id": "Temporal",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "HUEVOS"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "EGGS"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"idExt": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "U"
+						},
+						{
+							"id": "PesoPieza",
+							"type": "STRING",
+							"value": "10"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20250929_134916"
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "036"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "10"
+						}
+					]
+				},
+				{
+					"id": "Imagenes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202408/29/00118840200036____4__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202408/29/00118840200036____4__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202408/29/00118840200036____4__150x150.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202408/29/00118840200036____4__325x325.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202408/29/00118840200036____4__600x600.jpg"
+						},
+						{
+							"id": "Imagen520x520Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202408/29/00118840200036____4__520x520.jpg"
+						},
+						{
+							"id": "Imagen520x640Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202408/29/00118840200036____4__520x640.jpg"
+						},
+						{
+							"id": "Imagen1200x1200Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202408/29/00118840200036____4__1200x1200.jpg"
+						},
+						{
+							"id": "Mobile",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UrlTamVariablePrincipal",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/10/00118840200036____2__1x1.png"
+								},
+								{
+									"id": "UrlTamVariableGrande",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/10/00118840200036____2__380x380.png"
+								},
+								{
+									"id": "UrlTamVariableMediana",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/10/00118840200036____2__300x300.png"
+								},
+								{
+									"id": "UrlTamVariablePequena",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/10/00118840200036____2__200x200.png"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Tematicos",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tematico",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto ecológico"
+								},
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "ecologico",
+									"featureGroupID": "6604",
+									"id_Ext": "46910190",
+									"idExt": "46910190"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20040823_000000"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20240823_012838"
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20240909_103008"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "IndicadorBloqueoPublicacionConceptosSAP",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Traduccion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataAutomatica",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "MetadataPrioridad",
+							"type": "STRING_ENUMERATION",
+							"value": "normal"
+						},
+						{
+							"id": "MetadataFechaRecepcion",
+							"type": "DATE",
+							"value": "20120221_213537"
+						}
+					]
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Referencia",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "18840200036"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "188"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "402"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "00036"
+								}
+							]
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000105890559"
+						},
+						{
+							"id": "Ean",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8411244303055"
+								}
+							]
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "14"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0677492"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "GRANJA SAN TIMOTEO, S.L."
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "8411244303055"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010677492",
+									"id_Ext": "535857160",
+									"groupID": "666",
+									"idExt": "535857160"
+								},
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"value": "010677492",
+									"id_Ext": "535857160",
+									"groupID": "666",
+									"idExt": "535857160"
+								}
+							]
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "VA"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion3",
+							"type": "STRING",
+							"value": "EC"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "RG"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "RG"
+						},
+						{
+							"id": "Descripcion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "TIMOTEO"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "HUEVOS"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "ECOLOGICO"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "L GORDO"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "ESTUCHE"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "10"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "UD"
+								},
+								{
+									"id": "DescripcionTicketCodificacion",
+									"type": "STRING",
+									"value": "HUEVOS"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "725,0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5018840200036"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20040823_000000"
+						},
+						{
+							"id": "EnlacePUM",
+							"type": "LOOKUP_TABLE",
+							"value": "010",
+							"featureGroupID": "6618",
+							"id_Ext": "26853190",
+							"idExt": "26853190"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000010,000"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "12"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "12"
+						},
+						{
+							"id": "EmpresasDeReparto",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 0,
+							"value": "GLOVO",
+							"featureGroupID": "2670190",
+							"id_Ext": "1703248190",
+							"idExt": "1703248190"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "MercanciaGeneral",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tamano",
+							"type": "STRING",
+							"value": "ECOLOGICO"
+						},
+						{
+							"id": "Color",
+							"type": "STRING",
+							"value": "L GORDO"
+						},
+						{
+							"id": "Dibujo",
+							"type": "STRING",
+							"value": "ESTUCHE   10UD"
+						}
+					]
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"idExt": "26867190"
+								},
+								{
+									"id": "Temporal",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										},
+										{
+											"id": "Visible",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "110144101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "8411244303055",
+									"id_Ext": "451192159",
+									"groupID": "6636",
+									"idExt": "451192159"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8411244303055"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20040823_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "OrigenSostenible",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoOrigenSostenible",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 0,
+							"value": "008",
+							"featureGroupID": "2637190",
+							"id_Ext": "1290751190",
+							"idExt": "1290751190"
+						}
+					]
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "8560123",
+			"hierarchyId": "6809",
+			"categoryId": "010008",
+			"idExt": "8560123"
+		},
+		{
+			"id_Ext": "1928676115",
+			"hierarchyId": "6805",
+			"categoryId": "012644025",
+			"idExt": "1928676115"
+		},
+		{
+			"id_Ext": "8567123",
+			"hierarchyId": "6809",
+			"categoryId": "010015",
+			"idExt": "8567123"
+		},
+		{
+			"id_Ext": "4209113",
+			"hierarchyId": "6803",
+			"categoryId": "01188402",
+			"idExt": "4209113"
+		},
+		{
+			"id_Ext": "8578123",
+			"hierarchyId": "6809",
+			"categoryId": "010036",
+			"idExt": "8578123"
+		},
+		{
+			"id_Ext": "1067881123",
+			"hierarchyId": "6809",
+			"categoryId": "010714",
+			"idExt": "1067881123"
+		},
+		{
+			"id_Ext": "1089202119",
+			"hierarchyId": "6807",
+			"categoryId": "10100223310",
+			"idExt": "1089202119"
+		},
+		{
+			"id_Ext": "8600123",
+			"hierarchyId": "6809",
+			"categoryId": "010970",
+			"idExt": "8600123"
+		},
+		{
+			"id_Ext": "26836111",
+			"hierarchyId": "25402",
+			"categoryId": "0001",
+			"idExt": "26836111"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Alimentacion ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ActivarDocPropia",
+					"type": "FLAG",
+					"value": "false"
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"id_Ext": "1101441010006199",
+			"containerId": "6639",
+			"offerPrice": "5.79",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20240909",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018840200036   ",
+			"centerId": "0006",
+			"regularPrice": "5.79",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "1101441010006199"
+		},
+		{
+			"id_Ext": "1101441010008199",
+			"containerId": "6639",
+			"offerPrice": "5.79",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20240909",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018840200036   ",
+			"centerId": "0008",
+			"regularPrice": "5.79",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "1101441010008199"
+		},
+		{
+			"id_Ext": "1101441010015199",
+			"containerId": "6639",
+			"offerPrice": "5.79",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20240909",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018840200036   ",
+			"centerId": "0015",
+			"regularPrice": "5.79",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "1101441010015199"
+		},
+		{
+			"id_Ext": "1101441010036199",
+			"containerId": "6639",
+			"offerPrice": "5.79",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20240909",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018840200036   ",
+			"centerId": "0036",
+			"regularPrice": "5.79",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "1101441010036199"
+		},
+		{
+			"id_Ext": "1101441010713199",
+			"containerId": "6639",
+			"offerPrice": "5.79",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20240909",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018840200036   ",
+			"centerId": "0713",
+			"regularPrice": "5.79",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "1101441010713199"
+		},
+		{
+			"id_Ext": "1101441010714199",
+			"containerId": "6639",
+			"offerPrice": "5.79",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20240909",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018840200036   ",
+			"centerId": "0714",
+			"regularPrice": "5.79",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "1101441010714199"
+		},
+		{
+			"id_Ext": "1101441010970199",
+			"containerId": "6639",
+			"offerPrice": "5.79",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20240909",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018840200036   ",
+			"centerId": "0970",
+			"regularPrice": "5.79",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "1101441010970199"
+		}
+	],
+	"idExt": "110144101"
+}

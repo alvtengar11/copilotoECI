@@ -1,0 +1,1131 @@
+{
+	"idExt": "1188596101",
+	"coreAttribs": [
+		{
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0118425501071"
+				},
+				{
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"idExt": "26871190",
+							"featureGroupID": "6616",
+							"id_Ext": "26871190",
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "1"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Supermercado/Carnicería/Vacuno/Añojo"
+						}
+					],
+					"id": "Informacion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"idExt": "1189018190",
+							"featureGroupID": "6602",
+							"id_Ext": "1189018190",
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"value": "16993"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "BOS TAURUS"
+						},
+						{
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "añojo raza Sayaguesa filetes 1ª A"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Yearling Sayaguesa fillets 1A"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Einjähriges Sayaguesa-Filet vom Rind 1 A"
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "Anoll raça sayaguesa filets 1a A"
+								}
+							],
+							"id": "DescripcionVariedad",
+							"type": "STRING"
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "BOS TAURUS añojo raza Sayaguesa filetes 1ª A"
+						},
+						{
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							],
+							"id": "Temporal",
+							"type": "GROUPING"
+						},
+						{
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "RAZA SAYAGUES"
+								}
+							],
+							"id": "DescripcionTicket",
+							"type": "STRING"
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						}
+					],
+					"id": "Descripcion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"idExt": "47138190",
+							"featureGroupID": "6614",
+							"id_Ext": "47138190",
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "A"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso o Pieza"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20201228_115303"
+						}
+					],
+					"id": "Venta",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "024"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "40"
+						}
+					],
+					"id": "Ordenacion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201807/16/00118425501071____1__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201807/16/00118425501071____1__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201807/16/00118425501071____1__150x150.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201807/16/00118425501071____1__325x325.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201807/16/00118425501071____1__600x600.jpg"
+						},
+						{
+							"children": [
+								{
+									"id": "UrlTamVariablePrincipal",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201808/08/00118425501071____2__1x1.png"
+								},
+								{
+									"id": "UrlTamVariableGrande",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201808/08/00118425501071____2__380x380.png"
+								},
+								{
+									"id": "UrlTamVariableMediana",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201808/08/00118425501071____2__300x300.png"
+								},
+								{
+									"id": "UrlTamVariablePequena",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201808/08/00118425501071____2__200x200.png"
+								}
+							],
+							"id": "Mobile",
+							"type": "GROUPING"
+						}
+					],
+					"id": "Imagenes",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto de peso variable"
+								},
+								{
+									"idExt": "46907190",
+									"featureGroupID": "6604",
+									"id_Ext": "46907190",
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "al peso"
+								}
+							],
+							"id": "Tematico",
+							"type": "GROUPING"
+						},
+						{
+							"ocurrence": 1,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto refrigerado"
+								},
+								{
+									"idExt": "46914190",
+									"featureGroupID": "6604",
+									"id_Ext": "46914190",
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "refrigerado"
+								}
+							],
+							"id": "Tematico",
+							"type": "GROUPING"
+						}
+					],
+					"id": "Tematicos",
+					"type": "GROUPING"
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20180712_034803"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20210629_021055"
+				},
+				{
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20180722_034544"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						}
+					],
+					"id": "Publicacion",
+					"type": "GROUPING"
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"children": [
+						{
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "18425501071"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "184"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "255"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "01071"
+								}
+							],
+							"id": "Referencia",
+							"type": "GROUPING"
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000146946659"
+						},
+						{
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "2184255010712"
+								},
+								{
+									"ocurrence": 0,
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"value": "2184255010712"
+								}
+							],
+							"id": "Ean",
+							"type": "GROUPING"
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "14"
+						},
+						{
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0267179"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "INTEGRACION COMERCIAL VACUNO, S.A."
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "SAYA4"
+								},
+								{
+									"idExt": "506960160",
+									"id_Ext": "506960160",
+									"groupID": "666",
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010267179"
+								},
+								{
+									"idExt": "506960160",
+									"id_Ext": "506960160",
+									"groupID": "666",
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"value": "010267179"
+								}
+							],
+							"id": "Proveedor",
+							"type": "GROUPING"
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "BM"
+						},
+						{
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "BOS TAURUS"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "RAZA SAYAGUESA  FILETES 1ªA GR"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "FILETES 1ªA"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "RAZA SAYAGUESA"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "AL PESO"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "00001"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "KG"
+								}
+							],
+							"id": "Descripcion",
+							"type": "GROUPING"
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "1000.0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5018425501253"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20180711_000000"
+						},
+						{
+							"idExt": "26844190",
+							"featureGroupID": "6618",
+							"id_Ext": "26844190",
+							"id": "EnlacePUM",
+							"type": "LOOKUP_TABLE",
+							"value": "001"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000001,000"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "UnidadDeMedidaBase",
+							"type": "STRING",
+							"value": "UNI"
+						}
+					],
+					"id": "Codificacion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"id": "Serie",
+							"type": "STRING",
+							"value": "AÑOJO FILET.1ªA"
+						}
+					],
+					"id": "MercanciaGeneral",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"ocurrence": 0,
+							"children": [
+								{
+									"idExt": "26867190",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS"
+								},
+								{
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										}
+									],
+									"id": "Temporal",
+									"type": "GROUPING"
+								}
+							],
+							"id": "Regiones",
+							"type": "GROUPING"
+						}
+					],
+					"id": "Excepciones",
+					"type": "GROUPING"
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1188596101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EsAlcohol",
+					"type": "FLAG",
+					"value": "false"
+				}
+			],
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC"
+		}
+	],
+	"specificAttribs": [
+		{
+			"children": [
+				{
+					"id": "ActivarDocPropia",
+					"type": "FLAG",
+					"value": "false"
+				}
+			],
+			"id": "/Alimentacion ISS",
+			"type": "SPEC"
+		},
+		{
+			"children": [
+				{
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "TipoPreparacionEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "0002 - En filetes"
+						},
+						{
+							"idExt": "47079190",
+							"featureGroupID": "6608",
+							"id_Ext": "47079190",
+							"id": "TipoPreparacion",
+							"type": "LOOKUP_TABLE",
+							"value": "0002"
+						},
+						{
+							"idExt": "47138190",
+							"featureGroupID": "6614",
+							"id_Ext": "47138190",
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "A"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso o Pieza"
+						},
+						{
+							"id": "PesoPieza",
+							"type": "STRING",
+							"value": "130"
+						},
+						{
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Peso aproximado unidad 130 g"
+								}
+							],
+							"id": "LiteralDesc",
+							"type": "STRING"
+						}
+					],
+					"id": "Preparacion",
+					"type": "GROUPING"
+				}
+			],
+			"id": "/Perecederos Peninsula ISS",
+			"type": "SPEC"
+		}
+	],
+	"id_Ext": "1188596101",
+	"entryContainerID": "6639",
+	"link": [
+		{
+			"idExt": "1067904123",
+			"hierarchyId": "6809",
+			"id_Ext": "1067904123",
+			"categoryId": "010733"
+		},
+		{
+			"idExt": "26836111",
+			"hierarchyId": "25402",
+			"id_Ext": "26836111",
+			"categoryId": "0001"
+		},
+		{
+			"idExt": "1067895123",
+			"hierarchyId": "6809",
+			"id_Ext": "1067895123",
+			"categoryId": "010725"
+		},
+		{
+			"idExt": "1067878123",
+			"hierarchyId": "6809",
+			"id_Ext": "1067878123",
+			"categoryId": "010713"
+		},
+		{
+			"idExt": "1379119",
+			"hierarchyId": "6807",
+			"id_Ext": "1379119",
+			"categoryId": "10520055140"
+		},
+		{
+			"idExt": "1067903123",
+			"hierarchyId": "6809",
+			"id_Ext": "1067903123",
+			"categoryId": "010732"
+		},
+		{
+			"idExt": "1067884123",
+			"hierarchyId": "6809",
+			"id_Ext": "1067884123",
+			"categoryId": "010719"
+		},
+		{
+			"idExt": "1001002123",
+			"hierarchyId": "6809",
+			"id_Ext": "1001002123",
+			"categoryId": "010697"
+		},
+		{
+			"idExt": "1067875123",
+			"hierarchyId": "6809",
+			"id_Ext": "1067875123",
+			"categoryId": "010710"
+		},
+		{
+			"idExt": "8558123",
+			"hierarchyId": "6809",
+			"id_Ext": "8558123",
+			"categoryId": "010006"
+		},
+		{
+			"idExt": "8562123",
+			"hierarchyId": "6809",
+			"id_Ext": "8562123",
+			"categoryId": "010010"
+		},
+		{
+			"idExt": "8579123",
+			"hierarchyId": "6809",
+			"id_Ext": "8579123",
+			"categoryId": "010097"
+		},
+		{
+			"idExt": "8555123",
+			"hierarchyId": "6809",
+			"id_Ext": "8555123",
+			"categoryId": "010003"
+		},
+		{
+			"idExt": "1503023123",
+			"hierarchyId": "6809",
+			"id_Ext": "1503023123",
+			"categoryId": "010851"
+		},
+		{
+			"idExt": "8554123",
+			"hierarchyId": "6809",
+			"id_Ext": "8554123",
+			"categoryId": "010002"
+		},
+		{
+			"idExt": "8559123",
+			"hierarchyId": "6809",
+			"id_Ext": "8559123",
+			"categoryId": "010007"
+		},
+		{
+			"idExt": "8593123",
+			"hierarchyId": "6809",
+			"id_Ext": "8593123",
+			"categoryId": "010906"
+		},
+		{
+			"idExt": "8602123",
+			"hierarchyId": "6809",
+			"id_Ext": "8602123",
+			"categoryId": "010974"
+		},
+		{
+			"idExt": "1067871123",
+			"hierarchyId": "6809",
+			"id_Ext": "1067871123",
+			"categoryId": "010707"
+		},
+		{
+			"idExt": "3691113",
+			"hierarchyId": "6803",
+			"id_Ext": "3691113",
+			"categoryId": "01184255"
+		},
+		{
+			"idExt": "8572123",
+			"hierarchyId": "6809",
+			"id_Ext": "8572123",
+			"categoryId": "010021"
+		},
+		{
+			"idExt": "1067906123",
+			"hierarchyId": "6809",
+			"id_Ext": "1067906123",
+			"categoryId": "010735"
+		}
+	],
+	"id": "001018425501071   ",
+	"prices": [
+		{
+			"idExt": "11885961010010199",
+			"offerType": "00",
+			"centerId": "010010",
+			"offerPrice": "0000019,75",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000019,75",
+			"id_Ext": "11885961010010199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010697199",
+			"offerType": "00",
+			"centerId": "010697",
+			"offerPrice": "0000019,75",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000019,75",
+			"id_Ext": "11885961010697199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010732199",
+			"offerType": "00",
+			"centerId": "010732",
+			"offerPrice": "0000018,95",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000018,95",
+			"id_Ext": "11885961010732199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010735199",
+			"offerType": "00",
+			"centerId": "010735",
+			"offerPrice": "0000018,95",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000018,95",
+			"id_Ext": "11885961010735199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010851199",
+			"offerType": "00",
+			"centerId": "010851",
+			"offerPrice": "0000018,95",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000018,95",
+			"id_Ext": "11885961010851199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010002199",
+			"offerType": "00",
+			"centerId": "010002",
+			"offerPrice": "0000019,75",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000019,75",
+			"id_Ext": "11885961010002199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010003199",
+			"offerType": "00",
+			"centerId": "010003",
+			"offerPrice": "0000019,75",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000019,75",
+			"id_Ext": "11885961010003199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010006199",
+			"offerType": "00",
+			"centerId": "010006",
+			"offerPrice": "0000019,75",
+			"productId": "001018425501071   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000019,75",
+			"id_Ext": "11885961010006199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20181123"
+		},
+		{
+			"idExt": "11885961010007199",
+			"offerType": "00",
+			"centerId": "010007",
+			"offerPrice": "0000019,75",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000019,75",
+			"id_Ext": "11885961010007199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010021199",
+			"offerType": "00",
+			"centerId": "010021",
+			"offerPrice": "0000019,75",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000019,75",
+			"id_Ext": "11885961010021199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010097199",
+			"offerType": "00",
+			"centerId": "010097",
+			"offerPrice": "0000018,95",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000018,95",
+			"id_Ext": "11885961010097199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010707199",
+			"offerType": "00",
+			"centerId": "010707",
+			"offerPrice": "0000018,95",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000018,95",
+			"id_Ext": "11885961010707199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010710199",
+			"offerType": "00",
+			"centerId": "010710",
+			"offerPrice": "0000018,95",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000018,95",
+			"id_Ext": "11885961010710199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010713199",
+			"offerType": "00",
+			"centerId": "010713",
+			"offerPrice": "0000019,75",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000019,75",
+			"id_Ext": "11885961010713199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010719199",
+			"offerType": "00",
+			"centerId": "010719",
+			"offerPrice": "0000019,75",
+			"productId": "001018425501071   ",
+			"depublishEndDate": "20210626",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000019,75",
+			"id_Ext": "11885961010719199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010725199",
+			"offerType": "00",
+			"centerId": "010725",
+			"offerPrice": "0000018,95",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000018,95",
+			"id_Ext": "11885961010725199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010733199",
+			"offerType": "00",
+			"centerId": "010733",
+			"offerPrice": "0000019,75",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000019,75",
+			"id_Ext": "11885961010733199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010906199",
+			"offerType": "00",
+			"centerId": "010906",
+			"offerPrice": "0000019,75",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000019,75",
+			"id_Ext": "11885961010906199",
+			"containerId": "6639",
+			"delete": "false"
+		},
+		{
+			"idExt": "11885961010974199",
+			"offerType": "00",
+			"centerId": "010974",
+			"offerPrice": "0000019,75",
+			"productId": "001018425501071   ",
+			"avaliable": "false",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000019,75",
+			"id_Ext": "11885961010974199",
+			"containerId": "6639",
+			"delete": "false"
+		}
+	],
+	"movement": "MODIFIED"
+}

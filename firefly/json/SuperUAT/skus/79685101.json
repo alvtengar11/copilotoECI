@@ -1,0 +1,943 @@
+{
+	"id": "001018111400547   ",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0118111400547"
+				},
+				{
+					"id": "Informacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "1",
+							"idExt": "26871190",
+							"featureGroupID": "6616",
+							"id_Ext": "26871190"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Supermercado/Frutas y verduras/Frutas/Frutas tropicales y exóticas"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"value": "09424",
+							"idExt": "33405190",
+							"featureGroupID": "6602",
+							"id_Ext": "33405190"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "EUSKAL BASERRI"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "kiwi verde selección"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Select green kiwis"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Grüne Kiwis"
+								}
+							]
+						},
+						{
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"value": "AL PESO",
+							"idExt": "39911190",
+							"featureGroupID": "6612",
+							"id_Ext": "39911190"
+						},
+						{
+							"id": "PresentacionDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "al peso"
+						},
+						{
+							"id": "CodigoPresentacionHidden",
+							"type": "STRING",
+							"value": "AL PESO"
+						},
+						{
+							"id": "RestoDescripcion",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "(peso aproximado de la unidad 150 g)"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "(approximate weight 150 g each)"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "(Gewicht pro Stück ca. 150 g)"
+								}
+							]
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "EUSKAL BASERRI kiwi verde selección al peso (peso aproximado de la unidad 150 g)"
+						},
+						{
+							"id": "Temporal",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "KIWIS"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "KIWIS"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "A",
+							"idExt": "47138190",
+							"featureGroupID": "6614",
+							"id_Ext": "47138190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso o Pieza"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "PesoPieza",
+							"type": "STRING",
+							"value": "150"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20260213_150809"
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "187"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "05"
+						}
+					]
+				},
+				{
+					"id": "Imagenes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/26/00118111400547____1__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/26/00118111400547____1__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/26/00118111400547____1__150x150.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/26/00118111400547____1__325x325.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/26/00118111400547____1__600x600.jpg"
+						},
+						{
+							"id": "Imagen520x520Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/26/00118111400547____1__520x520.jpg"
+						},
+						{
+							"id": "Imagen520x640Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/26/00118111400547____1__520x640.jpg"
+						}
+					]
+				},
+				{
+					"id": "Tematicos",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tematico",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto de peso variable"
+								},
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "al peso",
+									"idExt": "46907190",
+									"featureGroupID": "6604",
+									"id_Ext": "46907190"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20070319_000000"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20230103_043351"
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Promocional"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "Promocional"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "IndicadorBloqueoPublicacionConceptosSAP",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Traduccion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataAutomatica",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "MetadataPrioridad",
+							"type": "STRING_ENUMERATION",
+							"value": "normal"
+						},
+						{
+							"id": "MetadataFechaRecepcion",
+							"type": "DATE",
+							"value": "20120315_213622"
+						}
+					]
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Referencia",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "18111400547"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "181"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "114"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "00547"
+								}
+							]
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000105805734"
+						},
+						{
+							"id": "Ean",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "2650811000003"
+								}
+							]
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "06"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0631556"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "GARITANO ROSALES, IMANOL"
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "EUSKAL BASERRI1"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010631556",
+									"idExt": "531386160",
+									"id_Ext": "531386160",
+									"groupID": "666"
+								},
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"value": "010631556",
+									"idExt": "531386160",
+									"id_Ext": "531386160",
+									"groupID": "666"
+								}
+							]
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "Descripcion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "EUSKAL BASERRI"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "KIWI TRADICIONAL EUSKAL BASERR"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "KIWIS"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "GRANEL TRAD"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "AL PESO"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "1"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "KG"
+								},
+								{
+									"id": "DescripcionTicketCodificacion",
+									"type": "STRING",
+									"value": "KIWIS"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "1000,0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5018111401321"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20070319_000000"
+						},
+						{
+							"id": "EnlacePUM",
+							"type": "LOOKUP_TABLE",
+							"value": "001",
+							"idExt": "26844190",
+							"featureGroupID": "6618",
+							"id_Ext": "26844190"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000001,000"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "MercanciaGeneral",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tamano",
+							"type": "STRING",
+							"value": "KIWIS"
+						},
+						{
+							"id": "Color",
+							"type": "STRING",
+							"value": "GRANEL TRAD"
+						},
+						{
+							"id": "Dibujo",
+							"type": "STRING",
+							"value": "AL PESO    1KG"
+						}
+					]
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS",
+									"idExt": "26867190",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190"
+								},
+								{
+									"id": "Temporal",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										},
+										{
+											"id": "Visible",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "79685101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6807",
+			"categoryId": "10500015004",
+			"idExt": "1310119",
+			"id_Ext": "1310119"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010913",
+			"idExt": "8596123",
+			"id_Ext": "8596123"
+		},
+		{
+			"hierarchyId": "6803",
+			"categoryId": "01181114",
+			"idExt": "3118113",
+			"id_Ext": "3118113"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010805",
+			"idExt": "1970289123",
+			"id_Ext": "1970289123"
+		},
+		{
+			"hierarchyId": "25402",
+			"categoryId": "0001",
+			"idExt": "26836111",
+			"id_Ext": "26836111"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Alimentacion ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ActivarDocPropia",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "InformacionGeneral",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Categoría: primera"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "/Perecederos Peninsula ISS",
+			"type": "SPEC",
+			"children": []
+		}
+	],
+	"prices": [
+		{
+			"containerId": "6639",
+			"offerPrice": "4.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20230520",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400547   ",
+			"centerId": "0003",
+			"regularPrice": "4.25",
+			"idExt": "796851010003199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "796851010003199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "4.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20230520",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400547   ",
+			"centerId": "0005",
+			"regularPrice": "4.25",
+			"idExt": "796851010005199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "796851010005199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "4.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20230520",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400547   ",
+			"centerId": "0006",
+			"regularPrice": "4.25",
+			"idExt": "796851010006199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "796851010006199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "4.09",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20230520",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400547   ",
+			"centerId": "0692",
+			"regularPrice": "4.09",
+			"idExt": "796851010692199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "796851010692199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "4.09",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20230520",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400547   ",
+			"centerId": "0713",
+			"regularPrice": "4.09",
+			"idExt": "796851010713199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "796851010713199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "4.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20230520",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400547   ",
+			"centerId": "0805",
+			"regularPrice": "4.25",
+			"idExt": "796851010805199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "796851010805199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "4.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20230520",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400547   ",
+			"centerId": "0913",
+			"regularPrice": "4.25",
+			"idExt": "796851010913199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "796851010913199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		}
+	],
+	"idExt": "79685101",
+	"id_Ext": "79685101",
+	"entryContainerID": "6639"
+}

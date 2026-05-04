@@ -1,0 +1,165 @@
+{
+	"idExt": "36221274011",
+	"coreAttribs": [
+		{
+			"children": [
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "36221274011"
+				},
+				{
+					"id": "Key",
+					"type": "STRING",
+					"value": "20200728023022"
+				},
+				{
+					"id": "KeyATG",
+					"type": "STRING",
+					"value": "1595939422"
+				},
+				{
+					"idExt": "348613090",
+					"featureGroupID": "1026",
+					"id_Ext": "348613090",
+					"id": "Type",
+					"type": "LOOKUP_TABLE",
+					"value": "N"
+				},
+				{
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Salud y Bienestar"
+						}
+					],
+					"id": "Description",
+					"type": "STRING"
+				},
+				{
+					"id": "StartDate",
+					"type": "DATE",
+					"value": "20200708_142900"
+				},
+				{
+					"id": "FinishDate",
+					"type": "DATE",
+					"value": "20250719_091400"
+				},
+				{
+					"id": "Sangrado",
+					"type": "STRING_ENUMERATION",
+					"value": "null"
+				},
+				{
+					"id": "DiasNovedad",
+					"type": "STRING_ENUMERATION",
+					"value": "15"
+				},
+				{
+					"id": "BestSellersExcluded",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"children": [
+						{
+							"id": "index",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "follow",
+							"type": "FLAG",
+							"value": "true"
+						}
+					],
+					"id": "SEO",
+					"type": "GROUPING"
+				},
+				{
+					"id": "TipoSite",
+					"type": "STRING_ENUMERATION",
+					"value": "Puntual"
+				},
+				{
+					"children": [
+						{
+							"id": "Prioridad",
+							"type": "INTEGER",
+							"value": "100"
+						}
+					],
+					"id": "LimpiezaCampanas",
+					"type": "GROUPING"
+				},
+				{
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "SiteC",
+							"type": "STRING_ENUMERATION",
+							"value": "ECI"
+						},
+						{
+							"id": "index",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "follow",
+							"type": "FLAG",
+							"value": "true"
+						}
+					],
+					"id": "SiteDeCampana",
+					"type": "GROUPING"
+				},
+				{
+					"ocurrence": 1,
+					"children": [
+						{
+							"id": "SiteC",
+							"type": "STRING_ENUMERATION",
+							"value": "Hipercor"
+						},
+						{
+							"ocurrence": 0,
+							"id": "Tienda",
+							"type": "STRING_ENUMERATION",
+							"value": "Libros"
+						},
+						{
+							"id": "index",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "follow",
+							"type": "FLAG",
+							"value": "true"
+						}
+					],
+					"id": "SiteDeCampana",
+					"type": "GROUPING"
+				}
+			],
+			"id": "/Campania_HPS",
+			"type": "SPEC"
+		}
+	],
+	"id_Ext": "36221274011",
+	"entryContainerID": "997",
+	"link": [
+		{
+			"idExt": "35195687011",
+			"hierarchyId": "997",
+			"id_Ext": "35195687011",
+			"categoryId": "20200522113137",
+			"order": "12"
+		}
+	],
+	"id": "20200728023022",
+	"movement": "MODIFIED"
+}

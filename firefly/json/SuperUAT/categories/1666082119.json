@@ -1,0 +1,113 @@
+{
+	"id": "10420068470",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "10420068470"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Pasta de dientes"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Pasta de dents"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Toothpaste"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Zahnpasta"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20251215_143356"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20220726_000000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "8470"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"idExt": "47143190",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "0001"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1666082119"
+				},
+				{
+					"id": "OrdenGlovo",
+					"type": "INTEGER",
+					"value": "1778"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6807",
+			"categoryId": "1042006",
+			"idExt": "1666081119",
+			"id_Ext": "1666081119"
+		}
+	],
+	"idExt": "1666082119",
+	"id_Ext": "1666082119",
+	"entryContainerID": "6807"
+}

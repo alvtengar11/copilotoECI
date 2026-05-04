@@ -1,0 +1,1023 @@
+{
+  "id_Ext": "391062159",
+  "id": "8410218162490",
+  "entryContainerID": "6636",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Variantes_CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Code",
+          "type": "STRING",
+          "value": "8410218162490"
+        },
+        {
+          "id": "EAN",
+          "type": "STRING",
+          "value": "8410218162490"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "391062159"
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaCreacion",
+              "type": "DATE",
+              "value": "20141113_000000"
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20141113_000000"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "specificAttribs": [
+    {
+      "id": "/Informacion_Alimentaria_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Gtin",
+          "type": "STRING",
+          "value": "08410218162490"
+        },
+        {
+          "id": "Mercado",
+          "type": "GROUPING",
+          "ocurrence": 0,
+          "children": [
+            {
+              "id": "MercadoObjetivo",
+              "type": "STRING",
+              "value": "724"
+            },
+            {
+              "id": "Basicos",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoMarca",
+                  "type": "STRING",
+                  "value": "APIS"
+                }
+              ]
+            },
+            {
+              "id": "DatosProducto",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "DenominacionAlimento",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Paté de hígado de cerdo"
+                    }
+                  ]
+                },
+                {
+                  "id": "Operador",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Nombre",
+                      "type": "STRING",
+                      "value": "CARNES Y VEGETALES, SL"
+                    },
+                    {
+                      "id": "Direccion",
+                      "type": "STRING",
+                      "value": "Pol. Ind. El Prado c/Sevilla P. 1 y 2 Mérida  (Badajoz) - ESPAÑA"
+                    }
+                  ]
+                },
+                {
+                  "id": "MarcasProducto",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "SignoE",
+                      "type": "FLAG",
+                      "value": "false"
+                    }
+                  ]
+                },
+                {
+                  "id": "Medidas",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "ContenidoNeto",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "240"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "GR",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387540190"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Alimentacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Alergenicos",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "DescripcionAlergenicos",
+                      "type": "STRING",
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "value": "Contiene Gluten y Leche"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AW",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386189190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "CONTAINS",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386174190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 1,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AM",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386184190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "CONTAINS",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386174190"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Ingredientes",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "DescripcionIngredientes",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Descripcion",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Hígado de cerdo, tocino de cerdo, carne de cerdo, agua, harina de trigo, proteínas de leche, sal, estabilizadores (E-451i, E-452ii), aromas, azúcar y conservador (E-250)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PatronResaltado",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "(57,em),(72,/em),(74,em),(92,/em)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "DescripcionResaltada",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Hígado de cerdo, tocino de cerdo, carne de cerdo, agua, #!#harina de trigo#!#, #!#proteínas de leche#!#, sal, estabilizadores (E-451i, E-452ii), aromas, azúcar y conservador (E-250)"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Hígado de cerdo"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 1,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Tocino de cerdo"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 2,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Carne de cerdo"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 3,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Agua"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 4,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Harina de trigo"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "true"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "5"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 5,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Proteínas de leche"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "true"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "6"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 6,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Sal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "7"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 7,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "E-451"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "8"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 8,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "452iii"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "9"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 9,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Aromas"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "10"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 10,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Azúcar"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "11"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 11,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "E-250"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "12"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Nutrientes",
+                  "type": "GROUPING",
+                  "ocurrence": 0,
+                  "children": [
+                    {
+                      "id": "EstadoPreparacion",
+                      "type": "LOOKUP_TABLE",
+                      "value": "UNPREPARED",
+                      "featureGroupID": "6652",
+                      "id_Ext": "387413190"
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "ENER-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387422190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "1324"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "KJO",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387561190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 1,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "ENERC",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387421190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "320"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "E14",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387527190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 2,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FAT",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387425190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "30"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 3,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FASAT",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387426190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "10"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 4,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "CHOAVL",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387416190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "1.6"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 5,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "SUGAR-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387447190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0.6"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 6,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "PRO-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387442190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "11"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 7,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "SALTEQ",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387444190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "1.6"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 8,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FE",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387427190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "5.7"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "ME",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387573190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "TamanoRacion",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "100"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "GR",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387540190"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Marketing",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "PropiedadesSaludables",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Descripcion",
+                      "type": "STRING",
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "ocurrence": 0,
+                          "value": "Fuente de hierro"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ProveedorInformacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Codigo",
+                  "type": "STRING",
+                  "value": "8410218000006"
+                },
+                {
+                  "id": "Descripcion",
+                  "type": "STRING",
+                  "value": "CARNES Y VEGETALES, S.L."
+                }
+              ]
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20201210_184244"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

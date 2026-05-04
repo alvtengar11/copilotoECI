@@ -1,0 +1,672 @@
+{
+	"id_Ext": "391895159",
+	"id": "8410099574030",
+	"entryContainerID": "6636",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Variantes_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Code",
+					"type": "STRING",
+					"value": "8410099574030"
+				},
+				{
+					"id": "EAN",
+					"type": "STRING",
+					"value": "8410099574030"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "391895159"
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaCreacion",
+							"type": "DATE",
+							"value": "20141113_000000"
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20141113_000000"
+						}
+					]
+				}
+			]
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Informacion_Alimentaria_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Gtin",
+					"type": "STRING",
+					"value": "08410099574030"
+				},
+				{
+					"id": "Mercado",
+					"type": "GROUPING",
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "MercadoObjetivo",
+							"type": "STRING",
+							"value": "724"
+						},
+						{
+							"id": "Basicos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarca",
+									"type": "STRING",
+									"value": "La Bella Easo"
+								}
+							]
+						},
+						{
+							"id": "DatosProducto",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "DenominacionAlimento",
+									"type": "STRING",
+									"children": [
+										{
+											"id": "es_ES",
+											"type": "STRING",
+											"value": "Producto de Bollería"
+										},
+										{
+											"id": "ca_ES",
+											"type": "STRING",
+											"value": "Producte de pastisseria"
+										}
+									]
+								},
+								{
+									"id": "Operador",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Nombre",
+											"type": "STRING",
+											"value": "Panrico, S.A.U."
+										},
+										{
+											"id": "Direccion",
+											"type": "STRING",
+											"value": "Carretera de Sabadell a Mollet, Km 4,3, 08130 Santa Perpetua de Mogoda, Barcelona"
+										}
+									]
+								},
+								{
+									"id": "MarcasProducto",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "MedioAmbiente",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "GREEN_DOT"
+												}
+											]
+										},
+										{
+											"id": "SignoE",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								},
+								{
+									"id": "Instrucciones",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "InstruccionesConsumidor",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Conservar en lugar fresco y seco. Consumir preferentemente antes del: ver fecha impresa en envase"
+												},
+												{
+													"id": "ca_ES",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Conservar en lloc fresc i sec. Consumiu-lo preferentment abans del: vegeu la data impresa a l'envàs"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Medidas",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "ContenidoNeto",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "240"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "Alimentacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Alergenicos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionAlergenicos",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"value": "trigo,cebada,centeno,avena,huevo,leche"
+												},
+												{
+													"id": "ca_ES",
+													"type": "STRING",
+													"value": "blat, ordi, sègol, civada, ou, llet"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Ingredientes",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionIngredientes",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Descripcion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Harinas (46%) (trigo, arroz, cebada, centeno, avena), agua, grasas y aceites vegetales (palma, girasol, coco), maltitol, levadura, emulgentes (mono y diglicéridos de los ácidos grasos (trigo), E 481 (trigo), E 472e (trigo), lecitina de girasol), huevo líquido pasteurizado (1,2%), leche desnatada en polvo (1,2%), sal, aromas, corrector de acidez (E 330), estabilizante (E 412)(trigo), gluten de trigo y edulcorante (aspartamo)."
+														}
+													]
+												},
+												{
+													"id": "PatronResaltado",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "(1,p),(16,em),(21,/em),(30,em),(36,/em),(38,em),(45,/em),(47,em),(52,/em),(186,em),(191,/em),(201,em),(206,/em),(217,em),(222,/em),(247,em),(252,/em),(282,em),(287,/em),(379,em),(384,/em),(397,em),(402,/em),(429,/p)"
+														}
+													]
+												},
+												{
+													"id": "DescripcionResaltada",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Harinas (46%) (#!#trigo#!#, arroz, #!#cebada#!#, #!#centeno#!#, #!#avena#!#), agua, grasas y aceites vegetales (palma, girasol, coco), maltitol, levadura, emulgentes (mono y diglicéridos de los ácidos grasos (#!#trigo#!#), E 481 (#!#trigo#!#), E 472e (#!#trigo#!#), lecitina de girasol), #!#huevo#!# líquido pasteurizado (1,2%), #!#leche#!# desnatada en polvo (1,2%), sal, aromas, corrector de acidez (E 330), estabilizante (E 412)(#!#trigo#!#), gluten de #!#trigo#!# y edulcorante (aspartamo)."
+														},
+														{
+															"id": "ca_ES",
+															"type": "STRING",
+															"value": "Farines (46%) (#!#blat#!#, arròs, #!#ordi#!#, #!#sègol#!#, #!#civada#!#), aigua, greixos i olis vegetals (palma, gira-sol, coco), maltitol, llevat, emulgents (monoglicèrids i diglicèrids d'àcids grassos (#!#blat#!#), E481 (#!#blat#!#), E472e (#!#blat#!#), lecitina de gira-sol), #!#ou#!# líquid pasteuritzat (1,2%), #!#llet#!# desnatada en pols (1,2%), sal, aromes, correctiu de l'acidesa (E330), estabilitzant (E412)(#!#blat#!#), gluten de #!#blat#!# i edulcorant (aspartam)."
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Nutrientes",
+									"type": "GROUPING",
+									"ocurrence": 0,
+									"children": [
+										{
+											"id": "EstadoPreparacion",
+											"type": "LOOKUP_TABLE",
+											"value": "PREPARED",
+											"featureGroupID": "6652",
+											"id_Ext": "387412190"
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 0,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "1904"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "KJO",
+															"featureGroupID": "6653",
+															"id_Ext": "387561190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 1,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "457"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "E14",
+															"featureGroupID": "6653",
+															"id_Ext": "387527190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 2,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FAT",
+													"featureGroupID": "6650",
+													"id_Ext": "387425190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "27"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 3,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FASAT",
+													"featureGroupID": "6650",
+													"id_Ext": "387426190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "12"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 4,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "CHOAVL",
+													"featureGroupID": "6650",
+													"id_Ext": "387416190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "39"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 5,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SUGAR-",
+													"featureGroupID": "6650",
+													"id_Ext": "387447190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "0.5"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 6,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FIBTG",
+													"featureGroupID": "6650",
+													"id_Ext": "387429190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "3.5"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 7,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "PRO-",
+													"featureGroupID": "6650",
+													"id_Ext": "387442190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "7.5"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 8,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SALTEQ",
+													"featureGroupID": "6650",
+													"id_Ext": "387444190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "1.01"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "TamanoRacion",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "100"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "ProveedorInformacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Codigo",
+									"type": "STRING",
+									"value": "8410489000002"
+								},
+								{
+									"id": "Descripcion",
+									"type": "STRING",
+									"value": "Bimbo Donuts Iberia"
+								}
+							]
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20220129_080147"
+						}
+					]
+				}
+			]
+		}
+	]
+}

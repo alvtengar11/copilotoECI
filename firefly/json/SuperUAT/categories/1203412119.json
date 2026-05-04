@@ -1,0 +1,113 @@
+{
+	"id_Ext": "1203412119",
+	"id": "10290068280",
+	"entryContainerID": "6807",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "10290068280"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Chorizo Ibérico envasado"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Xoriço ibèric envasat"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "packaged Iberian chorizo"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Chorizo vom Iberischen Schwein verpackt"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20250617_170801"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20180821_000000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "8280"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"idExt": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "0001"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1203412119"
+				},
+				{
+					"id": "OrdenGlovo",
+					"type": "INTEGER",
+					"value": "1113"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "1203407119",
+			"hierarchyId": "6807",
+			"categoryId": "1029006",
+			"idExt": "1203407119"
+		}
+	],
+	"idExt": "1203412119"
+}

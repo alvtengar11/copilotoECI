@@ -1,0 +1,1458 @@
+{
+	"id": "001013356100647   ",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0113356100647"
+				},
+				{
+					"id": "Informacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "2",
+							"idExt": "26872190",
+							"featureGroupID": "6616",
+							"id_Ext": "26872190"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Club del Gourmet"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Club del Gourmet/Bodega/Espumosos/Cava"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"value": "05298",
+							"idExt": "32050190",
+							"featureGroupID": "6602",
+							"id_Ext": "32050190"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "DOMINIO DE LA VEGA"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "cava brut nature reserva"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "cava brut nature reserva"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Cava Brut Nature Reserva"
+								}
+							]
+						},
+						{
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"value": "BOTELLA",
+							"idExt": "39923190",
+							"featureGroupID": "6612",
+							"id_Ext": "39923190"
+						},
+						{
+							"id": "PresentacionDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "botella"
+						},
+						{
+							"id": "CodigoPresentacionHidden",
+							"type": "STRING",
+							"value": "BOTELLA"
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "75"
+						},
+						{
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"value": "CL",
+							"idExt": "27991190",
+							"featureGroupID": "6610",
+							"id_Ext": "27991190"
+						},
+						{
+							"id": "FormatoDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "cl"
+						},
+						{
+							"id": "CodigoFormatoHidden",
+							"type": "STRING",
+							"value": "CL"
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "DOMINIO DE LA VEGA cava brut nature reserva botella 75 cl"
+						},
+						{
+							"id": "Temporal",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "CAVA BRUT"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "DRY CAVA"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"idExt": "47143190",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "U"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20260213_150516"
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "042"
+						}
+					]
+				},
+				{
+					"id": "Imagenes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/26/00113356100647____1__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/26/00113356100647____1__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/26/00113356100647____1__150x150.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/26/00113356100647____1__325x325.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201909/26/00113356100647____1__600x600.jpg"
+						}
+					]
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20030711_000000"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20250227_053851"
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20191210_003256"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "IndicadorBloqueoPublicacionConceptosSAP",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Traduccion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataAutomatica",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "MetadataPrioridad",
+							"type": "STRING_ENUMERATION",
+							"value": "normal"
+						},
+						{
+							"id": "MetadataFechaEnvio",
+							"type": "DATE",
+							"value": "20110227_222112"
+						},
+						{
+							"id": "MetadataFechaRecepcion",
+							"type": "DATE",
+							"value": "20130115_213543"
+						}
+					]
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Referencia",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "13356100647"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "133"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "561"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "00647"
+								}
+							]
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000105872088"
+						},
+						{
+							"id": "Ean",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8436022609013"
+								}
+							]
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "03"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0062000"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "DOMINIO DE LA VEGA, S.L."
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "8436022609013"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010062000",
+									"idExt": "488400160",
+									"id_Ext": "488400160",
+									"groupID": "666"
+								},
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"value": "010062000",
+									"idExt": "488400160",
+									"id_Ext": "488400160",
+									"groupID": "666"
+								}
+							]
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "80"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion3",
+							"type": "STRING",
+							"value": "MT"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "RG"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "RG"
+						},
+						{
+							"id": "Descripcion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "DOMINIO VEGA"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "CAVA BRUT NATURE RVA AUTHENTIQ"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "BRUT NATURE"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "RESERVA"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "BOTELLA"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "75"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "CL"
+								},
+								{
+									"id": "DescripcionTicketCodificacion",
+									"type": "STRING",
+									"value": "CAVA BRUT"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "0.0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5018729102063"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20030711_000000"
+						},
+						{
+							"id": "ReferenciaVinos",
+							"type": "STRING",
+							"value": "13356100647"
+						},
+						{
+							"id": "EnlacePUM",
+							"type": "LOOKUP_TABLE",
+							"value": "005",
+							"idExt": "26848190",
+							"featureGroupID": "6618",
+							"id_Ext": "26848190"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000075,000"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "6"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "6"
+						},
+						{
+							"id": "SeccionSAP",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "MercanciaGeneral",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tamano",
+							"type": "STRING",
+							"value": "BRUT NATURE"
+						},
+						{
+							"id": "Color",
+							"type": "STRING",
+							"value": "RESERVA"
+						},
+						{
+							"id": "Dibujo",
+							"type": "STRING",
+							"value": "BOTELLA   75CL"
+						}
+					]
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS",
+									"idExt": "26867190",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190"
+								},
+								{
+									"id": "Temporal",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										},
+										{
+											"id": "Visible",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "72915101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "8436022609013",
+									"idExt": "429583159",
+									"id_Ext": "429583159",
+									"groupID": "6636"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8436022609013"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20030711_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EsAlcohol",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6807",
+			"categoryId": "20240036530",
+			"idExt": "2424119",
+			"id_Ext": "2424119"
+		},
+		{
+			"hierarchyId": "25402",
+			"categoryId": "0002",
+			"idExt": "26837111",
+			"id_Ext": "26837111"
+		},
+		{
+			"hierarchyId": "6803",
+			"categoryId": "01133561",
+			"idExt": "2794113",
+			"id_Ext": "2794113"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Vinos ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "PaisEnum",
+					"type": "STRING_ENUMERATION",
+					"value": "España"
+				},
+				{
+					"id": "Crianza",
+					"type": "LOOKUP_TABLE",
+					"value": "00003",
+					"idExt": "27852190",
+					"featureGroupID": "25202",
+					"id_Ext": "27852190"
+				},
+				{
+					"id": "ZonaGeograficaEnum",
+					"type": "STRING_ENUMERATION",
+					"value": "Comunidad Valenciana"
+				},
+				{
+					"id": "TipoVino",
+					"type": "LOOKUP_TABLE",
+					"value": "00008",
+					"idExt": "47069190",
+					"featureGroupID": "25203",
+					"id_Ext": "47069190"
+				},
+				{
+					"id": "DenominacionEnum",
+					"type": "STRING_ENUMERATION",
+					"value": "Cava"
+				},
+				{
+					"id": "TipoVinoEnum",
+					"type": "STRING_ENUMERATION",
+					"value": "Vino Espumoso"
+				},
+				{
+					"id": "CrianzaEnum",
+					"type": "STRING_ENUMERATION",
+					"value": "Reserva"
+				},
+				{
+					"id": "DenominacionOrigen",
+					"type": "LOOKUP_TABLE",
+					"value": "00054",
+					"idExt": "27907190",
+					"featureGroupID": "25204",
+					"id_Ext": "27907190"
+				},
+				{
+					"id": "ZonaGeografica",
+					"type": "STRING",
+					"value": "00010"
+				},
+				{
+					"id": "TipoUva",
+					"type": "GROUPING",
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "TipoUva",
+							"type": "LOOKUP_TABLE",
+							"value": "00003",
+							"idExt": "46918190",
+							"featureGroupID": "25207",
+							"id_Ext": "46918190"
+						},
+						{
+							"id": "TipoUvaEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Chardonnay"
+						}
+					]
+				},
+				{
+					"id": "TipoUva",
+					"type": "GROUPING",
+					"ocurrence": 1,
+					"children": [
+						{
+							"id": "TipoUva",
+							"type": "LOOKUP_TABLE",
+							"value": "00010",
+							"idExt": "46925190",
+							"featureGroupID": "25207",
+							"id_Ext": "46925190"
+						},
+						{
+							"id": "TipoUvaEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Macabeo"
+						}
+					]
+				},
+				{
+					"id": "Bodega",
+					"type": "LOOKUP_TABLE",
+					"value": "00483",
+					"idExt": "27515190",
+					"featureGroupID": "25206",
+					"id_Ext": "27515190"
+				},
+				{
+					"id": "BodegaEnum",
+					"type": "STRING_ENUMERATION",
+					"value": "Dominio de la Vega"
+				},
+				{
+					"id": "NotaCata",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Light gold colour with slight greenish reflections, brilliant and transparent. Slow carbonic release in the form of small bubbles forming several rising strings. Highly complex aroma with hints of ripe fruit, citrus, white flower, smoke, nuts and bakery. It has an unctuous, creamy, fresh, pleasant mouthfeel, with balanced acidity and a lingering aroma."
+						},
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Color dorado pálido con pequeños reflejos verdosos, cristalino y transparente. Desprendimiento pausado del carbónico en forma de burbujas de tamaño reducido formando numerosas cadenas ascendentes. De gran complejidad aromática recuerda la fruta madura, cítricos, flor blanca, ahumado, frutos secos y panadería. En boca es untuosa, cremosa, fresca, agradable y de acidez equilibrada con aroma persistente."
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Color daurat pàl·lid amb petits reflexos verdosos, cristal·lí i transparent. Despreniment pausat del carbònic en forma de bombolles de mida reduïda que formen nombroses cadenes ascendents. De gran complexitat aromàtica, recorda fruita madura, cítrics, flor blanca, fumat, fruita seca i fleca. A la boca és untuós, cremós, fresc, agradable i d'acidesa equilibrada, amb aroma persistent."
+						}
+					]
+				},
+				{
+					"id": "TiempoCrianza",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TiempoBotella",
+							"type": "INTEGER",
+							"value": "24"
+						}
+					]
+				},
+				{
+					"id": "GraduacionAlcoholica",
+					"type": "NUMBER",
+					"value": "11.5"
+				},
+				{
+					"id": "Pais",
+					"type": "LOOKUP_TABLE",
+					"value": "00001",
+					"idExt": "39874190",
+					"featureGroupID": "28802",
+					"id_Ext": "39874190"
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0001",
+			"regularPrice": "22.50",
+			"idExt": "729151010001199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010001199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0002",
+			"regularPrice": "22.50",
+			"idExt": "729151010002199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010002199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0003",
+			"regularPrice": "22.50",
+			"idExt": "729151010003199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010003199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0004",
+			"regularPrice": "22.50",
+			"idExt": "729151010004199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010004199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0005",
+			"regularPrice": "22.50",
+			"idExt": "729151010005199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010005199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0006",
+			"regularPrice": "22.50",
+			"idExt": "729151010006199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010006199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0007",
+			"regularPrice": "22.50",
+			"idExt": "729151010007199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010007199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0008",
+			"regularPrice": "22.50",
+			"idExt": "729151010008199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010008199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0009",
+			"regularPrice": "22.50",
+			"idExt": "729151010009199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010009199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0010",
+			"regularPrice": "22.50",
+			"idExt": "729151010010199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010010199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191220",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0012",
+			"regularPrice": "22.50",
+			"idExt": "729151010012199",
+			"taxPercentage": "92",
+			"igic": "92",
+			"id_Ext": "729151010012199",
+			"TaxPercentage": "92",
+			"Igic": "92"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0013",
+			"regularPrice": "22.50",
+			"idExt": "729151010013199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010013199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0023",
+			"regularPrice": "22.50",
+			"idExt": "729151010023199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010023199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0036",
+			"regularPrice": "22.50",
+			"idExt": "729151010036199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010036199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191220",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0098",
+			"regularPrice": "22.50",
+			"idExt": "729151010098199",
+			"taxPercentage": "92",
+			"igic": "92",
+			"id_Ext": "729151010098199",
+			"TaxPercentage": "92",
+			"Igic": "92"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20240630",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0420",
+			"regularPrice": "22.50",
+			"idExt": "729151010420199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010420199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210903",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0692",
+			"regularPrice": "22.50",
+			"idExt": "729151010692199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010692199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20200901",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0713",
+			"regularPrice": "22.50",
+			"idExt": "729151010713199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010713199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20220308",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0719",
+			"regularPrice": "22.50",
+			"idExt": "729151010719199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010719199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20200901",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0733",
+			"regularPrice": "22.50",
+			"idExt": "729151010733199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010733199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0901",
+			"regularPrice": "22.50",
+			"idExt": "729151010901199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010901199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20191210",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0906",
+			"regularPrice": "22.50",
+			"idExt": "729151010906199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010906199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20240609",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0907",
+			"regularPrice": "22.50",
+			"idExt": "729151010907199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010907199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "22.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20200601",
+			"endDate": "20591210",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100647   ",
+			"centerId": "0920",
+			"regularPrice": "22.50",
+			"idExt": "729151010920199",
+			"taxPercentage": "02",
+			"igic": "02",
+			"id_Ext": "729151010920199",
+			"TaxPercentage": "02",
+			"Igic": "02"
+		}
+	],
+	"idExt": "72915101",
+	"id_Ext": "72915101",
+	"entryContainerID": "6639"
+}

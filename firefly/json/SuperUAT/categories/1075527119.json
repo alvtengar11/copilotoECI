@@ -1,0 +1,103 @@
+{
+	"id": "31690017084",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "31690017084"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Alimentación"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Alimentació"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Food"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Lebensmittel"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20251216_103440"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "7084"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"idExt": "47143190",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "9999"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1075527119"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6807",
+			"categoryId": "3169001",
+			"idExt": "1075280119",
+			"id_Ext": "1075280119"
+		}
+	],
+	"idExt": "1075527119",
+	"id_Ext": "1075527119",
+	"entryContainerID": "6807"
+}

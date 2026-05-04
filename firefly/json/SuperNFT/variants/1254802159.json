@@ -1,0 +1,806 @@
+{
+	"id_Ext": "1254802159",
+	"id": "8411273000710",
+	"entryContainerID": "6636",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Variantes_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Code",
+					"type": "STRING",
+					"value": "8411273000710"
+				},
+				{
+					"id": "EAN",
+					"type": "STRING",
+					"value": "8411273000710"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1254802159"
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaCreacion",
+							"type": "DATE",
+							"value": "20190209_000000"
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20190209_000000"
+						}
+					]
+				}
+			]
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Informacion_Alimentaria_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Gtin",
+					"type": "STRING",
+					"value": "08411273000710"
+				},
+				{
+					"id": "Mercado",
+					"type": "GROUPING",
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "MercadoObjetivo",
+							"type": "STRING",
+							"value": "724"
+						},
+						{
+							"id": "Basicos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarca",
+									"type": "STRING",
+									"value": "Chocolates Clavileño"
+								}
+							]
+						},
+						{
+							"id": "DatosProducto",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "DenominacionAlimento",
+									"type": "STRING",
+									"children": [
+										{
+											"id": "es_ES",
+											"type": "STRING",
+											"value": "Chocolate negro 72% cacao con naranja y edulcorantes."
+										}
+									]
+								},
+								{
+									"id": "Operador",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Nombre",
+											"type": "STRING",
+											"value": "HERMANOS LÓPEZ LLORET, S.A."
+										},
+										{
+											"id": "Direccion",
+											"type": "STRING",
+											"value": "Colón, 187. Apdo. 11 03570 Vilajoyosa (Alicante)"
+										}
+									]
+								},
+								{
+									"id": "Localizaciones",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "PaisOrigen",
+											"type": "LOOKUP_TABLE",
+											"ocurrence": 0,
+											"value": "724",
+											"featureGroupID": "6642",
+											"id_Ext": "386991190"
+										}
+									]
+								},
+								{
+									"id": "MarcasProducto",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "SignoE",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								},
+								{
+									"id": "Instrucciones",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "InstruccionesConsumidor",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Evitar cambios bruscos de temperatura. Conservar entre 14-21ºC. Conservar en lugar fresco, seco y sin olores."
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Medidas",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "ContenidoNeto",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "100"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "Alimentacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Alergenicos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionAlergenicos",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"value": "la,  edu,stevi"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Ingredientes",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionIngredientes",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Descripcion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Pasta de cacao, edulcorante: maltitol, manteca de  cacao, preparado de trozos de naranja: 10 % (puré concentrado de manzana, zumos  concentrados de manzana y naranja, fibra de cítricos, agente gelificante:  pectina, aroma natural de naranja), cacao desgrasado en polvo, edulcorante: lactitol, emulgente: lecitina de soja, aroma natural de vainilla,  edulcorante: glucósidos de esteviol (0,013%)."
+														}
+													]
+												},
+												{
+													"id": "PatronResaltado",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "(1,p),(346,em),(354,/em),(379,em),(384,/em),(396,/p)"
+														}
+													]
+												},
+												{
+													"id": "DescripcionResaltada",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Pasta de cacao, edulcorante: maltitol, manteca de  cacao, preparado de trozos de naranja: 10 % (puré concentrado de manzana, zumos  concentrados de manzana y naranja, fibra de cítricos, agente gelificante:  pectina, aroma natural de naranja), cacao desgrasado en polvo, edulcorante: lactitol, emulgente: lecitina de soja, aroma natural de vainil#!#la,  edu#!#lcorante: glucósidos de e#!#stevi#!#ol (0,013%)."
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": "MencionesObligatorias",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Mencion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Cacao 72% mínimo. Puede contener trazas de LECHE, ALMENDRAS, AVELLANAS y/o CACAHUETES. Contiene azúcares naturalmente presentes. Un consumo excesivo puede producir efectos laxantes."
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Nutrientes",
+									"type": "GROUPING",
+									"ocurrence": 0,
+									"children": [
+										{
+											"id": "EstadoPreparacion",
+											"type": "LOOKUP_TABLE",
+											"value": "PREPARED",
+											"featureGroupID": "6652",
+											"id_Ext": "387412190"
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 0,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "2094"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "KJO",
+															"featureGroupID": "6653",
+															"id_Ext": "387561190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 1,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "506"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "E14",
+															"featureGroupID": "6653",
+															"id_Ext": "387527190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 2,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FAT",
+													"featureGroupID": "6650",
+													"id_Ext": "387425190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "38"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 3,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FASAT",
+													"featureGroupID": "6650",
+													"id_Ext": "387426190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "23"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 4,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "CHOAVL",
+													"featureGroupID": "6650",
+													"id_Ext": "387416190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "39"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 5,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SUGAR-",
+													"featureGroupID": "6650",
+													"id_Ext": "387447190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "8.1"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 6,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "POLYL",
+													"featureGroupID": "6650",
+													"id_Ext": "387441190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "27"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 7,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "STARCH",
+													"featureGroupID": "6650",
+													"id_Ext": "387446190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "4.1"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 8,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FIBTG",
+													"featureGroupID": "6650",
+													"id_Ext": "387429190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "10"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 9,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "PRO-",
+													"featureGroupID": "6650",
+													"id_Ext": "387442190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "8.3"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 10,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SALTEQ",
+													"featureGroupID": "6650",
+													"id_Ext": "387444190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "0.03"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "TamRacionFamiliar",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"value": "Tamaño de referencia para 100 g"
+												}
+											]
+										},
+										{
+											"id": "TamanoRacion",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "100"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "NumRacionesPaquete",
+									"type": "STRING",
+									"value": "3"
+								}
+							]
+						},
+						{
+							"id": "Marketing",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoDeclaracionNutricional",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Descripcion",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Información nutricional 100g - Valor energético: 2112 kj/511 kcal, Grasas: 39 g, de las cuales saturadas: 24 g, hidratos de carbono: 38 g, de los cuales azúcares: 6,7 g, Proteínas: 8.3 g, sal: 0.03 g."
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "PropiedadesSaludables",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Descripcion",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Producto sin gluten, 0% azúcares añadidos con stevia."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "ProveedorInformacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Codigo",
+									"type": "STRING",
+									"value": "8411273000000"
+								},
+								{
+									"id": "Descripcion",
+									"type": "STRING",
+									"value": "Chocolates Clavileño"
+								}
+							]
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20211117_080216"
+						}
+					]
+				}
+			]
+		}
+	]
+}

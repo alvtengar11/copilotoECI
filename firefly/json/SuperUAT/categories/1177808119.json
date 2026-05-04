@@ -1,0 +1,108 @@
+{
+	"id": "20190046370",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "20190046370"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Cervezas"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Cerveses"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Beers"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Biere"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20260112_144058"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20011101_000000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "6370"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"idExt": "47143190",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "9999"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1177808119"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6807",
+			"categoryId": "2019004",
+			"idExt": "1177807119",
+			"id_Ext": "1177807119"
+		}
+	],
+	"idExt": "1177808119",
+	"id_Ext": "1177808119",
+	"entryContainerID": "6807"
+}

@@ -1,0 +1,109 @@
+{
+  "id_Ext": "5387012",
+  "id": "00068",
+  "entryContainerID": "998",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/ProductType_HPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "5387012"
+        },
+        {
+          "id": "Key",
+          "type": "STRING",
+          "value": "00068"
+        },
+        {
+          "id": "KeyATG",
+          "type": "STRING",
+          "value": "00068"
+        },
+        {
+          "id": "Description",
+          "type": "STRING",
+          "children": [
+            {
+              "id": "es_ES",
+              "type": "STRING",
+              "value": "Juguetes"
+            },
+            {
+              "id": "pt_PT",
+              "type": "STRING",
+              "value": "Brinquedos"
+            },
+            {
+              "id": "en_GB",
+              "type": "STRING",
+              "value": "Toys"
+            },
+            {
+              "id": "fr_FR",
+              "type": "STRING",
+              "value": "Jouets"
+            }
+          ]
+        },
+        {
+          "id": "Transporte",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "InStorePickUp",
+              "type": "LOOKUP_TABLE",
+              "value": "Recogida en tienda",
+              "featureGroupID": "400",
+              "id_Ext": "274969090"
+            },
+            {
+              "id": "Voluminoso",
+              "type": "LOOKUP_TABLE",
+              "value": "No voluminoso",
+              "featureGroupID": "401",
+              "id_Ext": "347190090"
+            },
+            {
+              "id": "EmpresaSTS",
+              "type": "STRING",
+              "ocurrence": 0,
+              "value": "OPENCOR"
+            },
+            {
+              "id": "EmpresaSTS",
+              "type": "STRING",
+              "ocurrence": 1,
+              "value": "SUPERCOR, S.A."
+            }
+          ]
+        },
+        {
+          "id": "Carteleria",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "RepositoryModificationControl",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "IdMensajeAnterior",
+          "type": "NUMBER",
+          "value": "654007526"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "id_Ext": "5386012",
+      "hierarchyId": "998",
+      "categoryId": "00067"
+    }
+  ]
+}

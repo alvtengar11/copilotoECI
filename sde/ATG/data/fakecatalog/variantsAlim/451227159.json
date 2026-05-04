@@ -1,0 +1,688 @@
+{
+	"id_Ext": "451227159",
+	"id": "8410762220035",
+	"entryContainerID": "6636",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Variantes_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Code",
+					"type": "STRING",
+					"value": "8410762220035"
+				},
+				{
+					"id": "EAN",
+					"type": "STRING",
+					"value": "8410762220035"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "451227159"
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaCreacion",
+							"type": "DATE",
+							"value": "20141123_000000"
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20141123_000000"
+						}
+					]
+				}
+			]
+		}
+	],
+	"link": [],
+	"specificAttribs": [
+		{
+			"id": "/Informacion_Alimentaria_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Gtin",
+					"type": "STRING",
+					"value": "08410762220035"
+				},
+				{
+					"id": "Mercado",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MercadoObjetivo",
+							"type": "STRING",
+							"value": "724"
+						},
+						{
+							"id": "Basicos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarca",
+									"type": "STRING",
+									"value": "CASA TARRADELLAS"
+								}
+							]
+						},
+						{
+							"id": "DatosProducto",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "DenominacionAlimento",
+									"type": "STRING",
+									"children": [
+										{
+											"id": "es_ES",
+											"type": "STRING",
+											"value": "Pizza Fresca Romana"
+										},
+										{
+											"id": "ca_ES",
+											"type": "STRING",
+											"value": "Pizza fresca romana"
+										}
+									]
+								},
+								{
+									"id": "Operador",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Nombre",
+											"type": "STRING",
+											"value": "CASA TARRADELLAS. S.A."
+										},
+										{
+											"id": "Direccion",
+											"type": "STRING",
+											"value": "Ctra. Puigcerdà. km.70 -  08503 GURB (Barcelona)"
+										}
+									]
+								},
+								{
+									"id": "MarcasProducto",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "SignoE",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								},
+								{
+									"id": "Instrucciones",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "InstruccionesConsumidor",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"ocurrence": 0,
+													"type": "STRING",
+													"value": "Manténgase entre 0°C y 5°C. Puede congelarse justo después de su compra"
+												},
+												{
+													"id": "ca_ES",
+													"ocurrence": 0,
+													"type": "STRING",
+													"value": "Mantingueu-la entre 0 i 5 °C. Es pot congelar després de comprar-la."
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Medidas",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "ContenidoNeto",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "410"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190",
+													"value": "GR"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "Alimentacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Alergenicos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionAlergenicos",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"value": "trigo,queso mozzarella,lactosa"
+												},
+												{
+													"id": "ca_ES",
+													"type": "STRING",
+													"value": "blat, formatge mozzarella, lactosa"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Ingredientes",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionIngredientes",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Descripcion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Harina de trigo. queso mozzarella (21%). jamón (14%). agua. tomate. champiñones salteados (6%). aceitunas (3%). aceite de girasol. especias. sal. lactosa. dextrosa. estabilizantes (trifosfato pentasódico. carragen). levadura. aroma. orégano. antioxidante (ascorbato sódico). conservador (nitrito sódico)."
+														}
+													]
+												},
+												{
+													"id": "PatronResaltado",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "(1,p),(11,em),(16,/em),(18,em),(34,/em),(147,em),(154,/em),(305,/p)"
+														}
+													]
+												},
+												{
+													"id": "DescripcionResaltada",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Harina de #!#trigo#!#. #!#queso mozzarella#!# (21%). jamón (14%). agua. tomate. champiñones salteados (6%). aceitunas (3%). aceite de girasol. especias. sal. #!#lactosa#!#. dextrosa. estabilizantes (trifosfato pentasódico. carragen). levadura. aroma. orégano. antioxidante (ascorbato sódico). conservador (nitrito sódico)."
+														},
+														{
+															"id": "ca_ES",
+															"type": "STRING",
+															"value": "Farina de #!#blat#!#. #!#formatge mozzarella#!# (21%), pernil (14%), aigua, tomàquet, xampinyons saltats (6%), olives (3%), oli de gira-sol, espècies, sal. #!#lactosa#!#, dextrosa, estabilitzants (trifosfat de pentasodi, carragahen), llevat, aroma, orenga, antioxidant (ascorbat de sodi), conservant (nitrit de sodi)."
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Nutrientes",
+									"ocurrence": 0,
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "EstadoPreparacion",
+											"type": "LOOKUP_TABLE",
+											"featureGroupID": "6652",
+											"id_Ext": "387412190",
+											"value": "PREPARED"
+										},
+										{
+											"id": "Nutriente",
+											"ocurrence": 0,
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190",
+													"value": "ENER-"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "894"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"featureGroupID": "6653",
+															"id_Ext": "387561190",
+															"value": "KJO"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"value": "APPROXIMATELY"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"ocurrence": 1,
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190",
+													"value": "ENER-"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "212"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"featureGroupID": "6653",
+															"id_Ext": "387527190",
+															"value": "E14"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"value": "APPROXIMATELY"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"ocurrence": 2,
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6650",
+													"id_Ext": "387425190",
+													"value": "FAT"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "6.6"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"value": "GR"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"value": "APPROXIMATELY"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"ocurrence": 3,
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6650",
+													"id_Ext": "387426190",
+													"value": "FASAT"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "3.3"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"value": "GR"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"value": "APPROXIMATELY"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"ocurrence": 4,
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6650",
+													"id_Ext": "387416190",
+													"value": "CHOAVL"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "26.5"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"value": "GR"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"value": "APPROXIMATELY"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"ocurrence": 5,
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6650",
+													"id_Ext": "387447190",
+													"value": "SUGAR-"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "4"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"value": "GR"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"value": "APPROXIMATELY"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"ocurrence": 6,
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6650",
+													"id_Ext": "387442190",
+													"value": "PRO-"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "11.7"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"value": "GR"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"value": "APPROXIMATELY"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"ocurrence": 7,
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6650",
+													"id_Ext": "387444190",
+													"value": "SALTEQ"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "1.7"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"value": "GR"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"value": "APPROXIMATELY"
+												}
+											]
+										},
+										{
+											"id": "CantDiariaRecomenda",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"value": "Ingesta de referencia de un adulto medio (8400 kJ/2000 kcal)"
+												},
+												{
+													"id": "ca_ES",
+													"type": "STRING",
+													"value": "Ingesta de referència d'un adult mitjà (8400 kJ / 2000 kcal)"
+												}
+											]
+										},
+										{
+											"id": "TamRacionFamiliar",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"value": "Tamaño de referencia 100g"
+												},
+												{
+													"id": "ca_ES",
+													"type": "STRING",
+													"value": "Mida de referència 100 g"
+												}
+											]
+										},
+										{
+											"id": "TamanoRacion",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "100"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190",
+													"value": "GR"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "InstruccionesPreparacion",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Preparacion",
+											"ocurrence": 0,
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Descripcion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "1 - Precalentar el horno a 220ºC. 2 - Retirar el envoltorio y colocar la pizza en la rejilla del horno a media altura. 3 - Cocerla durante 5-8 minutos."
+														},
+														{
+															"id": "ca_ES",
+															"type": "STRING",
+															"value": "1- Preescalfar el forn a 220 ºC. 2- Retirar l'embolcall i col·locar la pizza a la reixeta del forn a mitja altura. 3- Coure-la durant 5-8 minuts."
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "NumRacionesPaquete",
+									"type": "STRING",
+									"value": "3"
+								}
+							]
+						},
+						{
+							"id": "ProveedorInformacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Codigo",
+									"type": "STRING",
+									"value": "8410762000002"
+								},
+								{
+									"id": "Descripcion",
+									"type": "STRING",
+									"value": "Casa Tarradellas"
+								}
+							]
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20190228_080140"
+						}
+					]
+				}
+			]
+		}
+	]
+}

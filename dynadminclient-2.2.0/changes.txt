@@ -1,0 +1,15 @@
+2.2.0
+- new action --quiet, to silences output
+
+2.1.0
+- new action --backend-process, to invoke the ProcessFlowStatusManager to execute an action (launch | cancel | continue | skip | status) on a flow
+- new action --rest-api, to invoke a REST call on a nucleus component
+- new option --verbose
+- examples directory
+
+2.0.4
+- check jq library
+- embbeded jq (default 1.4 to support environment Linux's version - Linux version 2.6.39 Red Hat 4.1.2-52)
+
+2.0.3
+- set null value property for --change-property

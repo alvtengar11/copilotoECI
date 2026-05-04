@@ -1,0 +1,208 @@
+{
+  "id_Ext": "8573123",
+  "id": "010022",
+  "entryContainerID": "6809",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Surtido Jerarquia HPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Codigo",
+          "type": "STRING",
+          "value": "010022"
+        },
+        {
+          "id": "Descripcion",
+          "type": "STRING",
+          "children": [
+            {
+              "id": "es_ES",
+              "type": "STRING",
+              "value": "LEON"
+            }
+          ]
+        },
+        {
+          "id": "MetadataFechaModificacion",
+          "type": "DATE",
+          "value": "20230516_140656"
+        },
+        {
+          "id": "Centro",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Domicilio",
+              "type": "STRING",
+              "value": "FRAY LUIS DE LEON, 21"
+            },
+            {
+              "id": "Poblacion",
+              "type": "STRING",
+              "value": "LEON"
+            },
+            {
+              "id": "Provincia",
+              "type": "STRING",
+              "value": "LEON"
+            },
+            {
+              "id": "Telefono",
+              "type": "STRING",
+              "value": "987 263 100"
+            },
+            {
+              "id": "Gper",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Gourmet",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "Perecederos",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Publicacion",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "DepartamentoExcluido",
+              "type": "STRING",
+              "ocurrence": 0,
+              "value": "870"
+            },
+            {
+              "id": "Idiomas",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Idioma",
+                  "type": "GROUPING",
+                  "ocurrence": 0,
+                  "children": [
+                    {
+                      "id": "CodigoIdioma",
+                      "type": "LOOKUP_TABLE",
+                      "value": "es_ES",
+                      "featureGroupID": "6621",
+                      "id_Ext": "26842190"
+                    },
+                    {
+                      "id": "DescripcionIdiomaEnum",
+                      "type": "STRING_ENUMERATION",
+                      "value": "Castellano"
+                    },
+                    {
+                      "id": "IdiomaDefecto",
+                      "type": "FLAG",
+                      "value": "true"
+                    },
+                    {
+                      "id": "Publicado",
+                      "type": "FLAG",
+                      "value": "true"
+                    }
+                  ]
+                },
+                {
+                  "id": "Idioma",
+                  "type": "GROUPING",
+                  "ocurrence": 1,
+                  "children": [
+                    {
+                      "id": "CodigoIdioma",
+                      "type": "LOOKUP_TABLE",
+                      "value": "en_GB",
+                      "featureGroupID": "6621",
+                      "id_Ext": "26841190"
+                    },
+                    {
+                      "id": "DescripcionIdiomaEnum",
+                      "type": "STRING_ENUMERATION",
+                      "value": "Inglés"
+                    },
+                    {
+                      "id": "IdiomaDefecto",
+                      "type": "FLAG",
+                      "value": "false"
+                    },
+                    {
+                      "id": "Publicado",
+                      "type": "FLAG",
+                      "value": "true"
+                    }
+                  ]
+                },
+                {
+                  "id": "Idioma",
+                  "type": "GROUPING",
+                  "ocurrence": 2,
+                  "children": [
+                    {
+                      "id": "CodigoIdioma",
+                      "type": "LOOKUP_TABLE",
+                      "value": "de_DE",
+                      "featureGroupID": "6621",
+                      "id_Ext": "282477190"
+                    },
+                    {
+                      "id": "DescripcionIdiomaEnum",
+                      "type": "STRING_ENUMERATION",
+                      "value": "Alemán"
+                    },
+                    {
+                      "id": "IdiomaDefecto",
+                      "type": "FLAG",
+                      "value": "false"
+                    },
+                    {
+                      "id": "Publicado",
+                      "type": "FLAG",
+                      "value": "true"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnidadEmbalaje",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "AplicaUE",
+                  "type": "FLAG",
+                  "value": "true"
+                },
+                {
+                  "id": "FechaUE",
+                  "type": "DATE",
+                  "value": "20230503_181200"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "8573123"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "id_Ext": "8612123",
+      "hierarchyId": "6809",
+      "categoryId": "0122"
+    }
+  ]
+}

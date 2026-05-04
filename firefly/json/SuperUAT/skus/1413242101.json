@@ -1,0 +1,1329 @@
+{
+	"id": "001018812500298   ",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0118812500298"
+				},
+				{
+					"id": "Informacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "1",
+							"idExt": "26871190",
+							"featureGroupID": "6616",
+							"id_Ext": "26871190"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Supermercado/Pescadería/Ahumados, huevas y salazones/Ahumados y marinados"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"value": "17427",
+							"idExt": "276457190",
+							"featureGroupID": "6602",
+							"id_Ext": "276457190"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "AHUMADOS DOMINGUEZ"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "salmón ahumado Supreme precortado en lonchas"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Pre-sliced Supreme smoked salmon"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Räucherlachs Supreme vorgeschnitten in Scheiben"
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "Salmó fumat Supreme pretallat"
+								}
+							]
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "AHUMADOS DOMINGUEZ salmón ahumado Supreme precortado en lonchas"
+						},
+						{
+							"id": "Temporal",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "SALMON ENTERO"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "K",
+							"idExt": "47141190",
+							"featureGroupID": "6614",
+							"id_Ext": "47141190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "K"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20251209_131600"
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "014"
+						}
+					]
+				},
+				{
+					"id": "Imagenes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202011/25/00118812500298____4__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202011/25/00118812500298____4__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202011/25/00118812500298____4__150x150.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202011/25/00118812500298____4__325x325.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202011/25/00118812500298____4__600x600.jpg"
+						},
+						{
+							"id": "Imagen520x520Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202011/25/00118812500298____4__520x520.jpg"
+						},
+						{
+							"id": "Imagen1200x1200Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202011/25/00118812500298____4__1200x1200.jpg"
+						},
+						{
+							"id": "Secundarias",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "ImagenDiminutaUrl",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202410/21/00118812500298____5__40x40.jpg"
+								},
+								{
+									"id": "ImagenPequenaUrl",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202410/21/00118812500298____5__75x75.jpg"
+								},
+								{
+									"id": "ImagenMedianaUrl",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202410/21/00118812500298____5__150x150.jpg"
+								},
+								{
+									"id": "ImagenPrincipalUrl",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202410/21/00118812500298____5__325x325.jpg"
+								},
+								{
+									"id": "ImagenGrandeUrl",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202410/21/00118812500298____5__600x600.jpg"
+								},
+								{
+									"id": "Imagen520x520Url",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202410/21/00118812500298____5__520x520.jpg"
+								},
+								{
+									"id": "Imagen1200x1200Url",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202410/21/00118812500298____5__1200x1200.jpg"
+								},
+								{
+									"id": "Id",
+									"type": "STRING",
+									"value": "1"
+								}
+							]
+						},
+						{
+							"id": "Mobile",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UrlTamVariablePrincipal",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202011/25/00118812500298____3__1x1.png"
+								},
+								{
+									"id": "UrlTamVariableGrande",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202011/25/00118812500298____3__380x380.png"
+								},
+								{
+									"id": "UrlTamVariableMediana",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202011/25/00118812500298____3__300x300.png"
+								},
+								{
+									"id": "UrlTamVariablePequena",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202011/25/00118812500298____3__200x200.png"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Tematicos",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tematico",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto de peso variable"
+								},
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "al peso",
+									"idExt": "46907190",
+									"featureGroupID": "6604",
+									"id_Ext": "46907190"
+								}
+							]
+						},
+						{
+							"id": "Tematico",
+							"type": "GROUPING",
+							"ocurrence": 1,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto refrigerado"
+								},
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "refrigerado",
+									"idExt": "46914190",
+									"featureGroupID": "6604",
+									"id_Ext": "46914190"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20200512_040321"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20220218_020051"
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20201218_142235"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "IndicadorBloqueoPublicacionConceptosSAP",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Referencia",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "18812500298"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "188"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "125"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "00298"
+								}
+							]
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000150012319"
+						},
+						{
+							"id": "Ean",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8410662000102"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 0,
+									"value": "8410662000102"
+								}
+							]
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "00"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0263210"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "AHUMADOS DOMINGUEZ S A"
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "11812"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010263210",
+									"idExt": "506633160",
+									"id_Ext": "506633160",
+									"groupID": "666"
+								},
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"value": "010263210",
+									"idExt": "506633160",
+									"id_Ext": "506633160",
+									"groupID": "666"
+								}
+							]
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "MA"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "CodigoCalificacion6",
+							"type": "STRING",
+							"value": "ED"
+						},
+						{
+							"id": "Descripcion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "A. DOMINGUEZ"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "SALMON ENTERO SUPREME 2,500G A"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "SALMON ENTERO"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "SUPREME"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "AL PESO"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "2500"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "G"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "1062.0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5018812500280"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20200511_000000"
+						},
+						{
+							"id": "EnlacePUM",
+							"type": "LOOKUP_TABLE",
+							"value": "002",
+							"idExt": "26845190",
+							"featureGroupID": "6618",
+							"id_Ext": "26845190"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000000,000"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "000"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "5"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "5"
+						},
+						{
+							"id": "UnidadDeMedidaBase",
+							"type": "STRING",
+							"value": "UNI"
+						},
+						{
+							"id": "EmpresasDeReparto",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 0,
+							"value": "GLOVO",
+							"idExt": "1703248190",
+							"featureGroupID": "2670190",
+							"id_Ext": "1703248190"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "MercanciaGeneral",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Dibujo",
+							"type": "STRING",
+							"value": "AL PESO 2500G"
+						}
+					]
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS",
+									"idExt": "26867190",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190"
+								},
+								{
+									"id": "Temporal",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1413242101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "8410662000102",
+									"idExt": "420218159",
+									"id_Ext": "420218159",
+									"groupID": "6636"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8410662000102"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20200615_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EsAlcohol",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Intolerancias",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoIntolerancias",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 0,
+							"value": "SG",
+							"idExt": "1290820190",
+							"featureGroupID": "2636190",
+							"id_Ext": "1290820190"
+						},
+						{
+							"id": "CodigoIntolerancias",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 1,
+							"value": "SL",
+							"idExt": "1290821190",
+							"featureGroupID": "2636190",
+							"id_Ext": "1290821190"
+						},
+						{
+							"id": "CodigoIntolerancias",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 2,
+							"value": "SH",
+							"idExt": "1290819190",
+							"featureGroupID": "2636190",
+							"id_Ext": "1290819190"
+						}
+					]
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6805",
+			"categoryId": "012655601",
+			"idExt": "1983601115",
+			"id_Ext": "1983601115"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010005",
+			"idExt": "8557123",
+			"id_Ext": "8557123"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010733",
+			"idExt": "1067904123",
+			"id_Ext": "1067904123"
+		},
+		{
+			"hierarchyId": "6805",
+			"categoryId": "012654636",
+			"idExt": "1977503115",
+			"id_Ext": "1977503115"
+		},
+		{
+			"hierarchyId": "6805",
+			"categoryId": "012655602",
+			"idExt": "1983602115",
+			"id_Ext": "1983602115"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010013",
+			"idExt": "8565123",
+			"id_Ext": "8565123"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010992",
+			"idExt": "1743032123",
+			"id_Ext": "1743032123"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010713",
+			"idExt": "1067878123",
+			"id_Ext": "1067878123"
+		},
+		{
+			"hierarchyId": "6805",
+			"categoryId": "012655412",
+			"idExt": "1982023115",
+			"id_Ext": "1982023115"
+		},
+		{
+			"hierarchyId": "6807",
+			"categoryId": "10510098367",
+			"idExt": "1153119",
+			"id_Ext": "1153119"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010697",
+			"idExt": "1001002123",
+			"id_Ext": "1001002123"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010130",
+			"idExt": "1898843123",
+			"id_Ext": "1898843123"
+		},
+		{
+			"hierarchyId": "6805",
+			"categoryId": "012655413",
+			"idExt": "1982024115",
+			"id_Ext": "1982024115"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010003",
+			"idExt": "8555123",
+			"id_Ext": "8555123"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010006",
+			"idExt": "8558123",
+			"id_Ext": "8558123"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010719",
+			"idExt": "1067884123",
+			"id_Ext": "1067884123"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010012",
+			"idExt": "8564123",
+			"id_Ext": "8564123"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010707",
+			"idExt": "1067871123",
+			"id_Ext": "1067871123"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010002",
+			"idExt": "8554123",
+			"id_Ext": "8554123"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010007",
+			"idExt": "8559123",
+			"id_Ext": "8559123"
+		},
+		{
+			"hierarchyId": "6805",
+			"categoryId": "012654848",
+			"idExt": "1979067115",
+			"id_Ext": "1979067115"
+		},
+		{
+			"hierarchyId": "6809",
+			"categoryId": "010907",
+			"idExt": "8594123",
+			"id_Ext": "8594123"
+		},
+		{
+			"hierarchyId": "25402",
+			"categoryId": "0001",
+			"idExt": "26836111",
+			"id_Ext": "26836111"
+		},
+		{
+			"hierarchyId": "6803",
+			"categoryId": "01188125",
+			"idExt": "1203788113",
+			"id_Ext": "1203788113"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Alimentacion ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ActivarDocPropia",
+					"type": "FLAG",
+					"value": "false"
+				}
+			]
+		},
+		{
+			"id": "/Perecederos Peninsula ISS",
+			"type": "SPEC",
+			"children": []
+		}
+	],
+	"prices": [
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20251205",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0002",
+			"regularPrice": "102.99",
+			"idExt": "14132421010002199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010002199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20201218",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0003",
+			"regularPrice": "102.99",
+			"idExt": "14132421010003199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010003199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20221203",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0005",
+			"regularPrice": "102.99",
+			"idExt": "14132421010005199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010005199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20201218",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0006",
+			"regularPrice": "102.99",
+			"idExt": "14132421010006199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010006199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20201218",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0007",
+			"regularPrice": "102.99",
+			"idExt": "14132421010007199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010007199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "119.69",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20230710",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0012",
+			"regularPrice": "119.69",
+			"idExt": "14132421010012199",
+			"taxPercentage": "91",
+			"igic": "91",
+			"id_Ext": "14132421010012199",
+			"TaxPercentage": "91",
+			"Igic": "91"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20241130",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0013",
+			"regularPrice": "102.99",
+			"idExt": "14132421010013199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010013199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "false",
+			"startDate": "",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0130",
+			"regularPrice": "102.99",
+			"idExt": "14132421010130199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010130199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20201218",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0697",
+			"regularPrice": "102.99",
+			"idExt": "14132421010697199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010697199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20220408",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0707",
+			"regularPrice": "102.99",
+			"idExt": "14132421010707199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010707199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20201218",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0713",
+			"regularPrice": "102.99",
+			"idExt": "14132421010713199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010713199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20201218",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0719",
+			"regularPrice": "102.99",
+			"idExt": "14132421010719199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010719199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20201218",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0733",
+			"regularPrice": "102.99",
+			"idExt": "14132421010733199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010733199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20240604",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0907",
+			"regularPrice": "102.99",
+			"idExt": "14132421010907199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010907199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		},
+		{
+			"containerId": "6639",
+			"offerPrice": "102.99",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20230218",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018812500298   ",
+			"centerId": "0992",
+			"regularPrice": "102.99",
+			"idExt": "14132421010992199",
+			"taxPercentage": "01",
+			"igic": "01",
+			"id_Ext": "14132421010992199",
+			"TaxPercentage": "01",
+			"Igic": "01"
+		}
+	],
+	"idExt": "1413242101",
+	"id_Ext": "1413242101",
+	"entryContainerID": "6639"
+}

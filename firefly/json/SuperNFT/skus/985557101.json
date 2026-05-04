@@ -1,0 +1,769 @@
+{
+	"idExt": "985557101",
+	"coreAttribs": [
+		{
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0118313300255"
+				},
+				{
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"idExt": "26871190",
+							"featureGroupID": "6616",
+							"id_Ext": "26871190",
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "1"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Supermercado/Charcutería y quesos al corte/Embutidos frescos/Butifarra fresca"
+						}
+					],
+					"id": "Informacion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"idExt": "30926190",
+							"featureGroupID": "6602",
+							"id_Ext": "30926190",
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"value": "03738"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "AYALA"
+						},
+						{
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "butifarra blanca fresca de pascuaS"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Easter white butifarra sausage"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Weiße frische Oster-Butifarra"
+								}
+							],
+							"id": "DescripcionVariedad",
+							"type": "STRING"
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "AYALA butifarra blanca fresca de pascuaS"
+						},
+						{
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							],
+							"id": "Temporal",
+							"type": "GROUPING"
+						},
+						{
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "BUTIFARRA FRE"
+								}
+							],
+							"id": "DescripcionTicket",
+							"type": "STRING"
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						}
+					],
+					"id": "Descripcion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"idExt": "47141190",
+							"featureGroupID": "6614",
+							"id_Ext": "47141190",
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "K"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "K"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20210806_124125"
+						}
+					],
+					"id": "Venta",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "010"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "05"
+						}
+					],
+					"id": "Ordenacion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/31/00118313300255____1__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/31/00118313300255____1__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/31/00118313300255____1__150x150.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/31/00118313300255____1__325x325.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/31/00118313300255____1__600x600.jpg"
+						},
+						{
+							"children": [
+								{
+									"id": "UrlTamVariablePrincipal",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/31/00118313300255____5_.png"
+								},
+								{
+									"id": "UrlTamVariableGrande",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/31/00118313300255____2_.png"
+								},
+								{
+									"id": "UrlTamVariableMediana",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/31/00118313300255____4_.png"
+								},
+								{
+									"id": "UrlTamVariablePequena",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/31/00118313300255____3_.png"
+								}
+							],
+							"id": "Mobile",
+							"type": "GROUPING"
+						}
+					],
+					"id": "Imagenes",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto de peso variable"
+								},
+								{
+									"idExt": "46907190",
+									"featureGroupID": "6604",
+									"id_Ext": "46907190",
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "al peso"
+								}
+							],
+							"id": "Tematico",
+							"type": "GROUPING"
+						},
+						{
+							"ocurrence": 1,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto refrigerado"
+								},
+								{
+									"idExt": "46914190",
+									"featureGroupID": "6604",
+									"id_Ext": "46914190",
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "refrigerado"
+								}
+							],
+							"id": "Tematico",
+							"type": "GROUPING"
+						}
+					],
+					"id": "Tematicos",
+					"type": "GROUPING"
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20170131_025734"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20170403_120637"
+				},
+				{
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20170413_055217"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						}
+					],
+					"id": "Publicacion",
+					"type": "GROUPING"
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"children": [
+						{
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "18313300255"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "183"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "133"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "00255"
+								}
+							],
+							"id": "Referencia",
+							"type": "GROUPING"
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000142997343"
+						},
+						{
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "2676636000004"
+								}
+							],
+							"id": "Ean",
+							"type": "GROUPING"
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "23"
+						},
+						{
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0261123"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "HIJOS DE ANTONIO AYALA, S.L."
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "2451000529288"
+								},
+								{
+									"idExt": "506464160",
+									"id_Ext": "506464160",
+									"groupID": "666",
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010261123"
+								},
+								{
+									"idExt": "506464160",
+									"id_Ext": "506464160",
+									"groupID": "666",
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"value": "010261123"
+								}
+							],
+							"id": "Proveedor",
+							"type": "GROUPING"
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "MU"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "VB"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "RG"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "RO"
+						},
+						{
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "AYALA"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "BUTIFARRA FRESCA AL PESO"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "BUTIFARRA BLANC"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "A DE PASCUA"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "GRANEL"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "00001"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "KG"
+								}
+							],
+							"id": "Descripcion",
+							"type": "GROUPING"
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "1.0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5018313300362"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20160530_000000"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000000,000"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "000"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "1"
+						}
+					],
+					"id": "Codificacion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"ocurrence": 0,
+							"children": [
+								{
+									"idExt": "26867190",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS"
+								},
+								{
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										}
+									],
+									"id": "Temporal",
+									"type": "GROUPING"
+								}
+							],
+							"id": "Regiones",
+							"type": "GROUPING"
+						}
+					],
+					"id": "Excepciones",
+					"type": "GROUPING"
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "985557101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				}
+			],
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC"
+		}
+	],
+	"specificAttribs": [
+		{
+			"children": [
+				{
+					"id": "ActivarDocPropia",
+					"type": "FLAG",
+					"value": "false"
+				}
+			],
+			"id": "/Alimentacion ISS",
+			"type": "SPEC"
+		}
+	],
+	"id_Ext": "985557101",
+	"entryContainerID": "6639",
+	"link": [
+		{
+			"idExt": "8561123",
+			"hierarchyId": "6809",
+			"id_Ext": "8561123",
+			"categoryId": "010009"
+		},
+		{
+			"idExt": "26836111",
+			"hierarchyId": "25402",
+			"id_Ext": "26836111",
+			"categoryId": "0001"
+		},
+		{
+			"idExt": "8577123",
+			"hierarchyId": "6809",
+			"id_Ext": "8577123",
+			"categoryId": "010029"
+		},
+		{
+			"idExt": "3419113",
+			"hierarchyId": "6803",
+			"id_Ext": "3419113",
+			"categoryId": "01183133"
+		},
+		{
+			"idExt": "1045119",
+			"hierarchyId": "6807",
+			"id_Ext": "1045119",
+			"categoryId": "10280068102"
+		}
+	],
+	"id": "001018313300255   ",
+	"prices": [
+		{
+			"idExt": "9855571010009199",
+			"offerType": "01",
+			"centerId": "010009",
+			"offerPrice": "0000009,25",
+			"productId": "001018313300255   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000009,25",
+			"id_Ext": "9855571010009199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20170413"
+		},
+		{
+			"idExt": "9855571010006199",
+			"offerType": "01",
+			"centerId": "010006",
+			"offerPrice": "0000009,25",
+			"productId": "001018313300255   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000009,25",
+			"id_Ext": "9855571010006199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20170413"
+		},
+		{
+			"idExt": "9855571010020199",
+			"offerType": "01",
+			"centerId": "010020",
+			"offerPrice": "0000009,25",
+			"productId": "001018313300255   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000009,25",
+			"id_Ext": "9855571010020199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20170413"
+		},
+		{
+			"idExt": "9855571010098199",
+			"offerType": "01",
+			"centerId": "010098",
+			"offerPrice": "0000009,25",
+			"productId": "001018313300255   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000009,25",
+			"id_Ext": "9855571010098199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20170413"
+		},
+		{
+			"idExt": "9855571010725199",
+			"offerType": "01",
+			"centerId": "010725",
+			"offerPrice": "0000009,25",
+			"productId": "001018313300255   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000009,25",
+			"id_Ext": "9855571010725199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20170413"
+		},
+		{
+			"idExt": "9855571010029199",
+			"offerType": "00",
+			"centerId": "010029",
+			"offerPrice": "0000009,25",
+			"productId": "001018313300255   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000009,25",
+			"id_Ext": "9855571010029199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20170413"
+		}
+	],
+	"movement": "MODIFIED"
+}

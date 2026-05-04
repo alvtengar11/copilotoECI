@@ -1,0 +1,83 @@
+{
+	"entity_related": {
+		"promotion": "",
+		"subpromotion": "",
+		"promotional_action": "23505465",
+		"promotional_subaction": "0001",
+		"action_subactions": [
+			{
+				"action_subaction_id": "235054650001"
+			}
+		],
+		"type": "D1",
+		"level": "3",
+		"level_name": "PROMOS VARIAS",
+		"priority": "5",
+		"is_search_filter": false
+	},
+	"start_date": "20250328",
+	"end_date": "20401231",
+	"start_time": "1133",
+	"end_time": "2359",
+	"identifier": "20221",
+	"is_hidden_action_app": false,
+	"is_visible_action_app": false,
+	"recipients": [
+		{
+			"identifier": "SPC"
+		}
+	],
+	"categories": [
+		{
+			"name": "Supermercado",
+			"identifier": "1"
+		}
+	],
+	"rules": [],
+	"collectives": [],
+	"content_spots": [
+		{
+			"identifier": "4103",
+			"position": "IMAGEN JPG",
+			"collection_spot": "promotions.image_urls.big",
+			"type": "Imagen",
+			"in_language": "ES",
+			"description": "https://dam.elcorteingles.es/marketing/campana/2022/0010101192260/23505465.jpg",
+			"tag": "promo_image_jpg",
+			"zone_rules": []
+		},
+		{
+			"identifier": "650",
+			"position": "TITULO",
+			"collection_spot": "",
+			"type": "Texto",
+			"in_language": "ES",
+			"description": "esto es una prueba",
+			"tag": "promo_title",
+			"zone_rules": [
+				{
+					"identifier": "97100",
+					"type": "DESTINO"
+				},
+				{
+					"identifier": "97101",
+					"type": "DESTINO"
+				},
+				{
+					"identifier": "97102",
+					"type": "DESTINO"
+				}
+			]
+		},
+		{
+			"identifier": "4102",
+			"position": "IMAGEN SVG",
+			"collection_spot": "promotions.image_urls.medium",
+			"type": "Imagen",
+			"in_language": "ES",
+			"description": "https://dam.elcorteingles.es/marketing/campana/2022/0010101192260/23505465.svg",
+			"tag": "promo_image_svg",
+			"zone_rules": []
+		}
+	]
+}

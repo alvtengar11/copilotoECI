@@ -1,0 +1,190 @@
+{
+	"promotion": {
+		"identifier": "0010101192260",
+		"detail": {
+			"name": "PROMOS VARIAS",
+			"origin": "1",
+			"program": "",
+			"start_date": "20220221",
+			"end_date": "20401231",
+			"marketing_campaing": {
+				"identifier": "45762",
+				"description": "ACUERDOS INSTITUCIONALES DIGITALES OI 2021- 2022"
+			}
+		},
+		"promotional_action": {
+			"identifier": "23505465",
+			"detail": {
+				"type": "PE",
+				"start_date": "2025-03-28T11:10:00",
+				"end_date": "2040-12-31T23:59:00",
+				"purpose": "7",
+				"name": "PROMOS VARIAS",
+				"description": "PROMOS VARIAS",
+				"accounting": "00",
+				"reason": null
+			},
+			"business_lines": [
+				{
+					"identifier": "0000",
+					"company": {
+						"identifier": "023"
+					}
+				},
+				{
+					"identifier": "0000",
+					"company": {
+						"identifier": "003"
+					}
+				},
+				{
+					"identifier": "0000",
+					"company": {
+						"identifier": "008"
+					}
+				},
+				{
+					"identifier": "0000",
+					"company": {
+						"identifier": "005"
+					}
+				},
+				{
+					"identifier": "0000",
+					"company": {
+						"identifier": "001"
+					}
+				},
+				{
+					"identifier": "0000",
+					"company": {
+						"identifier": "004"
+					}
+				},
+				{
+					"identifier": "0000",
+					"company": {
+						"identifier": "002"
+					}
+				}
+			],
+			"channels": [
+				{
+					"identifier": "000",
+					"subchannel": {
+						"identifier": "0000"
+					}
+				}
+			],
+			"centers": [
+				{
+					"company": {
+						"identifier": "001"
+					},
+					"center": {
+						"identifier": "0090"
+					},
+					"ineligible_actions": null,
+					"marketing_centers": [
+						{
+							"brand_company_code": "001",
+							"marketing_center_code": "0090",
+							"start_date": "2025-03-29T00:00:00",
+							"end_date": "2040-12-31T23:59:00"
+						}
+					]
+				}
+			],
+			"promotional_subaction": {
+				"identifier": "0001",
+				"detail": {
+					"type": "D1",
+					"start_happy_hour": "0000",
+					"end_happy_hour": "2359",
+					"min_value": 0,
+					"is_refund": false,
+					"is_sale_in_process": true,
+					"is_refund_sale_in_process": false,
+					"periodicity": null,
+					"periodicity_days": null,
+					"min_products": 0,
+					"differents_products": 0,
+					"offer_type": "02",
+					"priority": 1999,
+					"range_type": "0",
+					"is_physical_labeling": false,
+					"is_digital_labeling": false,
+					"is_printed": false,
+					"is_in_point_of_sale": true,
+					"is_in_promotional_engine": true,
+					"is_special": false,
+					"collectives_relation": "0",
+					"rules_relation": "0",
+					"has_collective_levels": false,
+					"bonus": {
+						"type": "1",
+						"value": 10000,
+						"destiny": "01",
+						"calculation_stage": "2",
+						"max_value": 0
+					},
+					"promotion_wallet": null,
+					"descriptions": [
+						{
+							"language": "ES",
+							"short_description": "prueba",
+							"long_description": "prueba"
+						}
+					],
+					"rounding": null,
+					"deferred_promotion": null,
+					"financial_promotion": null
+				},
+				"collectives": null,
+				"rules": null,
+				"incompatibilities": null,
+				"ranges": null,
+				"promotional_commodities_groups": [
+					{
+						"identifier": "000",
+						"detail": {
+							"quantifier_type": "1",
+							"quantifier": 0,
+							"is_gift_commodity": false,
+							"is_inclusive": true,
+							"name": "prueba comprada",
+							"description": "prueba comprada",
+							"is_partial_compliance": false,
+							"numerator": 1,
+							"denominator": 1,
+							"unit_measurement": "1",
+							"bonus_tolerance": 0,
+							"quantification_tolerance": 0,
+							"is_trigger": false,
+							"is_bonus_receiver": true
+						}
+					},
+					{
+						"identifier": "001",
+						"detail": {
+							"quantifier_type": "1",
+							"quantifier": 0,
+							"is_gift_commodity": true,
+							"is_inclusive": true,
+							"name": "prueba regalada",
+							"description": "prueba regalada",
+							"is_partial_compliance": false,
+							"numerator": 1,
+							"denominator": 1,
+							"unit_measurement": "1",
+							"bonus_tolerance": 0,
+							"quantification_tolerance": 0,
+							"is_trigger": false,
+							"is_bonus_receiver": true
+						}
+					}
+				]
+			}
+		}
+	}
+}

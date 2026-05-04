@@ -1,0 +1,663 @@
+{
+	"id_Ext": "126046101",
+	"id": "001028023200018",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PUM",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UnidadesProducto",
+									"type": "STRING",
+									"value": "001"
+								},
+								{
+									"id": "EnlacePUM",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6618",
+									"id_Ext": "26855190",
+									"value": "012"
+								},
+								{
+									"id": "CantidadProducto",
+									"type": "NUMBER",
+									"value": "01500.000"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/00/01/8/0128023200018/0128023200018000q01011.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/00/01/8/0128023200018/0128023200018000g01011.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/00/01/8/0128023200018/0128023200018000m01011.jpg"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "06"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "0I"
+						},
+						{
+							"id": "Calificacion3",
+							"type": "STRING",
+							"value": "SC"
+						},
+						{
+							"id": "Calificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "A"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MarcaMostradaEnWeb",
+							"type": "RELATIONSHIP",
+							"groupID": "6602",
+							"id_Ext": "30128190",
+							"value": "02662"
+						},
+						{
+							"id": "Fabricante",
+							"type": "RELATIONSHIP",
+							"groupID": "666",
+							"id_Ext": "500522160",
+							"value": "010183830"
+						},
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0183830"
+						},
+						{
+							"id": "Marca",
+							"type": "STRING",
+							"value": "ALBAL"
+						},
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "COFRESCO IBERICA, S.A."
+						}
+					]
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000105941486"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "SUP"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"value": "ALBAL film 2 en 1 conservación y microondas rollo 15 m"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": " "
+						},
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "01"
+						},
+						{
+							"id": "EanGtin",
+							"type": "STRING",
+							"value": "4008871201836"
+						}
+					]
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"ocurrence": 1,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20110919_000000"
+								},
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"groupID": "6636",
+									"id_Ext": "468662159",
+									"value": "4008871201836"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "4008871201836"
+								}
+							]
+						},
+						{
+							"id": "EanVariante",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"groupID": "6636",
+									"id_Ext": "431697159",
+									"value": "4008871701503"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "false"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20030823_000000"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "4008871701503"
+								}
+							]
+						},
+						{
+							"id": "EanVariante",
+							"ocurrence": 2,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "false"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "19990120_000000"
+								},
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"groupID": "6636",
+									"id_Ext": "479202159",
+									"value": "3025930008107"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "3025930008107"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTipoPiel",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosFormatos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTamanos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "B001028023200018"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "401",
+							"id_Ext": "347190090",
+							"value": "No voluminoso"
+						},
+						{
+							"id": "SusceptibleDeEnvolver",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "InStorePickUp",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "400",
+							"id_Ext": "274969090",
+							"value": "Recogida en tienda"
+						},
+						{
+							"id": "DeliveryPoint",
+							"type": "STRING_ENUMERATION",
+							"value": "C"
+						},
+						{
+							"id": "EntregaDomicilio",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "126046101"
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001028023200018   "
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "1269119",
+			"hierarchyId": "6807",
+			"categoryId": "10300139262"
+		},
+		{
+			"id_Ext": "4939113",
+			"hierarchyId": "6803",
+			"categoryId": "01280232"
+		},
+		{
+			"id_Ext": "24385031012",
+			"hierarchyId": "998",
+			"categoryId": "00326"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Supermercado_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"value": "CANARIAS"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Alimentacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ActivarDocPropia",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"value": "U"
+						},
+						{
+							"id": "PesoPieza",
+							"type": "STRING",
+							"value": "15"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "No Publicar"
+						},
+						{
+							"id": "Excepciones",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Region",
+									"ocurrence": 0,
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "PublicadoEnum",
+											"type": "STRING_ENUMERATION",
+											"value": "No Publicar"
+										},
+										{
+											"id": "CodigoRegion",
+											"type": "LOOKUP_TABLE",
+											"featureGroupID": "6619",
+											"id_Ext": "26867190",
+											"value": "CANARIAS"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "6024"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "24"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "001500,000"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"groupID": "666",
+									"id_Ext": "500522160",
+									"value": "010183830"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"groupID": "666",
+									"id_Ext": "500522160",
+									"value": "010183830"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "ALBAL"
+						},
+						{
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6612",
+							"id_Ext": "39951190",
+							"value": "ROLLO"
+						},
+						{
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6610",
+							"id_Ext": "27999190",
+							"value": "M"
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "15"
+						},
+						{
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6602",
+							"id_Ext": "30128190",
+							"value": "02662"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Folie 2 in 1 Frischhalten und Mikrowelle"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "film 2 in 1 conservation and microwave"
+								},
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "film 2 en 1 conservación y microondas"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "10"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "70"
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20170331_095149"
+						},
+						{
+							"id": "FechaDespublicacionWWW",
+							"type": "DATE",
+							"value": "29991230_000001"
+						}
+					]
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"productId": "001028023200018   ",
+			"centerId": "0012",
+			"regularPrice": "01.12",
+			"avaliable": "false",
+			"catalogPrice": "01.12"
+		},
+		{
+			"productId": "001028023200018   ",
+			"centerId": "0098",
+			"regularPrice": "01.12",
+			"avaliable": "true",
+			"startDate": "        ",
+			"catalogPrice": "01.12"
+		}
+	]
+}

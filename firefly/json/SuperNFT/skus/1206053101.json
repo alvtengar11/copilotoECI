@@ -1,0 +1,766 @@
+{
+  "coreAttribs": [
+    {
+      "children": [
+        {
+          "id": "Codigo",
+          "type": "STRING",
+          "value": "0118081202287"
+        },
+        {
+          "children": [
+            {
+              "id": "MetadataEstado",
+              "type": "STRING_ENUMERATION",
+              "value": "Revisado"
+            },
+            {
+              "featureGroupID": "6616",
+              "id_Ext": "26871190",
+              "id": "CodigoArea",
+              "type": "LOOKUP_TABLE",
+              "value": "1"
+            },
+            {
+              "id": "AreaDescripcion",
+              "type": "STRING",
+              "value": "Supermercado"
+            },
+            {
+              "id": "Reasignado",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CategoriaSupermercado",
+              "type": "STRING",
+              "value": "Supermercado/Congelados/Aves y carne congelada/Aves congeladas"
+            }
+          ],
+          "id": "Informacion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "featureGroupID": "6602",
+              "id_Ext": "258858190",
+              "id": "CodigoMarca",
+              "type": "LOOKUP_TABLE",
+              "value": "17219"
+            },
+            {
+              "id": "MarcaDescripcion",
+              "type": "STRING",
+              "value": "BUCHINGER"
+            },
+            {
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "filetes de pechuga de pollo congelado kosher"
+                },
+                {
+                  "id": "en_GB",
+                  "type": "STRING",
+                  "value": "Frozen kosher chicken breast fillets"
+                },
+                {
+                  "id": "de_DE",
+                  "type": "STRING",
+                  "value": "Hühnerbrustfilet tiefgekühlt koscher"
+                },
+                {
+                  "id": "ca_ES",
+                  "type": "STRING",
+                  "value": "Filets de pit de pollastre congelats caixer"
+                }
+              ],
+              "id": "DescripcionVariedad",
+              "type": "STRING"
+            },
+            {
+              "featureGroupID": "6612",
+              "id_Ext": "39914190",
+              "id": "CodigoPresentacion",
+              "type": "LOOKUP_TABLE",
+              "value": "BANDEJA"
+            },
+            {
+              "id": "PresentacionDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "bandeja"
+            },
+            {
+              "id": "CodigoPresentacionHidden",
+              "type": "STRING",
+              "value": "BANDEJA"
+            },
+            {
+              "id": "Cantidad",
+              "type": "STRING",
+              "value": "510"
+            },
+            {
+              "featureGroupID": "6610",
+              "id_Ext": "27995190",
+              "id": "CodigoFormato",
+              "type": "LOOKUP_TABLE",
+              "value": "G"
+            },
+            {
+              "id": "FormatoDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "g"
+            },
+            {
+              "id": "CodigoFormatoHidden",
+              "type": "STRING",
+              "value": "G"
+            },
+            {
+              "id": "DescripcionArticulo",
+              "type": "STRING",
+              "value": "BUCHINGER filetes de pechuga de pollo congelado kosher bandeja 510 g"
+            },
+            {
+              "children": [
+                {
+                  "id": "Visible",
+                  "type": "FLAG",
+                  "value": "true"
+                }
+              ],
+              "id": "Temporal",
+              "type": "GROUPING"
+            },
+            {
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "FILETE POLLO"
+                }
+              ],
+              "id": "DescripcionTicket",
+              "type": "STRING"
+            },
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ],
+          "id": "Descripcion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "featureGroupID": "6614",
+              "id_Ext": "47143190",
+              "id": "CodigoTipoVenta",
+              "type": "LOOKUP_TABLE",
+              "value": "U"
+            },
+            {
+              "id": "TipoVentaDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "Unidad"
+            },
+            {
+              "id": "CodigoTipoVentaHidden",
+              "type": "STRING",
+              "value": "U"
+            },
+            {
+              "id": "PesoPieza",
+              "type": "STRING",
+              "value": "510"
+            },
+            {
+              "id": "EsProductoAlCorte",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "UsuarioSalvadoAlCorte",
+              "type": "STRING",
+              "value": "PostProcesing"
+            },
+            {
+              "id": "FechaSalvadoAlCorte",
+              "type": "DATE",
+              "value": "20181008_162419"
+            }
+          ],
+          "id": "Venta",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "id": "OrdenacionMarca",
+              "type": "STRING",
+              "value": "012"
+            },
+            {
+              "id": "OrdenacionTamano",
+              "type": "STRING",
+              "value": "01"
+            }
+          ],
+          "id": "Ordenacion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "id": "ImagenDiminutaUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/04/00118081202287____2__40x40.jpg"
+            },
+            {
+              "id": "ImagenPequenaUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/04/00118081202287____2__75x75.jpg"
+            },
+            {
+              "id": "ImagenMedianaUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/04/00118081202287____2__150x150.jpg"
+            },
+            {
+              "id": "ImagenPrincipalUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/04/00118081202287____2__325x325.jpg"
+            },
+            {
+              "id": "ImagenGrandeUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/04/00118081202287____2__600x600.jpg"
+            },
+            {
+              "children": [
+                {
+                  "id": "UrlTamVariablePrincipal",
+                  "type": "IMAGE_URL",
+                  "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/04/00118081202287____1__1x1.png"
+                },
+                {
+                  "id": "UrlTamVariableGrande",
+                  "type": "IMAGE_URL",
+                  "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/04/00118081202287____1__380x380.png"
+                },
+                {
+                  "id": "UrlTamVariableMediana",
+                  "type": "IMAGE_URL",
+                  "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/04/00118081202287____1__300x300.png"
+                },
+                {
+                  "id": "UrlTamVariablePequena",
+                  "type": "IMAGE_URL",
+                  "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201810/04/00118081202287____1__200x200.png"
+                }
+              ],
+              "id": "Mobile",
+              "type": "GROUPING"
+            }
+          ],
+          "id": "Imagenes",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "CodigoEnum",
+                  "type": "STRING_ENUMERATION",
+                  "value": "Producto congelado"
+                },
+                {
+                  "featureGroupID": "6604",
+                  "id_Ext": "46904190",
+                  "id": "Codigo",
+                  "type": "LOOKUP_TABLE",
+                  "value": "Congelados"
+                }
+              ],
+              "id": "Tematico",
+              "type": "GROUPING"
+            }
+          ],
+          "id": "Tematicos",
+          "type": "GROUPING"
+        },
+        {
+          "id": "FechaAlta",
+          "type": "DATE",
+          "value": "20180901_023115"
+        },
+        {
+          "id": "MetadataFechaModificacion",
+          "type": "DATE",
+          "value": "20181018_235328"
+        },
+        {
+          "children": [
+            {
+              "id": "CodigoRegion",
+              "type": "STRING",
+              "value": "Supermercado Peninsula"
+            },
+            {
+              "id": "Promocion",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "Publicado",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PublicadoEnum",
+              "type": "STRING_ENUMERATION",
+              "value": "Promocional"
+            },
+            {
+              "id": "PublicadoCanarias",
+              "type": "STRING_ENUMERATION",
+              "value": "Promocional"
+            },
+            {
+              "id": "NoGestionCedial",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ],
+          "id": "Publicacion",
+          "type": "GROUPING"
+        },
+        {
+          "id": "MetadataPerecedero",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "CodigoReferencia",
+                  "type": "STRING",
+                  "value": "18081202287"
+                },
+                {
+                  "id": "CodigoUneco",
+                  "type": "STRING",
+                  "value": "180"
+                },
+                {
+                  "id": "CodigoFamilia",
+                  "type": "STRING",
+                  "value": "812"
+                },
+                {
+                  "id": "CodigoBarra",
+                  "type": "STRING",
+                  "value": "02287"
+                }
+              ],
+              "id": "Referencia",
+              "type": "GROUPING"
+            },
+            {
+              "id": "NumeroMaterialSAP",
+              "type": "STRING",
+              "value": "000000000105800850"
+            },
+            {
+              "children": [
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "3660771000028"
+                }
+              ],
+              "id": "Ean",
+              "type": "GROUPING"
+            },
+            {
+              "id": "TipoGestion",
+              "type": "STRING",
+              "value": "14"
+            },
+            {
+              "children": [
+                {
+                  "id": "CodigoProveedor",
+                  "type": "STRING",
+                  "value": "0466250"
+                },
+                {
+                  "id": "ProveedorDescripcion",
+                  "type": "STRING",
+                  "value": "IMPORTACIONES DELI KOSCHER, S.L."
+                },
+                {
+                  "id": "ReferenciaFabricante",
+                  "type": "STRING",
+                  "value": "3660771000028"
+                },
+                {
+                  "id_Ext": "618243160",
+                  "groupID": "666",
+                  "id": "Proveedor",
+                  "type": "RELATIONSHIP",
+                  "value": "010466250"
+                },
+                {
+                  "id_Ext": "618243160",
+                  "groupID": "666",
+                  "id": "Fabricante",
+                  "type": "RELATIONSHIP",
+                  "value": "010466250"
+                }
+              ],
+              "id": "Proveedor",
+              "type": "GROUPING"
+            },
+            {
+              "id": "CodigoCalificacion1",
+              "type": "STRING",
+              "value": "TK"
+            },
+            {
+              "id": "CodigoCalificacion2",
+              "type": "STRING",
+              "value": "TK"
+            },
+            {
+              "id": "CodigoCalificacion4",
+              "type": "STRING",
+              "value": "VV"
+            },
+            {
+              "id": "CodigoCalificacion5",
+              "type": "STRING",
+              "value": "TK"
+            },
+            {
+              "id": "CodigoCalificacion6",
+              "type": "STRING",
+              "value": "ED"
+            },
+            {
+              "children": [
+                {
+                  "id": "CodigoMarcaCodificacion",
+                  "type": "STRING",
+                  "value": "BUCHINGER"
+                },
+                {
+                  "id": "DescripcionArticuloCodificacion",
+                  "type": "STRING",
+                  "value": "PRODUCTO KOSHER (CONGELADOS)"
+                },
+                {
+                  "id": "Variedad1",
+                  "type": "STRING",
+                  "value": "FILETE DE"
+                },
+                {
+                  "id": "Variedad2",
+                  "type": "STRING",
+                  "value": "PECHUGA POLLO"
+                },
+                {
+                  "id": "PresentacionCodificacion",
+                  "type": "STRING",
+                  "value": "ENVASE"
+                },
+                {
+                  "id": "CantidadCodificacion",
+                  "type": "STRING",
+                  "value": "510"
+                },
+                {
+                  "id": "FormatoCodificacion",
+                  "type": "STRING",
+                  "value": "G"
+                }
+              ],
+              "id": "Descripcion",
+              "type": "GROUPING"
+            },
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PesoPiezaCodificacion",
+              "type": "STRING",
+              "value": "510.0"
+            },
+            {
+              "id": "Entorno",
+              "type": "STRING",
+              "value": "4"
+            },
+            {
+              "id": "CodigoCompraEmpresa",
+              "type": "STRING",
+              "value": "50"
+            },
+            {
+              "id": "CodigoCompraReferencia",
+              "type": "STRING",
+              "value": "5018081202253"
+            },
+            {
+              "id": "FechaAgenda",
+              "type": "DATE",
+              "value": "20100224_000000"
+            },
+            {
+              "featureGroupID": "6618",
+              "id_Ext": "26845190",
+              "id": "EnlacePUM",
+              "type": "LOOKUP_TABLE",
+              "value": "002"
+            },
+            {
+              "id": "IsMercanciaGeneral",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "GPER",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CantidadProducto",
+              "type": "STRING",
+              "value": "000510,000"
+            },
+            {
+              "id": "UnidadesProducto",
+              "type": "STRING",
+              "value": "001"
+            },
+            {
+              "id": "UnidadEmbalaje",
+              "type": "STRING",
+              "value": "1"
+            },
+            {
+              "id": "UnidadSurtido",
+              "type": "STRING",
+              "value": "1"
+            },
+            {
+              "id": "UnidadDeMedidaBase",
+              "type": "STRING",
+              "value": "UNI"
+            }
+          ],
+          "id": "Codificacion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "ocurrence": 0,
+              "children": [
+                {
+                  "featureGroupID": "6619",
+                  "id_Ext": "26867190",
+                  "id": "CodigoRegion",
+                  "type": "LOOKUP_TABLE",
+                  "value": "CANARIAS"
+                },
+                {
+                  "children": [
+                    {
+                      "id": "Anulacion",
+                      "type": "FLAG",
+                      "value": "true"
+                    }
+                  ],
+                  "id": "Temporal",
+                  "type": "GROUPING"
+                }
+              ],
+              "id": "Regiones",
+              "type": "GROUPING"
+            }
+          ],
+          "id": "Excepciones",
+          "type": "GROUPING"
+        },
+        {
+          "id": "Enviado",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "TipoDocumentacion",
+          "type": "STRING",
+          "value": "Gran Consumo"
+        },
+        {
+          "id": "IsInWorkFlow",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Filled",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "1206053101"
+        },
+        {
+          "id": "NumDiasCadGarantizadaRef",
+          "type": "INTEGER",
+          "value": "0"
+        },
+        {
+          "children": [
+            {
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id_Ext": "1206052159",
+                  "groupID": "6636",
+                  "id": "CodigoVariante",
+                  "type": "RELATIONSHIP",
+                  "value": "3660771000028"
+                },
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "3660771000028"
+                },
+                {
+                  "id": "FechaHastaEanPromocional",
+                  "type": "DATE",
+                  "value": "20180901_000000"
+                },
+                {
+                  "id": "EsEanCompraPrincipal",
+                  "type": "FLAG",
+                  "value": "true"
+                }
+              ],
+              "id": "EanVariante",
+              "type": "GROUPING"
+            }
+          ],
+          "id": "EansVariantes",
+          "type": "GROUPING"
+        },
+        {
+          "id": "Modificado",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "EciExpress",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "EsAlcohol",
+          "type": "FLAG",
+          "value": "false"
+        }
+      ],
+      "id": "/Supermercado Peninsula CPS",
+      "type": "SPEC"
+    }
+  ],
+  "specificAttribs": [
+    {
+      "children": [
+        {
+          "id": "ActivarDocPropia",
+          "type": "FLAG",
+          "value": "false"
+        }
+      ],
+      "id": "/Alimentacion ISS",
+      "type": "SPEC"
+    }
+  ],
+  "id_Ext": "1206053101",
+  "entryContainerID": "6639",
+  "link": [
+    {
+      "hierarchyId": "6807",
+      "id_Ext": "810807119",
+      "categoryId": "10090093543"
+    }
+  ],
+  "id": "001018081202287   ",
+  "prices": [
+    {
+      "offerType": "00",
+      "centerId": "010006",
+      "offerPrice": "0000014,25",
+      "productId": "001018081202287   ",
+      "avaliable": "false",
+      "applyGlobalDiscount": "false",
+      "id_Ext": "12060531010006199",
+      "regularPrice": "0000014,25",
+      "containerId": "6639",
+      "delete": "false"
+    },
+    {
+      "offerType": "00",
+      "centerId": "010007",
+      "offerPrice": "0000014,25",
+      "productId": "001018081202287   ",
+      "avaliable": "false",
+      "applyGlobalDiscount": "false",
+      "id_Ext": "12060531010007199",
+      "regularPrice": "0000014,25",
+      "containerId": "6639",
+      "delete": "false"
+    },
+    {
+      "offerType": "00",
+      "centerId": "010697",
+      "offerPrice": "0000014,25",
+      "productId": "001018081202287   ",
+      "avaliable": "false",
+      "applyGlobalDiscount": "false",
+      "id_Ext": "12060531010697199",
+      "regularPrice": "0000014,25",
+      "containerId": "6639",
+      "delete": "false"
+    },
+    {
+      "offerType": "00",
+      "centerId": "010733",
+      "offerPrice": "0000014,25",
+      "productId": "001018081202287   ",
+      "avaliable": "false",
+      "applyGlobalDiscount": "false",
+      "id_Ext": "12060531010733199",
+      "regularPrice": "0000014,25",
+      "containerId": "6639",
+      "delete": "false"
+    }
+  ],
+  "movement": "MODIFIED"
+}

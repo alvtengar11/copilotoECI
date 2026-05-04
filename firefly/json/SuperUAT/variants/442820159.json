@@ -1,0 +1,251 @@
+{
+  "id_Ext": "442820159",
+  "id": "8414637230884",
+  "entryContainerID": "6636",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Variantes_CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Code",
+          "type": "STRING",
+          "value": "8414637230884"
+        },
+        {
+          "id": "EAN",
+          "type": "STRING",
+          "value": "8414637230884"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "442820159"
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaCreacion",
+              "type": "DATE",
+              "value": "20141122_000000"
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20141122_000000"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "specificAttribs": [
+    {
+      "id": "/Informacion_Alimentaria_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Gtin",
+          "type": "STRING",
+          "value": "08414637230884"
+        },
+        {
+          "id": "Mercado",
+          "type": "GROUPING",
+          "ocurrence": 0,
+          "children": [
+            {
+              "id": "MercadoObjetivo",
+              "type": "STRING",
+              "value": "724"
+            },
+            {
+              "id": "Basicos",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoMarca",
+                  "type": "STRING",
+                  "value": "LOS SATAS"
+                }
+              ]
+            },
+            {
+              "id": "DatosProducto",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "DenominacionAlimento",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "CALABAZA PELADA"
+                    }
+                  ]
+                },
+                {
+                  "id": "Operador",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Nombre",
+                      "type": "STRING",
+                      "value": "AGRÍCOLAS PROMAVER S.L."
+                    },
+                    {
+                      "id": "Direccion",
+                      "type": "STRING",
+                      "value": "POLIGONO INDUSTRIAL SAN MARCOS. C/MORSE C/V C/FRANKLIN. NAVE 43. 28906. GETAFE (MADRID), ESPAÑA"
+                    }
+                  ]
+                },
+                {
+                  "id": "MarcasProducto",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "SignoE",
+                      "type": "FLAG",
+                      "value": "false"
+                    }
+                  ]
+                },
+                {
+                  "id": "Medidas",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "ContenidoNeto",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "400"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "GR",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387540190"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Alimentacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Ingredientes",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "DescripcionIngredientes",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Descripcion",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "CALABAZA"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "DescripcionResaltada",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "CALABAZA"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "CALABAZA"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "LugarOrigen",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Codigo",
+                              "type": "LOOKUP_TABLE",
+                              "value": "032",
+                              "featureGroupID": "6642",
+                              "id_Ext": "386932190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ProveedorInformacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Codigo",
+                  "type": "STRING",
+                  "value": "8414637000005"
+                },
+                {
+                  "id": "Descripcion",
+                  "type": "STRING",
+                  "value": "AGRICOLAS PROMAVER S.L."
+                }
+              ]
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20201210_184336"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

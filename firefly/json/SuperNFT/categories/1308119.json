@@ -1,0 +1,105 @@
+{
+	"id_Ext": "1308119",
+	"id": "10500015002",
+	"entryContainerID": "6807",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "10500015002"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Manzanas y peras"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Pomes i peres"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Apples and pears"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Äpfel und Birnen"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20160928_164038"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20050822_010000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "5002"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "A",
+							"featureGroupID": "6614",
+							"id_Ext": "47138190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso o Pieza"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "9999"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1308119"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "1306119",
+			"hierarchyId": "6807",
+			"categoryId": "1050001"
+		}
+	]
+}

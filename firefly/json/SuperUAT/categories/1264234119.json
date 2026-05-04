@@ -1,0 +1,113 @@
+{
+	"id_Ext": "1264234119",
+	"id": "11720012512",
+	"entryContainerID": "6807",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "11720012512"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Cerveza rubia nacional"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Cervesa rossa nacional"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Spanish lager"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Helles spanisches Bier"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20250625_114251"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20190311_000000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "2512"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"idExt": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "0001"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1264234119"
+				},
+				{
+					"id": "OrdenGlovo",
+					"type": "INTEGER",
+					"value": "708"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "712402119",
+			"hierarchyId": "6807",
+			"categoryId": "1172001",
+			"idExt": "712402119"
+		}
+	],
+	"idExt": "1264234119"
+}

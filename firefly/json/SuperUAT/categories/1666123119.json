@@ -1,0 +1,113 @@
+{
+	"id_Ext": "1666123119",
+	"id": "10420118524",
+	"entryContainerID": "6807",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "10420118524"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Suero fisiológico"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Sèrum fisiològic"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Physiological serum"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Isotonische Kochsalzlösung"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20250930_093149"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20220726_000000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "8524"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"idExt": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "0005"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1666123119"
+				},
+				{
+					"id": "OrdenGlovo",
+					"type": "INTEGER",
+					"value": "1726"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "1666117119",
+			"hierarchyId": "6807",
+			"categoryId": "1042011",
+			"idExt": "1666117119"
+		}
+	],
+	"idExt": "1666123119"
+}

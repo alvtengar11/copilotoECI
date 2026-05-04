@@ -1,0 +1,586 @@
+{
+	"id_Ext": "110112101",
+	"id": "001018840101226",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PUM",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UnidadesProducto",
+									"type": "STRING",
+									"value": "001"
+								},
+								{
+									"id": "EnlacePUM",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6618",
+									"id_Ext": "26860190",
+									"value": "017"
+								},
+								{
+									"id": "CantidadProducto",
+									"type": "NUMBER",
+									"value": "012.000"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/01/22/6/0118840101226/0118840101226000q01011.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/01/22/6/0118840101226/0118840101226000g01011.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/01/22/6/0118840101226/0118840101226000m01011.jpg"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "14"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "1I"
+						},
+						{
+							"id": "Calificacion6",
+							"type": "STRING",
+							"value": "CI"
+						},
+						{
+							"id": "Calificacion3",
+							"type": "STRING",
+							"value": "MD"
+						},
+						{
+							"id": "Calificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "A"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MarcaMostradaEnWeb",
+							"type": "RELATIONSHIP",
+							"groupID": "6602",
+							"id_Ext": "28115190",
+							"value": "00139"
+						},
+						{
+							"id": "Fabricante",
+							"type": "RELATIONSHIP",
+							"groupID": "666",
+							"id_Ext": "520807160",
+							"value": "010443408"
+						},
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0443408"
+						},
+						{
+							"id": "Marca",
+							"type": "STRING",
+							"value": "EL CORTE INGLES"
+						},
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "CABRERA SANTANA, JESUS ALFONSO"
+						}
+					]
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000105890478"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "SUP"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"value": "EL CORTE INGLES huevos clase M estuche 12 unidades"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": " "
+						},
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "01"
+						},
+						{
+							"id": "EanGtin",
+							"type": "STRING",
+							"value": "8425044120231"
+						}
+					]
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"groupID": "6636",
+									"id_Ext": "409806159",
+									"value": "8425044120231"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "19990917_000000"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8425044120231"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTipoPiel",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosFormatos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTamanos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "B001018840101226"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "401",
+							"id_Ext": "347190090",
+							"value": "No voluminoso"
+						},
+						{
+							"id": "SusceptibleDeEnvolver",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "InStorePickUp",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "400",
+							"id_Ext": "274969090",
+							"value": "Recogida en tienda"
+						},
+						{
+							"id": "DeliveryPoint",
+							"type": "STRING_ENUMERATION",
+							"value": "C"
+						},
+						{
+							"id": "EntregaDomicilio",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "110112101"
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001018840101226   "
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "726119",
+			"hierarchyId": "6807",
+			"categoryId": "10100223312"
+		},
+		{
+			"id_Ext": "4208113",
+			"hierarchyId": "6803",
+			"categoryId": "01188401"
+		},
+		{
+			"id_Ext": "24385031012",
+			"hierarchyId": "998",
+			"categoryId": "00326"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Supermercado_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"value": "U"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"value": "CANARIAS"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "01"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "30"
+						}
+					]
+				},
+				{
+					"id": "Alimentacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ActivarDocPropia",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000012,000"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"groupID": "666",
+									"id_Ext": "520807160",
+									"value": "010443408"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"groupID": "666",
+									"id_Ext": "520807160",
+									"value": "010443408"
+								}
+							]
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "24"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "24"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "12"
+						},
+						{
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6602",
+							"id_Ext": "28115190",
+							"value": "00139"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "EL CORTE INGLES"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Eier Klasse M"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "class M eggs"
+								},
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "huevos clase M"
+								}
+							]
+						},
+						{
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6612",
+							"id_Ext": "39938190",
+							"value": "ESTUCHE"
+						},
+						{
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6610",
+							"id_Ext": "27988190",
+							"value": "C12"
+						}
+					]
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20070522_000000"
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20070522_000000"
+						},
+						{
+							"id": "FechaDespublicacionWWW",
+							"type": "DATE",
+							"value": "29991230_000001"
+						}
+					]
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"productId": "001018840101226   ",
+			"centerId": "0012",
+			"regularPrice": "02.20",
+			"avaliable": "true",
+			"startDate": "20070522",
+			"catalogPrice": "02.20"
+		},
+		{
+			"productId": "001018840101226   ",
+			"centerId": "0098",
+			"regularPrice": "02.20",
+			"avaliable": "true",
+			"startDate": "20070520",
+			"catalogPrice": "02.20"
+		}
+	]
+}

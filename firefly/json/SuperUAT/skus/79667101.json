@@ -1,0 +1,1988 @@
+{
+	"id_Ext": "79667101",
+	"id": "001018111400141   ",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0118111400141"
+				},
+				{
+					"id": "Informacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "1",
+							"featureGroupID": "6616",
+							"id_Ext": "26871190",
+							"idExt": "26871190"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Supermercado/Frutas y verduras/Frutas/Frutas tropicales y exóticas"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Pitahaya amarilla"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Yellow pitahaya"
+								}
+							]
+						},
+						{
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"value": "AL PESO",
+							"featureGroupID": "6612",
+							"id_Ext": "39911190",
+							"idExt": "39911190"
+						},
+						{
+							"id": "PresentacionDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "al peso"
+						},
+						{
+							"id": "CodigoPresentacionHidden",
+							"type": "STRING",
+							"value": "AL PESO"
+						},
+						{
+							"id": "RestoDescripcion",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "(peso aproximado de la unidad 200 g)"
+								}
+							]
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "Pitahaya amarilla al peso (peso aproximado de la unidad 200 g)"
+						},
+						{
+							"id": "Temporal",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "PITAHAYA"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "PITAHAYA"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "A",
+							"featureGroupID": "6614",
+							"id_Ext": "47138190",
+							"idExt": "47138190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso o Pieza"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "PesoPieza",
+							"type": "STRING",
+							"value": "200"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20251111_121405"
+						}
+					]
+				},
+				{
+					"id": "Imagenes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/00/14/1/0118111400141/0118111400141000x01011.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/00/14/1/0118111400141/0118111400141000p01011.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/00/14/1/0118111400141/0118111400141000m01011.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/00/14/1/0118111400141/0118111400141000q01011.jpg"
+						}
+					]
+				},
+				{
+					"id": "Tematicos",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tematico",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto de peso variable"
+								},
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "al peso",
+									"featureGroupID": "6604",
+									"id_Ext": "46907190",
+									"idExt": "46907190"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20090120_000000"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20230103_043341"
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "No Publicar"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "No Publicar"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "IndicadorBloqueoPublicacionConceptosSAP",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Traduccion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataAutomatica",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "MetadataPrioridad",
+							"type": "STRING_ENUMERATION",
+							"value": "normal"
+						},
+						{
+							"id": "MetadataFechaRecepcion",
+							"type": "DATE",
+							"value": "20120315_213622"
+						}
+					]
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Referencia",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "18111400141"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "181"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "114"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "00141"
+								}
+							]
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000105805689"
+						},
+						{
+							"id": "Ean",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8422837119120"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 0,
+									"value": "8422837119120"
+								}
+							]
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "03"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0250027"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "PARTIDAS A JUSTIFICAR GRUPO VI"
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "7348"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010250027",
+									"id_Ext": "505600160",
+									"groupID": "666",
+									"idExt": "505600160"
+								},
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"value": "010250027",
+									"id_Ext": "505600160",
+									"groupID": "666",
+									"idExt": "505600160"
+								}
+							]
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "VB"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "Descripcion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "PITAHAYA AMARILLA TRADICI"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "PITAHAYA"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "GRANEL"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "AL PESO"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "1"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "KG"
+								},
+								{
+									"id": "DescripcionTicketCodificacion",
+									"type": "STRING",
+									"value": "PITAHAYA"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "1000,0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5018111400810"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20090120_000000"
+						},
+						{
+							"id": "EnlacePUM",
+							"type": "LOOKUP_TABLE",
+							"value": "001",
+							"featureGroupID": "6618",
+							"id_Ext": "26844190",
+							"idExt": "26844190"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000001,000"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "MercanciaGeneral",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tamano",
+							"type": "STRING",
+							"value": "PITAHAYA"
+						},
+						{
+							"id": "Color",
+							"type": "STRING",
+							"value": "GRANEL"
+						},
+						{
+							"id": "Dibujo",
+							"type": "STRING",
+							"value": "AL PESO    1KG"
+						}
+					]
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"idExt": "26867190"
+								},
+								{
+									"id": "Temporal",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										},
+										{
+											"id": "Visible",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "79667101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "8422837119120",
+									"id_Ext": "395619159",
+									"groupID": "6636",
+									"idExt": "395619159"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8422837119120"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20100621_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "1415423123",
+			"hierarchyId": "6809",
+			"categoryId": "010920",
+			"idExt": "1415423123"
+		},
+		{
+			"id_Ext": "8604123",
+			"hierarchyId": "6809",
+			"categoryId": "010989",
+			"idExt": "8604123"
+		},
+		{
+			"id_Ext": "1310119",
+			"hierarchyId": "6807",
+			"categoryId": "10500015004",
+			"idExt": "1310119"
+		},
+		{
+			"id_Ext": "8601123",
+			"hierarchyId": "6809",
+			"categoryId": "010973",
+			"idExt": "8601123"
+		},
+		{
+			"id_Ext": "3118113",
+			"hierarchyId": "6803",
+			"categoryId": "01181114",
+			"idExt": "3118113"
+		},
+		{
+			"id_Ext": "1067946123",
+			"hierarchyId": "6809",
+			"categoryId": "010087",
+			"idExt": "1067946123"
+		},
+		{
+			"id_Ext": "26836111",
+			"hierarchyId": "25402",
+			"categoryId": "0001",
+			"idExt": "26836111"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Alimentacion ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ActivarDocPropia",
+					"type": "FLAG",
+					"value": "false"
+				}
+			]
+		},
+		{
+			"id": "/Perecederos Peninsula ISS",
+			"type": "SPEC",
+			"children": []
+		}
+	],
+	"prices": [
+		{
+			"id_Ext": "796671010001199",
+			"containerId": "6639",
+			"offerPrice": "20.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0001",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010001199"
+		},
+		{
+			"id_Ext": "796671010002199",
+			"containerId": "6639",
+			"offerPrice": "19.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0002",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010002199"
+		},
+		{
+			"id_Ext": "796671010003199",
+			"containerId": "6639",
+			"offerPrice": "20.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0003",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010003199"
+		},
+		{
+			"id_Ext": "796671010004199",
+			"containerId": "6639",
+			"offerPrice": "22.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0004",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010004199"
+		},
+		{
+			"id_Ext": "796671010005199",
+			"containerId": "6639",
+			"offerPrice": "18.00",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0005",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010005199"
+		},
+		{
+			"id_Ext": "796671010006199",
+			"containerId": "6639",
+			"offerPrice": "20.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0006",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010006199"
+		},
+		{
+			"id_Ext": "796671010007199",
+			"containerId": "6639",
+			"offerPrice": "19.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0007",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010007199"
+		},
+		{
+			"id_Ext": "796671010008199",
+			"containerId": "6639",
+			"offerPrice": "22.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0008",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010008199"
+		},
+		{
+			"id_Ext": "796671010010199",
+			"containerId": "6639",
+			"offerPrice": "20.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0010",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010010199"
+		},
+		{
+			"id_Ext": "796671010011199",
+			"containerId": "6639",
+			"offerPrice": "15.50",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0011",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010011199"
+		},
+		{
+			"id_Ext": "796671010013199",
+			"containerId": "6639",
+			"offerPrice": "25.00",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0013",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010013199"
+		},
+		{
+			"id_Ext": "796671010014199",
+			"containerId": "6639",
+			"offerPrice": "2.45",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0014",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010014199"
+		},
+		{
+			"id_Ext": "796671010015199",
+			"containerId": "6639",
+			"offerPrice": "22.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0015",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010015199"
+		},
+		{
+			"id_Ext": "796671010017199",
+			"containerId": "6639",
+			"offerPrice": "22.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0017",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010017199"
+		},
+		{
+			"id_Ext": "796671010018199",
+			"containerId": "6639",
+			"offerPrice": "20.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "20101126",
+			"productId": "001018111400141   ",
+			"centerId": "0018",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010018199"
+		},
+		{
+			"id_Ext": "796671010019199",
+			"containerId": "6639",
+			"offerPrice": "22.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0019",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010019199"
+		},
+		{
+			"id_Ext": "796671010020199",
+			"containerId": "6639",
+			"offerPrice": "23.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0020",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010020199"
+		},
+		{
+			"id_Ext": "796671010021199",
+			"containerId": "6639",
+			"offerPrice": "19.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0021",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010021199"
+		},
+		{
+			"id_Ext": "796671010022199",
+			"containerId": "6639",
+			"offerPrice": "22.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0022",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010022199"
+		},
+		{
+			"id_Ext": "796671010023199",
+			"containerId": "6639",
+			"offerPrice": "19.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0023",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010023199"
+		},
+		{
+			"id_Ext": "796671010025199",
+			"containerId": "6639",
+			"offerPrice": "25.00",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0025",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010025199"
+		},
+		{
+			"id_Ext": "796671010029199",
+			"containerId": "6639",
+			"offerPrice": "99.90",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0029",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010029199"
+		},
+		{
+			"id_Ext": "796671010036199",
+			"containerId": "6639",
+			"offerPrice": "22.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0036",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010036199"
+		},
+		{
+			"id_Ext": "796671010087199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0087",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010087199"
+		},
+		{
+			"id_Ext": "796671010097199",
+			"containerId": "6639",
+			"offerPrice": "22.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0097",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010097199"
+		},
+		{
+			"id_Ext": "796671010581199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0581",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010581199"
+		},
+		{
+			"id_Ext": "796671010647199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0647",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010647199"
+		},
+		{
+			"id_Ext": "796671010692199",
+			"containerId": "6639",
+			"offerPrice": "22.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0692",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010692199"
+		},
+		{
+			"id_Ext": "796671010695199",
+			"containerId": "6639",
+			"offerPrice": "22.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0695",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010695199"
+		},
+		{
+			"id_Ext": "796671010697199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0697",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010697199"
+		},
+		{
+			"id_Ext": "796671010701199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0701",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010701199"
+		},
+		{
+			"id_Ext": "796671010702199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0702",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010702199"
+		},
+		{
+			"id_Ext": "796671010704199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0704",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010704199"
+		},
+		{
+			"id_Ext": "796671010707199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0707",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010707199"
+		},
+		{
+			"id_Ext": "796671010711199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0711",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010711199"
+		},
+		{
+			"id_Ext": "796671010711199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0713",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010711199"
+		},
+		{
+			"id_Ext": "796671010716199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0716",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010716199"
+		},
+		{
+			"id_Ext": "796671010718199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0718",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010718199"
+		},
+		{
+			"id_Ext": "796671010719199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0719",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010719199"
+		},
+		{
+			"id_Ext": "796671010721199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0721",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010721199"
+		},
+		{
+			"id_Ext": "796671010725199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0725",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010725199"
+		},
+		{
+			"id_Ext": "796671010730199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0730",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010730199"
+		},
+		{
+			"id_Ext": "796671010732199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0732",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010732199"
+		},
+		{
+			"id_Ext": "796671010733199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0733",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010733199"
+		},
+		{
+			"id_Ext": "796671010734199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0734",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010734199"
+		},
+		{
+			"id_Ext": "796671010735199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "      ",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "        ",
+			"productId": "001018111400141   ",
+			"centerId": "0735",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010735199"
+		},
+		{
+			"id_Ext": "796671010814199",
+			"containerId": "6639",
+			"offerPrice": "20.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0814",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010814199"
+		},
+		{
+			"id_Ext": "796671010864199",
+			"containerId": "6639",
+			"offerPrice": "20.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0864",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010864199"
+		},
+		{
+			"id_Ext": "796671010900199",
+			"containerId": "6639",
+			"offerPrice": "19.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0900",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010900199"
+		},
+		{
+			"id_Ext": "796671010901199",
+			"containerId": "6639",
+			"offerPrice": "20.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0901",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010901199"
+		},
+		{
+			"id_Ext": "796671010906199",
+			"containerId": "6639",
+			"offerPrice": "20.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0906",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010906199"
+		},
+		{
+			"id_Ext": "796671010911199",
+			"containerId": "6639",
+			"offerPrice": "22.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0911",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010911199"
+		},
+		{
+			"id_Ext": "796671010915199",
+			"containerId": "6639",
+			"offerPrice": "25.00",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0915",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010915199"
+		},
+		{
+			"id_Ext": "796671010920199",
+			"containerId": "6639",
+			"offerPrice": "0.01",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0920",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010920199"
+		},
+		{
+			"id_Ext": "796671010923199",
+			"containerId": "6639",
+			"offerPrice": "19.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0923",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010923199"
+		},
+		{
+			"id_Ext": "796671010941199",
+			"containerId": "6639",
+			"offerPrice": "20.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0941",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010941199"
+		},
+		{
+			"id_Ext": "796671010970199",
+			"containerId": "6639",
+			"offerPrice": "22.25",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0970",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010970199"
+		},
+		{
+			"id_Ext": "796671010973199",
+			"containerId": "6639",
+			"offerPrice": "20.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0973",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010973199"
+		},
+		{
+			"id_Ext": "796671010974199",
+			"containerId": "6639",
+			"offerPrice": "15.99",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0974",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010974199"
+		},
+		{
+			"id_Ext": "796671010975199",
+			"containerId": "6639",
+			"offerPrice": "22.99",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0975",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010975199"
+		},
+		{
+			"id_Ext": "796671010989199",
+			"containerId": "6639",
+			"offerPrice": "20.95",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20171113",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001018111400141   ",
+			"centerId": "0989",
+			"regularPrice": "0.01",
+			"TaxPercentage": "08",
+			"Igic": "08",
+			"idExt": "796671010989199"
+		}
+	],
+	"idExt": "79667101"
+}

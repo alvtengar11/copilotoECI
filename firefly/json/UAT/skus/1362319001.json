@@ -1,0 +1,658 @@
+{
+  "id_Ext": "1362319001",
+  "id": "0010072203F0168   ",
+  "entryContainerID": "1",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Product_CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "1362319001"
+        },
+        {
+          "id": "RefECI",
+          "type": "STRING",
+          "value": "0010072203F0168   "
+        },
+        {
+          "id": "General",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoEmpresa",
+              "type": "STRING",
+              "value": "01"
+            },
+            {
+              "id": "COTRATIE",
+              "type": "STRING",
+              "value": "HOG"
+            },
+            {
+              "id": "DescripcionModeloWeb",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "Colección By Table Étnico"
+                }
+              ]
+            },
+            {
+              "id": "Perecedero",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Validated",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "Royaltis",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PermiteDevolucion",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "StockInfinito",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ReferenciaGenerica",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PeticionPrecioDeVenta",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ReferenciaDigital",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "AnillosDeCompromiso",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ReferenciaDeLujo",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ReferenciaMadre",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VentaSinStock",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CodigoUnicoOrigen",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "IndicadorDeEDP",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CertificadoCE",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "ProveedorMarca",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "MarcaMostradaEnWeb",
+              "type": "RELATIONSHIP",
+              "value": "BY TABLE",
+              "id_Ext": "123423056",
+              "groupID": "391"
+            }
+          ]
+        },
+        {
+          "id": "DescripcionLargaDelProducto",
+          "type": "GROUPING",
+          "ocurrence": 0,
+          "children": [
+            {
+              "id": "DescripcionPrincipal",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "ocurrence": 0,
+                  "value": "Las colecciones de piezas sueltas te permiten componer una vajilla, a tu gusto y con el número de servicios que necesitas.<br><br> Puedes elegir todas las piezas del mismo modelo o mezclar con otras colecciones.<br><br>Las piezas de este modelo están realizadas en gres, decoradas con motivos étnicos.<br><br>Son aptas para el lavavajillas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "GestionComprasStock",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "TipoDeGestion",
+              "type": "STRING",
+              "value": "00"
+            }
+          ]
+        },
+        {
+          "id": "ColoresYTallas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Variantes",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoVarianteWeb",
+              "type": "STRING",
+              "value": "A6505214"
+            },
+            {
+              "id": "VariantesTallas",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosColores",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariantesModelos",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosTamanos",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosFormatos",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosTipoPiel",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosSabores",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariantesFormatoLibros",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaDeAltaCompras",
+              "type": "DATE",
+              "value": "20120511_114804"
+            },
+            {
+              "id": "FechaDeAltaCatalogo",
+              "type": "DATE",
+              "value": "20120511_121606"
+            }
+          ]
+        },
+        {
+          "id": "Multimedia",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Fotos",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "MainFotos",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "UrlImagenT",
+                      "type": "IMAGE_URL",
+                      "value": "https://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201205/16/001072203F0168___HA1_100x100.jpg"
+                    },
+                    {
+                      "id": "UrlImagenX",
+                      "type": "IMAGE_URL",
+                      "value": "https://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201205/16/001072203F0168___HA1_40x40.jpg"
+                    },
+                    {
+                      "id": "UrlImagen210x210",
+                      "type": "IMAGE_URL",
+                      "value": "https://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201205/16/001072203F0168___HA1_225x225.jpg"
+                    },
+                    {
+                      "id": "UrlImagen440x440",
+                      "type": "IMAGE_URL",
+                      "value": "https://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201205/16/001072203F0168___HA1_600x600.jpg"
+                    },
+                    {
+                      "id": "UrlImagen640x640",
+                      "type": "IMAGE_URL",
+                      "value": "https://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201205/16/001072203F0168___HA1_600x600.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Target",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "BestSellersExcluded",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Transporte",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "SusceptibleDeEnvolver",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "Voluminoso",
+              "type": "LOOKUP_TABLE",
+              "value": "No voluminoso",
+              "featureGroupID": "401",
+              "id_Ext": "347190090"
+            },
+            {
+              "id": "InStorePickUp",
+              "type": "LOOKUP_TABLE",
+              "value": "No recogida en tienda",
+              "featureGroupID": "400",
+              "id_Ext": "274967090"
+            },
+            {
+              "id": "EntregaDomicilio",
+              "type": "FLAG",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "id": "ServiciosDeRetirada",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ServicioDeRetirada",
+              "type": "LOOKUP_TABLE",
+              "value": "N - No Disponible",
+              "featureGroupID": "1029",
+              "id_Ext": "347191090"
+            }
+          ]
+        },
+        {
+          "id": "ServiciosDePuestaEnMarcha",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ServicioDePuestaEnMarcha",
+              "type": "LOOKUP_TABLE",
+              "value": "N - No Disponible",
+              "featureGroupID": "1029",
+              "id_Ext": "347191090"
+            },
+            {
+              "id": "ModoDeServicioPuestaEnMarcha",
+              "type": "LOOKUP_TABLE",
+              "value": "N - No Disponible",
+              "featureGroupID": "1030",
+              "id_Ext": "347192090"
+            }
+          ]
+        },
+        {
+          "id": "ServiciosDePuerta",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ServiciosDePuerta",
+              "type": "LOOKUP_TABLE",
+              "value": "N - No Disponible",
+              "featureGroupID": "1029",
+              "id_Ext": "347191090"
+            },
+            {
+              "id": "ModoDeServiciocambiodePuerta",
+              "type": "LOOKUP_TABLE",
+              "value": "N - No Disponible",
+              "featureGroupID": "1028",
+              "id_Ext": "347193090"
+            }
+          ]
+        },
+        {
+          "id": "Financiacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FinancedServiceNoInterest",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Calculadora",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Pending",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Precios",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "IvaPorcentaje",
+              "type": "STRING",
+              "value": "02"
+            },
+            {
+              "id": "IgicPorcentaje",
+              "type": "STRING",
+              "value": "92"
+            }
+          ]
+        },
+        {
+          "id": "Validar",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "Carteleria",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Reference",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ReferenceType",
+              "type": "LOOKUP_TABLE",
+              "value": "F",
+              "featureGroupID": "1686",
+              "id_Ext": "349834090"
+            }
+          ]
+        },
+        {
+          "id": "Enviado",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "x",
+          "type": "STRING",
+          "value": "x"
+        },
+        {
+          "id": "Buscable",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "EnvioAtg",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "DocumentacionPredominante",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "RepositoryModificationControl",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "IdMensajeAnterior",
+          "type": "NUMBER"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "id_Ext": "5517012",
+      "hierarchyId": "998",
+      "categoryId": "00214"
+    },
+    {
+      "id_Ext": "52811013",
+      "hierarchyId": "999",
+      "categoryId": "1330356455"
+    },
+    {
+      "id_Ext": "11379795013",
+      "hierarchyId": "999",
+      "categoryId": "1456307628"
+    },
+    {
+      "id_Ext": "15549018",
+      "hierarchyId": "5001",
+      "categoryId": "01.072.203"
+    }
+  ],
+  "specificAttribs": [
+    {
+      "id": "/Asociaciones_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "ComposicionAsociacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ReferenciasRelacionadas",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "RefECIRelacionada",
+                  "type": "RELATIONSHIP",
+                  "value": "001097574108623",
+                  "id_Ext": "153128001",
+                  "groupID": "1"
+                },
+                {
+                  "id": "CantidadEnAsociacion",
+                  "type": "NUMBER",
+                  "value": "1.0"
+                }
+              ]
+            },
+{
+              "id": "ReferenciasRelacionadas",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "RefECIRelacionada",
+                  "type": "RELATIONSHIP",
+                  "value": "001023416701698",
+                  "id_Ext": "1531846001",
+                  "groupID": "1"
+                },
+                {
+                  "id": "CantidadEnAsociacion",
+                  "type": "NUMBER",
+                  "value": "1.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ColeccionAsociacion",
+          "type": "LOOKUP_TABLE",
+          "value": "Étnico",
+          "featureGroupID": "10013",
+          "id_Ext": "233760090"
+        },
+        {
+          "id": "RepositoryModificationControl",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "IdMensajeAnterior",
+          "type": "NUMBER"
+        }
+      ]
+    }
+  ],
+  "stores": [
+    {
+      "id": "/Fechas_WWW_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "DespublicadoPorMargen",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "DespublicadoPorStock",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaDePublicacionWWW",
+              "type": "DATE",
+              "value": "20120514_145818"
+            },
+            {
+              "id": "FechaDespublicacionWWW",
+              "type": "DATE",
+              "value": "20250628_103136"
+            },
+            {
+              "id": "MotivoPubDesDetalladoWWW",
+              "type": "STRING",
+              "value": "A 29/06/12 DESP POR ORDEN DE ESTHER."
+            },
+            {
+              "id": "NovedadWWW",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PublicarAutomaticamente",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "FechaDePrimeraPublicacionWWW",
+              "type": "DATE",
+              "value": "20120514_145818"
+            },
+            {
+              "id": "NoPublicarAutomaticamente",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ModSP2",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Foto",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "OtrasCondiciones",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Destacado",
+              "type": "INTEGER",
+              "value": "555555"
+            }
+          ]
+        },
+        {
+          "id": "RepositoryModificationControl",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "IdMensajeAnterior",
+          "type": "NUMBER"
+        }
+      ]
+    }
+  ],
+  "prices": []
+}

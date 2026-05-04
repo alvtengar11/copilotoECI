@@ -1,0 +1,993 @@
+{
+	"id_Ext": "1000119",
+	"id": "1028",
+	"entryContainerID": "6807",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "1028"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Charcutería y quesos al corte"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Xarcuteria i formatges al tall"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Freshly cut cheese and charcuterie"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Wurstwaren und Käse frisch geschnitten"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20250807_092511"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20000210_000000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Sección"
+				},
+				{
+					"id": "Seccion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoSeccion",
+							"type": "STRING",
+							"value": "028"
+						},
+						{
+							"id": "Tipo",
+							"type": "STRING_ENUMERATION",
+							"value": "No perecedero"
+						},
+						{
+							"id": "VentaVentanaFlotante",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Area",
+							"type": "LOOKUP_TABLE",
+							"value": "1",
+							"featureGroupID": "6616",
+							"id_Ext": "26871190",
+							"idExt": "26871190"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Centros",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 0,
+									"value": "010001 - PRECIADOS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 1,
+									"value": "010002 - PZA.CATALUÑA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 2,
+									"value": "010003 - GOYA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 3,
+									"value": "010004 - PZ DEL DUQUE"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 4,
+									"value": "010005 - BILBAO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 5,
+									"value": "010006 - CASTELLANA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 6,
+									"value": "010007 - DIAGONAL"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 7,
+									"value": "010008 - P.SOROLLA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 8,
+									"value": "010009 - MURCIA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 9,
+									"value": "010010 - PRINCESA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 10,
+									"value": "010011 - VIGO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 11,
+									"value": "010013 - MALAGA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 12,
+									"value": "010014 - ZARAGOZA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 13,
+									"value": "010015 - NUEVO CENTRO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 14,
+									"value": "010017 - NERVION"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 15,
+									"value": "010018 - A CORUÑA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 16,
+									"value": "010019 - VALLADOLID"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 17,
+									"value": "010020 - ALICANTE"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 18,
+									"value": "010021 - SABADELL"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 19,
+									"value": "010022 - LEON"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 20,
+									"value": "010023 - P.MALLORCA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 21,
+									"value": "010025 - EL CAPRICHO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 22,
+									"value": "010027 - LINARES"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 23,
+									"value": "010029 - CARTAGENA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 24,
+									"value": "010036 - AV.DE FRANCIA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 25,
+									"value": "010097 - BADAJOZ CONQUISTADORES"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 26,
+									"value": "010814 - JAEN II"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 27,
+									"value": "010864 - ALBACETE II"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 28,
+									"value": "010897 - BUENAVISTA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 29,
+									"value": "010906 - SERRANO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 30,
+									"value": "010907 - FCESC.MACIA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 31,
+									"value": "010911 - CORDOBA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 32,
+									"value": "010913 - VITORIA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 33,
+									"value": "010915 - GENIL"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 34,
+									"value": "010923 - JAIME III"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 35,
+									"value": "010941 - URIA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 36,
+									"value": "010970 - CASTELLON"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 37,
+									"value": "010973 - CTRO.DISTRIBUCION ALIMENTACION"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 38,
+									"value": "010974 - CAN DRAGO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 39,
+									"value": "010975 - PAMPLONA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 40,
+									"value": "010989 - TALAVERA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 41,
+									"value": "020001 - H. SEVILLA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 42,
+									"value": "020002 - H. JEREZ"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 43,
+									"value": "020003 - H. OVIEDO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 44,
+									"value": "020004 - H. MERIDIANA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 45,
+									"value": "020005 - H. GRANADA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 46,
+									"value": "020006 - H. GERONA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 47,
+									"value": "020008 - H. GIJON"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 48,
+									"value": "020009 - H. HUELVA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 49,
+									"value": "020011 - H. SAN JUAN"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 50,
+									"value": "020014 - VALENCIA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 51,
+									"value": "020015 - H. MARBELLA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 52,
+									"value": "020016 - H. ZARAGOZA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 53,
+									"value": "020018 - CADIZ"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 54,
+									"value": "020020 - SANTIAGO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 55,
+									"value": "020022 - CORNELLA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 56,
+									"value": "020023 - SANTANDER"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 57,
+									"value": "020026 - H. BURGOS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 58,
+									"value": "020027 - H. VALLADOLID"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 59,
+									"value": "020028 - H. AVILES"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 60,
+									"value": "020029 - H. LOS ARCOS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 61,
+									"value": "020030 - H. MALAGA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 62,
+									"value": "020031 - ALGECIRAS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 63,
+									"value": "020033 - H. SANCHINARRO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 64,
+									"value": "020034 - H.MIJAS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 65,
+									"value": "020036 - CIUDAD DE ELCHE"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 66,
+									"value": "020038 - H. GUADALAJARA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 67,
+									"value": "010012 - LAS PALMAS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 68,
+									"value": "010098 - TENERIFE II"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 69,
+									"value": "020039 - MURCIA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 70,
+									"value": "010692 - EIBAR"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 71,
+									"value": "010695 - SALAMANCA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 72,
+									"value": "020240 - H. EL EJIDO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 73,
+									"value": "010900 - TARRAGONA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 74,
+									"value": "020241 - CORUÑA MARINEDA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 75,
+									"value": "020242 - CORDOBA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 76,
+									"value": "020245 - H. BADAJOZ"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 77,
+									"value": "020244 - H. PUERTO VENECIA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 78,
+									"value": "020025 - H.ALCALA DE HENARES"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 79,
+									"value": "020243 - H.CEDIAL"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 80,
+									"value": "020013 - H.POZUELO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 81,
+									"value": "020007 - H.VALDERAS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 82,
+									"value": "020010 - H. MENDEZ ALVARO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 83,
+									"value": "020019 - H.CAMPO DE LAS NACIONES"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 84,
+									"value": "020021 - H.VISTA ALEGRE"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 85,
+									"value": "020032 - H.ARROYOMOLINOS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 86,
+									"value": "020035 - H.EL BERCIAL"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 87,
+									"value": "020037 - H.ARROYOSUR"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 88,
+									"value": "010901 - CALLAO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 89,
+									"value": "020246 - ITAROA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 90,
+									"value": "010916 - PARQUESUR"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 91,
+									"value": "020012 - H.SIETE PALMAS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 92,
+									"value": "010697 - MARBELLA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 93,
+									"value": "010246 - H. ITAROA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 94,
+									"value": "010581 - H. PUERTO VENECIA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 95,
+									"value": "010582 - H. EL FARO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 96,
+									"value": "010599 - H. RONDA DE CORDOBA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 97,
+									"value": "010701 - H. SEVILLA ESTE"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 98,
+									"value": "010702 - H.JEREZ"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 99,
+									"value": "010703 - H.SALESAS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 100,
+									"value": "010704 - H.MERIDIANA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 101,
+									"value": "010705 - H.ARABIAL"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 102,
+									"value": "010706 - H.GIRONA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 103,
+									"value": "010707 - H. SAN JOSE DE VALDERAS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 104,
+									"value": "010709 - H. COSTA LUZ"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 105,
+									"value": "010710 - H. MENDEZ ALVARO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 106,
+									"value": "010711 - H. SAN JUAN DE ANALFARACHE"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 107,
+									"value": "010712 - H. SIETE PALMAS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 108,
+									"value": "010713 - H. POZUELO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 109,
+									"value": "010714 - H. ADEMUZ"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 110,
+									"value": "010716 - H. GRAN CASA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 111,
+									"value": "010718 - H. CADIZ"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 112,
+									"value": "010719 - H. CAMPO DE LAS NACIONES"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 113,
+									"value": "010720 - H. SANTIAGO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 114,
+									"value": "010721 - H. VISTA ALEGRE"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 115,
+									"value": "010722 - H. CORNELLA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 116,
+									"value": "010723 - H. BAHIA DE SANTANDER"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 117,
+									"value": "010725 - H.ALCALA DE HENARES"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 118,
+									"value": "010726 - H. BURGOS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 119,
+									"value": "010727 - H. MONASTERIO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 120,
+									"value": "010728 - H. AVILES"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 121,
+									"value": "010729 - H. LOS ARCOS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 122,
+									"value": "010730 - H.BAHIA MALAGA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 123,
+									"value": "010731 - H. BAHIA ALGECIRAS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 124,
+									"value": "010732 - H. ARROYOMOLINOS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 125,
+									"value": "010733 - H. SANCHINARRO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 126,
+									"value": "010734 - H. COSTA MIJAS"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 127,
+									"value": "010735 - H. EL BERCIAL"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 128,
+									"value": "010736 - H. CIUDAD DE ELCHE"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 129,
+									"value": "010737 - H.ARROYOSUR"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 130,
+									"value": "010783 - H. GUADALAJARA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 131,
+									"value": "010785 - H. EL EJIDO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 132,
+									"value": "010786 - H. MARINEDA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 133,
+									"value": "010087 - H. CDIAL"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 134,
+									"value": "010647 - ECI GIJON"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 135,
+									"value": "010521 - DS ALCALA DE HENARES"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 136,
+									"value": "010920 - ALICANTE FEDERICO SOTO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 137,
+									"value": "010784 - ECI MYRTEA ONLINE"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 138,
+									"value": "010851 - DS ALCALA NUEVO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 139,
+									"value": "010378 - ECI.GIRONA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 140,
+									"value": "010992 - S. SOTOGRANDE"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 141,
+									"value": "010420 - EL ESCORIAL"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 142,
+									"value": "010130 - NUEVO CDIAL"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1000119"
+				},
+				{
+					"id": "Imagenes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Imagen_690x690",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202401/10/JRV1000119_1__690x690.jpg"
+						}
+					]
+				},
+				{
+					"id": "OrdenGlovo",
+					"type": "INTEGER",
+					"value": "12"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "4119",
+			"hierarchyId": "6807",
+			"categoryId": "1",
+			"idExt": "4119"
+		}
+	],
+	"idExt": "1000119"
+}

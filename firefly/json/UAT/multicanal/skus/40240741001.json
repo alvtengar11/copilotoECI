@@ -1,0 +1,1064 @@
+{
+	"id_Ext": "40240741001",
+	"id": "001097632122244   ",
+	"entryContainerID": "1",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "DEVIR IBERIA S.L."
+						},
+						{
+							"id": "Fabricante",
+							"type": "STRING",
+							"value": "0564401"
+						},
+						{
+							"id": "DescripcionFabricante",
+							"type": "STRING",
+							"value": "DEVIR IBERIA S.L."
+						},
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0564401"
+						},
+						{
+							"id": "Marca",
+							"type": "STRING",
+							"value": "DEVIR"
+						},
+						{
+							"id": "MarcaMostradaEnWeb",
+							"type": "RELATIONSHIP",
+							"value": "DEVIR",
+							"id_Ext": "210409056",
+							"groupID": "391",
+							"idExt": "210409056"
+						}
+					]
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "0001"
+						},
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadSurtidoCodificacion",
+							"type": "STRING",
+							"value": "0001"
+						},
+						{
+							"id": "UnidadVenta",
+							"type": "STRING",
+							"value": "0001"
+						},
+						{
+							"id": "CodigoModelo",
+							"type": "STRING",
+							"value": "BGCOSE"
+						},
+						{
+							"id": "TipoAcuerdoServicio",
+							"type": "STRING",
+							"value": "N"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000151846854"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Juego de cartas Código Secreto Devir"
+								}
+							]
+						},
+						{
+							"id": "DescripcionModelo",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "CODIGO SECRETO"
+								}
+							]
+						},
+						{
+							"id": "UnidadDeMedidaBase",
+							"type": "STRING",
+							"value": "UNI"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": "0"
+						},
+						{
+							"id": "EanGtin",
+							"type": "STRING",
+							"value": "8436017223354"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PermiteDevolucion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "AnillosDeCompromiso",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CertificadoCE",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaDeLujo",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaMadre",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "ReferenciaDigital",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Eani",
+							"type": "STRING",
+							"value": "2401811702318"
+						},
+						{
+							"id": "CodigoUnicoOrigen",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Validated",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "JUG"
+						},
+						{
+							"id": "SenalEntorno",
+							"type": "LOOKUP_TABLE",
+							"value": "Mercancía general ECI",
+							"featureGroupID": "395",
+							"id_Ext": "274979090",
+							"idExt": "274979090"
+						}
+					]
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UOM!PesoBruto!PesoBruto",
+							"type": "NUMBER",
+							"value": "575.00"
+						},
+						{
+							"id": "UOM!Dimensiones!Fondo",
+							"type": "NUMBER",
+							"value": "520.00"
+						},
+						{
+							"id": "UOM!Dimensiones!Ancho",
+							"type": "NUMBER",
+							"value": "160.00"
+						},
+						{
+							"id": "UOM!Dimensiones!Alto",
+							"type": "NUMBER",
+							"value": "230.00"
+						},
+						{
+							"id": "UOM!VolumenContenidoNeto!Unidad",
+							"type": "LOOKUP_TABLE",
+							"value": "ML",
+							"featureGroupID": "213",
+							"id_Ext": "51645527090",
+							"idExt": "51645527090"
+						},
+						{
+							"id": "UOM!Dimensiones!Unidad",
+							"type": "LOOKUP_TABLE",
+							"value": "MM",
+							"featureGroupID": "204",
+							"id_Ext": "51645525090",
+							"idExt": "51645525090"
+						},
+						{
+							"id": "UOM!PesoBruto!Unidad",
+							"type": "LOOKUP_TABLE",
+							"value": "G",
+							"featureGroupID": "206",
+							"id_Ext": "51645526090",
+							"idExt": "51645526090"
+						}
+					]
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "A41148687"
+						},
+						{
+							"id": "VariosDibujo",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesFormatoLibros",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosFormatos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTamanos",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "40240741001"
+				},
+				{
+					"id": "Target",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Hasta",
+							"type": "NUMBER",
+							"value": "99"
+						},
+						{
+							"id": "Desde",
+							"type": "NUMBER",
+							"value": "14"
+						},
+						{
+							"id": "UnidadEdad",
+							"type": "LOOKUP_TABLE",
+							"value": "años",
+							"featureGroupID": "211",
+							"id_Ext": "347185090",
+							"idExt": "347185090"
+						}
+					]
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagen",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg"
+										},
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=100&height=100"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=40&height=40"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=210&height=210"
+										},
+										{
+											"id": "UrlImagen520x520",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=520&height=520"
+										},
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=440&height=440"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=640&height=640"
+										},
+										{
+											"id": "UrlImagen1200x1200",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=1200&height=1200"
+										},
+										{
+											"id": "UrlImagen967x1200",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=967&height=1200"
+										},
+										{
+											"id": "UrlImagen520x640",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=520&height=640"
+										},
+										{
+											"id": "UrlImagen516x640",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=516&height=640"
+										},
+										{
+											"id": "UrlImagen440x546",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=440&height=546"
+										},
+										{
+											"id": "UrlImagen340x421",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=340&height=421"
+										},
+										{
+											"id": "UrlImagen290x360",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=290&height=360"
+										},
+										{
+											"id": "UrlImagen210x260",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202208/25/00197632122244____2__1200x1200.jpg?impolicy=Resize&width=210&height=260"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Calificacion3",
+							"type": "STRING",
+							"value": "E5"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "AF"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "14"
+						}
+					]
+				},
+				{
+					"id": "ColoresYTallas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Dibujo",
+							"type": "STRING",
+							"value": "DEVIR"
+						}
+					]
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001097632122244   "
+				},
+				{
+					"id": "ServiciosDePuestaEnMarcha",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ModoDeServicioPuestaEnMarcha",
+							"type": "LOOKUP_TABLE",
+							"value": "N - No Disponible",
+							"featureGroupID": "1030",
+							"id_Ext": "347192090",
+							"idExt": "347192090"
+						},
+						{
+							"id": "ServicioDePuestaEnMarcha",
+							"type": "LOOKUP_TABLE",
+							"value": "N - No Disponible",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"idExt": "347191090"
+						}
+					]
+				},
+				{
+					"id": "BloqueoVenta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "AlertaSanitaria",
+							"type": "LOOKUP_TABLE",
+							"value": "N",
+							"featureGroupID": "2688090",
+							"id_Ext": "45811225090",
+							"idExt": "45811225090"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"value": "No voluminoso",
+							"featureGroupID": "401",
+							"id_Ext": "347190090",
+							"idExt": "347190090"
+						},
+						{
+							"id": "InStorePickUp",
+							"type": "LOOKUP_TABLE",
+							"value": "Recogida en tienda",
+							"featureGroupID": "400",
+							"id_Ext": "274969090",
+							"idExt": "274969090"
+						},
+						{
+							"id": "EntregaDomicilio",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDePuerta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ModoDeServiciocambiodePuerta",
+							"type": "LOOKUP_TABLE",
+							"value": "N - No Disponible",
+							"featureGroupID": "1028",
+							"id_Ext": "347193090",
+							"idExt": "347193090"
+						},
+						{
+							"id": "ServiciosDePuerta",
+							"type": "LOOKUP_TABLE",
+							"value": "N - No Disponible",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"idExt": "347191090"
+						}
+					]
+				},
+				{
+					"id": "DocumentacionPredominante",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ServiciosDeRetirada",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServicioDeRetirada",
+							"type": "LOOKUP_TABLE",
+							"value": "N - No Disponible",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"idExt": "347191090"
+						}
+					]
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDeAltaCatalogo",
+							"type": "DATE",
+							"value": "20250120_210054"
+						}
+					]
+				},
+				{
+					"id": "CrossSell",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 0,
+							"value": "A41148686"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 1,
+							"value": "A235719"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 2,
+							"value": "A23791596"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 3,
+							"value": "A27175910"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 4,
+							"value": "A30871491"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 5,
+							"value": "A18671464"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 6,
+							"value": "A30871523"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 7,
+							"value": "A8643219"
+						}
+					]
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "8436017223354",
+									"id_Ext": "202702528059",
+									"groupID": "5005",
+									"idExt": "202702528059"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8436017223354"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20210916_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 1,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "2976321222446",
+									"id_Ext": "207895323059",
+									"groupID": "5005",
+									"idExt": "207895323059"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "2976321222446"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20210916_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "false"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "DescripcionLargaDelProducto",
+					"type": "GROUPING",
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "DescripcionPrincipal",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"ocurrence": 0,
+									"value": "juego competitivo por quipos, en la que los jugadores de cada equipo deberán colaborar para desentrañar el Código Secreto que su jefe de espías les indica, diciendo una única palabra y un número"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "811866"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "3514257022",
+			"hierarchyId": "5004",
+			"categoryId": "2591329542",
+			"idExt": "3514257022"
+		},
+		{
+			"id_Ext": "36394465016",
+			"hierarchyId": "2013",
+			"categoryId": "1597246091",
+			"idExt": "36394465016"
+		},
+		{
+			"id_Ext": "50604255013",
+			"hierarchyId": "999",
+			"categoryId": "1718903803",
+			"idExt": "50604255013"
+		},
+		{
+			"id_Ext": "54155013",
+			"hierarchyId": "999",
+			"categoryId": "381",
+			"idExt": "54155013"
+		},
+		{
+			"id_Ext": "5387012",
+			"hierarchyId": "998",
+			"categoryId": "00068",
+			"idExt": "5387012"
+		},
+		{
+			"id_Ext": "42458695011",
+			"hierarchyId": "997",
+			"categoryId": "20220518092757",
+			"idExt": "42458695011"
+		},
+		{
+			"id_Ext": "49707069011",
+			"hierarchyId": "997",
+			"categoryId": "20240326122617",
+			"idExt": "49707069011"
+		},
+		{
+			"id_Ext": "42323085011",
+			"hierarchyId": "997",
+			"categoryId": "20220429044234",
+			"idExt": "42323085011"
+		}
+	],
+	"unlink": [],
+	"specificAttribs": [
+		{
+			"id": "/Jugueteria_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "CaracteristicasOpcionales",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Dimensiones",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UOM!Dimensiones!Alto",
+									"type": "NUMBER",
+									"value": "16.0"
+								},
+								{
+									"id": "UOM!Dimensiones!Ancho",
+									"type": "NUMBER",
+									"value": "52.0"
+								},
+								{
+									"id": "UOM!Dimensiones!Largo",
+									"type": "NUMBER",
+									"value": "23.0"
+								},
+								{
+									"id": "UOM!Dimensiones!Unidad",
+									"type": "LOOKUP_TABLE",
+									"value": "cm",
+									"featureGroupID": "204",
+									"id_Ext": "347186090",
+									"idExt": "347186090"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "CaracteristicasGenerales",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TipoDeProducto",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 0,
+							"value": "Juegos de tablero: científicos, culturales, de estrategia, de habilidad",
+							"featureGroupID": "411",
+							"id_Ext": "357791090",
+							"idExt": "357791090"
+						},
+						{
+							"id": "CaracteristicasPsicopedagogicas",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 0,
+							"value": "Habilidad manual",
+							"featureGroupID": "409",
+							"id_Ext": "350560090",
+							"idExt": "350560090"
+						},
+						{
+							"id": "CaracteristicasPsicopedagogicas",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 1,
+							"value": "Inteligencia",
+							"featureGroupID": "409",
+							"id_Ext": "381703090",
+							"idExt": "381703090"
+						},
+						{
+							"id": "Materiales",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 0,
+							"value": "Papel",
+							"featureGroupID": "194",
+							"id_Ext": "351573090",
+							"idExt": "351573090"
+						},
+						{
+							"id": "Materiales",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 1,
+							"value": "Cartón",
+							"featureGroupID": "194",
+							"id_Ext": "391997090",
+							"idExt": "391997090"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "811866"
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20250602_000000"
+						},
+						{
+							"id": "FechaDePrimeraPublicacionWWW",
+							"type": "DATE",
+							"value": "20210925_000000"
+						},
+						{
+							"id": "Foto",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "NovedadWWW",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "811866"
+				}
+			]
+		},
+		{
+			"id": "/Hipercor_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "destacado",
+					"type": "INTEGER",
+					"value": "9999999"
+				},
+				{
+					"id": "FechaDePublicacionHPR",
+					"type": "DATE",
+					"value": "20250602_000000"
+				},
+				{
+					"id": "FechaDePrimeraPublicacionHPR",
+					"type": "DATE",
+					"value": "20210925_000000"
+				},
+				{
+					"id": "Foto",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "NovedadHPR",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "CrossSell",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 0,
+							"value": "A41148686"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 1,
+							"value": "A235719"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 2,
+							"value": "A23791596"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 3,
+							"value": "A27175910"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 4,
+							"value": "A30871491"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 5,
+							"value": "A18671464"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 6,
+							"value": "A30871523"
+						},
+						{
+							"id": "Referencia",
+							"type": "STRING",
+							"ocurrence": 7,
+							"value": "A8643219"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "811866"
+				}
+			]
+		},
+		{
+			"id": "/LTC_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fecha de Publicacion",
+					"type": "DATE",
+					"value": "20240325_000000"
+				},
+				{
+					"id": "FechaDePrimeraPublicacionWWW",
+					"type": "DATE",
+					"value": "20221027_163909"
+				},
+				{
+					"id": "Foto",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "NovedadWWW",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "811866"
+				}
+			]
+		}
+	],
+	"idExt": "40240741001"
+}

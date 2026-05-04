@@ -1,0 +1,113 @@
+{
+	"id_Ext": "1060119",
+	"id": "10280118162",
+	"entryContainerID": "6807",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "10280118162"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Queso curado al corte"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Formatge curat al tall"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Freshly cut mature cheese"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Gereifter Käse frisch geschnitten"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20250707_163644"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20030226_000000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "8162"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "A",
+							"featureGroupID": "6614",
+							"id_Ext": "47138190",
+							"idExt": "47138190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso o Pieza"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "0003"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1060119"
+				},
+				{
+					"id": "OrdenGlovo",
+					"type": "INTEGER",
+					"value": "1270"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "1057119",
+			"hierarchyId": "6807",
+			"categoryId": "1028011",
+			"idExt": "1057119"
+		}
+	],
+	"idExt": "1060119"
+}

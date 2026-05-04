@@ -1,0 +1,113 @@
+{
+	"id_Ext": "986601119",
+	"id": "10110011900",
+	"entryContainerID": "6807",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "10110011900"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Azúcares y edulcorantes"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Sucres i edulcorants"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Sugars and sweeteners"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Zucker und Süßstoffe"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20250918_171438"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20170201_110900"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "1900"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"idExt": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "0001"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "986601119"
+				},
+				{
+					"id": "OrdenGlovo",
+					"type": "INTEGER",
+					"value": "5005"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "754119",
+			"hierarchyId": "6807",
+			"categoryId": "1011001",
+			"idExt": "754119"
+		}
+	],
+	"idExt": "986601119"
+}

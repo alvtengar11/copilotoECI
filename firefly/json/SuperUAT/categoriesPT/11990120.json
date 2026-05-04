@@ -1,0 +1,88 @@
+{
+	"id": "10610019001",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Portugal Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "10610019001"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "pt_PT",
+							"type": "STRING",
+							"value": "Campanha de fidelização"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20260219_152416"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20100920_163000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "9001"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"idExt": "58716190",
+							"featureGroupID": "6615",
+							"id_Ext": "58716190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "9999"
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "11990120"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6808",
+			"categoryId": "1061001",
+			"idExt": "11988120",
+			"id_Ext": "11988120"
+		}
+	],
+	"idExt": "11990120",
+	"id_Ext": "11990120",
+	"entryContainerID": "6808"
+}

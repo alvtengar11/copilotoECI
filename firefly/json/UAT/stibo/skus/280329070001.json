@@ -1,0 +1,761 @@
+{
+	"id": "001086015354722   ",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "IA",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DescripcionLargaDelProductoIA",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "NEWELL BRANDS IBERIA S.L.U."
+						},
+						{
+							"id": "Fabricante",
+							"type": "STRING",
+							"value": "0027834"
+						},
+						{
+							"id": "DescripcionFabricante",
+							"type": "STRING",
+							"value": "NEWELL BRANDS IBERIA S.L.U."
+						},
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0027834"
+						},
+						{
+							"id": "Marca",
+							"type": "STRING",
+							"value": "WATERMAN"
+						},
+						{
+							"id": "MarcaMostradaEnWeb",
+							"type": "RELATIONSHIP",
+							"value": "WATERMAN",
+							"idExt": "899365056",
+							"id_Ext": "899365056",
+							"groupID": "391"
+						}
+					]
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "0001"
+						},
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadSurtidoCodificacion",
+							"type": "STRING",
+							"value": "0001"
+						},
+						{
+							"id": "UnidadVenta",
+							"type": "STRING",
+							"value": "0001"
+						},
+						{
+							"id": "Serie",
+							"type": "STRING",
+							"value": "ALLUREPREMIUM"
+						},
+						{
+							"id": "CodigoModelo",
+							"type": "STRING",
+							"value": "2225497"
+						},
+						{
+							"id": "TipoAcuerdoServicio",
+							"type": "STRING",
+							"value": "N"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000159245717"
+						},
+						{
+							"id": "DescripcionModelo",
+							"type": "STRING",
+							"value": "WM IMP BLK CT FP M GB"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Pluma estilográfica Allure Impression Waterman plumín medio negra"
+								},
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"value": "Caneta de tinta permanente Allure Impression Waterman ponta média preta"
+								}
+							]
+						},
+						{
+							"id": "UnidadDeMedidaBase",
+							"type": "STRING",
+							"value": "UNI"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": "0"
+						},
+						{
+							"id": "EanGtin",
+							"type": "STRING",
+							"value": "3026982254979"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PermiteDevolucion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "AnillosDeCompromiso",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaDeLujo",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaMadre",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "ReferenciaDigital",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Eani",
+							"type": "STRING",
+							"value": "2102689865494"
+						},
+						{
+							"id": "CodigoUnicoOrigen",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Validated",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "PLA"
+						},
+						{
+							"id": "SenalEntorno",
+							"type": "LOOKUP_TABLE",
+							"value": "Mercancía general ECI",
+							"idExt": "274979090",
+							"featureGroupID": "395",
+							"id_Ext": "274979090"
+						}
+					]
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "A200435765"
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "280329070001"
+				},
+				{
+					"id": "ColoresYTallas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ColorFabricante",
+							"type": "STRING",
+							"value": "NEGRO"
+						},
+						{
+							"id": "ColorBasico",
+							"type": "LOOKUP_TABLE",
+							"value": "Negros",
+							"idExt": "351107090",
+							"featureGroupID": "10153",
+							"id_Ext": "351107090"
+						},
+						{
+							"id": "DescripcionDelColor",
+							"type": "LOOKUP_TABLE",
+							"value": "Negro",
+							"idExt": "347149090",
+							"featureGroupID": "135",
+							"id_Ext": "347149090"
+						}
+					]
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PUM",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UnidadesProducto",
+									"type": "STRING",
+									"value": "000"
+								}
+							]
+						},
+						{
+							"id": "UOM!Dimensiones!Fondo",
+							"type": "NUMBER",
+							"value": "17.70"
+						},
+						{
+							"id": "UOM!Dimensiones!Ancho",
+							"type": "NUMBER",
+							"value": "5.30"
+						},
+						{
+							"id": "UOM!Dimensiones!Alto",
+							"type": "NUMBER",
+							"value": "2.70"
+						},
+						{
+							"id": "UOM!Dimensiones!Unidad",
+							"type": "LOOKUP_TABLE",
+							"value": "MM",
+							"idExt": "51645525090",
+							"featureGroupID": "204",
+							"id_Ext": "51645525090"
+						}
+					]
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagen",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg"
+										},
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=100&height=100"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=40&height=40"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=210&height=210"
+										},
+										{
+											"id": "UrlImagen520x520",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=520&height=520"
+										},
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=440&height=440"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=640&height=640"
+										},
+										{
+											"id": "UrlImagen1200x1200",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=1200&height=1200"
+										},
+										{
+											"id": "UrlImagen967x1200",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=967&height=1200"
+										},
+										{
+											"id": "UrlImagen520x640",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=520&height=640"
+										},
+										{
+											"id": "UrlImagen516x640",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=516&height=640"
+										},
+										{
+											"id": "UrlImagen440x546",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=440&height=546"
+										},
+										{
+											"id": "UrlImagen340x421",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=340&height=421"
+										},
+										{
+											"id": "UrlImagen290x360",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=290&height=360"
+										},
+										{
+											"id": "UrlImagen210x260",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/www-001086015354722-00.jpg?impolicy=Resize&width=210&height=260"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Calificacion3",
+							"type": "STRING",
+							"value": "E5"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "AD"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "AN"
+						},
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "14"
+						}
+					]
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001086015354722   "
+				},
+				{
+					"id": "BloqueoVenta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "AlertaSanitaria",
+							"type": "LOOKUP_TABLE",
+							"value": "N",
+							"idExt": "45811225090",
+							"featureGroupID": "2688090",
+							"id_Ext": "45811225090"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"value": "No voluminoso",
+							"idExt": "347190090",
+							"featureGroupID": "401",
+							"id_Ext": "347190090"
+						}
+					]
+				},
+				{
+					"id": "DocumentacionPredominante",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDeAltaCatalogo",
+							"type": "DATE",
+							"value": "20260312_081718"
+						}
+					]
+				},
+				{
+					"id": "DescripcionLargaDelProducto",
+					"type": "GROUPING",
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "TituloPrincipal",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Pluma estilográfica Allure Impression Waterman plumín medio negra."
+								}
+							]
+						},
+						{
+							"id": "DescripcionPrincipal",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"ocurrence": 0,
+									"value": "El negro y el plateado son una de las combinaciones más versátiles en el mundo de los instrumentos de escritura. En la Impression CT, Waterman la interpreta de forma serena y moderna, priorizando la pureza de forma y la funcionalidad, ideal para la escritura diaria. Esta pluma no busca llamar la atención con detalles recargados; su punto fuerte reside en su simplicidad y proporción. El cuerpo y el capuchón están recubiertos con una laca negra lisa y uniforme. El acabado es brillante pero no pesado, lo que le da a la pluma un aspecto limpio y profesional. Los detalles plateados (el clip y el anillo grabado con el nombre de la marca) contrastan con el negro y aportan un carácter elegante y estructurado al diseño general. Estos detalles realzan el estilo sin dominar la forma. La silueta del bolígrafo es delgada y ligeramente cónica hacia la punta."
+								},
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"ocurrence": 1,
+									"value": "La Impression CT es excepcionalmente cómoda para el uso diario. Su diseño equilibrado garantiza una sensación natural y requiere un ajuste mínimo. Este modelo también es ideal para quienes se inician en el uso de la pluma estilográfica: no complica la escritura y permite adaptarse rápidamente al ritmo relajado de las notas, firmas o anotaciones breves. La punta es crucial para la experiencia de escritura. Proporciona un contacto suave con el papel y una línea uniforme, lo que facilita tanto la toma de notas rápidas como una escritura más relajada y deliberada. El bolígrafo responde de forma predecible, sin necesidad de ejercer mucha presión, lo que permite concentrarse en el contenido, no en la herramienta en sí."
+								},
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"ocurrence": 0,
+									"value": "O preto e o prateado são uma das combinações mais versáteis no mundo dos instrumentos de escrita. Na Impression CT, a Waterman interpreta-os de forma serena e moderna, priorizando a pureza de forma e a funcionalidade, ideal para a escrita diária. Esta caneta não procura chamar a atenção com detalhes excessivos; o seu ponto forte reside na sua simplicidade e proporção. O corpo e a tampa estão revestidos com um verniz preto liso e uniforme. O acabamento é brilhante, mas não pesado, o que confere à caneta uma aparência limpa e profissional. Os detalhes prateados (o clipe e o anel gravado com o nome da marca) contrastam com o preto e acrescentam um carácter elegante e estruturado ao design geral. Estes detalhes realçam o estilo sem dominar a forma. A silhueta da caneta esferográfica é fina e ligeiramente cónica em direção à ponta."
+								},	
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"ocurrence": 1,
+									"value": "A Impressão CT é excecionalmente confortável para o uso diário. O seu design equilibrado garante uma sensação natural e requer um ajuste mínimo. Este modelo também é ideal para quem está a começar a usar a caneta de tinta: não complica a escrita e permite adaptar-se rapidamente ao ritmo descontraído de notas, assinaturas ou anotações breves. A ponta é crucial para a experiência de escrita. Proporciona um contacto suave com o papel e uma linha uniforme, o que facilita tanto a tomada de notas rápidas como uma escrita mais relaxada e deliberada. A caneta responde de forma previsível, sem necessidade de exercer muita pressão, permitindo concentrar-se no conteúdo, e não na própria ferramenta."
+								}	
+							]
+						}
+					]
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "3026982254979",
+									"idExt": "280327098059",
+									"id_Ext": "280327098059",
+									"groupID": "5005"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "3026982254979"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20260312_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 1,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "2860153547221",
+									"idExt": "280733841059",
+									"id_Ext": "280733841059",
+									"groupID": "5005"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "2860153547221"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20260312_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "false"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "4553525"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "5007",
+			"categoryId": "1501596936",
+			"idExt": "20834250024",
+			"id_Ext": "20834250024"
+		},
+		{
+			"hierarchyId": "999",
+			"categoryId": "1424866181",
+			"idExt": "7577630013",
+			"id_Ext": "7577630013"
+		},
+		{
+			"hierarchyId": "998",
+			"categoryId": "00117",
+			"idExt": "5436012",
+			"id_Ext": "5436012"
+		}
+	],
+	"unlink": [],
+	"specificAttribs": [
+		{
+			"id": "/Papeleria_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "CaracteristicasOpcionales",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DimensionesYPeso",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UOM!Dimensiones!Alto",
+									"type": "NUMBER",
+									"value": "2.70"
+								},
+								{
+									"id": "UOM!Dimensiones!Ancho",
+									"type": "NUMBER",
+									"value": "5.30"
+								},
+								{
+									"id": "UOM!Peso!Peso",
+									"type": "NUMBER",
+									"value": "45"
+								},
+								{
+									"id": "UOM!Dimensiones!Fondo",
+									"type": "NUMBER",
+									"value": "17.70"
+								},
+								{
+									"id": "UOM!Dimensiones!Unidad",
+									"type": "LOOKUP_TABLE",
+									"value": "cm",
+									"idExt": "347186090",
+									"featureGroupID": "204",
+									"id_Ext": "347186090"
+								},
+								{
+									"id": "UOM!Peso!Unidad",
+									"type": "LOOKUP_TABLE",
+									"value": "g",
+									"idExt": "347187090",
+									"featureGroupID": "206",
+									"id_Ext": "347187090"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "CaracteristicasGenerales",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TipoDeProducto",
+							"type": "LOOKUP_TABLE",
+							"value": "Plumas",
+							"idExt": "8609701090",
+							"featureGroupID": "800",
+							"id_Ext": "8609701090"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "4553525"
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20260311_000000"
+						},
+						{
+							"id": "Foto",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "NovedadWWW",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "4553525"
+				}
+			]
+		},
+		{
+			"id": "/Portugal_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "FechaDePublicacionPOR",
+					"type": "DATE",
+					"value": "20260311_000000"
+				},
+				{
+					"id": "Foto",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "4553525"
+				}
+			]
+		}
+	],
+	"idExt": "280329070001",
+	"id_Ext": "280329070001",
+	"entryContainerID": "1"
+}

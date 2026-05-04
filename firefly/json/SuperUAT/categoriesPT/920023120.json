@@ -1,0 +1,147 @@
+{
+	"id": "1800",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Portugal Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "1800"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "pt_PT",
+							"type": "STRING",
+							"value": "Garrafeira"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20260225_145329"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20160808_165719"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Secci&oacuten"
+				},
+				{
+					"id": "Seccion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoSeccion",
+							"type": "STRING",
+							"value": "800"
+						},
+						{
+							"id": "Tipo",
+							"type": "STRING_ENUMERATION",
+							"value": "No perecedero"
+						},
+						{
+							"id": "VentaVentanaFlotante",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Area",
+							"type": "LOOKUP_TABLE",
+							"value": "1",
+							"idExt": "47215190",
+							"featureGroupID": "6617",
+							"id_Ext": "47215190"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Centros",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 0,
+									"value": "520140 - LISBOA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 1,
+									"value": "520141 - BELOURA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 2,
+									"value": "520142 - GAIA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 3,
+									"value": "520145 - FLUVIAL PORTO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 4,
+									"value": "520155 - COIMBRA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 5,
+									"value": "520157 - RESTELO"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 6,
+									"value": "520158 - BRAGA"
+								},
+								{
+									"id": "Centro",
+									"type": "STRING_ENUMERATION",
+									"ocurrence": 7,
+									"value": "520144 - EXPO"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "920023120"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6808",
+			"categoryId": "1",
+			"idExt": "10705120",
+			"id_Ext": "10705120"
+		}
+	],
+	"idExt": "920023120",
+	"id_Ext": "920023120",
+	"entryContainerID": "6808"
+}

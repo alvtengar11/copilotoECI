@@ -1,0 +1,88 @@
+{
+	"id": "18000005487",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Portugal Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "18000005487"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "pt_PT",
+							"type": "STRING",
+							"value": "Espumante bruto"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20260225_145101"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20030922_010000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "5487"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"idExt": "58716190",
+							"featureGroupID": "6615",
+							"id_Ext": "58716190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "9999"
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "11128120"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6808",
+			"categoryId": "1800000",
+			"idExt": "1548255120",
+			"id_Ext": "1548255120"
+		}
+	],
+	"idExt": "11128120",
+	"id_Ext": "11128120",
+	"entryContainerID": "6808"
+}

@@ -1,0 +1,119 @@
+{
+  "id_Ext": "734119",
+  "id": "10030121718",
+  "entryContainerID": "6807",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Supermercado Peninsula Jerarquia HPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Codigo",
+          "type": "STRING",
+          "value": "10030121718"
+        },
+        {
+          "id": "Descripcion",
+          "type": "STRING",
+          "children": [
+            {
+              "id": "es_ES",
+              "type": "STRING",
+              "value": "Tés"
+            },
+            {
+              "id": "ca_ES",
+              "type": "STRING",
+              "value": "Tes"
+            },
+            {
+              "id": "en_GB",
+              "type": "STRING",
+              "value": "Teas"
+            },
+            {
+              "id": "de_DE",
+              "type": "STRING",
+              "value": "Tees"
+            }
+          ]
+        },
+        {
+          "id": "MetadataFechaModificacion",
+          "type": "DATE",
+          "value": "20230221_101617"
+        },
+        {
+          "id": "FechaEntradaProduccion",
+          "type": "DATE",
+          "value": "20130423_104435"
+        },
+        {
+          "id": "Tipo",
+          "type": "STRING",
+          "value": "Variedad"
+        },
+        {
+          "id": "Variedad",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoVariedad",
+              "type": "STRING",
+              "value": "1718"
+            },
+            {
+              "id": "TipoVenta",
+              "type": "LOOKUP_TABLE",
+              "value": "U",
+              "featureGroupID": "6614",
+              "id_Ext": "47143190"
+            },
+            {
+              "id": "TipoVentaDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "Unidad"
+            },
+            {
+              "id": "Orden",
+              "type": "STRING",
+              "value": "0002"
+            }
+          ]
+        },
+        {
+          "id": "skipPostProcessing",
+          "type": "STRING",
+          "value": "FALSE"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "734119"
+        },
+        {
+          "id": "Facet",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoFacet",
+              "type": "LOOKUP_TABLE",
+              "ocurrence": 0,
+              "value": "0003",
+              "featureGroupID": "6631",
+              "id_Ext": "1492205190"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "id_Ext": "310418119",
+      "hierarchyId": "6807",
+      "categoryId": "1003012"
+    }
+  ]
+}

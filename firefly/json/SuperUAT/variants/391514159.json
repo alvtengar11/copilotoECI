@@ -1,0 +1,1147 @@
+{
+  "id_Ext": "391514159",
+  "id": "0084380957840",
+  "entryContainerID": "6636",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Variantes_CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Code",
+          "type": "STRING",
+          "value": "0084380957840"
+        },
+        {
+          "id": "EAN",
+          "type": "STRING",
+          "value": "0084380957840"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "391514159"
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaCreacion",
+              "type": "DATE",
+              "value": "20141113_000000"
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20141113_000000"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "specificAttribs": [
+    {
+      "id": "/Informacion_Alimentaria_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Gtin",
+          "type": "STRING",
+          "value": "00084380957840"
+        },
+        {
+          "id": "Mercado",
+          "type": "GROUPING",
+          "ocurrence": 0,
+          "children": [
+            {
+              "id": "MercadoObjetivo",
+              "type": "STRING",
+              "value": "620"
+            },
+            {
+              "id": "Basicos",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoMarca",
+                  "type": "STRING",
+                  "value": "ST. DALFOUR"
+                }
+              ]
+            },
+            {
+              "id": "DatosProducto",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "MarcasProducto",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "DietasAlergenicos",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "STRING",
+                          "ocurrence": 0,
+                          "value": "VEGETARIAN"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "MedioAmbiente",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "STRING",
+                          "ocurrence": 0,
+                          "value": "GREEN_DOT"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Eticas",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "STRING",
+                          "ocurrence": 0,
+                          "value": "FREE_FROM_GLUTEN"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "SignoE",
+                      "type": "FLAG",
+                      "value": "false"
+                    }
+                  ]
+                },
+                {
+                  "id": "Medidas",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "PorcentajeAlcohol",
+                      "type": "STRING",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Alimentacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Nutrientes",
+                  "type": "GROUPING",
+                  "ocurrence": 0,
+                  "children": [
+                    {
+                      "id": "EstadoPreparacion",
+                      "type": "LOOKUP_TABLE",
+                      "value": "UNPREPARED",
+                      "featureGroupID": "6652",
+                      "id_Ext": "387413190"
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "ENER-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387422190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "208"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "E14",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387527190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "EXACT",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387410190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 1,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "ENER-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387422190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "884"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "KJO",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387561190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "EXACT",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387410190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 2,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FAT",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387425190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0.5"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "LESS_THAN",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387411190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 3,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FASAT",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387426190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0.1"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "LESS_THAN",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387411190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 4,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "SALTEQ",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387444190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0.031"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "EXACT",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387410190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 5,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "SUGAR-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387447190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "52"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "EXACT",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387410190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 6,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FIBTG",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387429190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "1.9"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "EXACT",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387410190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 7,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "PRO-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387442190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0.6"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "EXACT",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387410190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 8,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "CHOAVL",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387416190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "52"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "EXACT",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387410190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "TamanoRacion",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "100"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "GR",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387540190"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "InstruccionesPreparacion",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Preparacion",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "Descripcion",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "pt_PT",
+                              "type": "STRING",
+                              "value": "Conservar no frigorífico após abertura. Manter o produto fechado."
+                            },
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "No especificado"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ProveedorInformacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Codigo",
+                  "type": "STRING",
+                  "value": "5600092735450"
+                },
+                {
+                  "id": "Descripcion",
+                  "type": "STRING",
+                  "value": "FERBAR - FERNANDO BARROS - PRODUT."
+                }
+              ]
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20201210_213257"
+            }
+          ]
+        },
+        {
+          "id": "Mercado",
+          "type": "GROUPING",
+          "ocurrence": 1,
+          "children": [
+            {
+              "id": "MercadoObjetivo",
+              "type": "STRING",
+              "value": "724"
+            },
+            {
+              "id": "Variante",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "ST.DALFOUR Rapsodia de Frutas 4 Frutas Frasco cristal 284g"
+                }
+              ]
+            },
+            {
+              "id": "Basicos",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoMarca",
+                  "type": "STRING",
+                  "value": "St. Dalfour"
+                }
+              ]
+            },
+            {
+              "id": "DatosProducto",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "DenominacionAlimento",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Rapsodia de frutas"
+                    }
+                  ]
+                },
+                {
+                  "id": "Operador",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Nombre",
+                      "type": "STRING",
+                      "value": "St. Dalfour SAS"
+                    },
+                    {
+                      "id": "Direccion",
+                      "type": "STRING",
+                      "value": "Chemin de Cazeaux - 47200 Marmande (France)"
+                    }
+                  ]
+                },
+                {
+                  "id": "MarcasProducto",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "MedioAmbiente",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "STRING",
+                          "ocurrence": 0,
+                          "value": "GREEN_DOT"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "SignoE",
+                      "type": "FLAG",
+                      "value": "true"
+                    }
+                  ]
+                },
+                {
+                  "id": "Instrucciones",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "InstruccionesConsumidor",
+                      "type": "STRING",
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "ocurrence": 0,
+                          "value": "Conservar en frio una vez abierto"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Alimentacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Ingredientes",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "DescripcionIngredientes",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Descripcion",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Fresas (13%), frambuesas (13%), moras (13%), cerezas (12%), zumo de frutas concentrado (uva y dátil), zumo de limón, pectina de fruta"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "DescripcionResaltada",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Fresas (13%), frambuesas (13%), moras (13%), cerezas (12%), zumo de frutas concentrado (uva y dátil), zumo de limón, pectina de fruta"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Nutrientes",
+                  "type": "GROUPING",
+                  "ocurrence": 0,
+                  "children": [
+                    {
+                      "id": "EstadoPreparacion",
+                      "type": "LOOKUP_TABLE",
+                      "value": "PREPARED",
+                      "featureGroupID": "6652",
+                      "id_Ext": "387412190"
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "ENER-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387422190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "902,0"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "KJO",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387561190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 1,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "ENER-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387422190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "216,0"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "E14",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387527190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 2,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FAT",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387425190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0,8"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "LESS_THAN",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387411190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 3,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FASAT",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387426190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0,01"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "LESS_THAN",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387411190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 4,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "CHOAVL",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387416190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "52,0"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 5,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "SUGAR-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387447190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "45,5"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 6,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "PRO-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387442190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0,5"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 7,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "SALTEQ",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387444190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0,03"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 8,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FIBTG",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387429190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "2,3"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "TamRacionFamiliar",
+                      "type": "STRING",
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "value": "Tamaño de referencia 100GR"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "TamanoRacion",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "100,0"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "GR",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387540190"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ProveedorInformacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Codigo",
+                  "type": "STRING",
+                  "value": "8427551000006"
+                },
+                {
+                  "id": "Descripcion",
+                  "type": "STRING",
+                  "value": "Frutapac"
+                }
+              ]
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20201210_220651"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

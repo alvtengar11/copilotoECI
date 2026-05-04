@@ -1,0 +1,534 @@
+{
+	"id_Ext": "102630101",
+	"id": "001018734700547",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PUM",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "EnlacePUM",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6618",
+									"id_Ext": "26848190",
+									"value": "005"
+								},
+								{
+									"id": "UnidadesProducto",
+									"type": "STRING",
+									"value": "001"
+								},
+								{
+									"id": "CantidadProducto",
+									"type": "NUMBER",
+									"value": "070.000"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "102630101"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SusceptibleDeEnvolver",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "401",
+							"id_Ext": "347190090",
+							"value": "No voluminoso"
+						},
+						{
+							"id": "InStorePickUp",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "400",
+							"id_Ext": "274969090",
+							"value": "Recogida en tienda"
+						},
+						{
+							"id": "DeliveryPoint",
+							"type": "STRING_ENUMERATION",
+							"value": "C"
+						},
+						{
+							"id": "EntregaDomicilio",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "VariosTipoPiel",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTamanos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosFormatos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "B001018734700547"
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "MJ"
+						},
+						{
+							"id": "Calificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "14"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "3U"
+						}
+					]
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"value": "ADELITA SILVER botella 70 cl"
+						},
+						{
+							"id": "UnidadDeMedidaBase",
+							"type": "STRING",
+							"value": "UNI"
+						},
+						{
+							"id": "EsAlcohol",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000105873752"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": " "
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "SUP"
+						},
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "01"
+						},
+						{
+							"id": "EanGtin",
+							"type": "STRING",
+							"value": "3041311027031"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Marca",
+							"type": "STRING",
+							"value": "ADELITA"
+						},
+						{
+							"id": "MarcaMostradaEnWeb",
+							"type": "RELATIONSHIP",
+							"groupID": "6602",
+							"id_Ext": "38056190",
+							"value": "14083"
+						},
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "MARIE BRIZARD ESPAñA, S.A."
+						},
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0226589"
+						},
+						{
+							"id": "Fabricante",
+							"type": "RELATIONSHIP",
+							"groupID": "666",
+							"id_Ext": "503880160",
+							"value": "010226589"
+						}
+					]
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "3041311027031"
+								},
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"groupID": "6636",
+									"id_Ext": "405450159",
+									"value": "3041311027031"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001018734700547   "
+				},
+				{
+					"id": "Precios",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IvaPorcentaje",
+							"type": "STRING",
+							"value": "02"
+						}
+					]
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "3997113",
+			"hierarchyId": "6803",
+			"categoryId": "01187347"
+		},
+		{
+			"id_Ext": "915214119",
+			"hierarchyId": "6807",
+			"categoryId": "12000052780"
+		},
+		{
+			"id_Ext": "24385031012",
+			"hierarchyId": "998",
+			"categoryId": "00326"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Supermercado_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"value": "CANARIAS"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6610",
+							"id_Ext": "27991190",
+							"value": "CL"
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "70"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "SILVER"
+								}
+							]
+						},
+						{
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6612",
+							"id_Ext": "39923190",
+							"value": "BOTELLA"
+						},
+						{
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6602",
+							"id_Ext": "38056190",
+							"value": "14083"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "ADELITA"
+						}
+					]
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20180527_000000"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "No Publicar"
+						}
+					]
+				},
+				{
+					"id": "Tematicos",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tematico",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6604",
+									"id_Ext": "46906190",
+									"value": "Novedad"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "FechaNovedad",
+					"type": "DATE",
+					"value": "20180527_000000"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "6"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"groupID": "666",
+									"id_Ext": "503880160",
+									"value": "010226589"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"groupID": "666",
+									"id_Ext": "503880160",
+									"value": "010226589"
+								}
+							]
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000070,000"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "6"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "6"
+						},
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"value": "U"
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20180527_000000"
+						},
+						{
+							"id": "FechaDespublicacionWWW",
+							"type": "DATE",
+							"value": "29991230_000001"
+						}
+					]
+				}
+			]
+		}
+	]
+}

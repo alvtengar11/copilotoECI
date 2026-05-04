@@ -1,0 +1,144 @@
+{
+  "id_Ext": "8696124",
+  "id": "520140",
+  "entryContainerID": "6810",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Surtido Jerarquia HPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Codigo",
+          "type": "STRING",
+          "value": "520140"
+        },
+        {
+          "id": "Descripcion",
+          "type": "STRING",
+          "children": [
+            {
+              "id": "pt_PT",
+              "type": "STRING",
+              "value": "LISBOA"
+            }
+          ]
+        },
+        {
+          "id": "MetadataFechaModificacion",
+          "type": "DATE",
+          "value": "20250311_111810"
+        },
+        {
+          "id": "Centro",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Domicilio",
+              "type": "STRING",
+              "value": "Avda. Antonio Augusto de Aguiar, 31"
+            },
+            {
+              "id": "Poblacion",
+              "type": "STRING",
+              "value": "LISBOA"
+            },
+            {
+              "id": "Provincia",
+              "type": "STRING",
+              "value": "LISBOA"
+            },
+            {
+              "id": "Telefono",
+              "type": "STRING",
+              "value": "213 711 777"
+            },
+            {
+              "id": "Gper",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Gourmet",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "Perecederos",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "Publicacion",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "UnidadEmbalaje",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "AplicaUE",
+                  "type": "FLAG",
+                  "value": "true"
+                },
+                {
+                  "id": "FechaUE",
+                  "type": "DATE",
+                  "value": "20230503_181200"
+                }
+              ]
+            },
+            {
+              "id": "Idiomas",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Idioma",
+                  "type": "GROUPING",
+                  "ocurrence": 0,
+                  "children": [
+                    {
+                      "id": "CodigoIdioma",
+                      "type": "LOOKUP_TABLE",
+                      "value": "pt_PT",
+                      "featureGroupID": "6621",
+                      "id_Ext": "26843190"
+                    },
+                    {
+                      "id": "DescripcionIdiomaEnum",
+                      "type": "STRING_ENUMERATION",
+                      "value": "Portugués"
+                    },
+                    {
+                      "id": "IdiomaDefecto",
+                      "type": "FLAG",
+                      "value": "true"
+                    },
+                    {
+                      "id": "Publicado",
+                      "type": "FLAG",
+                      "value": "true"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "8696124"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "id_Ext": "8701124",
+      "hierarchyId": "6810",
+      "categoryId": "5280"
+    }
+  ]
+}

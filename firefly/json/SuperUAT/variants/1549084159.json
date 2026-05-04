@@ -1,0 +1,670 @@
+{
+  "id_Ext": "1549084159",
+  "id": "4001686849439",
+  "entryContainerID": "6636",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Variantes_CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Code",
+          "type": "STRING",
+          "value": "4001686849439"
+        },
+        {
+          "id": "EAN",
+          "type": "STRING",
+          "value": "4001686849439"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "1549084159"
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaCreacion",
+              "type": "DATE",
+              "value": "20210703_000000"
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20210703_000000"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "link": [],
+  "specificAttribs": [
+    {
+      "id": "/Informacion_Alimentaria_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Gtin",
+          "type": "STRING",
+          "value": "04001686849439"
+        },
+        {
+          "id": "Mercado",
+          "type": "GROUPING",
+          "ocurrence": 0,
+          "children": [
+            {
+              "id": "MercadoObjetivo",
+              "type": "STRING",
+              "value": "724"
+            },
+            {
+              "id": "Basicos",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoMarca",
+                  "type": "STRING",
+                  "value": "HARIBO"
+                }
+              ]
+            },
+            {
+              "id": "DatosProducto",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "DenominacionAlimento",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "SURTIDO DE GOLOSINAS"
+                    },
+                    {
+                      "id": "ca_ES",
+                      "type": "STRING",
+                      "value": "Assortiment de llaminadures"
+                    }
+                  ]
+                },
+                {
+                  "id": "Operador",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Nombre",
+                      "type": "STRING",
+                      "value": "HARIBO España S.A.U."
+                    },
+                    {
+                      "id": "Direccion",
+                      "type": "STRING",
+                      "value": "Ctra. Girona-Banyoles, KM 14 17844 Cornellà del Terri"
+                    }
+                  ]
+                },
+                {
+                  "id": "MarcasProducto",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "SignoE",
+                      "type": "FLAG",
+                      "value": "true"
+                    }
+                  ]
+                },
+                {
+                  "id": "Instrucciones",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "InstruccionesConsumidor",
+                      "type": "STRING",
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "ocurrence": 0,
+                          "value": "Mantener en lugar fresco y seco"
+                        },
+                        {
+                          "id": "ca_ES",
+                          "type": "STRING",
+                          "ocurrence": 0,
+                          "value": "Mantenir en lloc fresc i sec"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Medidas",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "ContenidoNeto",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "300"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "GR",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387540190"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Alimentacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Alergenicos",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "DescripcionAlergenicos",
+                      "type": "STRING",
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "value": "leche,trigo"
+                        },
+                        {
+                          "id": "ca_ES",
+                          "type": "STRING",
+                          "value": "llet, blat"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Ingredientes",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "DescripcionIngredientes",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Descripcion",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "HAPPY COLA MINIS - CARAMELOS DE GOMA SABOR COLA/ Ingredientes: jarabe de glucosa; azúcar; gelatina; dextrosa; acidulante: ácido cítrico; jarabe de caramelo; aroma; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba. Puede contenter trazas de leche, trigo. ROULETTE- CARAMELOS DE GOMA SABOR FRUTAS / Ingredientes: jarabe de glucosa; azúcar; gelatina; dextrosa; acidulante: ácido cítrico; concentrados de frutas y plantas: cártamo, manzana, espirulina, rábano, limón, boniato, zanahoria, grosella negra, hibisco; aroma; colorante: antocianinas; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba; jarabe de azúcar invertido. Puede contenter trazas de leche, trigo. MINI MERRY CHRISTMAS- CARAMELOS DE GOMA SABOR FRUTAS / Ingredientes: jarabe de glucosa; azúcar; gelatina; dextrosa; acidulante: ácido cítrico; concentrados de frutas y plantas: cártamo, espirulina, manzana, baya de saúco, grosella negra, naranja, kiwi, limón, aronia, mango, fruta de la pasión, uva; aroma; extracto de baya de saúco; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba; jarabe de caramelo. Puede contenter trazas de leche, trigo. GOLDBÄREN MINIS - CARAMELOS DE GOMA SABOR FRUTAS / Ingredientes: jarabe de glucosa; azúcar; gelatina; dextrosa; zumo de frutas a partir de concentrado: manzana, fresa, frambuesa, naranja, limón, piña; acidulante: ácido cítrico; concentrados de frutas y plantas: cártamo, espirulina, manzana, baya de saúco, naranja, grosella negra, kiwi, limón, aronia, mango, fruta de la pasión, uva; aroma; extracto de baya de saúco; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba. Puede contenter trazas de leche, trigo. SAFT GOLDBAEREN MINIS- CARAMELOS DE GOMA SABOR FRUTAS CON 25% DE ZUMO DE FRUTAS A PARTIR DE CONCENTRADO / Ingredientes: jarabe de glucosa; zumo de frutas a partir de concentrado: manzana, frambuesa, limón, melocotón, cereza, naranja, plátano; azúcar; gelatina; dextrosa; acidulante: ácido cítrico; concentrados de frutas y plantas: cártamo, espirulina, manzana, baya de saúco, grosella negra, naranja, kiwi, aronia, uva, limón; extracto de baya de saúco; aroma; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba. Puede contenter trazas de leche, trigo. KINDERSCHNULLER MINIS - CARAMELOS DE GOMA SABOR FRUTAS / Ingredientes: jarabe de glucosa; azúcar; gelatina; dextrosa; acidulante: ácido cítrico; concentrados de frutas y plantas: cártamo, espirulina, manzana, baya de saúco, grosella negra, naranja, kiwi, limón, aronia, mango, fruta de la pasión, uva; aroma; extracto de baya de saúco; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba; jarabe de caramelo. Puede contenter trazas de leche, trigo. QUAXI FRÖSCHLI MINIS- CARAMELOS DE GOMA SABOR FRUTAS / Ingredientes: jarabe de glucosa; azúcar; dextrosa; gelatina; acidulante: ácido cítrico; concentrados de frutas y plantas: espirulina, cártamo, manzana; agentes de recubrimi"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "DescripcionAdd",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "ento: cera de abeja blanca y amarilla, cera de carnauba; aroma. Puede contenter trazas de leche, trigo. MAOAM PINBALLS- CARAMELOS MASTICABLES SABOR FRUTAS Y COLA/ Ingredientes: azúcar; jarabe de glucosa; grasa de palma; humectante: jarabe de sorbitol; acidulante: ácido cítrico; gelatina; concentrados de frutas y plantas: cártamo, rábano, zanahoria, manzana, limón, espirulina, grosella negra; aroma; jarabe de caramelo; extracto de regaliz; antiaglomerante: talco; agente de recubrimiento: cera de abeja blanca y amarilla; melaza; jarabe de azúcar invertido. MAOAM BLOXX - CARAMELOS MASTICABLES SABOR FRUTAS Y COLA/ Ingredientes: azúcar; jarabe de glucosa; grasa de palma; humectante: jarabe de sorbitol; gelatina; acidulante: ácido cítrico; aroma. MAOAM STRIPES - CARAMELOS MASTICABLES SABOR FRUTAS Y COLA/ Ingredientes: azúcar; jarabe de glucosa; grasa de palma; humectante: jarabe de sorbitol; gelatina; acidulante: ácido cítrico; aroma."
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PatronResaltado",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "(1,p),(268,em),(273,/em),(275,em),(280,/em),(700,em),(705,/em),(707,em),(712,/em),(1171,em),(1176,/em),(1178,em),(1183,/em),(1707,em),(1712,/em),(1714,em),(1719,/em),(2286,em),(2291,/em),(2293,em),(2298,/em),(2759,em),(2764,/em),(2766,em),(2771,/em),(3090,em),(3095,/em),(3097,em),(3102,/em),(3942,/p)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "DescripcionResaltada",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "HAPPY COLA MINIS - CARAMELOS DE GOMA SABOR COLA/ Ingredientes: jarabe de glucosa; azúcar; gelatina; dextrosa; acidulante: ácido cítrico; jarabe de caramelo; aroma; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba. Puede contenter trazas de #!#leche#!#, #!#trigo#!#. ROULETTE- CARAMELOS DE GOMA SABOR FRUTAS / Ingredientes: jarabe de glucosa; azúcar; gelatina; dextrosa; acidulante: ácido cítrico; concentrados de frutas y plantas: cártamo, manzana, espirulina, rábano, limón, boniato, zanahoria, grosella negra, hibisco; aroma; colorante: antocianinas; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba; jarabe de azúcar invertido. Puede contenter trazas de #!#leche#!#, #!#trigo#!#. MINI MERRY CHRISTMAS- CARAMELOS DE GOMA SABOR FRUTAS / Ingredientes: jarabe de glucosa; azúcar; gelatina; dextrosa; acidulante: ácido cítrico; concentrados de frutas y plantas: cártamo, espirulina, manzana, baya de saúco, grosella negra, naranja, kiwi, limón, aronia, mango, fruta de la pasión, uva; aroma; extracto de baya de saúco; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba; jarabe de caramelo. Puede contenter trazas de #!#leche#!#, #!#trigo#!#. GOLDBÄREN MINIS - CARAMELOS DE GOMA SABOR FRUTAS / Ingredientes: jarabe de glucosa; azúcar; gelatina; dextrosa; zumo de frutas a partir de concentrado: manzana, fresa, frambuesa, naranja, limón, piña; acidulante: ácido cítrico; concentrados de frutas y plantas: cártamo, espirulina, manzana, baya de saúco, naranja, grosella negra, kiwi, limón, aronia, mango, fruta de la pasión, uva; aroma; extracto de baya de saúco; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba. Puede contenter trazas de #!#leche#!#, #!#trigo#!#. SAFT GOLDBAEREN MINIS- CARAMELOS DE GOMA SABOR FRUTAS CON 25% DE ZUMO DE FRUTAS A PARTIR DE CONCENTRADO / Ingredientes: jarabe de glucosa; zumo de frutas a partir de concentrado: manzana, frambuesa, limón, melocotón, cereza, naranja, plátano; azúcar; gelatina; dextrosa; acidulante: ácido cítrico; concentrados de frutas y plantas: cártamo, espirulina, manzana, baya de saúco, grosella negra, naranja, kiwi, aronia, uva, limón; extracto de baya de saúco; aroma; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba. Puede contenter trazas de #!#leche#!#, #!#trigo#!#. KINDERSCHNULLER MINIS - CARAMELOS DE GOMA SABOR FRUTAS / Ingredientes: jarabe de glucosa; azúcar; gelatina; dextrosa; acidulante: ácido cítrico; concentrados de frutas y plantas: cártamo, espirulina, manzana, baya de saúco, grosella negra, naranja, kiwi, limón, aronia, mango, fruta de la pasión, uva; aroma; extracto de baya de saúco; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba; jarabe de caramelo. Puede contenter trazas de #!#leche#!#, #!#trigo#!#. QUAXI FRÖSCHLI MINIS- CARAMELOS DE GOMA SABOR FRUTAS / Ingredientes: jarabe de glucosa; azúcar; dextrosa; gelatina; acidulante: ácido cítrico; concentrados"
+                            },
+                            {
+                              "id": "ca_ES",
+                              "type": "STRING",
+                              "value": "HAPPY COLA MINIS - CARAMELS DE GOMA GUST COLA / Ingredients: xarop de glucosa; sucre; gelatina; dextrosa; acidulant: àcid cítric; xarop de caramel; aroma; agents de recobriment: cera d'abella blanca i groga, cera de carnauba. Pot contenir traces de #!#llet#!# i #!#blat#!#. ROULETTE- CARAMELS DE GOMA GUST FRUITES / Ingredients: xarop de glucosa; sucre; gelatina; dextrosa; acidulant: àcid cítric; concentrats de fruites i plantes: càrtam, poma, espirulina, llimona, rave, moniato, pastanaga, grosella negra, hibisc; aroma; agents de recobriment: cera d'abella blanca i groga, cera de carnauba; xarop de sucre invertit. Pot contenir traces de #!#llet#!# i #!#blat#!#. MINI MERRY CHRISTMAS- CARAMELS DE GOMA GUST FRUITES / Ingredients: xarop de glucosa; sucre; gelatina; dextrosa; acidulant: àcid cítric; concentrats de fruites i plantes: càrtam, espirulina, poma, baia de saüc, grosella negra, taronja, kiwi, llimona, arònia, mango, fruita de la passió, raïm; aroma; extracte de baia de saüc; agents de recobriment: cera d'abella blanca i groga, cera de carnauba; xarop de caramel. Pot contenir traces de #!#llet#!# i #!#blat#!#. GOLDBÄREN-MINIS-CARAMELS DE GOMA GUST FRUITES / Ingredients: xarop de glucosa; sucre; gelatina; dextrosa; suc de fruites a partir de concentrat: poma, maduixa, gerd, taronja, llimona, pinya; acidulant: àcid cítric; concentrats de fruites i plantes: càrtam, espirulina, poma, baia de saüc, taronja, grosella negra, kiwi, llimona, arònia, mango, fruita de la passió, raïm; aroma; extracte de baia de saüc; agents de recobriment: cera d'abella blanca i groga, cera de carnauba. Pot contenir traces de #!#llet#!# i #!#blat#!#. SAFT GOLDBAEREN MINIS- CARAMELS DE GOMA GUST FRUITES AMB 25% DE SUC DE FRUITES A PARTIR DE CONCENTRAT / Ingredients: xarop de glucosa; suc de fruites a partir de concentrat: poma, gerd, llimona, préssec, cirera, taronja, plàtan; sucre; gelatina; dextrosa; acidulant: àcid cítric; concentrats de fruites i plantes: càrtam, espirulina, poma, baia de saüc, grosella negra, taronja, kiwi, arònia, raïm, llimona; extracte de baia de saüc; aroma; agents de recobriment: cera d'abella blanca i groga, cera de carnauba. Pot contenir traces de #!#llet#!# i #!#blat#!#. KINDERSCHNULLER MINIS - CARAMELS DE GOMA GUST FRUITES / Ingredients: xarop de glucosa; sucre; gelatina; dextrosa; acidulant: àcid cítric; concentrats de fruites i plantes: càrtam, espirulina, poma, baia de saüc, grosella negra, taronja, kiwi, llimona, arònia, mango, fruita de la passió, raïm; aroma; extracte de baia de saüc; agents de recobriment: cera d'abella blanca i groga, cera de carnauba; xarop de caramel. Pot contenir traces de #!#llet#!# i #!#blat#!#. QUAXI FRÖSCHLI MINIS- CARAMELS DE GOMA GUST FRUITES / Ingredients: xarop de glucosa; sucre; dextrosa; gelatina; acidulant: àcid cítric; concentrats"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "DescripcionResaltadaAdd",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "de frutas y plantas: espirulina, cártamo, manzana; agentes de recubrimiento: cera de abeja blanca y amarilla, cera de carnauba; aroma. Puede contenter trazas de #!#leche#!#, #!#trigo#!#. MAOAM PINBALLS- CARAMELOS MASTICABLES SABOR FRUTAS Y COLA/ Ingredientes: azúcar; jarabe de glucosa; grasa de palma; humectante: jarabe de sorbitol; acidulante: ácido cítrico; gelatina; concentrados de frutas y plantas: cártamo, rábano, zanahoria, manzana, limón, espirulina, grosella negra; aroma; jarabe de caramelo; extracto de regaliz; antiaglomerante: talco; agente de recubrimiento: cera de abeja blanca y amarilla; melaza; jarabe de azúcar invertido. MAOAM BLOXX - CARAMELOS MASTICABLES SABOR FRUTAS Y COLA/ Ingredientes: azúcar; jarabe de glucosa; grasa de palma; humectante: jarabe de sorbitol; gelatina; acidulante: ácido cítrico; aroma. MAOAM STRIPES - CARAMELOS MASTICABLES SABOR FRUTAS Y COLA/ Ingredientes: azúcar; jarabe de glucosa; grasa de palma; humectante: jarabe de sorbitol; gelatina; acidulante: ácido cítrico; aroma."
+                            },
+                            {
+                              "id": "ca_ES",
+                              "type": "STRING",
+                              "value": "de fruites i plantes: espirulina, càrtam, poma; agents de recobriment: cera d'abella blanca i groga, cera de carnauba; aroma. Pot contenir traces de #!#llet#!# i #!#blat#!#. MAOAM PINBALLS-CARAMELS MASTICABLES GUST FRUITES I COLA / Ingredients: sucre; xarop de glucosa; greix de palma; humectant: xarop de sorbitol; acidulant: àcid cítric; gelatina; concentrats de fruites i plantes: càrtam, rave, pastanaga, poma, llimona, espirulina, grosella negra; aroma; xarop de caramel; extracte de regalèssia; antiaglomerant: talc; agent de recobriment: cera d'abella blanca i groga; melassa; xarop de sucre invertit. MAOAM BLOXX-CARAMELS MASTICABLES GUST FRUITES I COLA / Ingredients: sucre; xarop de glucosa; greix de palma; humectant: xarop de sorbitol; gelatina; acidulant: àcid cítric; aroma. MAOAM STRIPES - CARAMELS MASTICABLES GUST FRUITES I COLA / Ingredients: sucre; xarop de glucosa; greix de palma; humectant: xarop de sorbitol; gelatina; acidulant: àcid cítric; aroma."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Nutrientes",
+                  "type": "GROUPING",
+                  "ocurrence": 0,
+                  "children": [
+                    {
+                      "id": "EstadoPreparacion",
+                      "type": "LOOKUP_TABLE",
+                      "value": "PREPARED",
+                      "featureGroupID": "6652",
+                      "id_Ext": "387412190"
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "ENER-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387422190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "1463"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "KJO",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387561190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 1,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "ENER-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387422190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "345"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "E14",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387527190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 2,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FAT",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387425190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0.8"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 3,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FASAT",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387426190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0.4"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 4,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "CHOAVL",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387416190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "79"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 5,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "SUGAR-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387447190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "50"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 6,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "PRO-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387442190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "4.9"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 7,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "SALTEQ",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387444190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0.1"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "TamRacionFamiliar",
+                      "type": "STRING",
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "value": "Información nutricional"
+                        },
+                        {
+                          "id": "ca_ES",
+                          "type": "STRING",
+                          "value": "Informació nutricional"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "TamanoRacion",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "100"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "GR",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387540190"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "NumRacionesPaquete",
+                  "type": "STRING",
+                  "value": "12"
+                }
+              ]
+            },
+            {
+              "id": "ProveedorInformacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Codigo",
+                  "type": "STRING",
+                  "value": "8426617000004"
+                },
+                {
+                  "id": "Descripcion",
+                  "type": "STRING",
+                  "value": "Haribo"
+                }
+              ]
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20220111_080834"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

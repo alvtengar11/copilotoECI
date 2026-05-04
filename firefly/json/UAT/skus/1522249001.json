@@ -1,0 +1,2370 @@
+{
+  "id": "001005110105797   ",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Product_CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "1522249001"
+        },
+        {
+          "id": "RefECI",
+          "type": "STRING",
+          "value": "001005110105797   "
+        },
+        {
+          "id": "General",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoEmpresa",
+              "type": "STRING",
+              "value": "01"
+            },
+            {
+              "id": "EanGtin",
+              "type": "STRING",
+              "value": "8429965033694"
+            },
+            {
+              "id": "Eani",
+              "type": "STRING",
+              "value": "2401160621650"
+            },
+            {
+              "id": "COTRATIE",
+              "type": "STRING",
+              "value": "DIS"
+            },
+            {
+              "id": "SenalEntorno",
+              "type": "LOOKUP_TABLE",
+              "value": "Discos",
+              "featureGroupID": "395",
+              "id_Ext": "274975090"
+            },
+            {
+              "id": "Serie",
+              "type": "STRING",
+              "value": "ON"
+            },
+            {
+              "id": "CodigoModelo",
+              "type": "STRING",
+              "value": "60902"
+            },
+            {
+              "id": "DescripcionModelo",
+              "type": "STRING",
+              "value": "46 EXITOS"
+            },
+            {
+              "id": "DescripcionModeloWeb",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "46 Éxitos (CD)"
+                }
+              ]
+            },
+            {
+              "id": "Perecedero",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Validated",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "CodigoUnico",
+              "type": "STRING",
+              "value": "000000000100409425"
+            },
+            {
+              "id": "CodigoUnicoPrincipal",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "Royaltis",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PermiteDevolucion",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "PedidoPersonalizado",
+              "type": "STRING",
+              "value": "0"
+            },
+            {
+              "id": "StockInfinito",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ReferenciaGenerica",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PeticionPrecioDeVenta",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "ReferenciaDigital",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "AnillosDeCompromiso",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ReferenciaDeLujo",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ReferenciaMadre",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VentaSinStock",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CodigoUnicoOrigen",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "IndicadorDeEDP",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "SenyalInternetCodificacion",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PartidaArancelaria",
+              "type": "STRING",
+              "value": "8523491000"
+            },
+            {
+              "id": "Atue",
+              "type": "STRING",
+              "value": "19D"
+            },
+            {
+              "id": "CertificadoCE",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "ProveedorMarca",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "NumeroProveedor",
+              "type": "STRING",
+              "value": "0569749"
+            },
+            {
+              "id": "NombreProveedor",
+              "type": "STRING",
+              "value": "CAT MUSIC, S.L."
+            },
+            {
+              "id": "NombreProveedorWeb",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "CAT MUSIC, S.L."
+                }
+              ]
+            },
+            {
+              "id": "Fabricante",
+              "type": "STRING",
+              "value": "0569749"
+            },
+            {
+              "id": "DescripcionFabricante",
+              "type": "STRING",
+              "value": "CAT MUSIC, S.L."
+            },
+            {
+              "id": "MarcaMostradaEnWeb",
+              "type": "RELATIONSHIP",
+              "value": "NOVOSON",
+              "groupID": "391",
+              "id_Ext": "896651056"
+            }
+          ]
+        },
+        {
+          "id": "GestionComprasStock",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Calificacion1",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "Calificacion2",
+              "type": "STRING",
+              "value": "E"
+            },
+            {
+              "id": "Calificacion3",
+              "type": "STRING",
+              "value": "M5"
+            },
+            {
+              "id": "Calificacion4",
+              "type": "STRING",
+              "value": "VV"
+            },
+            {
+              "id": "Calificacion5",
+              "type": "STRING",
+              "value": "B"
+            },
+            {
+              "id": "TipoDeGestion",
+              "type": "STRING",
+              "value": "06"
+            }
+          ]
+        },
+        {
+          "id": "DimensionesYPeso",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "UOM!PesoBruto!PesoBruto",
+              "type": "NUMBER",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "id": "ColoresYTallas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "TamanoHorma",
+              "type": "STRING",
+              "value": "CD"
+            }
+          ]
+        },
+        {
+          "id": "Variantes",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoVarianteWeb",
+              "type": "STRING",
+              "value": "A3769453"
+            },
+            {
+              "id": "VariantesTallas",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosColores",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariantesModelos",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosTamanos",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosFormatos",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosTipoPiel",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosSabores",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariantesFormatoLibros",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaDeAltaCompras",
+              "type": "DATE",
+              "value": "20040120_000000"
+            },
+            {
+              "id": "FechaDeAltaCatalogo",
+              "type": "DATE",
+              "value": "20101113_005521"
+            }
+          ]
+        },
+        {
+          "id": "Target",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Desde",
+              "type": "NUMBER",
+              "value": "9.0"
+            },
+            {
+              "id": "Hasta",
+              "type": "NUMBER",
+              "value": "999.0"
+            },
+            {
+              "id": "BestSellersExcluded",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Transporte",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "SusceptibleDeEnvolver",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "Voluminoso",
+              "type": "LOOKUP_TABLE",
+              "value": "No voluminoso",
+              "featureGroupID": "401",
+              "id_Ext": "347190090"
+            },
+            {
+              "id": "InStorePickUp",
+              "type": "LOOKUP_TABLE",
+              "value": "Recogida en tienda",
+              "featureGroupID": "400",
+              "id_Ext": "274969090"
+            },
+            {
+              "id": "EntregaDomicilio",
+              "type": "FLAG",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "id": "ServiciosDeRetirada",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ServicioDeRetirada",
+              "type": "LOOKUP_TABLE",
+              "value": "N - No Disponible",
+              "featureGroupID": "1029",
+              "id_Ext": "347191090"
+            }
+          ]
+        },
+        {
+          "id": "ServiciosDePuestaEnMarcha",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ServicioDePuestaEnMarcha",
+              "type": "LOOKUP_TABLE",
+              "value": "N - No Disponible",
+              "featureGroupID": "1029",
+              "id_Ext": "347191090"
+            },
+            {
+              "id": "ModoDeServicioPuestaEnMarcha",
+              "type": "LOOKUP_TABLE",
+              "value": "N - No Disponible",
+              "featureGroupID": "1030",
+              "id_Ext": "347192090"
+            }
+          ]
+        },
+        {
+          "id": "ServiciosDePuerta",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ServiciosDePuerta",
+              "type": "LOOKUP_TABLE",
+              "value": "N - No Disponible",
+              "featureGroupID": "1029",
+              "id_Ext": "347191090"
+            },
+            {
+              "id": "ModoDeServiciocambiodePuerta",
+              "type": "LOOKUP_TABLE",
+              "value": "N - No Disponible",
+              "featureGroupID": "1028",
+              "id_Ext": "347193090"
+            }
+          ]
+        },
+        {
+          "id": "Financiacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FinancedServiceNoInterest",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Calculadora",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Pending",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Precios",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "IvaPorcentaje",
+              "type": "STRING",
+              "value": "02"
+            },
+            {
+              "id": "IgicPorcentaje",
+              "type": "STRING",
+              "value": "92"
+            }
+          ]
+        },
+        {
+          "id": "Validar",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "Carteleria",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Reference",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ReferenceType",
+              "type": "LOOKUP_TABLE",
+              "value": "E",
+              "featureGroupID": "1686",
+              "id_Ext": "346300090"
+            }
+          ]
+        },
+        {
+          "id": "Enviado",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "x",
+          "type": "STRING",
+          "value": "x"
+        },
+        {
+          "id": "Buscable",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "EnvioAtg",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "EansVariantes",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "EanVariante",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "CodigoVariante",
+                  "type": "RELATIONSHIP",
+                  "value": "8429965033694",
+                  "groupID": "5005",
+                  "id_Ext": "15161246059"
+                },
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "8429965033694"
+                },
+                {
+                  "id": "FechaAltaEanCompras",
+                  "type": "DATE",
+                  "value": "20040120_000000"
+                },
+                {
+                  "id": "EsEanCompraPrincipal",
+                  "type": "FLAG",
+                  "value": "true"
+                }
+              ]
+            },
+            {
+              "id": "EanVariante",
+              "type": "GROUPING",
+              "ocurrence": 1,
+              "children": [
+                {
+                  "id": "CodigoVariante",
+                  "type": "RELATIONSHIP",
+                  "value": "2051101057972",
+                  "groupID": "5005",
+                  "id_Ext": "15161245059"
+                },
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "2051101057972"
+                },
+                {
+                  "id": "FechaAltaEanCompras",
+                  "type": "DATE",
+                  "value": "20040120_000000"
+                },
+                {
+                  "id": "EsEanCompraPrincipal",
+                  "type": "FLAG",
+                  "value": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DocumentacionPredominante",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "Impuestos",
+          "type": "GROUPING",
+          "ocurrence": 0,
+          "children": [
+            {
+              "id": "Centro",
+              "type": "STRING",
+              "value": "0090"
+            },
+            {
+              "id": "Impuesto",
+              "type": "STRING",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "id": "Impuestos",
+          "type": "GROUPING",
+          "ocurrence": 1,
+          "children": [
+            {
+              "id": "Centro",
+              "type": "STRING",
+              "value": "0143"
+            },
+            {
+              "id": "Impuesto",
+              "type": "STRING",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "id": "Impuestos",
+          "type": "GROUPING",
+          "ocurrence": 2,
+          "children": [
+            {
+              "id": "Centro",
+              "type": "STRING",
+              "value": "0424"
+            },
+            {
+              "id": "Impuesto",
+              "type": "STRING",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "id": "Impuestos",
+          "type": "GROUPING",
+          "ocurrence": 3,
+          "children": [
+            {
+              "id": "Centro",
+              "type": "STRING",
+              "value": "0737"
+            },
+            {
+              "id": "Impuesto",
+              "type": "STRING",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "id": "Impuestos",
+          "type": "GROUPING",
+          "ocurrence": 4,
+          "children": [
+            {
+              "id": "Centro",
+              "type": "STRING",
+              "value": "0909"
+            },
+            {
+              "id": "Impuesto",
+              "type": "STRING",
+              "value": "01"
+            }
+          ]
+        },
+        {
+          "id": "RepositoryModificationControl",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "IdMensajeAnterior",
+          "type": "NUMBER",
+          "value": "480124250"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "hierarchyId": "998",
+      "categoryId": "00078",
+      "id_Ext": "5397012"
+    },
+    {
+      "hierarchyId": "5001",
+      "categoryId": "01.051.101",
+      "id_Ext": "12816018"
+    },
+    {
+      "hierarchyId": "999",
+      "categoryId": "404",
+      "id_Ext": "54177013"
+    }
+  ],
+  "unlink": [],
+  "specificAttribs": [
+    {
+      "id": "/Musica_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "CaracteristicasGenerales",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "TituloDisco",
+              "type": "STRING",
+              "value": "46 Éxitos"
+            },
+            {
+              "id": "FormatoDeReproduccion",
+              "type": "LOOKUP_TABLE",
+              "value": "CD",
+              "featureGroupID": "755",
+              "id_Ext": "347028090"
+            },
+            {
+              "id": "FormatoReproduccion",
+              "type": "LOOKUP_TABLE",
+              "ocurrence": 0,
+              "value": "CD",
+              "featureGroupID": "910",
+              "id_Ext": "10121506090"
+            },
+            {
+              "id": "Soporte",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "NumeroDeSoportes",
+                  "type": "INTEGER",
+                  "value": "3"
+                },
+                {
+                  "id": "Soporte",
+                  "type": "LOOKUP_TABLE",
+                  "value": "CD",
+                  "featureGroupID": "755",
+                  "id_Ext": "347028090"
+                }
+              ]
+            },
+            {
+              "id": "EstilosMusicales",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "POP/ROCK LAT.-ESP."
+                }
+              ]
+            },
+            {
+              "id": "SubestilosMusicales",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "POP/ROCK LAT.-ESP."
+                }
+              ]
+            },
+            {
+              "id": "FechaEdicion",
+              "type": "DATE",
+              "value": "20040120_000000"
+            },
+            {
+              "id": "CodigoSituacion",
+              "type": "STRING",
+              "value": "CB"
+            }
+          ]
+        },
+        {
+          "id": "CaracteristicasTecnicas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "SelloDiscografico",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "NOVOSON"
+                }
+              ]
+            },
+            {
+              "id": "Digitalizacion",
+              "type": "LOOKUP_TABLE",
+              "value": "DDD",
+              "featureGroupID": "726",
+              "id_Ext": "346126090"
+            },
+            {
+              "id": "TipoDeGrabacion",
+              "type": "LOOKUP_TABLE",
+              "value": "estudio",
+              "featureGroupID": "735",
+              "id_Ext": "346127090"
+            }
+          ]
+        },
+        {
+          "id": "CaracteristicasArtisticas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Nombrequees",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "QueEsCadaNombre",
+                  "type": "LOOKUP_TABLE",
+                  "value": "Intérprete",
+                  "featureGroupID": "732",
+                  "id_Ext": "346107090"
+                },
+                {
+                  "id": "QueRolEsCadaPersona",
+                  "type": "LOOKUP_TABLE",
+                  "value": "Cantante",
+                  "featureGroupID": "2669090",
+                  "id_Ext": "42609431090"
+                },
+                {
+                  "id": "Nombre",
+                  "type": "GROUPING",
+                  "ocurrence": 0,
+                  "children": [
+                    {
+                      "id": "CodigoInterprete",
+                      "type": "RELATIONSHIP",
+                      "value": "004060",
+                      "groupID": "2000",
+                      "id_Ext": "143111055"
+                    },
+                    {
+                      "id": "CodigoPersona",
+                      "type": "RELATIONSHIP",
+                      "value": "0034856",
+                      "groupID": "2002",
+                      "id_Ext": "319227051"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Disco",
+          "type": "GROUPING",
+          "ocurrence": 0,
+          "children": [
+            {
+              "id": "Unidad",
+              "type": "INTEGER",
+              "value": "1"
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "1"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Amor mío"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 1,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "2"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "A lah uella, a la huella"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 2,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "3"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Dama, dama"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 3,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "4"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Mi amante niña, mi compañera"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 4,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "5"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "La tierra prometida"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 5,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "6"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Francesca"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 6,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "7"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Volveré"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 7,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "8"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Te debo el amor y la vida"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 8,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "9"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Una mujer de la vida"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 9,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "10"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "El gavilán"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 10,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "11"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Sades"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 11,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "12"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Si estás enamorada, aleluya"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 12,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "13"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "De alguna manera"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 13,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "14"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "El nombre"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 14,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "15"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Qué dirán de mí"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Disco",
+          "type": "GROUPING",
+          "ocurrence": 1,
+          "children": [
+            {
+              "id": "Unidad",
+              "type": "INTEGER",
+              "value": "2"
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "1"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Un mundo sin locos"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 1,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "2"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "El día que me quieras"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 2,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "3"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Y me enamoré de ella"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 3,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "4"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Sentado a la vera del camino"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 4,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "5"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Déjame conocerte"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 5,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "6"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Cuando llegues a la puerta grande"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 6,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "7"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Para no pensar en ti"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 7,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "8"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Tu sombra en el suelo"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 8,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "9"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "No te amé"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 9,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "10"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Si vieras"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 10,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "11"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Corona de espinas"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 11,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "12"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "El niño que no pudo nacer y reir"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 12,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "13"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Si no fuera porque"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 13,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "14"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "El viajero"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 14,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "15"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "El indio"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Disco",
+          "type": "GROUPING",
+          "ocurrence": 2,
+          "children": [
+            {
+              "id": "Unidad",
+              "type": "INTEGER",
+              "value": "3"
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "1"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Si no muere el amor"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 1,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "2"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "El oficio de cantor"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 2,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "3"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Niña"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 3,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "4"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "La camisa"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 4,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "5"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Esta historia, es una historia"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 5,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "6"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Le llaman Jesús"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 6,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "7"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Estas manos"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 7,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "8"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Uno más, otro más"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 8,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "9"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "La gaviota"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 9,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "10"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Déjame"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 10,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "11"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "La casa vieja, la casa nueva"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 11,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "12"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "No nos dejan ser niños"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 12,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "13"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Narices"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 13,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "14"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Perdona"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 14,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "15"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Sin motivo, sin razones, solamente porque sí"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            },
+            {
+              "id": "Cancion",
+              "type": "GROUPING",
+              "ocurrence": 15,
+              "children": [
+                {
+                  "id": "NumeroDeCancion",
+                  "type": "INTEGER",
+                  "value": "16"
+                },
+                {
+                  "id": "TituloCancion",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "La cotilla"
+                    }
+                  ]
+                },
+                {
+                  "id": "TrackTime",
+                  "type": "NUMBER",
+                  "value": "0.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Estilos",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Estilo1",
+              "type": "STRING",
+              "value": "010"
+            },
+            {
+              "id": "Estilo2",
+              "type": "STRING",
+              "value": "001"
+            },
+            {
+              "id": "Estilo3",
+              "type": "STRING",
+              "value": "001"
+            }
+          ]
+        },
+        {
+          "id": "RepositoryModificationControl",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "IdMensajeAnterior",
+          "type": "NUMBER",
+          "value": "480124250"
+        }
+      ]
+    }
+  ],
+  "stores": [
+    {
+      "id": "/Fechas_WWW_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "DespublicadoPorMargen",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "DespublicadoPorStock",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaDePublicacionWWW",
+              "type": "DATE",
+              "value": "20200110_000000"
+            },
+            {
+              "id": "FechaDespublicacionWWW",
+              "type": "DATE",
+              "value": "20240111_070051"
+            },
+            {
+              "id": "MotivoPubDesWWW",
+              "type": "LOOKUP_TABLE",
+              "value": "011",
+              "featureGroupID": "10110",
+              "id_Ext": "233768090"
+            },
+            {
+              "id": "NovedadWWW",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PublicarAutomaticamente",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "FechaDePrimeraPublicacionWWW",
+              "type": "DATE",
+              "value": "20040120_000000"
+            },
+            {
+              "id": "NoPublicarAutomaticamente",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ModSP2",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Foto",
+              "type": "FLAG",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "id": "RepositoryModificationControl",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "IdMensajeAnterior",
+          "type": "NUMBER",
+          "value": "480124250"
+        }
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "productId": "001005110105797   ",
+      "centerId": "0090",
+      "regularPrice": "12.32",
+      "CatalogPrice": "12.32",
+      "TaxPercentage": "02",
+      "Igic": "92"
+    },
+    {
+      "productId": "001005110105797   ",
+      "centerId": "0143",
+      "regularPrice": "12.32",
+      "CatalogPrice": "12.32",
+      "TaxPercentage": "02",
+      "Igic": "92"
+    },
+    {
+      "productId": "001005110105797   ",
+      "centerId": "0202",
+      "regularPrice": "12.32",
+      "CatalogPrice": "12.32",
+      "TaxPercentage": "02",
+      "Igic": "92"
+    },
+    {
+      "productId": "001005110105797   ",
+      "centerId": "0424",
+      "regularPrice": "12.32",
+      "CatalogPrice": "12.32",
+      "TaxPercentage": "02",
+      "Igic": "92"
+    },
+    {
+      "productId": "001005110105797   ",
+      "centerId": "0909",
+      "regularPrice": "12.22",
+      "CatalogPrice": "12.22",
+      "TaxPercentage": "02",
+      "Igic": "92"
+    }
+  ],
+  "id_Ext": "1522249001",
+  "entryContainerID": "1"
+}

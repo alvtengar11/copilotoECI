@@ -1,0 +1,1239 @@
+{
+	"id_Ext": "120813101",
+	"id": "001020903600011",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PUM",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UnidadesProducto",
+									"type": "STRING",
+									"value": "001"
+								},
+								{
+									"id": "EnlacePUM",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6618",
+									"id_Ext": "26849190",
+									"value": "006"
+								},
+								{
+									"id": "CantidadProducto",
+									"type": "NUMBER",
+									"value": "1000.000"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ProduccionLocalK0",
+					"ocurrence": 1,
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "2640190",
+					"id_Ext": "1075946190",
+					"value": "001"
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/13/00120903600011____2__325x325.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/13/00120903600011____2__600x600.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/13/00120903600011____2__150x150.jpg"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "CerrandoCirculo",
+					"ocurrence": 2,
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "2638190",
+					"id_Ext": "1075922190",
+					"value": "012"
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "14"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "0T"
+						},
+						{
+							"id": "Calificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "BJ"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MarcaMostradaEnWeb",
+							"type": "RELATIONSHIP",
+							"groupID": "6602",
+							"id_Ext": "34301190",
+							"value": "10324"
+						},
+						{
+							"id": "Fabricante",
+							"type": "RELATIONSHIP",
+							"groupID": "666",
+							"id_Ext": "626105160",
+							"value": "010578112"
+						},
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0578112"
+						},
+						{
+							"id": "Marca",
+							"type": "STRING",
+							"value": "KOIPESOL ASUA"
+						},
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "DEOLEO, S.A."
+						}
+					]
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000105923288"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "SUP"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"value": "KOIPESOL ASUA aceite de maíz botella 1 l"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": " "
+						},
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "01"
+						},
+						{
+							"id": "EanGtin",
+							"type": "STRING",
+							"value": "8410270042204"
+						}
+					]
+				},
+				{
+					"id": "Intolerancias",
+					"ocurrence": 2,
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "2636190",
+					"id_Ext": "1075943190",
+					"value": "SH"
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"groupID": "6636",
+									"id_Ext": "438602159",
+									"value": "8410270042204"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "19950131_000000"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8410270042204"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "OrigenSostenible",
+					"ocurrence": 1,
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "2637190",
+					"id_Ext": "1075873190",
+					"value": "002"
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTipoPiel",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosFormatos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTamanos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "B001020903600011"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "401",
+							"id_Ext": "347190090",
+							"value": "No voluminoso"
+						},
+						{
+							"id": "SusceptibleDeEnvolver",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "InStorePickUp",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "400",
+							"id_Ext": "274969090",
+							"value": "Recogida en tienda"
+						},
+						{
+							"id": "DeliveryPoint",
+							"type": "STRING_ENUMERATION",
+							"value": "C"
+						},
+						{
+							"id": "EntregaDomicilio",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "120813101"
+				},
+				{
+					"id": "DisenyoFabricacionSostenible",
+					"ocurrence": 1,
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "2639190",
+					"id_Ext": "1075933190",
+					"value": "003"
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001020903600011   "
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "1854119",
+			"hierarchyId": "6807",
+			"categoryId": "11140017907"
+		},
+		{
+			"id_Ext": "4600113",
+			"hierarchyId": "6803",
+			"categoryId": "01209036"
+		},
+		{
+			"id_Ext": "607119",
+			"hierarchyId": "6807",
+			"categoryId": "10100131602"
+		},
+		{
+			"id_Ext": "24385031012",
+			"hierarchyId": "998",
+			"categoryId": "00326"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Supermercado_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Facet",
+					"ocurrence": 4,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoValorFacet",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6641",
+							"id_Ext": "1077403190",
+							"value": "00070002"
+						},
+						{
+							"id": "CodigoFacet",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6631",
+							"id_Ext": "1077401190",
+							"value": "0007"
+						}
+					]
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"value": "CANARIAS"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Alimentacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ActivarDocPropia",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"value": "U"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Facet",
+					"ocurrence": 2,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoValorFacet",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6641",
+							"id_Ext": "1077406190",
+							"value": "00030005"
+						},
+						{
+							"id": "CodigoFacet",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6631",
+							"id_Ext": "1076239190",
+							"value": "0003"
+						}
+					]
+				},
+				{
+					"id": "Facet",
+					"ocurrence": 1,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoValorFacet",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6641",
+							"id_Ext": "1076602190",
+							"value": "00010006"
+						},
+						{
+							"id": "CodigoFacet",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6631",
+							"id_Ext": "1076228190",
+							"value": "0001"
+						}
+					]
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "15"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "15"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "001000,000"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"groupID": "666",
+									"id_Ext": "626105160",
+									"value": "010578112"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"groupID": "666",
+									"id_Ext": "626105160",
+									"value": "010578112"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Facet",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoFacet",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6631",
+							"id_Ext": "1077201190",
+							"value": "0005"
+						},
+						{
+							"id": "CodigoValorFacet",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6641",
+							"id_Ext": "1077205190",
+							"value": "00050004"
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "19"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "24"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "KOIPESOL ASUA"
+						},
+						{
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6612",
+							"id_Ext": "39923190",
+							"value": "BOTELLA"
+						},
+						{
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6610",
+							"id_Ext": "27998190",
+							"value": "L"
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6602",
+							"id_Ext": "34301190",
+							"value": "10324"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Maisöl"
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "oli de blat de moro"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "corn oil"
+								},
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "aceite de maíz"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Facet",
+					"ocurrence": 3,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoValorFacet",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6641",
+							"id_Ext": "1077212190",
+							"value": "00060002"
+						},
+						{
+							"id": "CodigoFacet",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6631",
+							"id_Ext": "1077210190",
+							"value": "0006"
+						}
+					]
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "Excepciones",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Region",
+									"ocurrence": 0,
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "FechaDesde",
+											"type": "DATE",
+											"value": "20120726_072133"
+										},
+										{
+											"id": "PublicadoEnum",
+											"type": "STRING_ENUMERATION",
+											"value": "Publicar"
+										},
+										{
+											"id": "CodigoRegion",
+											"type": "LOOKUP_TABLE",
+											"featureGroupID": "6619",
+											"id_Ext": "26867190",
+											"value": "CANARIAS"
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20120726_072133"
+						}
+					]
+				},
+				{
+					"id": "ArchivosMultimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Imagenes",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "ImagenDiminutaUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/13/00120903600011____2__40x40.jpg"
+								},
+								{
+									"id": "ImagenPrincipalUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/13/00120903600011____2__325x325.jpg"
+								},
+								{
+									"id": "ImagenPequenaUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/13/00120903600011____2__75x75.jpg"
+								},
+								{
+									"id": "ImagenMedianaUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/13/00120903600011____2__150x150.jpg"
+								},
+								{
+									"id": "ImagenGrandeUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/13/00120903600011____2__600x600.jpg"
+								},
+								{
+									"id": "Mobile",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlTamVariableMediana",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/13/00120903600011____5_.png"
+										},
+										{
+											"id": "UrlTamVariablePequena",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/13/00120903600011____4_.png"
+										},
+										{
+											"id": "UrlTamVariableGrande",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/13/00120903600011____3_.png"
+										},
+										{
+											"id": "UrlTamVariablePrincipal",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201703/13/00120903600011____6_.png"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20120726_072133"
+						},
+						{
+							"id": "FechaDespublicacionWWW",
+							"type": "DATE",
+							"value": "29991230_000001"
+						}
+					]
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0001",
+			"regularPrice": "2.09",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0002",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0003",
+			"regularPrice": "2.09",
+			"avaliable": "true",
+			"startDate": "20120716",
+			"endDate": "        ",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0004",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0005",
+			"regularPrice": "2.09",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0006",
+			"regularPrice": "2.09",
+			"avaliable": "true",
+			"startDate": "20120716",
+			"endDate": "        ",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0007",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0008",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0009",
+			"regularPrice": "1.96",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0010",
+			"regularPrice": "2.09",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0011",
+			"regularPrice": "1.96",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0012",
+			"regularPrice": "2.14",
+			"avaliable": "false",
+			"startDate": "20140728",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0013",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0014",
+			"regularPrice": "2.09",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0015",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0017",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0018",
+			"regularPrice": "1.96",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0019",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0020",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0021",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0022",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0023",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0025",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0027",
+			"regularPrice": "1.96",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0029",
+			"regularPrice": "1.96",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0036",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0097",
+			"regularPrice": "1.96",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0098",
+			"regularPrice": "2.14",
+			"avaliable": "false",
+			"startDate": "20140728",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0692",
+			"regularPrice": "1.96",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0695",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0697",
+			"regularPrice": "2.09",
+			"avaliable": "false",
+			"startDate": "20170321",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0701",
+			"regularPrice": "1.96",
+			"avaliable": "false",
+			"startDate": "20171016",
+			"endDate": "        ",
+			"catalogPrice": "1.96"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0702",
+			"regularPrice": "1.95",
+			"avaliable": "false",
+			"startDate": "20171016",
+			"endDate": "        ",
+			"catalogPrice": "1.95"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0707",
+			"regularPrice": "2.00",
+			"avaliable": "true",
+			"startDate": "20171016",
+			"endDate": "        ",
+			"catalogPrice": "2.00"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0814",
+			"regularPrice": "1.96",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0864",
+			"regularPrice": "1.96",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0897",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0900",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0901",
+			"regularPrice": "2.09",
+			"avaliable": "false",
+			"startDate": "20130928",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0906",
+			"regularPrice": "2.09",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0907",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0911",
+			"regularPrice": "1.96",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0913",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0915",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0916",
+			"regularPrice": "2.09",
+			"avaliable": "false",
+			"startDate": "20150708",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0923",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0941",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0970",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0973",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0974",
+			"regularPrice": "2.00",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0975",
+			"regularPrice": "2.09",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		},
+		{
+			"productId": "001020903600011   ",
+			"centerId": "0989",
+			"regularPrice": "1.96",
+			"avaliable": "false",
+			"startDate": "20120716",
+			"catalogPrice": "2.09"
+		}
+	]
+}

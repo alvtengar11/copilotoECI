@@ -1,0 +1,88 @@
+{
+	"id": "10560894567",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Portugal Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "10560894567"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "pt_PT",
+							"type": "STRING",
+							"value": "Novilho"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20251202_125753"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20180427_000000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "4567"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "K",
+							"idExt": "58714190",
+							"featureGroupID": "6615",
+							"id_Ext": "58714190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "9999"
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1164224120"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6808",
+			"categoryId": "1056089",
+			"idExt": "1164222120",
+			"id_Ext": "1164222120"
+		}
+	],
+	"idExt": "1164224120",
+	"id_Ext": "1164224120",
+	"entryContainerID": "6808"
+}

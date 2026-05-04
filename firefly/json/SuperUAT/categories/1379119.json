@@ -1,0 +1,113 @@
+{
+	"id": "10520055140",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "10520055140"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Añojo"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Anoll"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Prime beef"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Jährling"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20251223_100255"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20050822_010000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "5140"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "A",
+							"idExt": "47138190",
+							"featureGroupID": "6614",
+							"id_Ext": "47138190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso o Pieza"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "0003"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1379119"
+				},
+				{
+					"id": "OrdenGlovo",
+					"type": "INTEGER",
+					"value": "1038"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6807",
+			"categoryId": "1052005",
+			"idExt": "1377119",
+			"id_Ext": "1377119"
+		}
+	],
+	"idExt": "1379119",
+	"id_Ext": "1379119",
+	"entryContainerID": "6807"
+}

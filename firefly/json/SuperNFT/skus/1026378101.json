@@ -1,0 +1,889 @@
+{
+	"idExt": "1026378101",
+	"coreAttribs": [
+		{
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0120666601875"
+				},
+				{
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"idExt": "26871190",
+							"featureGroupID": "6616",
+							"id_Ext": "26871190",
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "1"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Supermercado"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Supermercado/Desayunos, dulces y pan/Infusiones y tés/Infusiones frutales, placer y otras"
+						}
+					],
+					"id": "Informacion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"idExt": "1314203190",
+							"featureGroupID": "6602",
+							"id_Ext": "1314203190",
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"value": "20962"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "ALMA HOME"
+						},
+						{
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "infusión de ratafia ecológica"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Organic ratafia herbal tea"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Bio-Ratatafia-Tee"
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "Infusió de ratafia ecològica"
+								}
+							],
+							"id": "DescripcionVariedad",
+							"type": "STRING"
+						},
+						{
+							"idExt": "39938190",
+							"featureGroupID": "6612",
+							"id_Ext": "39938190",
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"value": "ESTUCHE"
+						},
+						{
+							"id": "PresentacionDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "estuche"
+						},
+						{
+							"id": "CodigoPresentacionHidden",
+							"type": "STRING",
+							"value": "ESTUCHE"
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "15"
+						},
+						{
+							"idExt": "27979190",
+							"featureGroupID": "6610",
+							"id_Ext": "27979190",
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"value": "C02"
+						},
+						{
+							"id": "FormatoDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "bolsitas"
+						},
+						{
+							"id": "CodigoFormatoHidden",
+							"type": "STRING",
+							"value": "C02"
+						},
+						{
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "biodegradables"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "biodegradable"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Biologisch abbaubar"
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "biodegradables"
+								}
+							],
+							"id": "RestoDescripcion",
+							"type": "STRING"
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "ALMA HOME infusión de ratafia ecológica estuche 15 bolsitas biodegradables"
+						},
+						{
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							],
+							"id": "Temporal",
+							"type": "GROUPING"
+						},
+						{
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "INFUSION RATA"
+								}
+							],
+							"id": "DescripcionTicket",
+							"type": "STRING"
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						}
+					],
+					"id": "Descripcion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"idExt": "47143190",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "U"
+						},
+						{
+							"id": "PesoPieza",
+							"type": "STRING",
+							"value": "63"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20190723_131015"
+						}
+					],
+					"id": "Venta",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "018"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "10"
+						}
+					],
+					"id": "Ordenacion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201705/12/00120666601875____1__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201705/12/00120666601875____1__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201705/12/00120666601875____1__150x150.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201705/12/00120666601875____1__325x325.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201705/12/00120666601875____1__600x600.jpg"
+						},
+						{
+							"children": [
+								{
+									"id": "UrlTamVariablePrincipal",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201705/12/00120666601875____5__1x1.png"
+								},
+								{
+									"id": "UrlTamVariableGrande",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201705/12/00120666601875____5__380x380.png"
+								},
+								{
+									"id": "UrlTamVariableMediana",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201705/12/00120666601875____5__300x300.png"
+								},
+								{
+									"id": "UrlTamVariablePequena",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201705/12/00120666601875____5__200x200.png"
+								}
+							],
+							"id": "Mobile",
+							"type": "GROUPING"
+						}
+					],
+					"id": "Imagenes",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto ecológico"
+								},
+								{
+									"idExt": "46910190",
+									"featureGroupID": "6604",
+									"id_Ext": "46910190",
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "ecologico"
+								}
+							],
+							"id": "Tematico",
+							"type": "GROUPING"
+						}
+					],
+					"id": "Tematicos",
+					"type": "GROUPING"
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20170510_045059"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20190323_002623"
+				},
+				{
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20190402_014718"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						}
+					],
+					"id": "Publicacion",
+					"type": "GROUPING"
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"children": [
+						{
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "20666601875"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "206"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "666"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "01875"
+								}
+							],
+							"id": "Referencia",
+							"type": "GROUPING"
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000140260802"
+						},
+						{
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8412869300634"
+								}
+							],
+							"id": "Ean",
+							"type": "GROUPING"
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "14"
+						},
+						{
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0001458"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "COFFEE CENTER, S.L."
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "16363"
+								},
+								{
+									"idExt": "712912160",
+									"id_Ext": "712912160",
+									"groupID": "666",
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010001458"
+								}
+							],
+							"id": "Proveedor",
+							"type": "GROUPING"
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "CA"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "CA"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "RG"
+						},
+						{
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "ALMA"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "INFUSION RATAFIA ECO"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "RATAFIA ECO"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "15 FILTROS"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "CAJA"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "52,5"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "G"
+								}
+							],
+							"id": "Descripcion",
+							"type": "GROUPING"
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "63.0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5020666603038"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20160427_000000"
+						},
+						{
+							"idExt": "26845190",
+							"featureGroupID": "6618",
+							"id_Ext": "26845190",
+							"id": "EnlacePUM",
+							"type": "LOOKUP_TABLE",
+							"value": "002"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000052,500"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "18"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "18"
+						}
+					],
+					"id": "Codificacion",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"id": "Color",
+							"type": "STRING",
+							"value": "RATAFIA ECO"
+						},
+						{
+							"id": "Dibujo",
+							"type": "STRING",
+							"value": "CAJA    52,5G"
+						}
+					],
+					"id": "MercanciaGeneral",
+					"type": "GROUPING"
+				},
+				{
+					"children": [
+						{
+							"ocurrence": 0,
+							"children": [
+								{
+									"idExt": "26867190",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS"
+								},
+								{
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										}
+									],
+									"id": "Temporal",
+									"type": "GROUPING"
+								}
+							],
+							"id": "Regiones",
+							"type": "GROUPING"
+						}
+					],
+					"id": "Excepciones",
+					"type": "GROUPING"
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1026378101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"children": [
+						{
+							"ocurrence": 0,
+							"children": [
+								{
+									"idExt": "1026377159",
+									"id_Ext": "1026377159",
+									"groupID": "6636",
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "8412869300634"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8412869300634"
+								},
+								{
+									"id": "FechaHastaEanPromocional",
+									"type": "DATE",
+									"value": "20170510_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								}
+							],
+							"id": "EanVariante",
+							"type": "GROUPING"
+						}
+					],
+					"id": "EansVariantes",
+					"type": "GROUPING"
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"children": [
+						{
+							"idExt": "1290751190",
+							"featureGroupID": "2637190",
+							"ocurrence": 0,
+							"id_Ext": "1290751190",
+							"id": "CodigoOrigenSostenible",
+							"type": "LOOKUP_TABLE",
+							"value": "008"
+						}
+					],
+					"id": "OrigenSostenible",
+					"type": "GROUPING"
+				}
+			],
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC"
+		}
+	],
+	"specificAttribs": [
+		{
+			"children": [
+				{
+					"id": "ActivarDocPropia",
+					"type": "FLAG",
+					"value": "false"
+				}
+			],
+			"id": "/Alimentacion ISS",
+			"type": "SPEC"
+		}
+	],
+	"id_Ext": "1026378101",
+	"entryContainerID": "6639",
+	"link": [
+		{
+			"idExt": "26836111",
+			"hierarchyId": "25402",
+			"id_Ext": "26836111",
+			"categoryId": "0001"
+		},
+		{
+			"idExt": "1067870123",
+			"hierarchyId": "6809",
+			"id_Ext": "1067870123",
+			"categoryId": "010706"
+		},
+		{
+			"idExt": "1569209123",
+			"hierarchyId": "6809",
+			"id_Ext": "1569209123",
+			"categoryId": "010378"
+		},
+		{
+			"idExt": "1537051115",
+			"hierarchyId": "6805",
+			"id_Ext": "1537051115",
+			"categoryId": "012494048"
+		},
+		{
+			"idExt": "736119",
+			"hierarchyId": "6807",
+			"id_Ext": "736119",
+			"categoryId": "10030121738"
+		},
+		{
+			"idExt": "8554123",
+			"hierarchyId": "6809",
+			"id_Ext": "8554123",
+			"categoryId": "010002"
+		},
+		{
+			"idExt": "8559123",
+			"hierarchyId": "6809",
+			"id_Ext": "8559123",
+			"categoryId": "010007"
+		},
+		{
+			"idExt": "4438113",
+			"hierarchyId": "6803",
+			"id_Ext": "4438113",
+			"categoryId": "01206666"
+		},
+		{
+			"idExt": "1530616115",
+			"hierarchyId": "6805",
+			"id_Ext": "1530616115",
+			"categoryId": "012490413"
+		}
+	],
+	"id": "001020666601875   ",
+	"prices": [
+		{
+			"idExt": "10263781010706199",
+			"offerType": "01",
+			"centerId": "010706",
+			"offerPrice": "0000006,35",
+			"productId": "001020666601875   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000006,35",
+			"id_Ext": "10263781010706199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20190402"
+		},
+		{
+			"idExt": "10263781010002199",
+			"offerType": "01",
+			"centerId": "010002",
+			"offerPrice": "0000006,35",
+			"productId": "001020666601875   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000006,35",
+			"id_Ext": "10263781010002199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20190927"
+		},
+		{
+			"idExt": "10263781010007199",
+			"offerType": "01",
+			"centerId": "010007",
+			"offerPrice": "0000006,35",
+			"productId": "001020666601875   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000006,35",
+			"id_Ext": "10263781010007199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20190927"
+		},
+		{
+			"idExt": "10263781010378199",
+			"offerType": "00",
+			"centerId": "010378",
+			"offerPrice": "0000005,49",
+			"productId": "001020666601875   ",
+			"avaliable": "true",
+			"applyGlobalDiscount": "false",
+			"regularPrice": "0000005,49",
+			"id_Ext": "10263781010378199",
+			"containerId": "6639",
+			"delete": "false",
+			"startDate": "20211001"
+		}
+	],
+	"movement": "MODIFIED"
+}

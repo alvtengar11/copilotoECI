@@ -1,0 +1,872 @@
+{
+  "idExt": "85127101",
+  "coreAttribs": [
+    {
+      "children": [
+        {
+          "id": "Codigo",
+          "type": "STRING",
+          "value": "0118250200039"
+        },
+        {
+          "children": [
+            {
+              "id": "MetadataEstado",
+              "type": "STRING_ENUMERATION",
+              "value": "Revisado"
+            },
+            {
+              "idExt": "26871190",
+              "featureGroupID": "6616",
+              "id_Ext": "26871190",
+              "id": "CodigoArea",
+              "type": "LOOKUP_TABLE",
+              "value": "1"
+            },
+            {
+              "id": "AreaDescripcion",
+              "type": "STRING",
+              "value": "Supermercado"
+            },
+            {
+              "id": "Reasignado",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CategoriaSupermercado",
+              "type": "STRING",
+              "value": "Supermercado/Pescadería/Marisco/Marisco"
+            }
+          ],
+          "id": "Informacion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "Buey de mar del Cantábrico peso aproximado"
+                },
+                {
+                  "id": "en_GB",
+                  "type": "STRING",
+                  "value": "Cantabric crabs approximate weight"
+                },
+                {
+                  "id": "de_DE",
+                  "type": "STRING",
+                  "value": "Taschenkrebs aus dem Kantabrischen Meer Gewicht ca."
+                }
+              ],
+              "id": "DescripcionVariedad",
+              "type": "STRING"
+            },
+            {
+              "idExt": "39948190",
+              "featureGroupID": "6612",
+              "id_Ext": "39948190",
+              "id": "CodigoPresentacion",
+              "type": "LOOKUP_TABLE",
+              "value": "PIEZA"
+            },
+            {
+              "id": "PresentacionDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "pieza"
+            },
+            {
+              "id": "CodigoPresentacionHidden",
+              "type": "STRING",
+              "value": "PIEZA"
+            },
+            {
+              "id": "Cantidad",
+              "type": "STRING",
+              "value": "500"
+            },
+            {
+              "idExt": "27995190",
+              "featureGroupID": "6610",
+              "id_Ext": "27995190",
+              "id": "CodigoFormato",
+              "type": "LOOKUP_TABLE",
+              "value": "G"
+            },
+            {
+              "id": "FormatoDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "g"
+            },
+            {
+              "id": "CodigoFormatoHidden",
+              "type": "STRING",
+              "value": "G"
+            },
+            {
+              "id": "DescripcionArticulo",
+              "type": "STRING",
+              "value": "Buey de mar del Cantábrico peso aproximado pieza 500 g"
+            },
+            {
+              "children": [
+                {
+                  "id": "Visible",
+                  "type": "FLAG",
+                  "value": "true"
+                }
+              ],
+              "id": "Temporal",
+              "type": "GROUPING"
+            },
+            {
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "BUEY MAR"
+                },
+                {
+                  "id": "en_GB",
+                  "type": "STRING",
+                  "value": "CRAB"
+                }
+              ],
+              "id": "DescripcionTicket",
+              "type": "STRING"
+            },
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "true"
+            }
+          ],
+          "id": "Descripcion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "idExt": "47142190",
+              "featureGroupID": "6614",
+              "id_Ext": "47142190",
+              "id": "CodigoTipoVenta",
+              "type": "LOOKUP_TABLE",
+              "value": "P"
+            },
+            {
+              "id": "TipoVentaDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "Pieza"
+            },
+            {
+              "id": "CodigoTipoVentaHidden",
+              "type": "STRING",
+              "value": "P"
+            },
+            {
+              "id": "PesoPieza",
+              "type": "STRING",
+              "value": "500"
+            },
+            {
+              "id": "EsProductoAlCorte",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "ProductoDePanificacion",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "UsuarioSalvadoAlCorte",
+              "type": "STRING",
+              "value": "PostProcesing"
+            },
+            {
+              "id": "FechaSalvadoAlCorte",
+              "type": "DATE",
+              "value": "20220720_115331"
+            }
+          ],
+          "id": "Venta",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "id": "OrdenacionMarca",
+              "type": "STRING",
+              "value": "030"
+            },
+            {
+              "id": "OrdenacionTamano",
+              "type": "STRING",
+              "value": "25"
+            }
+          ],
+          "id": "Ordenacion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "id": "ImagenDiminutaUrl",
+              "type": "IMAGE_URL",
+              "value": "http://sgfm.elcorteingles.es/SGFM/00/03/9/0118250200039/0118250200039000x01011.jpg"
+            },
+            {
+              "id": "ImagenPequenaUrl",
+              "type": "IMAGE_URL",
+              "value": "http://sgfm.elcorteingles.es/SGFM/00/03/9/0118250200039/0118250200039000p01011.jpg"
+            },
+            {
+              "id": "ImagenMedianaUrl",
+              "type": "IMAGE_URL",
+              "value": "http://sgfm.elcorteingles.es/SGFM/00/03/9/0118250200039/0118250200039000m01011.jpg"
+            },
+            {
+              "id": "ImagenPrincipalUrl",
+              "type": "IMAGE_URL",
+              "value": "http://sgfm.elcorteingles.es/SGFM/00/08/1/0118210000081/0118210000081000q01011.jpg"
+            }
+          ],
+          "id": "Imagenes",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "CodigoEnum",
+                  "type": "STRING_ENUMERATION",
+                  "value": "Producto de peso variable"
+                },
+                {
+                  "idExt": "46907190",
+                  "featureGroupID": "6604",
+                  "id_Ext": "46907190",
+                  "id": "Codigo",
+                  "type": "LOOKUP_TABLE",
+                  "value": "al peso"
+                }
+              ],
+              "id": "Tematico",
+              "type": "GROUPING"
+            },
+            {
+              "ocurrence": 1,
+              "children": [
+                {
+                  "id": "CodigoEnum",
+                  "type": "STRING_ENUMERATION",
+                  "value": "Producto refrigerado"
+                },
+                {
+                  "idExt": "46914190",
+                  "featureGroupID": "6604",
+                  "id_Ext": "46914190",
+                  "id": "Codigo",
+                  "type": "LOOKUP_TABLE",
+                  "value": "refrigerado"
+                }
+              ],
+              "id": "Tematico",
+              "type": "GROUPING"
+            }
+          ],
+          "id": "Tematicos",
+          "type": "GROUPING"
+        },
+        {
+          "id": "FechaAlta",
+          "type": "DATE",
+          "value": "20120418_000000"
+        },
+        {
+          "id": "MetadataFechaModificacion",
+          "type": "DATE",
+          "value": "20160802_055022"
+        },
+        {
+          "children": [
+            {
+              "id": "CodigoRegion",
+              "type": "STRING",
+              "value": "Supermercado Peninsula"
+            },
+            {
+              "id": "Promocion",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "Publicado",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PublicadoEnum",
+              "type": "STRING_ENUMERATION",
+              "value": "Promocional"
+            },
+            {
+              "id": "PublicadoCanarias",
+              "type": "STRING_ENUMERATION",
+              "value": "Promocional"
+            },
+            {
+              "id": "NoGestionCedial",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ],
+          "id": "Publicacion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "id": "MetadataAutomatica",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "MetadataPrioridad",
+              "type": "STRING_ENUMERATION",
+              "value": "normal"
+            },
+            {
+              "id": "MetadataFechaRecepcion",
+              "type": "DATE",
+              "value": "20120318_213534"
+            }
+          ],
+          "id": "Traduccion",
+          "type": "GROUPING"
+        },
+        {
+          "id": "MetadataPerecedero",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "CodigoReferencia",
+                  "type": "STRING",
+                  "value": "18250200039"
+                },
+                {
+                  "id": "CodigoUneco",
+                  "type": "STRING",
+                  "value": "182"
+                },
+                {
+                  "id": "CodigoFamilia",
+                  "type": "STRING",
+                  "value": "502"
+                },
+                {
+                  "id": "CodigoBarra",
+                  "type": "STRING",
+                  "value": "00039"
+                }
+              ],
+              "id": "Referencia",
+              "type": "GROUPING"
+            },
+            {
+              "id": "NumeroMaterialSAP",
+              "type": "STRING",
+              "value": "000000000105818268"
+            },
+            {
+              "children": [
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "2182502000394"
+                },
+                {
+                  "ocurrence": 0,
+                  "id": "MetadataHistoriaEan",
+                  "type": "STRING",
+                  "value": "2400000426936"
+                },
+                {
+                  "ocurrence": 1,
+                  "id": "MetadataHistoriaEan",
+                  "type": "STRING",
+                  "value": "2182502000394"
+                }
+              ],
+              "id": "Ean",
+              "type": "GROUPING"
+            },
+            {
+              "id": "TipoGestion",
+              "type": "STRING",
+              "value": "23"
+            },
+            {
+              "children": [
+                {
+                  "id": "CodigoProveedor",
+                  "type": "STRING",
+                  "value": "0250027"
+                },
+                {
+                  "id": "ProveedorDescripcion",
+                  "type": "STRING",
+                  "value": "PARTIDAS A JUSTIFICAR GRUPO VI"
+                },
+                {
+                  "id": "ReferenciaFabricante",
+                  "type": "STRING",
+                  "value": "0970"
+                },
+                {
+                  "idExt": "505600160",
+                  "id_Ext": "505600160",
+                  "groupID": "666",
+                  "id": "Proveedor",
+                  "type": "RELATIONSHIP",
+                  "value": "010250027"
+                },
+                {
+                  "idExt": "505600160",
+                  "id_Ext": "505600160",
+                  "groupID": "666",
+                  "id": "Fabricante",
+                  "type": "RELATIONSHIP",
+                  "value": "010250027"
+                }
+              ],
+              "id": "Proveedor",
+              "type": "GROUPING"
+            },
+            {
+              "id": "CodigoCalificacion1",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "CodigoCalificacion2",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "CodigoCalificacion3",
+              "type": "STRING",
+              "value": "FO"
+            },
+            {
+              "id": "CodigoCalificacion4",
+              "type": "STRING",
+              "value": "RG"
+            },
+            {
+              "id": "CodigoCalificacion5",
+              "type": "STRING",
+              "value": "RG"
+            },
+            {
+              "id": "CodigoCalificacion6",
+              "type": "STRING",
+              "value": "PR"
+            },
+            {
+              "children": [
+                {
+                  "id": "DescripcionArticuloCodificacion",
+                  "type": "STRING",
+                  "value": "BUEY MAR ASTURIANO"
+                },
+                {
+                  "id": "Variedad1",
+                  "type": "STRING",
+                  "value": "BUEY DE MAR"
+                },
+                {
+                  "id": "Variedad2",
+                  "type": "STRING",
+                  "value": "ASTURIANO"
+                },
+                {
+                  "id": "PresentacionCodificacion",
+                  "type": "STRING",
+                  "value": "AL PESO"
+                },
+                {
+                  "id": "CantidadCodificacion",
+                  "type": "STRING",
+                  "value": "1"
+                },
+                {
+                  "id": "FormatoCodificacion",
+                  "type": "STRING",
+                  "value": "KG"
+                },
+                {
+                  "id": "DescripcionTicketCodificacion",
+                  "type": "STRING",
+                  "value": "BUEY MAR AST."
+                }
+              ],
+              "id": "Descripcion",
+              "type": "GROUPING"
+            },
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "PesoPiezaCodificacion",
+              "type": "STRING",
+              "value": "1000,0"
+            },
+            {
+              "id": "Entorno",
+              "type": "STRING",
+              "value": "4"
+            },
+            {
+              "id": "CodigoCompraEmpresa",
+              "type": "STRING",
+              "value": "50"
+            },
+            {
+              "id": "CodigoCompraReferencia",
+              "type": "STRING",
+              "value": "5018250200039"
+            },
+            {
+              "id": "FechaAgenda",
+              "type": "DATE",
+              "value": "20120417_000000"
+            },
+            {
+              "idExt": "26844190",
+              "featureGroupID": "6618",
+              "id_Ext": "26844190",
+              "id": "EnlacePUM",
+              "type": "LOOKUP_TABLE",
+              "value": "001"
+            },
+            {
+              "id": "IsMercanciaGeneral",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "GPER",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "CantidadProducto",
+              "type": "STRING",
+              "value": "000001,000"
+            },
+            {
+              "id": "UnidadesProducto",
+              "type": "STRING",
+              "value": "001"
+            },
+            {
+              "id": "UnidadEmbalaje",
+              "type": "STRING",
+              "value": "1"
+            },
+            {
+              "id": "UnidadSurtido",
+              "type": "STRING",
+              "value": "1"
+            }
+          ],
+          "id": "Codificacion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "ocurrence": 0,
+              "children": [
+                {
+                  "idExt": "26867190",
+                  "featureGroupID": "6619",
+                  "id_Ext": "26867190",
+                  "id": "CodigoRegion",
+                  "type": "LOOKUP_TABLE",
+                  "value": "CANARIAS"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "value": "Pack familiar"
+                        },
+                        {
+                          "id": "en_GB",
+                          "type": "STRING",
+                          "value": "Pack familiar en"
+                        },
+                        {
+                          "id": "de_DE",
+                          "type": "STRING",
+                          "value": "Pack familiar de"
+                        },
+                        {
+                          "id": "ca_ES",
+                          "type": "STRING",
+                          "value": "Pack familiar ca"
+                        }
+                      ],
+                      "id": "Descripcion",
+                      "type": "STRING"
+                    },
+                    {
+                      "id": "FechaDesde",
+                      "type": "DATE",
+                      "value": "20210101_001000"
+                    },
+                    {
+                      "id": "FechaHasta",
+                      "type": "DATE",
+                      "value": "20251231_235900"
+                    },
+                    {
+                      "id": "Anulacion",
+                      "type": "FLAG",
+                      "value": "false"
+                    }
+                  ],
+                  "id": "Temporal",
+                  "type": "GROUPING"
+                }
+              ],
+              "id": "Regiones",
+              "type": "GROUPING"
+            },
+            {
+              "ocurrence": 1,
+              "children": [
+                {
+                  "idExt": "26868190",
+                  "featureGroupID": "6619",
+                  "id_Ext": "26868190",
+                  "id": "CodigoRegion",
+                  "type": "LOOKUP_TABLE",
+                  "value": "MADRID"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "value": "Pack familiar"
+                        },
+                        {
+                          "id": "en_GB",
+                          "type": "STRING",
+                          "value": "Pack familiar en"
+                        },
+                        {
+                          "id": "de_DE",
+                          "type": "STRING",
+                          "value": "Pack familiar de"
+                        },
+                        {
+                          "id": "ca_ES",
+                          "type": "STRING",
+                          "value": "Pack familiar ca"
+                        }
+                      ],
+                      "id": "Descripcion",
+                      "type": "STRING"
+                    },
+                    {
+                      "id": "FechaDesde",
+                      "type": "DATE",
+                      "value": "20210101_001000"
+                    },
+                    {
+                      "id": "FechaHasta",
+                      "type": "DATE",
+                      "value": "20251231_235900"
+                    },
+                    {
+                      "id": "Anulacion",
+                      "type": "FLAG",
+                      "value": "false"
+                    }
+                  ],
+                  "id": "Temporal",
+                  "type": "GROUPING"
+                }
+              ],
+              "id": "Regiones",
+              "type": "GROUPING"
+            }
+          ],
+          "id": "Excepciones",
+          "type": "GROUPING"
+        },
+        {
+          "id": "Enviado",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "TipoDocumentacion",
+          "type": "STRING",
+          "value": "Gran Consumo"
+        },
+        {
+          "id": "IsInWorkFlow",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Filled",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "85127101"
+        },
+        {
+          "id": "NumDiasCadGarantizadaRef",
+          "type": "INTEGER",
+          "value": "0"
+        },
+        {
+          "id": "Modificado",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Oferta",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "ProductoExclusivoEciExpress",
+          "type": "FLAG",
+          "value": "false"
+        }
+      ],
+      "id": "/Supermercado Peninsula CPS",
+      "type": "SPEC"
+    }
+  ],
+  "specificAttribs": [
+    {
+      "children": [
+        {
+          "id": "ActivarDocPropia",
+          "type": "FLAG",
+          "value": "false"
+        }
+      ],
+      "id": "/Alimentacion ISS",
+      "type": "SPEC"
+    },
+    {
+      "children": [],
+      "id": "/Perecederos Peninsula ISS",
+      "type": "SPEC"
+    }
+  ],
+  "id_Ext": "85127101",
+  "entryContainerID": "6639",
+  "link": [
+    {
+      "idExt": "26836111",
+      "hierarchyId": "25402",
+      "id_Ext": "26836111",
+      "categoryId": "0001"
+    },
+    {
+      "idExt": "8590123",
+      "hierarchyId": "6809",
+      "id_Ext": "8590123",
+      "categoryId": "010897"
+    },
+    {
+      "idExt": "8599123",
+      "hierarchyId": "6809",
+      "id_Ext": "8599123",
+      "categoryId": "010941"
+    },
+    {
+      "idExt": "3336113",
+      "hierarchyId": "6803",
+      "id_Ext": "3336113",
+      "categoryId": "01182502"
+    },
+    {
+      "idExt": "1346119",
+      "hierarchyId": "6807",
+      "id_Ext": "1346119",
+      "categoryId": "10510025230"
+    }
+  ],
+  "id": "001018250200039   ",
+  "prices": [
+    {
+      "centerId": "010897",
+      "offerPrice": "0000020,95",
+      "productId": "001018250200039   ",
+      "endDate": "",
+      "regularPrice": "0000020,95",
+      "id_Ext": "851271010897199",
+      "delete": "false",
+      "globalDiscount": "",
+      "idExt": "851271010897199",
+      "offerType": "00",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "avaliable": "false",
+      "applyGlobalDiscount": "false",
+      "containerId": "6639",
+      "startDate": ""
+    },
+    {
+      "centerId": "010941",
+      "offerPrice": "0000020,95",
+      "productId": "001018250200039   ",
+      "endDate": "",
+      "regularPrice": "0000020,95",
+      "id_Ext": "851271010941199",
+      "delete": "false",
+      "globalDiscount": "",
+      "idExt": "851271010941199",
+      "offerType": "00",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "avaliable": "false",
+      "applyGlobalDiscount": "false",
+      "containerId": "6639",
+      "startDate": ""
+    }
+  ],
+  "movement": "MODIFIED"
+}

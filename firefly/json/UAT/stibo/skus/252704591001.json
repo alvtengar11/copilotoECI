@@ -1,0 +1,651 @@
+{
+	"id": "001097632128530   ",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "IA",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DescripcionLargaDelProductoIA",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "CONCENTRA S.A"
+						},
+						{
+							"id": "Fabricante",
+							"type": "STRING",
+							"value": "0975532"
+						},
+						{
+							"id": "DescripcionFabricante",
+							"type": "STRING",
+							"value": "CONCENTRA S.A"
+						},
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0975532"
+						},
+						{
+							"id": "Marca",
+							"type": "STRING",
+							"value": "CONCENTRA"
+						},
+						{
+							"id": "MarcaMostradaEnWeb",
+							"type": "RELATIONSHIP",
+							"value": "VTECH",
+							"idExt": "128192056",
+							"id_Ext": "128192056",
+							"groupID": "391"
+						}
+					]
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "0004"
+						},
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "DescripcionModelo",
+							"type": "STRING",
+							"value": "KIDIZOOM SMART WATCH MAX - RELÓGIO AZUL"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"value": "Relógio Azul Kidizoom Smart Watch Max"
+								}
+							]
+						},
+						{
+							"id": "UnidadSurtidoCodificacion",
+							"type": "STRING",
+							"value": "0004"
+						},
+						{
+							"id": "UnidadVenta",
+							"type": "STRING",
+							"value": "0001"
+						},
+						{
+							"id": "CodigoModelo",
+							"type": "STRING",
+							"value": "135687"
+						},
+						{
+							"id": "TipoAcuerdoServicio",
+							"type": "STRING",
+							"value": "N"
+						},
+						{
+							"id": "UnidadDeMedidaBase",
+							"type": "STRING",
+							"value": "UNI"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000158155567"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": "0"
+						},
+						{
+							"id": "EanGtin",
+							"type": "STRING",
+							"value": "5601849035687"
+						},
+						{
+							"id": "ReferenciaDeLujo",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaMadre",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PermiteDevolucion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "AnillosDeCompromiso",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaDigital",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Eani",
+							"type": "STRING",
+							"value": "2102664738119"
+						},
+						{
+							"id": "CodigoUnicoOrigen",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Validated",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "JUG"
+						},
+						{
+							"id": "SenalEntorno",
+							"type": "LOOKUP_TABLE",
+							"value": "Mercancía general ECI",
+							"idExt": "274979090",
+							"featureGroupID": "395",
+							"id_Ext": "274979090"
+						}
+					]
+				},
+				{
+					"id": "Target",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Hasta",
+							"type": "NUMBER",
+							"value": "99"
+						},
+						{
+							"id": "Desde",
+							"type": "NUMBER",
+							"value": "5"
+						},
+						{
+							"id": "UnidadEdad",
+							"type": "LOOKUP_TABLE",
+							"value": "años",
+							"idExt": "347185090",
+							"featureGroupID": "211",
+							"id_Ext": "347185090"
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Calificacion3",
+							"type": "STRING",
+							"value": "C1"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "PT"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "00"
+						}
+					]
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PUM",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UnidadesProducto",
+									"type": "STRING",
+									"value": "000"
+								}
+							]
+						},
+						{
+							"id": "UOM!Dimensiones!Unidad",
+							"type": "LOOKUP_TABLE",
+							"value": "MM",
+							"idExt": "51645525090",
+							"featureGroupID": "204",
+							"id_Ext": "51645525090"
+						}
+					]
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "A200263186"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DeliveryPoint",
+							"type": "STRING_ENUMERATION",
+							"value": "A"
+						},
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"value": "No voluminoso",
+							"idExt": "347190090",
+							"featureGroupID": "401",
+							"id_Ext": "347190090"
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "252704591001"
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001097632128530   "
+				},
+				{
+					"id": "DocumentacionPredominante",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "BloqueoVenta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "AlertaSanitaria",
+							"type": "LOOKUP_TABLE",
+							"value": "N",
+							"idExt": "45811225090",
+							"featureGroupID": "2688090",
+							"id_Ext": "45811225090"
+						}
+					]
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDeAltaCatalogo",
+							"type": "DATE",
+							"value": "20250716_110704"
+						}
+					]
+				},
+				{
+					"id": "DescripcionLargaDelProducto",
+					"type": "GROUPING",
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "DescripcionPrincipal",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"ocurrence": 0,
+									"value": "Com o Kidizoom Smartwatch Max Azul, a diversão está sempre no pulso! Este smartwatch completo da VTech inclui jogos, câmara, gravador, música, efeitos especiais, despertador e funcionalidades interativas que estimulam a criatividade. Robusto e cheio de estilo, é ideal para crianças cheias de energia e imaginação."
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "5601849035687",
+									"idExt": "208343476059",
+									"id_Ext": "208343476059",
+									"groupID": "5005"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "5601849035687"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20250716_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 1,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "2976321285304",
+									"idExt": "2976321285304059",
+									"id_Ext": "2976321285304059",
+									"groupID": "5005"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "2976321285304"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20250716_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "false"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "3416092"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "5007",
+			"categoryId": "343",
+			"idExt": "13478690024",
+			"id_Ext": "13478690024"
+		},
+		{
+			"hierarchyId": "998",
+			"categoryId": "00068",
+			"idExt": "5387012",
+			"id_Ext": "5387012"
+		}
+	],
+	"unlink": [],
+	"specificAttribs": [
+		{
+			"id": "/Jugueteria_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "CaracteristicasGenerales",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TipoDeProducto",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 0,
+							"value": "Relojes Infantiles",
+							"idExt": "482379090",
+							"featureGroupID": "411",
+							"id_Ext": "482379090"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "3416092"
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Portugal_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagen",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-00.jpg"
+										}
+									]
+								},
+								{
+									"id": "SecondaryFotos",
+									"type": "GROUPING",
+									"ocurrence": 0,
+									"children": [
+										{
+											"id": "Id",
+											"type": "STRING",
+											"value": "01"
+										},
+										{
+											"id": "UrlImagen",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg"
+										},
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=100&height=100"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=40&height=40"
+										},
+										{
+											"id": "UrlImagen1200x1200",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=1200&height=1200"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=640&height=640"
+										},
+										{
+											"id": "UrlImagen520x520",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=520&height=520"
+										},
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=440&height=440"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=210&height=210"
+										},
+										{
+											"id": "UrlImagen967x1200",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=967&height=1200"
+										},
+										{
+											"id": "UrlImagen520x640",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=520&height=640"
+										},
+										{
+											"id": "UrlImagen516x640",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=516&height=640"
+										},
+										{
+											"id": "UrlImagen440x546",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=440&height=546"
+										},
+										{
+											"id": "UrlImagen340x421",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=340&height=421"
+										},
+										{
+											"id": "UrlImagen290x360",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=290&height=360"
+										},
+										{
+											"id": "UrlImagen210x260",
+											"type": "IMAGE_URL",
+											"value": "https://dam.elcorteingles.es/producto/por-001097632128530-01.jpg?impolicy=Resize&width=210&height=260"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "FechaDePublicacionPOR",
+					"type": "DATE",
+					"value": "20251029_142607"
+				},
+				{
+					"id": "Foto",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "3416092"
+				}
+			]
+		}
+	],
+	"idExt": "252704591001",
+	"id_Ext": "252704591001",
+	"entryContainerID": "1"
+}

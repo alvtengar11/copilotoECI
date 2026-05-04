@@ -1,0 +1,1282 @@
+{
+	"id_Ext": "11017276001",
+	"id": "001007016305851",
+	"entryContainerID": "1",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "11017276001"
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001007016305851   "
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "01"
+						},
+						{
+							"id": "EanGtin",
+							"type": "STRING",
+							"value": "2070163058512"
+						},
+						{
+							"id": "Eani",
+							"type": "STRING",
+							"value": "2401979062606"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "HOG"
+						},
+						{
+							"id": "UnidadVenta",
+							"type": "STRING",
+							"value": "0001"
+						},
+						{
+							"id": "UnidadSurtidoCodificacion",
+							"type": "STRING",
+							"value": "0003"
+						},
+						{
+							"id": "SenalEntorno",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "395",
+							"id_Ext": "274979090",
+							"value": "Mercancía general ECI"
+						},
+						{
+							"id": "CodigoModelo",
+							"type": "STRING",
+							"value": "FLEUR"
+						},
+						{
+							"id": "DescripcionModelo",
+							"type": "STRING",
+							"value": "TOALLA PLAYA"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Toalla de playa El Corte Inglés Fleur"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "El Corte Inglés Fleur beach towel"
+								},
+								{
+									"id": "fr_FR",
+									"type": "STRING",
+									"value": "Serviette de plage El Corte Inglés Fleur"
+								}
+							]
+						},
+						{
+							"id": "Perecedero",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Validated",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000141212181"
+						},
+						{
+							"id": "CodigoUnicoPrincipal",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Royaltis",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PermiteDevolucion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": "0"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaGenerica",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PeticionPrecioDeVenta",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "ReferenciaDigital",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "AnillosDeCompromiso",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaDeLujo",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaMadre",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CodigoUnicoOrigen",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0964098"
+						},
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "NILE TEXTILE INDUSTRIES, S.A.E."
+						},
+						{
+							"id": "Fabricante",
+							"type": "STRING",
+							"value": "0964098"
+						},
+						{
+							"id": "DescripcionFabricante",
+							"type": "STRING",
+							"value": "NIHAT BURSALI TEKS. SAN.VE TIC.A.S."
+						},
+						{
+							"id": "Marca",
+							"type": "STRING",
+							"value": "EL CORTE INGLES"
+						},
+						{
+							"id": "MarcaMostradaEnWeb",
+							"type": "RELATIONSHIP",
+							"groupID": "391",
+							"id_Ext": "123707056",
+							"value": "EL CORTE INGLES"
+						}
+					]
+				},
+				{
+					"id": "DescripcionCorta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"value": "TOALLA PLAYA"
+						}
+					]
+				},
+				{
+					"id": "DescripcionLargaDelProducto",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DescripcionPrincipal",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"ocurrence": 0,
+									"type": "STRING",
+									"value": "Un jardín de flores de colores inspira el alegre estampado de la toalla Fleur. Elaborada con algodón 100% con suave acabado de Velour, es un complemento absorbente y estiloso para los días de verano."
+								},
+								{
+									"id": "en_GB",
+									"ocurrence": 0,
+									"type": "STRING",
+									"value": "A colourful flower garden inspires the joyful print on the Fleur towel. Made from 100% cotton with a soft velour finish, this is an absorbent and stylish accessory for the summer."
+								},
+								{
+									"id": "fr_FR",
+									"ocurrence": 0,
+									"type": "STRING",
+									"value": "Un jardin de fleurs colorées inspire l'imprimé plein de gaieté de la serviette Fleur. Élaborée en pur coton finition velours, elle est absorbante et élégante. Idéale en été."
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "YT"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "O"
+						},
+						{
+							"id": "Calificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "AF"
+						},
+						{
+							"id": "Calificacion6",
+							"type": "STRING",
+							"value": "D"
+						},
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "06"
+						}
+					]
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UOM!Dimensiones!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "204",
+							"id_Ext": "347186090",
+							"value": "cm"
+						},
+						{
+							"id": "UOM!PesoBruto!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "206",
+							"id_Ext": "347187090",
+							"value": "g"
+						},
+						{
+							"id": "UOM!VolumenContenidoNeto!VolumenContenidoNeto",
+							"type": "NUMBER",
+							"value": "0.0"
+						},
+						{
+							"id": "UOM!VolumenContenidoNeto!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "213",
+							"id_Ext": "347188090",
+							"value": "ml"
+						}
+					]
+				},
+				{
+					"id": "ColoresYTallas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ColorFabricante",
+							"type": "STRING",
+							"value": "MULTI"
+						},
+						{
+							"id": "DescripcionDelColor",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "135",
+							"id_Ext": "352633090",
+							"value": "Multicolor"
+						},
+						{
+							"id": "TamanoHorma",
+							"type": "STRING",
+							"value": "090X160"
+						},
+						{
+							"id": "Dibujo",
+							"type": "STRING",
+							"value": "OUTDOOR"
+						}
+					]
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "A16783709"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTamanos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosFormatos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTipoPiel",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDeAltaCompras",
+							"type": "DATE",
+							"value": "20141103_000000"
+						},
+						{
+							"id": "FechaDeAltaPrecatalogo",
+							"type": "DATE",
+							"value": "20140319_071930"
+						},
+						{
+							"id": "FechaDeAltaCatalogo",
+							"type": "DATE",
+							"value": "20150121_172609"
+						},
+						{
+							"id": "Finisurt",
+							"type": "DATE",
+							"value": "20160219_000000"
+						}
+					]
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____1__40x40.jpg"
+										},
+										{
+											"id": "UrlImagenL",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____1__225x225.jpg"
+										},
+										{
+											"id": "UrlImagenM",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____1__150x150.jpg"
+										},
+										{
+											"id": "UrlImagenG",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____1__600x600.jpg"
+										},
+										{
+											"id": "UrlImagenP",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____1__1000x1000.jpg"
+										},
+										{
+											"id": "UrlImagenH0",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____1__410x410.jpg"
+										},
+										{
+											"id": "UrlImagenH1",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____1__65x65.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____1__210x210.jpg"
+										},
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____1__440x440.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____1__640x640.jpg"
+										},
+										{
+											"id": "UrlImagen1200x1200",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____1__1200x1200.jpg"
+										}
+									]
+								},
+								{
+									"id": "Muestrario",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenListado",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____2__20x20.jpg"
+										},
+										{
+											"id": "UrlImagenProducto",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____2__30x30.jpg"
+										},
+										{
+											"id": "UrlImagenZoom",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201603/29/00107016305851____2__225x225.jpg"
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "Pantone",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10107",
+							"id_Ext": "233776090",
+							"value": "Muestrario"
+						}
+					]
+				},
+				{
+					"id": "Target",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "BestSellersExcluded",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SusceptibleDeEnvolver",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "401",
+							"id_Ext": "347190090",
+							"value": "No voluminoso"
+						},
+						{
+							"id": "InStorePickUp",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "400",
+							"id_Ext": "274969090",
+							"value": "Recogida en tienda"
+						},
+						{
+							"id": "EntregaDomicilio",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDeRetirada",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServicioDeRetirada",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"value": "N - No Disponible"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDePuestaEnMarcha",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServicioDePuestaEnMarcha",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"value": "N - No Disponible"
+						},
+						{
+							"id": "ModoDeServicioPuestaEnMarcha",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1030",
+							"id_Ext": "347192090",
+							"value": "N - No Disponible"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDePuerta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServiciosDePuerta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"value": "N - No Disponible"
+						},
+						{
+							"id": "ModoDeServiciocambiodePuerta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1028",
+							"id_Ext": "347193090",
+							"value": "N - No Disponible"
+						}
+					]
+				},
+				{
+					"id": "Financiacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FinancedServiceNoInterest",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Calculadora",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Pending",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Precios",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IvaPorcentaje",
+							"type": "STRING",
+							"value": "02"
+						},
+						{
+							"id": "IgicPorcentaje",
+							"type": "STRING",
+							"value": "91"
+						}
+					]
+				},
+				{
+					"id": "Validar",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Carteleria",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Reference",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ReferenceType",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1686",
+							"id_Ext": "346300090",
+							"value": "E"
+						},
+						{
+							"id": "ReferenceSourceOrigin",
+							"type": "STRING",
+							"value": "S"
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "x",
+					"type": "STRING",
+					"value": "x"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "EnvioAtg",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"groupID": "5005",
+									"id_Ext": "16788044059",
+									"value": "2070163058512"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "2070163058512"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20151022_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "false"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0090"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "01"
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 1,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0143"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "02"
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 2,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0424"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "02"
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 3,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0909"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "01"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "131030665"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "2937259013",
+			"hierarchyId": "999",
+			"categoryId": "1399896173"
+		},
+		{
+			"id_Ext": "605050020",
+			"hierarchyId": "5003",
+			"categoryId": "1367230038"
+		},
+		{
+			"id_Ext": "11167559011",
+			"hierarchyId": "997",
+			"categoryId": "20160204113727"
+		},
+		{
+			"id_Ext": "5513012",
+			"hierarchyId": "998",
+			"categoryId": "00210"
+		},
+		{
+			"id_Ext": "8126819013",
+			"hierarchyId": "999",
+			"categoryId": "1428321544"
+		},
+		{
+			"id_Ext": "19060994011",
+			"hierarchyId": "997",
+			"categoryId": "20170511020459"
+		},
+		{
+			"id_Ext": "2865209021",
+			"hierarchyId": "100167",
+			"categoryId": "2865209021"
+		},
+		{
+			"id_Ext": "8126818013",
+			"hierarchyId": "999",
+			"categoryId": "1428321415"
+		},
+		{
+			"id_Ext": "2865214021",
+			"hierarchyId": "100167",
+			"categoryId": "2865214021"
+		},
+		{
+			"id_Ext": "11029955011",
+			"hierarchyId": "997",
+			"categoryId": "20160120122610"
+		},
+		{
+			"id_Ext": "2865210021",
+			"hierarchyId": "100167",
+			"categoryId": "2865210021"
+		},
+		{
+			"id_Ext": "12051817020",
+			"hierarchyId": "5003",
+			"categoryId": "1461916475"
+		},
+		{
+			"id_Ext": "2865211021",
+			"hierarchyId": "100167",
+			"categoryId": "2865211021"
+		},
+		{
+			"id_Ext": "15174018",
+			"hierarchyId": "5001",
+			"categoryId": "01.070.163"
+		},
+		{
+			"id_Ext": "11029950011",
+			"hierarchyId": "997",
+			"categoryId": "20160120122410"
+		},
+		{
+			"id_Ext": "2865212021",
+			"hierarchyId": "100167",
+			"categoryId": "2865212021"
+		}
+	],
+	"unlink": [],
+	"specificAttribs": [
+		{
+			"id": "/Textil_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "CaracteristicasGenerales",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TipoDeProducto",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10027",
+							"id_Ext": "239349090",
+							"value": "Toalla de playa"
+						},
+						{
+							"id": "Estilo",
+							"ocurrence": 0,
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10030",
+							"id_Ext": "10738008090",
+							"value": "Young & Trendy"
+						},
+						{
+							"id": "Tendencia",
+							"ocurrence": 0,
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10031",
+							"id_Ext": "11017277090",
+							"value": "Outdoor"
+						},
+						{
+							"id": "Composicion",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UOM!Composicion!Cantidad",
+									"type": "NUMBER",
+									"value": "100.0"
+								},
+								{
+									"id": "UOM!Composicion!Unidad",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "214",
+									"id_Ext": "344726090",
+									"value": "%"
+								},
+								{
+									"id": "UOM!Composicion!Material",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "10014",
+									"id_Ext": "239126090",
+									"value": "Algodón"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "CaracteristicasColorPrimario",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ColorPrimario",
+							"ocurrence": 0,
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "135",
+							"id_Ext": "352633090",
+							"value": "Multicolor"
+						}
+					]
+				},
+				{
+					"id": "Toallas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Gramaje",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UOM!Gramaje!Cantidad",
+									"type": "NUMBER",
+									"value": "380.0"
+								},
+								{
+									"id": "UOM!Gramaje!Unidad",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "206",
+									"id_Ext": "357098090",
+									"value": "gr/m²"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UOM!Dimensiones!Ancho",
+							"type": "NUMBER",
+							"value": "90.0"
+						},
+						{
+							"id": "UOM!Dimensiones!Largo",
+							"type": "NUMBER",
+							"value": "160.0"
+						},
+						{
+							"id": "UOM!Dimensiones!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "204",
+							"id_Ext": "347186090",
+							"value": "cm"
+						}
+					]
+				},
+				{
+					"id": "ConsejosDeLavado",
+					"ocurrence": 0,
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "1584",
+					"id_Ext": "350583090",
+					"value": "Lavar máximo 40º"
+				},
+				{
+					"id": "ConsejosDeLavado",
+					"ocurrence": 1,
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "1584",
+					"id_Ext": "344724090",
+					"value": "No usar lejía"
+				},
+				{
+					"id": "ConsejosDeLavado",
+					"ocurrence": 2,
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "1584",
+					"id_Ext": "372933090",
+					"value": "Secadora a baja temperatura"
+				},
+				{
+					"id": "ConsejosDeLavado",
+					"ocurrence": 3,
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "1584",
+					"id_Ext": "349576090",
+					"value": "Planchado max 150º"
+				},
+				{
+					"id": "ConsejosDeLavado",
+					"ocurrence": 4,
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "1584",
+					"id_Ext": "373231090",
+					"value": "No lavar en seco"
+				},
+				{
+					"id": "SabiasQue",
+					"ocurrence": 0,
+					"type": "STRING",
+					"value": "El algodón es una fibra natural hipoalergénica, tiene un tacto suave y proporciona una gran absorción. Además, se seca rápidamente y permite que el aire circule entre las fibras."
+				},
+				{
+					"id": "ConvieneSaber",
+					"ocurrence": 0,
+					"type": "STRING",
+					"value": "El gramaje nos informa de cuántos gramos por metro cuadrado pesa una prenda. Cuanto menor gramaje tenga la prenda, más fina y ligera es. Y cuanto mayor sea el gramaje, más mullida y voluminosa será."
+				},
+				{
+					"id": "ObservacionesInternas",
+					"ocurrence": 0,
+					"type": "STRING",
+					"value": "pv16"
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "131030665"
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "DespublicadoPorMargen",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "DespublicadoPorStock",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20170903_000000"
+						},
+						{
+							"id": "NovedadWWW",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicarAutomaticamente",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "FechaDePrimeraPublicacionWWW",
+							"type": "DATE",
+							"value": "20160219_000000"
+						},
+						{
+							"id": "NoPublicarAutomaticamente",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "FechaDesPubAutomaticaWWW",
+							"type": "DATE",
+							"value": "20160301_142319"
+						},
+						{
+							"id": "XPUBLICA",
+							"type": "STRING",
+							"value": "P"
+						},
+						{
+							"id": "MotivoPubDesWWW",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10110",
+							"id_Ext": "233767090",
+							"value": "010"
+						},
+						{
+							"id": "ModSP2",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Foto",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "131030665"
+				}
+			]
+		},
+		{
+			"id": "/UK_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "destacado",
+					"type": "INTEGER",
+					"value": "9999999"
+				},
+				{
+					"id": "MostrarSoloRebajado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "FechaDePublicacion",
+					"type": "DATE",
+					"value": "20170903_000000"
+				},
+				{
+					"id": "DespublicadoPorMargen",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "DespublicadoPorStock",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "MotivoPubDesWWW",
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "10110",
+					"id_Ext": "233767090",
+					"value": "010"
+				},
+				{
+					"id": "FechaDePrimeraPublicacionWWW",
+					"type": "DATE",
+					"value": "20160219_000000"
+				},
+				{
+					"id": "NovedadWWW",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "PublicarAutomaticamente",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "131030665"
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"productId": "001007016305851   ",
+			"centerId": "0090",
+			"regularPrice": "16.95",
+			"catalogPrice": "16.95",
+			"taxPercentage": "01",
+			"igic": "91"
+		},
+		{
+			"productId": "001007016305851   ",
+			"centerId": "0143",
+			"regularPrice": "16.95",
+			"catalogPrice": "16.95",
+			"taxPercentage": "02",
+			"igic": "91"
+		},
+		{
+			"productId": "001007016305851   ",
+			"centerId": "0424",
+			"regularPrice": "16.95",
+			"catalogPrice": "16.95",
+			"taxPercentage": "02",
+			"igic": "91"
+		},
+		{
+			"productId": "001007016305851   ",
+			"centerId": "0909",
+			"regularPrice": "16.81",
+			"catalogPrice": "16.81",
+			"taxPercentage": "02",
+			"igic": "91"
+		}
+	]
+}

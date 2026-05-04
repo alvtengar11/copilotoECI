@@ -1,0 +1,115 @@
+{
+  "id_Ext": "5389012",
+  "id": "00070",
+  "entryContainerID": "998",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/ProductType_HPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "5389012"
+        },
+        {
+          "id": "Key",
+          "type": "STRING",
+          "value": "00070"
+        },
+        {
+          "id": "KeyATG",
+          "type": "STRING",
+          "value": "00070"
+        },
+        {
+          "id": "Description",
+          "type": "STRING",
+          "children": [
+            {
+              "id": "es_ES",
+              "type": "STRING",
+              "value": "Libros"
+            },
+            {
+              "id": "en_GB",
+              "type": "STRING",
+              "value": "Books"
+            },
+            {
+              "id": "fr_FR",
+              "type": "STRING",
+              "value": "Livres"
+            }
+          ]
+        },
+        {
+          "id": "Transporte",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "InStorePickUp",
+              "type": "LOOKUP_TABLE",
+              "value": "Recogida en tienda",
+              "featureGroupID": "400",
+              "id_Ext": "274969090"
+            },
+            {
+              "id": "Voluminoso",
+              "type": "LOOKUP_TABLE",
+              "value": "No voluminoso",
+              "featureGroupID": "401",
+              "id_Ext": "347190090"
+            },
+            {
+              "id": "EmpresaSTS",
+              "type": "STRING",
+              "ocurrence": 0,
+              "value": "SOCIEDAD ESTATAL CORREOS Y TELEGRAFO"
+            },
+            {
+              "id": "EmpresaSTS",
+              "type": "STRING",
+              "ocurrence": 1,
+              "value": "CELERITAS"
+            },
+            {
+              "id": "EmpresaSTS",
+              "type": "STRING",
+              "ocurrence": 2,
+              "value": "SUPERCOR, S.A."
+            }
+          ]
+        },
+        {
+          "id": "Carteleria",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Comparador",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "RepositoryModificationControl",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "IdMensajeAnterior",
+          "type": "NUMBER",
+          "value": "601880215"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "id_Ext": "5388012",
+      "hierarchyId": "998",
+      "categoryId": "00069"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+	"id_Ext": "2391001011",
+	"id": "20130924111943",
+	"entryContainerID": "997",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Campania_HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "2391001011"
+				},
+				{
+					"id": "Key",
+					"type": "STRING",
+					"value": "20130924111943"
+				},
+				{
+					"id": "KeyATG",
+					"type": "STRING",
+					"value": "1380014383"
+				},
+				{
+					"id": "Type",
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "1026",
+					"id_Ext": "348618090",
+					"value": "CD"
+				},
+				{
+					"id": "Description",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Hogar Estrena Bamboo"
+						}
+					]
+				},
+				{
+					"id": "StartDate",
+					"type": "DATE",
+					"value": "20130925_000000"
+				},
+				{
+					"id": "FinishDate",
+					"type": "DATE",
+					"value": "20201225_000000"
+				},
+				{
+					"id": "Prefijo",
+					"type": "STRING",
+					"value": "Bamboo"
+				},
+				{
+					"id": "Sangrado",
+					"type": "STRING_ENUMERATION",
+					"value": "null"
+				},
+				{
+					"id": "Template",
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "2025",
+					"id_Ext": "348615090",
+					"value": "Template - Subcategory Horizontal Showcase"
+				},
+				{
+					"id": "DiasNovedad",
+					"type": "STRING_ENUMERATION",
+					"value": "15"
+				},
+				{
+					"id": "SEO",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EncabezadoH1",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Encabezado es Hogar Estrena Bamboo"
+								},
+								{
+									"id": "fr_FR",
+									"type": "STRING",
+									"value": "Encabezado fr Hogar Estrena Bamboo"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Encabezado en Hogar Estrena Bamboo"
+								}
+							]
+						},
+						{
+							"id": "Keywords",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Keyword es Bamboo"
+								},
+								{
+									"id": "fr_FR",
+									"type": "STRING",
+									"value": "Keyword fr Bamboo"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Keyword en Bamboo"
+								}
+							]
+						},
+						{
+							"id": "Description",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Descr es Hogar Estrena Bamboo"
+								},
+								{
+									"id": "fr_FR",
+									"type": "STRING",
+									"value": "Descr fr Hogar Estrena Bamboo"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Descr en Hogar Estrena Bamboo"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "BestSellersExcluded",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "TipoSite",
+					"type": "STRING_ENUMERATION",
+					"value": "Puntual"
+				},
+				{
+					"id": "LimpiezaCampanas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Prioridad",
+							"type": "INTEGER",
+							"value": "100"
+						}
+					]
+				},
+				{
+					"id": "SiteDeCampana",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SiteC",
+							"type": "STRING_ENUMERATION",
+							"value": "ECI"
+						},
+						{
+							"id": "Tienda",
+							"ocurrence": 0,
+							"type": "STRING_ENUMERATION",
+							"value": "Hogar"
+						},
+						{
+							"id": "index",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "follow",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "canonical",
+							"type": "URL",
+							"value": "http://api-interno-uat001.azure.cloud.elcorteingles.es/canonical_eci"
+						}
+					]
+				},
+				{
+					"id": "SiteDeCampana",
+					"ocurrence": 1,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SiteC",
+							"type": "STRING_ENUMERATION",
+							"value": "Hipercor"
+						},
+						{
+							"id": "index",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "follow",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "canonical",
+							"type": "URL",
+							"value": "http://api-interno-uat001.azure.cloud.elcorteingles.es/canonical_hipercor"
+						}
+					]
+				},
+				{
+					"id": "SiteDeCampana",
+					"ocurrence": 2,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SiteC",
+							"type": "STRING_ENUMERATION",
+							"value": "LTC"
+						},
+						{
+							"id": "index",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "follow",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "canonical",
+							"type": "URL",
+							"value": "http://api-interno-uat001.azure.cloud.elcorteingles.es/canonical_ltc"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "137768758"
+				}
+			]
+		}
+	],
+	"link": []
+}

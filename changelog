@@ -1,0 +1,253 @@
+***22/05/2019 -Versión omnistore-db-coherence-sprint57***
+
+Versión inicial de imagen de BBDD. Partiendo de la imagen de docker desarrollo-coherence
+se han añadido los siguientes elementos:
+- Productos JSON de todas las regresiones automáticas de Omnistore
+- Categorías Hipercor de la suite Smoke de Hipercor
+- Datos de ECI_INVENTORY, ECI_PRICES, ECI_DISTRIBUTION_WAYS de las suite Smoke
+- Productos, categorías, precios, inventario, distribution ways y STS necesarios para los sprint 56 y 57.
+- Configuración manual de BCC para las suites Smoke Multicanal e Internacional.  
+
+El proceso que se ha seguido para generar la imagen es el siguiente:
+
+1. Actualizar proyecto Omnistore desde Bitbucket
+2. Actualizar proyecto de test desde Bitbucket
+3. Actualizar proyecto de datamanager desde BitBucket
+4. Reconstruir Omnistore 
+   gallx --refresh-dependencies
+5. Recrear contenedor BBDD -- 
+   cd /home/spindrift/git/docker-base-config/OmniStore/buildtools/docker/oracle-xe-11g/
+   docker login --username uatregistryeci --password llApglbjKOXtcSbiNZFvUkFu6K76AP/G uatregistryeci.azurecr.io/
+   ./recreate-container.sh desarrollo_coherence
+6. Actualizar BBDD
+   g uD
+7. Upgrade Coherence Version
+   g uCV
+8. Recrear contenedores de servicios  
+   ./recreate-container.sh services|loader|ca 
+9. Lanzar proceso de carga de datos
+   cd  /home/spindrift/git/aqt0-omnistore-data-manager
+   ./data.sh
+10. Acceder a BCC local (http://localhost:8180/atg/bcc/) 
+    Desde la consola de administración, realizar Restablecimiento crrítico y después un Despliegue completo
+11. Se crea un proyecto BCC para modificar la fecha fin del el cupón dclm7f5854 y la promoción promo487225352344.
+12. Se crea un proyecto BCC para gastos de envío:
+    Modificar Gestión de Envíos/Gestion Logística-proveedor-destino/Valdemoro-Proveedor Valdemoro-España peninsular y Baleares/
+	Gastos de envío/STS Correos
+    Añadir Gestión de Envíos/Gestion Logística-proveedor-destino/Valdemoro-Proveedor Valdemoro-España peninsular y Baleares/
+	Gastos de envío/STS Supercor
+    Añadir Gestión de Envíos/Gestion Logística-proveedor-destino/Valdemoro-Proveedor Valdemoro-Unión Europea A
+	
+    Cambiar Tipo de Entrega/STS/Código de referencia
+13. Cambiar descripciones de impuestos canarias
+	Internationalization/Omnistore Storefront Messages/checkout.shoppingCart.tax.type2.title
+14. Crear Destinos y Gastos de envío Hipercor
+    Añadir Gestión de Envíos/Destinos/España peninsular y Baleares Hipercor
+    Añadir Gestión de Envíos/Gestion Logística-proveedor-destino/Valdemoro-Proveedor Valdemoro-España peninsular y Baleares Hipercor/
+    Añadir Gestión de Envíos/Gestion Logística-proveedor-destino/VPR-Proveedor VPR-España peninsular y Baleares Hipercor/
+    Añadir Gestión de Envíos/Gestion Logística-proveedor-destino/VPR-Home logistic-España peninsular y Baleares Hipercor/
+
+    Añadir Tipo de Entrega/hipercorStore
+    Cambiar Tipo de Entrega/Home Delivery/Código de referencia
+
+***31/05/2019 -Versión omnistore-db-coherence-sprint58***
+
+- Se han añadido los JSON de productos para el sprint 58.
+- Se han añadido los scripts de carga de inventario y precios de productos MarketPlace Sterling
+- Se han añadido los JSON de carga de Primeriti
+- Se han añadido los JSON de prodcutos para las suites de buscador
+- Se han añadido los scripts de importación/exportación de configuración de buscador
+
+***19/08/2019 -Versión sprint 61***
+- Se completado la carga de JSON de productos de todas las suites de automáticas.
+- Se han completado los scripts SQL de carga de inventario, precio, STS y Distribution ways de todas las suites de automáticas.
+- Se han añadido los JSON de productos para los sprints 59, 60 y 61, así como los scripts SQL asociados.
+- Se ha cargado en local la tabla ECI_INVENTORY.ECI_CENTRES_CAC desde cloud002.
+- Se ha cargado en local la tabla ECI_SITE_TO_STORE.ECI_STS_COMPANIES desde cloud002.
+- Se ha cargado en local la tabla ECI_INVENTORY.ECI_REL_CENTRES_AVAILABILITY desde cloud002.
+- Se ha cargado en local la tabla ECI_INVENTORY.ECI_REL_CENTRES_SELL_STOCK desde cloud002.
+- Se ha cargado en local la tabla ECI_DISTRIBUTION_WAYS.ECI_PROVIDERS desde cloud002.
+- Se ha añadido el script de ejecución de procesos CnC y 2h de coherence.
+- Se han añadido los ficheros de carga CSV de Marketplace
+- Se han añadido los ficheros de configuración de buscador de cloud002.
+- Se ha realizado la siguiente tarea de configuración de BCC:
+  - Se accede a Site Administration/Hipercor Store. Se modifican los campos:
+      - channel - No tener en cuenta overrides para (...) --> Se añade el valor getSkuMedias
+      - Shipping - Site Shipping Methods --> Se añaden los métodos pickupECI y pickupOpenCor
+      - siteOrderData - ECI Prime product reference(eciRef) --> Se añade el valor 001027008600010 
+      - ECI Business Line --> Se cambia a 0001
+  - Añadir Gestión de Envíos/Gestion Logística-proveedor-destino/BRICOR-Bricor-España peninsular y Baleares  
+  - Añadir Gestión de Envíos/Tipo de Entrega/BRICOR
+  - Cambiar descripciones de gastos de envío en francés
+      - Internationalization/Omnistore Storefront Messages/cart.item.free.gift.display.name 
+      - Internationalization/Omnistore Storefront Messages/budget.shippingCost 
+
+***26/02/2020 -Versión sprint 67***
+- Se completa la carga de JSON y categorías de todos los productos para que funcionen en local
+- Se ha completado la carga de precios y stock de todos los productos
+- Se han añadido los JSON de productos y categorías de sprints 62, 63, 64, 65 y 67, así como los scripts SQL asociados.
+- Se añaden JSON de referencias no documentadas.
+- Se añade fichero CSV para carga de productos de regresión y Primeriti en Sterling.
+- Se añaden los productos y categorías de Primeriti procedentes de NFT. 
+- Se modifican los scripts batch para lanzar los procesos en local y cloud, añadiendo opción de Primeriti.
+- Se añade clase Java para carga de tramos.
+- Se añaden clases Java para gestión de productos.
+- Se ha realizado la siguiente tarea de configuración de BCC:
+  -  Se accede a Site Administration/Primeriti Store. Se modifican los campos:
+      - site.sitePrefixes - Se añade el valor /LTC_ISS en primer lugar
+      
+***18/03/2020 -Versión sprint 68***
+- Se ha generado una nueva imagen de docker de BBDD a partir de la versión de Desarrollo. 
+      Se han ejecutado los test de local para comprobar que la versión es compatible.
+- Se han incluido todos los cambios anteriores en esta versión.
+- Se han creado scripts de migración de datos de BCC, la parte de Gestión de envíos y de Internacionalización. 
+  Incluye los cambios hechos en las versiones anteriores.
+- Se añaden productos y categorías de desarrollo para el sprint68.
+- Se añaden las referencias genéricas de MarketPlace Portugal de cloud003.
+- Se añade la carga de financiación de productos.
+- Se añaden las supersecciones de alimentación.
+- Se ha realizado un nuevo backup de configuración de servidor.
+- Se ha creado un nuevo script Java para la gestión de Distribution_Ways.
+- Se ha realizado una actualización del DIST_WAY de los productos de regresión.
+
+***08/04/2020 -Versión sprint 69***
+- Se añaden productos y categorías de desarrollo para el sprint68 y 69.
+- Se ha realizado una actualización del DIST_WAY de los productos de los sprints.
+- Se han corregido productos erróneos de regresión.
+- Se ha realizado copia de la configuración de buscador.
+
+***12/05/2020 Versión fin sprint 69***
+- Se añaden productos y categorías de desarrollo para el sprint69.
+- Se han recuperado 8 test de integración tras la corrección de datos.
+- Se ha cargado la configuración correcta de la Topología en BCC.
+- Se han añadido los globales y planes globales activos en cloud002.
+- Se ha utilizado la versión 3.0.16.10 de Coherence.
+
+***25/06/2020 Versión fin sprint 70***
+- Se añaden productos y categorías de desarrollo para el sprint70.
+- Se ha utilizado la versión 3.0.17.7-1 de Coherence.
+
+***03/08/2020 Versión fin sprint 71***
+- Se añaden productos y categorías de desarrollo para el sprint71.
+- Se ha utilizado la versión 3.0.18.7 de Coherence.
+- Se han cargado los scripts de la tabla ECI_PRICE_CENTRES para corregir errores de precios en test de desarrollador.
+
+***07/08/2020 Versión fin sprint 71***
+- Se añaden productos y categorías de desarrollo para el sprint71.
+- Se ha utilizado la versión 3.0.19.2 de Coherence, incluyendo el procedure COHERENCE_COMMON.build_corp_promomkp_keys_table.
+- Se han cargado los scripts de la tabla ECI_PRICE_CENTRES para corregir errores de precios en test de desarrollador.
+- Se ha cargado la configuración ESW de BCC
+
+***18/09/2020 Versión fin sprint 73***
+- Se añaden productos y categorías de desarrollo para el sprint72 y sprint73.
+- Se ha utilizado la versión 3.0.20.3 de Coherence, solucionando el problema de carga de globales.
+- Se ha cargado la configuración del repositorio OneClickableRepository en BCC.
+
+***13/10/2020 Versión fin sprint 74***
+- Se añaden productos y categorías de desarrollo para el sprint74.
+- Se ha utilizado la versión 3.0.20.5-1 de Coherence.
+- Se han cargado los scripts de las tablas ECI_INVENTORY.CPCT_FOOD_CENTRE_POSTALCODES y LIVERW.STORE_ID_BY_CATEGORY por petición de desarrollo.
+- Se ha realizado copia de la configuración de buscador.
+- Se ha añadido el script de generación de tramos para Coherence.
+
+***05/11/2020 Versión fin sprint 75***
+- Se añaden productos y categorías de desarrollo para el sprint75.
+- Se ha utilizado la versión 3.0.22.2 de Coherence.
+
+***03/12/2020 Versión fin sprint 76***
+- Se añaden productos y categorías de desarrollo para el sprint76.
+- Se ha utilizado la versión 3.0.22.4 de Coherence.
+
+***11/01/2021 Versión fin sprint 77***
+- Se añaden productos y categorías de desarrollo para el sprint77.
+- Se ha utilizado la versión 3.0.24.5 de Coherence.
+- Se han añadido los productos de EEDD desde Producción.
+- Se han cargado los centros STS de regresión, de la tabla eci_sts_centres_all.
+
+***15/02/2021 Versión fin sprint 78***
+- Se añaden productos y categorías de desarrollo para el sprint78.
+- Se ha utilizado la versión 3.0.24.8 de Coherence.
+- Se han cargado Features y Glosario desde PRO.
+- Se han recargado todos los centros STS y ECI de la tabla eci_sts_centres_all.
+- Se ha cargado el nuevo país Irlanda del Norte.
+
+***15/03/2021 Versión fin sprint 79***
+- Se añaden productos y categorías de desarrollo para el sprint79.
+- Se ha utilizado la versión 3.0.26.10 de Coherence.
+- Se han corregido errores en centros STS y ECI de la tabla eci_sts_centres_all.
+
+***06/04/2021 Versión fin sprint 80***
+- Se añaden productos y categorías de desarrollo para el sprint80.
+- Se ha utilizado la versión 3.0.27.7 de Coherence.
+- Se hecho la carga de pedidos fake de CSC
+
+***04/05/2021 Versión fin sprint 81***
+- Se añaden productos y categorías de desarrollo para el sprint81.
+- Se ha utilizado la versión 3.0.28.1 de Coherence.
+- Se ha configurado en BCC el agente de loader con el nombre LoaderAgent-H1
+- Se han cargado los productos asociados a promociones GOP de Mercancía General y Alimentación
+- Se han cargado los precios para la convivencia Omnistore-Firefly 
+
+***03/06/2021 Versión fin sprint 82***
+- Se añaden productos y categorías de desarrollo para el sprint82.
+- Se ha utilizado la versión 3.0.29.7 de Coherence.
+- Se modifica el ECI_BUSINESS_LINE de Hipercor
+- Se cargan en local las tablas COHERENCE_COMMON.ECI_CORPORATE_MOTIVES y COHERENCE_COMMON.ECI_CHANGED_PRICE_MOTIVES
+- Se cargan en local tarjetas de regalo virtuales (digitales)
+
+***21/07/2021 Versión fin sprint 83***
+- Se añaden productos y categorías de desarrollo para el sprint83.
+- Se ha utilizado la versión 3.0.30.8 de Coherence.
+
+***11/08/2021 Versión fin sprint 84***
+- Se añaden productos y categorías de desarrollo para el sprint84.
+- Se ha utilizado la versión 3.0.31.4 de Coherence.
+
+***10/09/2021 Versión fin sprint 85***
+- Se añaden productos y categorías de desarrollo para el sprint85.
+- Se ha utilizado la versión 3.0.31.4 de Coherence.
+
+***03/11/2021 Versión fin sprint 86***
+- Se añaden productos y categorías de desarrollo para el sprint86.
+- Se ha utilizado la versión 3.0.36.0 de Coherence.
+
+***12/11/2021 Versión fin sprint 87***
+- Se añaden productos y categorías de desarrollo para el sprint87.
+- Se ha utilizado la versión 3.0.36.1 de Coherence.
+
+***30/11/2021 Versión fin sprint 88***
+- Se añaden productos y categorías de desarrollo para el sprint88.
+- Se ha utilizado la versión 3.0.37.0 de Coherence.
+
+***07/01/2022 Versión fin sprint 89***
+- Se añaden productos y categorías de desarrollo para el sprint89.
+- Se cargan productos para los nuevos sites Sanchez Romero, Green Coast y Lloyds
+- Se ha utilizado la versión 3.0.38.0 de Coherence.
+
+***08/02/2022 Versión fin sprint 90***
+- Se añaden productos y categorías de desarrollo para el sprint90.
+- Se ha utilizado la versión 3.0.39.0 de Coherence.
+
+***24/02/2022 Versión fin sprint 91***
+- Se añaden productos y categorías de desarrollo para el sprint91.
+- Se ha utilizado la versión 3.0.40.0 de Coherence.
+- Se reconstruye la tabla DCS_SKU_SITES en ambos catálogos
+
+***24/03/2022 Versión fin sprint 92***
+- Se añaden productos y categorías de desarrollo para el sprint92.
+- Se ha utilizado la versión 3.0.41.6 de Coherence.
+- Se ha publicado un producto digital Portugal
+
+***26/04/2022 Versión fin sprint 93***
+- Se añaden productos y categorías de desarrollo para el sprint93.
+- Se ha utilizado la versión 3.0.42.6-1 de Coherence.
+- Se han publicado cuatro productos para Avios (JIRA PD00000460-10018564).
+
+***30/05/2022 Versión fin sprint 94***
+- Se añaden productos y categorías de desarrollo para el sprint94.
+- Se ha utilizado la versión 3.0.43.0 de Coherence.
+
+***27/06/2022 Versión fin sprint 95***
+- Se añaden productos y categorías de desarrollo para el sprint95.
+- Se ha utilizado la versión 3.0.44.3 de Coherence.
+

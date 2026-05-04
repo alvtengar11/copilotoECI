@@ -1,0 +1,113 @@
+{
+	"id_Ext": "1327119",
+	"id": "10500025030",
+	"entryContainerID": "6807",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula Jerarquia HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "10500025030"
+				},
+				{
+					"id": "Descripcion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Coles, coliflor y bróculi"
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Cols, coliflor i bròquil"
+						},
+						{
+							"id": "en_GB",
+							"type": "STRING",
+							"value": "Cabbages, cauliflower and broccoli"
+						},
+						{
+							"id": "de_DE",
+							"type": "STRING",
+							"value": "Kohl, Blumenkohl und Brokkoli"
+						}
+					]
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20250623_121439"
+				},
+				{
+					"id": "FechaEntradaProduccion",
+					"type": "DATE",
+					"value": "20050822_010000"
+				},
+				{
+					"id": "Tipo",
+					"type": "STRING",
+					"value": "Variedad"
+				},
+				{
+					"id": "Variedad",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVariedad",
+							"type": "STRING",
+							"value": "5030"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "P",
+							"featureGroupID": "6614",
+							"id_Ext": "47142190",
+							"idExt": "47142190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Pieza"
+						},
+						{
+							"id": "Orden",
+							"type": "STRING",
+							"value": "9999"
+						}
+					]
+				},
+				{
+					"id": "skipPostProcessing",
+					"type": "STRING",
+					"value": "FALSE"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1327119"
+				},
+				{
+					"id": "OrdenGlovo",
+					"type": "INTEGER",
+					"value": "1330"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "1315119",
+			"hierarchyId": "6807",
+			"categoryId": "1050002",
+			"idExt": "1315119"
+		}
+	],
+	"idExt": "1327119"
+}

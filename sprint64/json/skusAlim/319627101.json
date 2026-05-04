@@ -1,0 +1,876 @@
+{
+	"id_Ext": "319627101",
+	"id": "001018425500420",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PUM",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UnidadesProducto",
+									"type": "STRING",
+									"value": "001"
+								},
+								{
+									"id": "EnlacePUM",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6618",
+									"id_Ext": "26844190",
+									"value": "001"
+								},
+								{
+									"id": "CantidadProducto",
+									"type": "NUMBER",
+									"value": "01.000"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201410/16/00118425500420____1__325x325.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201410/16/00118425500420____1__600x600.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201410/16/00118425500420____1__150x150.jpg"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "23"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "1I"
+						},
+						{
+							"id": "Calificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "A"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fabricante",
+							"type": "RELATIONSHIP",
+							"groupID": "666",
+							"id_Ext": "505600160",
+							"value": "010250027"
+						},
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0250027"
+						},
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "PARTIDAS A JUSTIFICAR GRUPO VI"
+						}
+					]
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000105836012"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "SUP"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"value": "Añojo canario contra 1ª A en filetes (empanar), pieza para asar"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": " "
+						},
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "01"
+						}
+					]
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTipoPiel",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosFormatos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTamanos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "B001018425500420"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "401",
+							"id_Ext": "347190090",
+							"value": "No voluminoso"
+						},
+						{
+							"id": "SusceptibleDeEnvolver",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "InStorePickUp",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "400",
+							"id_Ext": "274969090",
+							"value": "Recogida en tienda"
+						},
+						{
+							"id": "DeliveryPoint",
+							"type": "STRING_ENUMERATION",
+							"value": "C"
+						},
+						{
+							"id": "EntregaDomicilio",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "319627101"
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001018425500420   "
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "320265119",
+			"hierarchyId": "6807",
+			"categoryId": "10520055154"
+		},
+		{
+			"id_Ext": "3691113",
+			"hierarchyId": "6803",
+			"categoryId": "01184255"
+		},
+		{
+			"id_Ext": "24385031012",
+			"hierarchyId": "998",
+			"categoryId": "00326"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Supermercado_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Tematicos",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tematico",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6604",
+									"id_Ext": "46914190",
+									"value": "refrigerado"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"value": "CANARIAS"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Alimentacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Conservacion1",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Conservar entre 0 y 4ºC"
+								}
+							]
+						},
+						{
+							"id": "ActivarDocPropia",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6614",
+							"id_Ext": "47138190",
+							"value": "A"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "2"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "2"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000001,000"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"groupID": "666",
+									"id_Ext": "505600160",
+									"value": "010250027"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"groupID": "666",
+									"id_Ext": "505600160",
+									"value": "010250027"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Nuss vom einjährigen kanarischen Rind 1 A filetiert (zum Panieren), Bratenstück"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "1A yearling silverside from Canary Islands in fillets (for breading), joint for roasting"
+								},
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Añojo canario contra 1ª A en filetes (empanar), pieza para asar"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "05"
+						}
+					]
+				},
+				{
+					"id": "ArchivosMultimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Imagenes",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "ImagenDiminutaUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201410/16/00118425500420____1__40x40.jpg"
+								},
+								{
+									"id": "ImagenPrincipalUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201410/16/00118425500420____1__325x325.jpg"
+								},
+								{
+									"id": "ImagenPequenaUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201410/16/00118425500420____1__75x75.jpg"
+								},
+								{
+									"id": "ImagenMedianaUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201410/16/00118425500420____1__150x150.jpg"
+								},
+								{
+									"id": "ImagenGrandeUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201410/16/00118425500420____1__600x600.jpg"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20140516_130855"
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20140516_130855"
+						},
+						{
+							"id": "FechaDespublicacionWWW",
+							"type": "DATE",
+							"value": "29991230_000001"
+						}
+					]
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0001",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0002",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "2.50"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0003",
+			"regularPrice": "0.01",
+			"avaliable": "true",
+			"startDate": "20160622",
+			"catalogPrice": "4.40"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0004",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.99"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0005",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "3.60"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0006",
+			"regularPrice": "0.01",
+			"avaliable": "true",
+			"startDate": "20160622",
+			"catalogPrice": "4.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0007",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "2.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0008",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "2.89"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0009",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "2.95"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0010",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0011",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "2.75"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0013",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0014",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "3.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0015",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "3.95"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0017",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.99"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0018",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "2.90"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0019",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "3.95"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0020",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.40"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0021",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "2.50"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0022",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "3.75"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0023",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "2.50"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0025",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0027",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.99"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0029",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "2.95"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0036",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "3.95"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0097",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.99"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0692",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "3.39"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0695",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "2.49"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0697",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "0.01"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0814",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0864",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0897",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.80"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0900",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "2.50"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0901",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0906",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0907",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "3.35"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0911",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.99"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0913",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.95"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0915",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "2.95"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0916",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0923",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "3.99"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0941",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0970",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "3.95"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0973",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.25"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0974",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "1.95"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0975",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "3.50"
+		},
+		{
+			"productId": "001018425500420   ",
+			"centerId": "0989",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "4.25"
+		}
+	]
+}

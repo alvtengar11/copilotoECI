@@ -1,0 +1,1636 @@
+{
+	"id_Ext": "72903101",
+	"id": "001013356100415   ",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Peninsula CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "0113356100415"
+				},
+				{
+					"id": "Informacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "2",
+							"featureGroupID": "6616",
+							"id_Ext": "26872190",
+							"idExt": "26872190"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Club del Gourmet"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Club del Gourmet/Bodega/Espumosos/Cava"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoMarca",
+							"type": "LOOKUP_TABLE",
+							"value": "02110",
+							"featureGroupID": "6602",
+							"id_Ext": "29717190",
+							"idExt": "29717190"
+						},
+						{
+							"id": "MarcaDescripcion",
+							"type": "STRING",
+							"value": "RECAREDO"
+						},
+						{
+							"id": "CodigoMarcaHidden",
+							"type": "STRING",
+							"value": "02110"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Terres cava brut nature gran reserva ecológico"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Terres organic gran reserva brut nature cava"
+								},
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Terrers Bio-Cava Brut Nature Gran Reserva"
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "Terres cava brut nature gran reserva ecològic"
+								}
+							]
+						},
+						{
+							"id": "CodigoPresentacion",
+							"type": "LOOKUP_TABLE",
+							"value": "BOTELLA",
+							"featureGroupID": "6612",
+							"id_Ext": "39923190",
+							"idExt": "39923190"
+						},
+						{
+							"id": "PresentacionDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "botella"
+						},
+						{
+							"id": "CodigoPresentacionHidden",
+							"type": "STRING",
+							"value": "BOTELLA"
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "37,5"
+						},
+						{
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"value": "CL",
+							"featureGroupID": "6610",
+							"id_Ext": "27991190",
+							"idExt": "27991190"
+						},
+						{
+							"id": "FormatoDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "cl"
+						},
+						{
+							"id": "CodigoFormatoHidden",
+							"type": "STRING",
+							"value": "CL"
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "RECAREDO Terres cava brut nature gran reserva ecológico botella 37,5 cl"
+						},
+						{
+							"id": "Temporal",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "CAVA BRUT"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "DRY CAVA"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "U",
+							"featureGroupID": "6614",
+							"id_Ext": "47143190",
+							"idExt": "47143190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Unidad"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "U"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20251029_172158"
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "021"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "12"
+						}
+					]
+				},
+				{
+					"id": "Imagenes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201907/29/00113356100415____8__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201907/29/00113356100415____8__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201907/29/00113356100415____8__150x150.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201907/29/00113356100415____8__325x325.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201907/29/00113356100415____8__600x600.jpg"
+						},
+						{
+							"id": "Imagen520x520Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201907/29/00113356100415____8__520x520.jpg"
+						},
+						{
+							"id": "Imagen1200x1200Url",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201907/29/00113356100415____8__1200x1200.jpg"
+						},
+						{
+							"id": "Mobile",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UrlTamVariablePrincipal",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201608/26/00113356100415____6__1x1.png"
+								},
+								{
+									"id": "UrlTamVariableGrande",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201608/26/00113356100415____6__380x380.png"
+								},
+								{
+									"id": "UrlTamVariableMediana",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201608/26/00113356100415____6__300x300.png"
+								},
+								{
+									"id": "UrlTamVariablePequena",
+									"type": "IMAGE_URL",
+									"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201608/26/00113356100415____6__200x200.png"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Tematicos",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tematico",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Producto ecológico"
+								},
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "ecologico",
+									"featureGroupID": "6604",
+									"id_Ext": "46910190",
+									"idExt": "46910190"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20020710_000000"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20210310_045738"
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Peninsula"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "No Publicar"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "No Publicar"
+						},
+						{
+							"id": "NoGestionCedial",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "IndicadorBloqueoPublicacionConceptosSAP",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Traduccion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataAutomatica",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "MetadataPrioridad",
+							"type": "STRING_ENUMERATION",
+							"value": "normal"
+						},
+						{
+							"id": "MetadataFechaRecepcion",
+							"type": "DATE",
+							"value": "20130624_213538"
+						}
+					]
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Referencia",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "13356100415"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "133"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "561"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "00415"
+								}
+							]
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000105872074"
+						},
+						{
+							"id": "Ean",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8437001003594"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 0,
+									"value": "8437001003181"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 1,
+									"value": "8437001003587"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 2,
+									"value": "8437001003594"
+								}
+							]
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "06"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0066704"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "MATA CASANOVAS, S.A. CAVAS RECAREDO"
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "8437001003587"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010066704",
+									"id_Ext": "488885160",
+									"groupID": "666",
+									"idExt": "488885160"
+								},
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"value": "010066704",
+									"id_Ext": "488885160",
+									"groupID": "666",
+									"idExt": "488885160"
+								}
+							]
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "3A"
+						},
+						{
+							"id": "Descripcion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "RECAREDO"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "CAVA RECAREDO BRUT NATURE  BOT"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "BRUT NATURE"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "2014"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "BOTELLA"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "37,5"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "CL"
+								},
+								{
+									"id": "DescripcionTicketCodificacion",
+									"type": "STRING",
+									"value": "CAVA BRUT"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "8000.0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "50"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "5018729101867"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20020710_000000"
+						},
+						{
+							"id": "ReferenciaVinos",
+							"type": "STRING",
+							"value": "13356100415"
+						},
+						{
+							"id": "EnlacePUM",
+							"type": "LOOKUP_TABLE",
+							"value": "005",
+							"featureGroupID": "6618",
+							"id_Ext": "26848190",
+							"idExt": "26848190"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000037,500"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "12"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "12"
+						},
+						{
+							"id": "SeccionSAP",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "MercanciaGeneral",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tamano",
+							"type": "STRING",
+							"value": "2014"
+						},
+						{
+							"id": "Dibujo",
+							"type": "STRING",
+							"value": "BOTELLA 37,5CL"
+						}
+					]
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"value": "CANARIAS",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"idExt": "26867190"
+								},
+								{
+									"id": "Temporal",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Anulacion",
+											"type": "FLAG",
+											"value": "true"
+										},
+										{
+											"id": "Visible",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "72903101"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "8437001003181",
+									"id_Ext": "409075159",
+									"groupID": "6636",
+									"idExt": "409075159"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8437001003181"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20110824_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "false"
+								}
+							]
+						},
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 1,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "8437001003822",
+									"id_Ext": "419200159",
+									"groupID": "6636",
+									"idExt": "419200159"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8437001003822"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20131119_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "false"
+								}
+							]
+						},
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 2,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "8437001003587",
+									"id_Ext": "1319906159",
+									"groupID": "6636",
+									"idExt": "1319906159"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8437001003587"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20190809_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "false"
+								}
+							]
+						},
+						{
+							"id": "EanVariante",
+							"type": "GROUPING",
+							"ocurrence": 3,
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"value": "8437001003594",
+									"id_Ext": "1319907159",
+									"groupID": "6636",
+									"idExt": "1319907159"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "8437001003594"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20190809_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EsAlcohol",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Intolerancias",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoIntolerancias",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 0,
+							"value": "SG",
+							"featureGroupID": "2636190",
+							"id_Ext": "1290820190",
+							"idExt": "1290820190"
+						},
+						{
+							"id": "CodigoIntolerancias",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 1,
+							"value": "SL",
+							"featureGroupID": "2636190",
+							"id_Ext": "1290821190",
+							"idExt": "1290821190"
+						},
+						{
+							"id": "CodigoIntolerancias",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 2,
+							"value": "SH",
+							"featureGroupID": "2636190",
+							"id_Ext": "1290819190",
+							"idExt": "1290819190"
+						}
+					]
+				},
+				{
+					"id": "OrigenSostenible",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoOrigenSostenible",
+							"type": "LOOKUP_TABLE",
+							"ocurrence": 0,
+							"value": "008",
+							"featureGroupID": "2637190",
+							"id_Ext": "1290751190",
+							"idExt": "1290751190"
+						}
+					]
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "8568123",
+			"hierarchyId": "6809",
+			"categoryId": "010017",
+			"idExt": "8568123"
+		},
+		{
+			"id_Ext": "8557123",
+			"hierarchyId": "6809",
+			"categoryId": "010005",
+			"idExt": "8557123"
+		},
+		{
+			"id_Ext": "1067904123",
+			"hierarchyId": "6809",
+			"categoryId": "010733",
+			"idExt": "1067904123"
+		},
+		{
+			"id_Ext": "2424119",
+			"hierarchyId": "6807",
+			"categoryId": "20240036530",
+			"idExt": "2424119"
+		},
+		{
+			"id_Ext": "8578123",
+			"hierarchyId": "6809",
+			"categoryId": "010036",
+			"idExt": "8578123"
+		},
+		{
+			"id_Ext": "1067920123",
+			"hierarchyId": "6809",
+			"categoryId": "010246",
+			"idExt": "1067920123"
+		},
+		{
+			"id_Ext": "1977503115",
+			"hierarchyId": "6805",
+			"categoryId": "012654636",
+			"idExt": "1977503115"
+		},
+		{
+			"id_Ext": "8565123",
+			"hierarchyId": "6809",
+			"categoryId": "010013",
+			"idExt": "8565123"
+		},
+		{
+			"id_Ext": "8570123",
+			"hierarchyId": "6809",
+			"categoryId": "010019",
+			"idExt": "8570123"
+		},
+		{
+			"id_Ext": "1067876123",
+			"hierarchyId": "6809",
+			"categoryId": "010711",
+			"idExt": "1067876123"
+		},
+		{
+			"id_Ext": "1001002123",
+			"hierarchyId": "6809",
+			"categoryId": "010697",
+			"idExt": "1001002123"
+		},
+		{
+			"id_Ext": "1067892123",
+			"hierarchyId": "6809",
+			"categoryId": "010722",
+			"idExt": "1067892123"
+		},
+		{
+			"id_Ext": "1415423123",
+			"hierarchyId": "6809",
+			"categoryId": "010920",
+			"idExt": "1415423123"
+		},
+		{
+			"id_Ext": "8555123",
+			"hierarchyId": "6809",
+			"categoryId": "010003",
+			"idExt": "8555123"
+		},
+		{
+			"id_Ext": "8558123",
+			"hierarchyId": "6809",
+			"categoryId": "010006",
+			"idExt": "8558123"
+		},
+		{
+			"id_Ext": "8564123",
+			"hierarchyId": "6809",
+			"categoryId": "010012",
+			"idExt": "8564123"
+		},
+		{
+			"id_Ext": "8585123",
+			"hierarchyId": "6809",
+			"categoryId": "010692",
+			"idExt": "8585123"
+		},
+		{
+			"id_Ext": "26837111",
+			"hierarchyId": "25402",
+			"categoryId": "0002",
+			"idExt": "26837111"
+		},
+		{
+			"id_Ext": "8559123",
+			"hierarchyId": "6809",
+			"categoryId": "010007",
+			"idExt": "8559123"
+		},
+		{
+			"id_Ext": "2794113",
+			"hierarchyId": "6803",
+			"categoryId": "01133561",
+			"idExt": "2794113"
+		},
+		{
+			"id_Ext": "8602123",
+			"hierarchyId": "6809",
+			"categoryId": "010974",
+			"idExt": "8602123"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Vinos ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "PaisEnum",
+					"type": "STRING_ENUMERATION",
+					"value": "España"
+				},
+				{
+					"id": "ZonaGeograficaEnum",
+					"type": "STRING_ENUMERATION",
+					"value": "Cataluña"
+				},
+				{
+					"id": "TipoVino",
+					"type": "LOOKUP_TABLE",
+					"value": "00008",
+					"featureGroupID": "25203",
+					"id_Ext": "47069190",
+					"idExt": "47069190"
+				},
+				{
+					"id": "DenominacionEnum",
+					"type": "STRING_ENUMERATION",
+					"value": "Cava"
+				},
+				{
+					"id": "TipoVinoEnum",
+					"type": "STRING_ENUMERATION",
+					"value": "Vino Espumoso"
+				},
+				{
+					"id": "DenominacionOrigen",
+					"type": "LOOKUP_TABLE",
+					"value": "00054",
+					"featureGroupID": "25204",
+					"id_Ext": "27907190",
+					"idExt": "27907190"
+				},
+				{
+					"id": "ZonaGeografica",
+					"type": "STRING",
+					"value": "00009"
+				},
+				{
+					"id": "TipoUva",
+					"type": "GROUPING",
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "TipoUva",
+							"type": "LOOKUP_TABLE",
+							"value": "00020",
+							"featureGroupID": "25207",
+							"id_Ext": "46935190",
+							"idExt": "46935190"
+						},
+						{
+							"id": "TipoUvaEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Xarel-lo"
+						},
+						{
+							"id": "Porcentaje",
+							"type": "NUMBER",
+							"value": "50.0"
+						}
+					]
+				},
+				{
+					"id": "TipoUva",
+					"type": "GROUPING",
+					"ocurrence": 1,
+					"children": [
+						{
+							"id": "TipoUva",
+							"type": "LOOKUP_TABLE",
+							"value": "00010",
+							"featureGroupID": "25207",
+							"id_Ext": "46925190",
+							"idExt": "46925190"
+						},
+						{
+							"id": "TipoUvaEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Macabeo"
+						},
+						{
+							"id": "Porcentaje",
+							"type": "NUMBER",
+							"value": "38.0"
+						}
+					]
+				},
+				{
+					"id": "TipoUva",
+					"type": "GROUPING",
+					"ocurrence": 2,
+					"children": [
+						{
+							"id": "TipoUva",
+							"type": "LOOKUP_TABLE",
+							"value": "00014",
+							"featureGroupID": "25207",
+							"id_Ext": "46929190",
+							"idExt": "46929190"
+						},
+						{
+							"id": "TipoUvaEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Parellada"
+						},
+						{
+							"id": "Porcentaje",
+							"type": "NUMBER",
+							"value": "12.0"
+						}
+					]
+				},
+				{
+					"id": "Bodega",
+					"type": "LOOKUP_TABLE",
+					"value": "00416",
+					"featureGroupID": "25206",
+					"id_Ext": "27456190",
+					"idExt": "27456190"
+				},
+				{
+					"id": "BodegaEnum",
+					"type": "STRING_ENUMERATION",
+					"value": "Cavas Recaredo"
+				},
+				{
+					"id": "NotaCata",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Fresco, balsámico y cítrico, con notas de sotobosque mediterráneo, lima y mandarina. De acidez viva, mineral y fresca, con un paso de boca intenso y amplio y un final de boca largo, limpio y de un amargo noble y fino. La crianza se manifiesta en boca con un carácter voluminoso, cremoso y agradable acompasado por el efecto del carbónico sumamente integrado."
+						},
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Fresc, balsàmic i cítric, amb notes de sotabosc mediterrani, llima i mandarina. D'acidesa viva, mineral i fresca, amb un pas de boca intens i ampli i un final de boca llarg, net i d'un amarg noble i fi. La criança es manifesta a la boca amb un caràcter voluminós, cremós i agradable compassat per l'efecte del carbònic summament integrat."
+						}
+					]
+				},
+				{
+					"id": "TemperaturaDeServicio",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Minimo",
+							"type": "INTEGER",
+							"value": "7"
+						},
+						{
+							"id": "Maximo",
+							"type": "INTEGER",
+							"value": "8"
+						}
+					]
+				},
+				{
+					"id": "GastronomiaPlatosRecomendados",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "ca_ES",
+							"type": "STRING",
+							"value": "Harmonització excel·lent amb aperitius, pernil ibèric, arrossos, sushis, peix, marisc i assortiments de formatges."
+						},
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Excelente armonización con aperitivos, jamón ibérico, arroces, sushi, pescados, mariscos, así como surtidos de queso."
+						}
+					]
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"id_Ext": "729031010003199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0003",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010003199"
+		},
+		{
+			"id_Ext": "729031010005199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0005",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010005199"
+		},
+		{
+			"id_Ext": "729031010006199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0006",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010006199"
+		},
+		{
+			"id_Ext": "729031010007199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0007",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010007199"
+		},
+		{
+			"id_Ext": "729031010012199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0012",
+			"regularPrice": "20.90",
+			"TaxPercentage": "92",
+			"Igic": "92",
+			"idExt": "729031010012199"
+		},
+		{
+			"id_Ext": "729031010013199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0013",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010013199"
+		},
+		{
+			"id_Ext": "729031010017199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0017",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010017199"
+		},
+		{
+			"id_Ext": "729031010019199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0019",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010019199"
+		},
+		{
+			"id_Ext": "729031010036199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0036",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010036199"
+		},
+		{
+			"id_Ext": "729031010246199",
+			"containerId": "6639",
+			"offerPrice": "18.85",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0246",
+			"regularPrice": "18.85",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010246199"
+		},
+		{
+			"id_Ext": "729031010692199",
+			"containerId": "6639",
+			"offerPrice": "18.85",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0692",
+			"regularPrice": "18.85",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010692199"
+		},
+		{
+			"id_Ext": "729031010697199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0697",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010697199"
+		},
+		{
+			"id_Ext": "729031010711199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0711",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010711199"
+		},
+		{
+			"id_Ext": "729031010711199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0713",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010711199"
+		},
+		{
+			"id_Ext": "729031010722199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0722",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010722199"
+		},
+		{
+			"id_Ext": "729031010733199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0733",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010733199"
+		},
+		{
+			"id_Ext": "729031010920199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0920",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010920199"
+		},
+		{
+			"id_Ext": "729031010974199",
+			"containerId": "6639",
+			"offerPrice": "20.90",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210613",
+			"endDate": "",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "001013356100415   ",
+			"centerId": "0974",
+			"regularPrice": "20.90",
+			"TaxPercentage": "02",
+			"Igic": "02",
+			"idExt": "729031010974199"
+		}
+	],
+	"idExt": "72903101"
+}

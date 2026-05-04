@@ -1,0 +1,1105 @@
+{
+	"id": "052018413500556   ",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Supermercado Portugal CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Codigo",
+					"type": "STRING",
+					"value": "5218413500556"
+				},
+				{
+					"id": "Informacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataEstado",
+							"type": "STRING_ENUMERATION",
+							"value": "Revisado"
+						},
+						{
+							"id": "CodigoArea",
+							"type": "LOOKUP_TABLE",
+							"value": "1",
+							"idExt": "47215190",
+							"featureGroupID": "6617",
+							"id_Ext": "47215190"
+						},
+						{
+							"id": "AreaDescripcion",
+							"type": "STRING",
+							"value": "Supermercado"
+						},
+						{
+							"id": "CategoriaSupermercado",
+							"type": "STRING",
+							"value": "Supermercado/Talho/Novilho e Vitela/Novilho"
+						},
+						{
+							"id": "Reasignado",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"value": "Bife de Novilho do Acém Comprido Peso Aproximado"
+								}
+							]
+						},
+						{
+							"id": "Cantidad",
+							"type": "STRING",
+							"value": "400"
+						},
+						{
+							"id": "CodigoFormato",
+							"type": "LOOKUP_TABLE",
+							"value": "G",
+							"idExt": "47244190",
+							"featureGroupID": "6611",
+							"id_Ext": "47244190"
+						},
+						{
+							"id": "FormatoDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "g"
+						},
+						{
+							"id": "CodigoFormatoHidden",
+							"type": "STRING",
+							"value": "G"
+						},
+						{
+							"id": "DescripcionArticulo",
+							"type": "STRING",
+							"value": "Bife de Novilho do Acém Comprido Peso Aproximado 400 g"
+						},
+						{
+							"id": "Temporal",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Visible",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						},
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"value": "Bife Novilho"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "A",
+							"idExt": "58712190",
+							"featureGroupID": "6615",
+							"id_Ext": "58712190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso o Pieza"
+						},
+						{
+							"id": "CodigoTipoVentaHidden",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "PesoMin",
+							"type": "STRING",
+							"value": "400"
+						},
+						{
+							"id": "PesoMax",
+							"type": "STRING",
+							"value": "2000"
+						},
+						{
+							"id": "PesoPieza",
+							"type": "STRING",
+							"value": "400"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "UsuarioSalvadoAlCorte",
+							"type": "STRING",
+							"value": "PostProcesing"
+						},
+						{
+							"id": "FechaSalvadoAlCorte",
+							"type": "DATE",
+							"value": "20251202_111105"
+						}
+					]
+				},
+				{
+					"id": "Imagenes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ImagenDiminutaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201510/26/05218413500556____3__40x40.jpg"
+						},
+						{
+							"id": "ImagenPequenaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201510/26/05218413500556____3__75x75.jpg"
+						},
+						{
+							"id": "ImagenMedianaUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201510/26/05218413500556____3__150x150.jpg"
+						},
+						{
+							"id": "ImagenGrandeUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201510/26/05218413500556____3__600x600.jpg"
+						},
+						{
+							"id": "ImagenPrincipalUrl",
+							"type": "IMAGE_URL",
+							"value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201510/26/05218413500556____3__325x325.jpg"
+						}
+					]
+				},
+				{
+					"id": "Tematicos",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tematico",
+							"type": "GROUPING",
+							"ocurrence": 0,
+							"children": [
+								{
+									"id": "CodigoEnum",
+									"type": "STRING_ENUMERATION",
+									"value": "Produto de peso variável"
+								},
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"value": "al peso",
+									"idExt": "58662190",
+									"featureGroupID": "6605",
+									"id_Ext": "58662190"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "FechaAlta",
+					"type": "DATE",
+					"value": "20091228_000000"
+				},
+				{
+					"id": "MetadataFechaModificacion",
+					"type": "DATE",
+					"value": "20230323_034012"
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoRegion",
+							"type": "STRING",
+							"value": "Supermercado Portugal"
+						},
+						{
+							"id": "Promocion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Publicado",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20191002_144759"
+						},
+						{
+							"id": "PublicadoCanarias",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "IndicadorBloqueoPublicacionConceptosSAP",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Traduccion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "MetadataAutomatica",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "MetadataPrioridad",
+							"type": "STRING_ENUMERATION",
+							"value": "normal"
+						}
+					]
+				},
+				{
+					"id": "MetadataPerecedero",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Referencia",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoReferencia",
+									"type": "STRING",
+									"value": "18413500556"
+								},
+								{
+									"id": "CodigoUneco",
+									"type": "STRING",
+									"value": "184"
+								},
+								{
+									"id": "CodigoFamilia",
+									"type": "STRING",
+									"value": "135"
+								},
+								{
+									"id": "CodigoBarra",
+									"type": "STRING",
+									"value": "00556"
+								}
+							]
+						},
+						{
+							"id": "NumeroMaterialSAP",
+							"type": "STRING",
+							"value": "000000000108580525"
+						},
+						{
+							"id": "Ean",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "2184135005562"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 0,
+									"value": "2400000438427"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 1,
+									"value": "2621332000001"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 2,
+									"value": "2400000438427"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 3,
+									"value": "2621332000001"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 4,
+									"value": "2400000438427"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 5,
+									"value": "2621332000001"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 6,
+									"value": "2400000438427"
+								},
+								{
+									"id": "MetadataHistoriaEan",
+									"type": "STRING",
+									"ocurrence": 7,
+									"value": "2184135005562"
+								}
+							]
+						},
+						{
+							"id": "TipoGestion",
+							"type": "STRING",
+							"value": "00"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoProveedor",
+									"type": "STRING",
+									"value": "0946350"
+								},
+								{
+									"id": "ProveedorDescripcion",
+									"type": "STRING",
+									"value": "EL CORTE INGLES GRANDES ARMAZENS,SA.AUTO"
+								},
+								{
+									"id": "ReferenciaFabricante",
+									"type": "STRING",
+									"value": "00556"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"value": "010946350",
+									"idExt": "549044160",
+									"id_Ext": "549044160",
+									"groupID": "666"
+								}
+							]
+						},
+						{
+							"id": "CodigoCalificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "CodigoCalificacion4",
+							"type": "STRING",
+							"value": "JC"
+						},
+						{
+							"id": "CodigoCalificacion5",
+							"type": "STRING",
+							"value": "BM"
+						},
+						{
+							"id": "Descripcion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarcaCodificacion",
+									"type": "STRING",
+									"value": "NOV EXTRA.P"
+								},
+								{
+									"id": "DescripcionArticuloCodificacion",
+									"type": "STRING",
+									"value": "NOVILHO  BIFE AÇEM COM  AOPESO"
+								},
+								{
+									"id": "Variedad1",
+									"type": "STRING",
+									"value": "NOVILHO"
+								},
+								{
+									"id": "Variedad2",
+									"type": "STRING",
+									"value": "BIFE AçEM COM"
+								},
+								{
+									"id": "PresentacionCodificacion",
+									"type": "STRING",
+									"value": "AOPESO"
+								},
+								{
+									"id": "CantidadCodificacion",
+									"type": "STRING",
+									"value": "1"
+								},
+								{
+									"id": "FormatoCodificacion",
+									"type": "STRING",
+									"value": "KG"
+								},
+								{
+									"id": "DescripcionTicketCodificacion",
+									"type": "STRING",
+									"value": "BIFE NOVILHO"
+								}
+							]
+						},
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PesoPiezaCodificacion",
+							"type": "STRING",
+							"value": "600.0"
+						},
+						{
+							"id": "Entorno",
+							"type": "STRING",
+							"value": "4"
+						},
+						{
+							"id": "CodigoCompraEmpresa",
+							"type": "STRING",
+							"value": "80"
+						},
+						{
+							"id": "CodigoCompraReferencia",
+							"type": "STRING",
+							"value": "8018413500556"
+						},
+						{
+							"id": "FechaAgenda",
+							"type": "DATE",
+							"value": "20091228_000000"
+						},
+						{
+							"id": "EnlacePUM",
+							"type": "LOOKUP_TABLE",
+							"value": "001",
+							"idExt": "26844190",
+							"featureGroupID": "6618",
+							"id_Ext": "26844190"
+						},
+						{
+							"id": "GPER",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "IsMercanciaGeneral",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "1.0"
+						},
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "MercanciaGeneral",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tamano",
+							"type": "STRING",
+							"value": "BIFE AçEM COM"
+						},
+						{
+							"id": "Color",
+							"type": "STRING",
+							"value": "BIFE A-C FAMI"
+						},
+						{
+							"id": "Dibujo",
+							"type": "STRING",
+							"value": "AOPESO     1KG"
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "TipoDocumentacion",
+					"type": "STRING",
+					"value": "Gran Consumo"
+				},
+				{
+					"id": "IsInWorkFlow",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Filled",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "196020102"
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Modificado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"hierarchyId": "6806",
+			"categoryId": "522315213",
+			"idExt": "1964644116",
+			"id_Ext": "1964644116"
+		},
+		{
+			"hierarchyId": "6806",
+			"categoryId": "522291646",
+			"idExt": "1820072116",
+			"id_Ext": "1820072116"
+		},
+		{
+			"hierarchyId": "6806",
+			"categoryId": "522295402",
+			"idExt": "1838664116",
+			"id_Ext": "1838664116"
+		},
+		{
+			"hierarchyId": "6810",
+			"categoryId": "520141",
+			"idExt": "333803124",
+			"id_Ext": "333803124"
+		},
+		{
+			"hierarchyId": "6810",
+			"categoryId": "520157",
+			"idExt": "333804124",
+			"id_Ext": "333804124"
+		},
+		{
+			"hierarchyId": "6808",
+			"categoryId": "10560894567",
+			"idExt": "1164224120",
+			"id_Ext": "1164224120"
+		},
+		{
+			"hierarchyId": "6810",
+			"categoryId": "520155",
+			"idExt": "8698124",
+			"id_Ext": "8698124"
+		},
+		{
+			"hierarchyId": "6810",
+			"categoryId": "520145",
+			"idExt": "333802124",
+			"id_Ext": "333802124"
+		},
+		{
+			"hierarchyId": "6806",
+			"categoryId": "522317856",
+			"idExt": "1979425116",
+			"id_Ext": "1979425116"
+		},
+		{
+			"hierarchyId": "6806",
+			"categoryId": "522281002",
+			"idExt": "1775003116",
+			"id_Ext": "1775003116"
+		},
+		{
+			"hierarchyId": "27202",
+			"categoryId": "0001",
+			"idExt": "1112",
+			"id_Ext": "1112"
+		},
+		{
+			"hierarchyId": "6804",
+			"categoryId": "52184135",
+			"idExt": "9387114",
+			"id_Ext": "9387114"
+		},
+		{
+			"hierarchyId": "6810",
+			"categoryId": "520158",
+			"idExt": "8700124",
+			"id_Ext": "8700124"
+		},
+		{
+			"hierarchyId": "6810",
+			"categoryId": "520144",
+			"idExt": "1505526124",
+			"id_Ext": "1505526124"
+		},
+		{
+			"hierarchyId": "6806",
+			"categoryId": "522317059",
+			"idExt": "1972529116",
+			"id_Ext": "1972529116"
+		},
+		{
+			"hierarchyId": "6810",
+			"categoryId": "520142",
+			"idExt": "8697124",
+			"id_Ext": "8697124"
+		},
+		{
+			"hierarchyId": "6806",
+			"categoryId": "522316009",
+			"idExt": "1967815116",
+			"id_Ext": "1967815116"
+		},
+		{
+			"hierarchyId": "6810",
+			"categoryId": "520140",
+			"idExt": "8696124",
+			"id_Ext": "8696124"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Alimentacion Portugal ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "InformacionGeneral1",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "pt_PT",
+							"type": "STRING",
+							"value": "Origem: Portugal/Espanha"
+						}
+					]
+				},
+				{
+					"id": "InformacionGeneral2",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "pt_PT",
+							"type": "STRING",
+							"value": "El Corte Inglés - Grandes Armazéns, SA - Av. António Augusto de Aguiar, 31  1069-413 Lisboa"
+						}
+					]
+				},
+				{
+					"id": "Conservacion",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "pt_PT",
+							"type": "STRING",
+							"value": "Manter entre 0 e 7ºC"
+						}
+					]
+				},
+				{
+					"id": "ActivarDocPropia",
+					"type": "FLAG",
+					"value": "true"
+				}
+			]
+		},
+		{
+			"id": "/Perecederos Portugal ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Preparacion",
+					"type": "GROUPING",
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "TipoPreparacionEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "0106 - Para fritar"
+						},
+						{
+							"id": "TipoPreparacion",
+							"type": "LOOKUP_TABLE",
+							"value": "0106",
+							"idExt": "892634190",
+							"featureGroupID": "6609",
+							"id_Ext": "892634190"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "K",
+							"idExt": "58714190",
+							"featureGroupID": "6615",
+							"id_Ext": "58714190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso"
+						}
+					]
+				},
+				{
+					"id": "Preparacion",
+					"type": "GROUPING",
+					"ocurrence": 1,
+					"children": [
+						{
+							"id": "TipoPreparacionEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "0105 - Para grelhar"
+						},
+						{
+							"id": "TipoPreparacion",
+							"type": "LOOKUP_TABLE",
+							"value": "0105",
+							"idExt": "892633190",
+							"featureGroupID": "6609",
+							"id_Ext": "892633190"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "K",
+							"idExt": "58714190",
+							"featureGroupID": "6615",
+							"id_Ext": "58714190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso"
+						}
+					]
+				},
+				{
+					"id": "Preparacion",
+					"type": "GROUPING",
+					"ocurrence": 2,
+					"children": [
+						{
+							"id": "TipoPreparacionEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "0093 - Para Estufar"
+						},
+						{
+							"id": "TipoPreparacion",
+							"type": "LOOKUP_TABLE",
+							"value": "0093",
+							"idExt": "885617190",
+							"featureGroupID": "6609",
+							"id_Ext": "885617190"
+						},
+						{
+							"id": "TipoVenta",
+							"type": "LOOKUP_TABLE",
+							"value": "K",
+							"idExt": "58714190",
+							"featureGroupID": "6615",
+							"id_Ext": "58714190"
+						},
+						{
+							"id": "TipoVentaDescripcion",
+							"type": "STRING_ENUMERATION",
+							"value": "Peso"
+						}
+					]
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"containerId": "6640",
+			"offerPrice": "16.00",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20251114",
+			"endDate": "20551114",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "052018413500556   ",
+			"centerId": "0140",
+			"regularPrice": "16.00",
+			"idExt": "1960201020140199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "1960201020140199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6640",
+			"offerPrice": "16.00",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20200601",
+			"endDate": "20551114",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "052018413500556   ",
+			"centerId": "0141",
+			"regularPrice": "16.00",
+			"idExt": "1960201020141199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "1960201020141199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6640",
+			"offerPrice": "16.00",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20250806",
+			"endDate": "20551114",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "052018413500556   ",
+			"centerId": "0142",
+			"regularPrice": "16.00",
+			"idExt": "1960201020142199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "1960201020142199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6640",
+			"offerPrice": "16.00",
+			"offerType": "00",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210301",
+			"endDate": "20551114",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "052018413500556   ",
+			"centerId": "0143",
+			"regularPrice": "16.00",
+			"idExt": "1960201020143199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "1960201020143199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6640",
+			"offerPrice": "16.00",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20210301",
+			"endDate": "20551114",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "052018413500556   ",
+			"centerId": "0144",
+			"regularPrice": "16.00",
+			"idExt": "1960201020144199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "1960201020144199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6640",
+			"offerPrice": "16.00",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20240806",
+			"endDate": "20551114",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "052018413500556   ",
+			"centerId": "0145",
+			"regularPrice": "16.00",
+			"idExt": "1960201020145199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "1960201020145199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6640",
+			"offerPrice": "16.00",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20230813",
+			"endDate": "20551114",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "052018413500556   ",
+			"centerId": "0155",
+			"regularPrice": "16.00",
+			"idExt": "1960201020155199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "1960201020155199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6640",
+			"offerPrice": "16.00",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20240302",
+			"endDate": "20551114",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "20231013",
+			"productId": "052018413500556   ",
+			"centerId": "0157",
+			"regularPrice": "16.00",
+			"idExt": "1960201020157199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "1960201020157199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		},
+		{
+			"containerId": "6640",
+			"offerPrice": "16.00",
+			"offerType": "01",
+			"globalDiscount": "",
+			"avaliable": "true",
+			"startDate": "20221117",
+			"endDate": "20551114",
+			"delete": "false",
+			"applyGlobalDiscount": "false",
+			"depublishStartDate": "",
+			"depublishEndDate": "",
+			"productId": "052018413500556   ",
+			"centerId": "0158",
+			"regularPrice": "16.00",
+			"idExt": "1960201020158199",
+			"taxPercentage": "08",
+			"igic": "08",
+			"id_Ext": "1960201020158199",
+			"TaxPercentage": "08",
+			"Igic": "08"
+		}
+	],
+	"idExt": "196020102",
+	"id_Ext": "196020102",
+	"entryContainerID": "6640"
+}

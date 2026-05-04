@@ -1,0 +1,85 @@
+{
+  "id_Ext": "10739120",
+  "id": "10180025038",
+  "entryContainerID": "6808",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Supermercado Portugal Jerarquia HPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Codigo",
+          "type": "STRING",
+          "value": "10180025038"
+        },
+        {
+          "id": "Descripcion",
+          "type": "STRING",
+          "children": [
+            {
+              "id": "pt_PT",
+              "type": "STRING",
+              "value": "Batatas Fritas com Sabores"
+            }
+          ]
+        },
+        {
+          "id": "MetadataFechaModificacion",
+          "type": "DATE",
+          "value": "20250529_143006"
+        },
+        {
+          "id": "FechaEntradaProduccion",
+          "type": "DATE",
+          "value": "20030922_010000"
+        },
+        {
+          "id": "Tipo",
+          "type": "STRING",
+          "value": "Variedad"
+        },
+        {
+          "id": "Variedad",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoVariedad",
+              "type": "STRING",
+              "value": "5038"
+            },
+            {
+              "id": "TipoVenta",
+              "type": "LOOKUP_TABLE",
+              "value": "U",
+              "featureGroupID": "6615",
+              "id_Ext": "58716190"
+            },
+            {
+              "id": "TipoVentaDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "Unidad"
+            },
+            {
+              "id": "Orden",
+              "type": "STRING",
+              "value": "0001"
+            }
+          ]
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "10739120"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "id_Ext": "946688120",
+      "hierarchyId": "6808",
+      "categoryId": "1018002"
+    }
+  ]
+}

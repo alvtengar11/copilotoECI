@@ -1,0 +1,1216 @@
+{
+  "id_Ext": "455627159",
+  "id": "0000024173216",
+  "entryContainerID": "6636",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Variantes_CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Code",
+          "type": "STRING",
+          "value": "0000024173216"
+        },
+        {
+          "id": "EAN",
+          "type": "STRING",
+          "value": "0000024173216"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "455627159"
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaCreacion",
+              "type": "DATE",
+              "value": "20141124_000000"
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20141124_000000"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "specificAttribs": [
+    {
+      "id": "/Informacion_Alimentaria_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Gtin",
+          "type": "STRING",
+          "value": "00000024173216"
+        },
+        {
+          "id": "Mercado",
+          "type": "GROUPING",
+          "ocurrence": 0,
+          "children": [
+            {
+              "id": "MercadoObjetivo",
+              "type": "STRING",
+              "value": "724"
+            },
+            {
+              "id": "Variante",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "ENSAIMADA NATA OBR."
+                }
+              ]
+            },
+            {
+              "id": "DatosProducto",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "DenominacionAlimento",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Producto de pastelería y repostería"
+                    }
+                  ]
+                },
+                {
+                  "id": "Operador",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Nombre",
+                      "type": "STRING",
+                      "value": "Grupo El Corte Inglés"
+                    },
+                    {
+                      "id": "Direccion",
+                      "type": "STRING",
+                      "value": "Calle Hermosilla 112 - 28009 Madrid - España"
+                    }
+                  ]
+                },
+                {
+                  "id": "Localizaciones",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "PaisOrigen",
+                      "type": "LOOKUP_TABLE",
+                      "ocurrence": 0,
+                      "value": "724",
+                      "featureGroupID": "6642",
+                      "id_Ext": "386991190"
+                    }
+                  ]
+                },
+                {
+                  "id": "MarcasProducto",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "SignoE",
+                      "type": "FLAG",
+                      "value": "true"
+                    }
+                  ]
+                },
+                {
+                  "id": "Instrucciones",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "InstruccionesConsumidor",
+                      "type": "STRING",
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "ocurrence": 0,
+                          "value": "CONSERVAR ENTRE 0º Y 5º"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Medidas",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "ContenidoNeto",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "430"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "GR",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387540190"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Alimentacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Alergenicos",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "DescripcionAlergenicos",
+                      "type": "STRING",
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "value": "leche, gluten (trigo), huevo"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AS",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386187190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 1,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "UM",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386836190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 2,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AW",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386189190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 3,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AU",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386188190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 4,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AY",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386191190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 5,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AC",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386178190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 6,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "BC",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386194190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 7,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "NL",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386821190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 8,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AE",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386179190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 9,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AF",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386180190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 10,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AP",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386186190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 11,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AM",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386184190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "CONTAINS",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386174190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 12,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AN",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386185190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 13,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "BM",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386197190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Ingredientes",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "DescripcionIngredientes",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Descripcion",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Nata montada 54% (NATA, azúcar, estabilizante E-407), harina de TRIGO, azúcar, manteca de cerdo (grasa de cerdo, antioxidantes E-320 y E-321, emulgente E-471), agua,  levadura, HUEVO, margarina vegetal (grasa de palma, aceite de girasol, agua, emulgente E-471, sal, corrector de acidez E-330, conservador E-200, antioxidantes E-306 y E-304i, aromas, colorante E-160a), emulgente E-481, grasa de palma, sal."
+                            }
+                          ]
+                        },
+                        {
+                          "id": "DescripcionResaltada",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Nata montada 54% (NATA, azúcar, estabilizante E-407), harina de TRIGO, azúcar, manteca de cerdo (grasa de cerdo, antioxidantes E-320 y E-321, emulgente E-471), agua,  levadura, HUEVO, margarina vegetal (grasa de palma, aceite de girasol, agua, emulgente E-471, sal, corrector de acidez E-330, conservador E-200, antioxidantes E-306 y E-304i, aromas, colorante E-160a), emulgente E-481, grasa de palma, sal."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "+ETIQUETA ARTESANA 6 (1000 UND) OVELAR"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Porcentaje",
+                          "type": "STRING",
+                          "value": "120"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "1"
+                        },
+                        {
+                          "id": "Gtin",
+                          "type": "STRING",
+                          "value": "02330490034383"
+                        },
+                        {
+                          "id": "Semielaborado",
+                          "type": "FLAG",
+                          "value": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 1,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "*NATA PURA 38% (10 L) SKI"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Porcentaje",
+                          "type": "STRING",
+                          "value": "27"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "2"
+                        },
+                        {
+                          "id": "Gtin",
+                          "type": "STRING",
+                          "value": "08413479100157"
+                        },
+                        {
+                          "id": "Semielaborado",
+                          "type": "FLAG",
+                          "value": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 2,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "*ENSAIMADA SIN RELLENO (220 G) PREEL"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Porcentaje",
+                          "type": "STRING",
+                          "value": "120"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "3"
+                        },
+                        {
+                          "id": "Gtin",
+                          "type": "STRING",
+                          "value": "08436534590700"
+                        },
+                        {
+                          "id": "Semielaborado",
+                          "type": "FLAG",
+                          "value": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 3,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "*AZUCAR ANTIHUMEDAD (25 k) GOPAN"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Porcentaje",
+                          "type": "STRING",
+                          "value": "2.5"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "4"
+                        },
+                        {
+                          "id": "Gtin",
+                          "type": "STRING",
+                          "value": "05018539304156"
+                        },
+                        {
+                          "id": "Semielaborado",
+                          "type": "FLAG",
+                          "value": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 4,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "*AZUCAR BLANQUILLA (5 K) AZUCARERA"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Porcentaje",
+                          "type": "STRING",
+                          "value": "4"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "5"
+                        },
+                        {
+                          "id": "Gtin",
+                          "type": "STRING",
+                          "value": "08410714101634"
+                        },
+                        {
+                          "id": "Semielaborado",
+                          "type": "FLAG",
+                          "value": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 5,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "+ETIQUETA AMARILLA (200 UND) AUTOADHESIVOS COHAL"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Porcentaje",
+                          "type": "STRING",
+                          "value": "15"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "6"
+                        },
+                        {
+                          "id": "Gtin",
+                          "type": "STRING",
+                          "value": "00233049008308"
+                        },
+                        {
+                          "id": "Semielaborado",
+                          "type": "FLAG",
+                          "value": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 6,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "+BLONDA MALLORQUINA (UND) COMERCIAL MINGUEZ"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Porcentaje",
+                          "type": "STRING",
+                          "value": "120"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "7"
+                        },
+                        {
+                          "id": "Gtin",
+                          "type": "STRING",
+                          "value": "02369641011034"
+                        },
+                        {
+                          "id": "Semielaborado",
+                          "type": "FLAG",
+                          "value": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 7,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "+BLISTER MALLORQUINA XG234 (210 UND) PACKAGING"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Porcentaje",
+                          "type": "STRING",
+                          "value": "120"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "8"
+                        },
+                        {
+                          "id": "Gtin",
+                          "type": "STRING",
+                          "value": "02369642014737"
+                        },
+                        {
+                          "id": "Semielaborado",
+                          "type": "FLAG",
+                          "value": "false"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Nutrientes",
+                  "type": "GROUPING",
+                  "ocurrence": 0,
+                  "children": [
+                    {
+                      "id": "EstadoPreparacion",
+                      "type": "LOOKUP_TABLE",
+                      "value": "PREPARED",
+                      "featureGroupID": "6652",
+                      "id_Ext": "387412190"
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "ENER-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387422190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "1652"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "KJO",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387561190"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 1,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "ENERC",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387421190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "397"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "E14",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387527190"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 2,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FAT",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387425190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "28"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 3,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FASAT",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387426190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "16"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 4,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "CHOAVL",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387416190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "32"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 5,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "SUGAR-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387447190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "14"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 6,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "PRO-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387442190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "5.0"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 7,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "SALTEQ",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387444190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0.35"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "TamRacionFamiliar",
+                      "type": "STRING",
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "value": "Tamaño de referencia para 100 g"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "TamanoRacion",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "100,0"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "GR",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387540190"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "InstruccionesPreparacion",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Preparacion",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "READY_TO_EAT",
+                          "featureGroupID": "6634",
+                          "id_Ext": "386910190"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ProveedorInformacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Codigo",
+                  "type": "STRING",
+                  "value": "8422416000504"
+                },
+                {
+                  "id": "Descripcion",
+                  "type": "STRING",
+                  "value": "Grupo El Corte Inglés"
+                }
+              ]
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20201210_190313"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

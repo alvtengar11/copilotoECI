@@ -1,0 +1,1424 @@
+{
+	"id_Ext": "2837784001",
+	"id": "001006811141503",
+	"entryContainerID": "1",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "2837784001"
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001006811141503   "
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "01"
+						},
+						{
+							"id": "EanGtin",
+							"type": "STRING",
+							"value": "2068128905612"
+						},
+						{
+							"id": "Eani",
+							"type": "STRING",
+							"value": "2401511178215"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "BEB"
+						},
+						{
+							"id": "UnidadVenta",
+							"type": "STRING",
+							"value": "0001"
+						},
+						{
+							"id": "UnidadSurtidoCodificacion",
+							"type": "STRING",
+							"value": "0006"
+						},
+						{
+							"id": "SenalEntorno",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "395",
+							"id_Ext": "274979090",
+							"value": "Mercancía general ECI"
+						},
+						{
+							"id": "CodigoModelo",
+							"type": "STRING",
+							"value": "10A"
+						},
+						{
+							"id": "CodigoModeloWeb",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "10A"
+								},
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"value": "10A"
+								}
+							]
+						},
+						{
+							"id": "DescripcionModelo",
+							"type": "STRING",
+							"value": "CEP. DIENTES 1-4 AñOS"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Cepillo de Diente Dulces azul"
+								},
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"value": "Escova de Dente Dulces azul"
+								}
+							]
+						},
+						{
+							"id": "Perecedero",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Validated",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000101134387"
+						},
+						{
+							"id": "CodigoUnicoPrincipal",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Royaltis",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PermiteDevolucion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": "0"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaGenerica",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PeticionPrecioDeVenta",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "ReferenciaDigital",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "AnillosDeCompromiso",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaDeLujo",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaMadre",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CodigoUnicoOrigen",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0106823"
+						},
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "GLOBAL CECAMO CIA, S.L."
+						},
+						{
+							"id": "Fabricante",
+							"type": "STRING",
+							"value": "0106823"
+						},
+						{
+							"id": "DescripcionFabricante",
+							"type": "STRING",
+							"value": "GLOBAL CECAMO CIA, S.L."
+						},
+						{
+							"id": "Marca",
+							"type": "STRING",
+							"value": "DULCES"
+						},
+						{
+							"id": "MarcaMostradaEnWeb",
+							"type": "RELATIONSHIP",
+							"groupID": "391",
+							"id_Ext": "123299056",
+							"value": "DULCES"
+						}
+					]
+				},
+				{
+					"id": "DescripcionCorta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"value": "CEP. DIENTES 1-4 AñOS"
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion4",
+							"type": "STRING",
+							"value": "NS"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "Z1"
+						},
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "00"
+						}
+					]
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UOM!Dimensiones!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "204",
+							"id_Ext": "347186090",
+							"value": "cm"
+						},
+						{
+							"id": "UOM!PesoBruto!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "206",
+							"id_Ext": "347187090",
+							"value": "g"
+						},
+						{
+							"id": "UOM!VolumenContenidoNeto!VolumenContenidoNeto",
+							"type": "NUMBER",
+							"value": "0.0"
+						},
+						{
+							"id": "UOM!VolumenContenidoNeto!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "213",
+							"id_Ext": "347188090",
+							"value": "ml"
+						}
+					]
+				},
+				{
+					"id": "ColoresYTallas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ColorFabricante",
+							"type": "STRING",
+							"value": "AZUL"
+						},
+						{
+							"id": "DescripcionDelColor",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "135",
+							"id_Ext": "347189090",
+							"value": "Azul"
+						},
+						{
+							"id": "ColorBasico",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10153",
+							"id_Ext": "351091090",
+							"value": "Azul"
+						}
+					]
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "A11616198"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTamanos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosFormatos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTipoPiel",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDeAltaCompras",
+							"type": "DATE",
+							"value": "20050623_000000"
+						},
+						{
+							"id": "FechaDeAltaPrecatalogo",
+							"type": "DATE",
+							"value": "20140124_145839"
+						},
+						{
+							"id": "FechaDeAltaCatalogo",
+							"type": "DATE",
+							"value": "20140127_091618"
+						},
+						{
+							"id": "FechaDisponibilidadLanzamientoAlMercado",
+							"type": "DATE",
+							"value": "20160830_000100"
+						}
+					]
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__40x40.jpg"
+										},
+										{
+											"id": "UrlImagenL",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__225x225.jpg"
+										},
+										{
+											"id": "UrlImagenM",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__150x150.jpg"
+										},
+										{
+											"id": "UrlImagenG",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__600x600.jpg"
+										},
+										{
+											"id": "UrlImagenP",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__1000x1000.jpg"
+										},
+										{
+											"id": "UrlImagen170x170",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__170x170.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__210x210.jpg"
+										},
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__440x440.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__640x640.jpg"
+										},
+										{
+											"id": "UrlImagen1200x1200",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__1200x1200.jpg"
+										}
+									]
+								},
+								{
+									"id": "MainFotosSinModelo",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_40x40.jpg"
+										},
+										{
+											"id": "UrlImagen520x520",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_520x520.jpg"
+										},
+										{
+											"id": "UrlImagen967x1200",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_967x1200.jpg"
+										},
+										{
+											"id": "UrlImagen516x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_516x640.jpg"
+										},
+										{
+											"id": "UrlImagen440x546",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_440x546.jpg"
+										},
+										{
+											"id": "UrlImagen340x421",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_340x421.jpg"
+										},
+										{
+											"id": "UrlImagen290x360",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_290x360.jpg"
+										},
+										{
+											"id": "UrlImagen210x260",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_210x260.jpg"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Target",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "BestSellersExcluded",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SusceptibleDeEnvolver",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "401",
+							"id_Ext": "347190090",
+							"value": "No voluminoso"
+						},
+						{
+							"id": "InStorePickUp",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "400",
+							"id_Ext": "274969090",
+							"value": "Recogida en tienda"
+						},
+						{
+							"id": "EntregaDomicilio",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "DeliveryPoint",
+							"type": "STRING_ENUMERATION",
+							"value": "A"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDeRetirada",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServicioDeRetirada",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"value": "N - No Disponible"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDePuestaEnMarcha",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServicioDePuestaEnMarcha",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"value": "N - No Disponible"
+						},
+						{
+							"id": "ModoDeServicioPuestaEnMarcha",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1030",
+							"id_Ext": "347192090",
+							"value": "N - No Disponible"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDePuerta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServiciosDePuerta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"value": "N - No Disponible"
+						},
+						{
+							"id": "ModoDeServiciocambiodePuerta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1028",
+							"id_Ext": "347193090",
+							"value": "N - No Disponible"
+						}
+					]
+				},
+				{
+					"id": "Pending",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Precios",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IvaPorcentaje",
+							"type": "STRING",
+							"value": "02"
+						},
+						{
+							"id": "IgicPorcentaje",
+							"type": "STRING",
+							"value": "91"
+						}
+					]
+				},
+				{
+					"id": "Validar",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Carteleria",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Reference",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ReferenceType",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1686",
+							"id_Ext": "346300090",
+							"value": "E"
+						},
+						{
+							"id": "ReferenceSourceOrigin",
+							"type": "STRING",
+							"value": "E"
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "x",
+					"type": "STRING",
+					"value": "x"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Badges",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Badge",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10154",
+							"id_Ext": "7892613090",
+							"value": "Centro Comercial"
+						}
+					]
+				},
+				{
+					"id": "EnvioAtg",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0090"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "02"
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 1,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0143"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "02"
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 2,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0424"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "02"
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 3,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0909"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "01"
+						}
+					]
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "13478933024",
+			"hierarchyId": "5007",
+			"categoryId": "1456155766"
+		},
+		{
+			"id_Ext": "2663093016",
+			"hierarchyId": "2013",
+			"categoryId": "1390311656"
+		},
+		{
+			"id_Ext": "14862018",
+			"hierarchyId": "5001",
+			"categoryId": "01.068.111"
+		},
+		{
+			"id_Ext": "11875943013",
+			"hierarchyId": "999",
+			"categoryId": "1459857431"
+		},
+		{
+			"id_Ext": "5529012",
+			"hierarchyId": "998",
+			"categoryId": "00228"
+		}
+	],
+	"unlink": [],
+	"specificAttribs": [
+		{
+			"id": "/Generica_Bebes_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "DescripcionLarga",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Descripcion_OLD",
+							"ocurrence": 0,
+							"type": "STRING",
+							"value": "Cepillo dental para bebé, en azul."
+						},
+						{
+							"id": "Descripcion_OLD",
+							"ocurrence": 1,
+							"type": "STRING",
+							"value": "Fabricado con fibras suaves, de puntas redondeadas y pulidas, para no dañar y limpiar suavemente los primeros dientes, protegiendo el esmalte dental y masajear las delicadas encías del bebé, fortaleciéndolas."
+						},
+						{
+							"id": "Descripcion_OLD",
+							"ocurrence": 2,
+							"type": "STRING",
+							"value": "Cabezal reducido y de línea redondeada para el fácil acceso a toda la boca."
+						},
+						{
+							"id": "Descripcion_OLD",
+							"ocurrence": 3,
+							"type": "STRING",
+							"value": "Diseño educativo y con figura para hacer el cepillado diario, divertido y atractivo."
+						},
+						{
+							"id": "Descripcion",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"ocurrence": 0,
+									"type": "STRING",
+									"value": "Cepillo de Dientes para bebé, en azul."
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "DescripcionLarga",
+					"ocurrence": 1,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Titulo",
+							"type": "STRING",
+							"value": "Características:"
+						},
+						{
+							"id": "Descripcion",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"ocurrence": 0,
+									"type": "STRING",
+									"value": "Fabricado con fibras suaves, de puntas redondeadas y pulidas, para no dañar y limpiar suavemente los primeros dientes, protegiendo el esmalte dental y masajear las delicadas encías del bebé, fortaleciéndolas."
+								},
+								{
+									"id": "es_ES",
+									"ocurrence": 1,
+									"type": "STRING",
+									"value": "Cabezal reducido y de línea redondeada para el fácil acceso a toda la boca."
+								},
+								{
+									"id": "es_ES",
+									"ocurrence": 2,
+									"type": "STRING",
+									"value": "Diseño educativo y con figura para hacer el cepillado diario, divertido y atractivo."
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "CaracteristicasGenerales",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DescripcionProducto",
+							"type": "STRING",
+							"value": "Cepillo Dental bebé."
+						},
+						{
+							"id": "DescripcionProducto_New",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Cepillo Dental bebé."
+								}
+							]
+						},
+						{
+							"id": "PesoProducto",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UOM!Peso!Cantidad",
+									"type": "NUMBER",
+									"value": "20.0"
+								},
+								{
+									"id": "UOM!Peso!Unidad",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "206",
+									"id_Ext": "347187090",
+									"value": "g"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "DimensionesProducto",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UOM!Medidas!Ancho",
+							"type": "NUMBER",
+							"value": "2.5"
+						},
+						{
+							"id": "UOM!Medidas!Alto",
+							"type": "NUMBER",
+							"value": "14.5"
+						},
+						{
+							"id": "UOM!Medidas!Fondo",
+							"type": "NUMBER",
+							"value": "2.0"
+						},
+						{
+							"id": "UOM!Medidas!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "204",
+							"id_Ext": "347186090",
+							"value": "cm"
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20160722_000000"
+						},
+						{
+							"id": "NovedadWWW",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PublicarAutomaticamente",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "FechaDePrimeraPublicacionWWW",
+							"type": "DATE",
+							"value": "20140127_092642"
+						},
+						{
+							"id": "NoPublicarAutomaticamente",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "MotivoPubDesWWW",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10110",
+							"id_Ext": "233767090",
+							"value": "010"
+						},
+						{
+							"id": "ModSP2",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Foto",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "/LTC_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fecha de Publicacion",
+					"type": "DATE",
+					"value": "20180401_154000"
+				},
+				{
+					"id": "DespublicadoPorMargen",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "DespublicadoPorStock",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "FechaDePrimeraPublicacionWWW",
+					"type": "DATE",
+					"value": "20180401_154000"
+				},
+				{
+					"id": "NovedadWWW",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "PublicarAutomaticamente",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Foto",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "132444110"
+				}
+			]
+		},
+		{
+			"id": "/Comunes_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "destacado",
+					"type": "INTEGER",
+					"value": "9999999"
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotosSinModelo",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__40x40.jpg"
+										},
+										{
+											"id": "UrlImagenL",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__225x225.jpg"
+										},
+										{
+											"id": "UrlImagenM",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__150x150.jpg"
+										},
+										{
+											"id": "UrlImagenG",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__600x600.jpg"
+										},
+										{
+											"id": "UrlImagenP",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__1000x1000.jpg"
+										},
+										{
+											"id": "UrlImagen170x170",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__170x170.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__210x210.jpg"
+										},
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__440x440.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__640x640.jpg"
+										},
+										{
+											"id": "UrlImagen1200x1200",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201904/30/00118782303178____8__1200x1200.jpg"
+										}
+									]
+								},
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__40x40.jpg"
+										},
+										{
+											"id": "UrlImagen520x520",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__520x520.jpg"
+										},
+										{
+											"id": "UrlImagen967x1200",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__967x1200.jpg"
+										},
+										{
+											"id": "UrlImagen516x640",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__516x640.jpg"
+										},
+										{
+											"id": "UrlImagen440x546",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__440x546.jpg"
+										},
+										{
+											"id": "UrlImagen340x421",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__340x421.jpg"
+										},
+										{
+											"id": "UrlImagen290x360",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__290x360.jpg"
+										},
+										{
+											"id": "UrlImagen210x260",
+											"type": "IMAGE_URL",
+											"value": "https://sgfm.elcorteingles.pre/SGFM/dctm/MEDIA03/202009/11/00102137800021____1__210x260.jpg"
+										}
+									]
+								},
+								{
+									"id": "Foto_OLD",
+									"type": "FLAG",
+									"value": "true"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "MostrarSoloRebajado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "210259932"
+				}
+			]
+		},
+		{
+			"id": "/Portugal_ISS",
+			"type": "SPEC",
+			"children": [
+			{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__40x40.jpg"
+										},
+										{
+											"id": "UrlImagenL",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__225x225.jpg"
+										},
+										{
+											"id": "UrlImagenM",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__150x150.jpg"
+										},
+										{
+											"id": "UrlImagenG",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__600x600.jpg"
+										},
+										{
+											"id": "UrlImagenP",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__1000x1000.jpg"
+										},
+										{
+											"id": "UrlImagen170x170",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__170x170.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__210x210.jpg"
+										},
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__440x440.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__640x640.jpg"
+										},
+										{
+											"id": "UrlImagen1200x1200",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/MEDIA01/201312/23/00106811141503____2__1200x1200.jpg"
+										}
+									]
+								},
+								{
+									"id": "MainFotosSinModelo",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_40x40.jpg"
+										},
+										{
+											"id": "UrlImagen520x520",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_520x520.jpg"
+										},
+										{
+											"id": "UrlImagen967x1200",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_967x1200.jpg"
+										},
+										{
+											"id": "UrlImagen516x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_516x640.jpg"
+										},
+										{
+											"id": "UrlImagen440x546",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_440x546.jpg"
+										},
+										{
+											"id": "UrlImagen340x421",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_340x421.jpg"
+										},
+										{
+											"id": "UrlImagen290x360",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_290x360.jpg"
+										},
+										{
+											"id": "UrlImagen210x260",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201210/18/00104710109473___P1_210x260.jpg"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "destacado",
+					"type": "INTEGER",
+					"value": "9999999"
+				},
+				{
+					"id": "MostrarSoloRebajado",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "FechaDePublicacionPOR",
+					"type": "DATE",
+					"value": "20160809_132936"
+				},
+				{
+					"id": "FechaDePrimeraPublicacionPOR",
+					"type": "DATE",
+					"value": "20160809_132936"
+				},
+				{
+					"id": "NovedadPOR",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "PublicarAutomaticamentePOR",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Foto",
+					"type": "FLAG",
+					"value": "false"
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"productId": "001006811141503   ",
+			"centerId": "0090",
+			"regularPrice": "3.95",
+			"catalogPrice": "3.95",
+			"taxPercentage": "02",
+			"igic": "91"
+		},
+		{
+			"productId": "001006811141503   ",
+			"centerId": "0143",
+			"regularPrice": "3.95",
+			"catalogPrice": "3.95",
+			"taxPercentage": "02",
+			"igic": "91"
+		},
+		{
+			"productId": "001006811141503   ",
+			"centerId": "0143",
+			"regularPrice": "3.95",
+			"catalogPrice": "3.95",
+			"taxPercentage": "02",
+			"igic": "91"
+		},
+		{
+			"productId": "001006811141503   ",
+			"centerId": "0424",
+			"regularPrice": "3.95",
+			"catalogPrice": "3.95",
+			"taxPercentage": "02",
+			"igic": "91"
+		},
+		{
+			"productId": "001006811141503   ",
+			"centerId": "0909",
+			"regularPrice": "3.92",
+			"catalogPrice": "3.92",
+			"taxPercentage": "02",
+			"igic": "91"
+		}
+	]
+}

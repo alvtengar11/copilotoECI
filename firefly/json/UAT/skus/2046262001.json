@@ -1,0 +1,1079 @@
+{
+	"id_Ext": "2046262001",
+	"id": "001007326908857",
+	"entryContainerID": "1",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "2046262001"
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001007326908857   "
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "01"
+						},
+						{
+							"id": "EanGtin",
+							"type": "STRING",
+							"value": "2073269088575"
+						},
+						{
+							"id": "Eani",
+							"type": "STRING",
+							"value": "2401401616162"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "HOG"
+						},
+						{
+							"id": "UnidadVenta",
+							"type": "STRING",
+							"value": "0001"
+						},
+						{
+							"id": "SenalEntorno",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "395",
+							"id_Ext": "274979090",
+							"value": "Mercancía general ECI"
+						},
+						{
+							"id": "Serie",
+							"type": "STRING",
+							"value": "NO SERIE"
+						},
+						{
+							"id": "CodigoModelo",
+							"type": "STRING",
+							"value": "KYOCERA"
+						},
+						{
+							"id": "CodigoModeloWeb",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "2681120"
+								}
+							]
+						},
+						{
+							"id": "DescripcionModelo",
+							"type": "STRING",
+							"value": "CUCHILLO CERAMICO"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Cuchillo para verduras Kyocera"
+								}
+							]
+						},
+						{
+							"id": "Perecedero",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Validated",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "MercanciasEspeciales",
+							"ocurrence": 0,
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10146",
+							"id_Ext": "12936001090",
+							"value": "Restricción cuchillos"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000101198264"
+						},
+						{
+							"id": "CodigoUnicoPrincipal",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Royaltis",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PermiteDevolucion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": "0"
+						},
+						{
+							"id": "StockInfinito",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaGenerica",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PeticionPrecioDeVenta",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "ReferenciaDigital",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "AnillosDeCompromiso",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaDeLujo",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "ReferenciaMadre",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VentaSinStock",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CodigoUnicoOrigen",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0641134"
+						},
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "CORTAR Y CREAR SL"
+						},
+						{
+							"id": "Fabricante",
+							"type": "STRING",
+							"value": "0641134"
+						},
+						{
+							"id": "DescripcionFabricante",
+							"type": "STRING",
+							"value": "CORTAR Y CREAR SL"
+						},
+						{
+							"id": "Marca",
+							"type": "STRING",
+							"value": "KYOCERA"
+						},
+						{
+							"id": "MarcaMostradaEnWeb",
+							"type": "RELATIONSHIP",
+							"groupID": "391",
+							"id_Ext": "895307056",
+							"value": "Kyocera"
+						}
+					]
+				},
+				{
+					"id": "DescripcionCorta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DescripcionTicket",
+							"type": "STRING",
+							"value": "BAT.COMP.COC."
+						}
+					]
+				},
+				{
+					"id": "DescripcionLargaDelProducto",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "DescripcionPrincipal",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"ocurrence": 0,
+									"type": "STRING",
+									"value": "Cuchillo cerámico japonés modelo utilitario, 110mm con hoja de cerámica blanca de zirkonia."
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "CD"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "AA"
+						},
+						{
+							"id": "Calificacion6",
+							"type": "STRING",
+							"value": "ES"
+						},
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "14"
+						}
+					]
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UOM!Dimensiones!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "204",
+							"id_Ext": "347186090",
+							"value": "cm"
+						},
+						{
+							"id": "UOM!PesoBruto!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "206",
+							"id_Ext": "347187090",
+							"value": "g"
+						},
+						{
+							"id": "UOM!VolumenContenidoNeto!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "213",
+							"id_Ext": "347188090",
+							"value": "ml"
+						}
+					]
+				},
+				{
+					"id": "ColoresYTallas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ColorFabricante",
+							"type": "STRING",
+							"value": "BLANCO/NEGRO"
+						},
+						{
+							"id": "TamanoHorma",
+							"type": "STRING",
+							"value": "110 MN"
+						},
+						{
+							"id": "Dibujo",
+							"type": "STRING",
+							"value": "FK-110WH"
+						}
+					]
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "A3875397"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTamanos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosFormatos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTipoPiel",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDeAltaCompras",
+							"type": "DATE",
+							"value": "20110919_000000"
+						},
+						{
+							"id": "FechaDeAltaPrecatalogo",
+							"type": "DATE",
+							"value": "20110920_031724"
+						},
+						{
+							"id": "FechaDeAltaCatalogo",
+							"type": "DATE",
+							"value": "20120607_143425"
+						}
+					]
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagenT",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201206/14/00107326908857___HA1_100x100.jpg"
+										},
+										{
+											"id": "UrlImagenX",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201206/14/00107326908857___HA1_40x40.jpg"
+										},
+										{
+											"id": "UrlImagenL",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201206/14/00107326908857___HA1_225x225.jpg"
+										},
+										{
+											"id": "UrlImagenM",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201206/14/00107326908857___HA1_150x150.jpg"
+										},
+										{
+											"id": "UrlImagenG",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201206/14/00107326908857___HA1_600x600.jpg"
+										},
+										{
+											"id": "UrlImagenP",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201206/14/00107326908857___HA1_1000x1000.jpg"
+										},
+										{
+											"id": "UrlImagenH0",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201206/14/00107326908857___HA1_410x410.jpg"
+										},
+										{
+											"id": "UrlImagenH1",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201206/14/00107326908857___HA1_65x65.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201206/14/00107326908857___HA1_225x225.jpg"
+										},
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201206/14/00107326908857___HA1_600x600.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/IMAGENES02/201206/14/00107326908857___HA1_600x600.jpg"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Target",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "BestSellersExcluded",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SusceptibleDeEnvolver",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "401",
+							"id_Ext": "347190090",
+							"value": "No voluminoso"
+						},
+						{
+							"id": "InStorePickUp",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "400",
+							"id_Ext": "274969090",
+							"value": "Recogida en tienda"
+						},
+						{
+							"id": "EntregaDomicilio",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDeRetirada",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServicioDeRetirada",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"value": "N - No Disponible"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDePuestaEnMarcha",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServicioDePuestaEnMarcha",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"value": "N - No Disponible"
+						},
+						{
+							"id": "ModoDeServicioPuestaEnMarcha",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1030",
+							"id_Ext": "347192090",
+							"value": "N - No Disponible"
+						}
+					]
+				},
+				{
+					"id": "ServiciosDePuerta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ServiciosDePuerta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1029",
+							"id_Ext": "347191090",
+							"value": "N - No Disponible"
+						},
+						{
+							"id": "ModoDeServiciocambiodePuerta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1028",
+							"id_Ext": "347193090",
+							"value": "N - No Disponible"
+						}
+					]
+				},
+				{
+					"id": "Financiacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FinancedServiceNoInterest",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Calculadora",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "Pending",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Precios",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IvaPorcentaje",
+							"type": "STRING",
+							"value": "02"
+						},
+						{
+							"id": "IgicPorcentaje",
+							"type": "STRING",
+							"value": "93"
+						}
+					]
+				},
+				{
+					"id": "Validar",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Carteleria",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Reference",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ReferenceType",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "1686",
+							"id_Ext": "346300090",
+							"value": "E"
+						}
+					]
+				},
+				{
+					"id": "Enviado",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "x",
+					"type": "STRING",
+					"value": "x"
+				},
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "EnvioAtg",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "EansVariantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "EanVariante",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoVariante",
+									"type": "RELATIONSHIP",
+									"groupID": "5005",
+									"id_Ext": "16823904059",
+									"value": "2073269088575"
+								},
+								{
+									"id": "CodigoEan",
+									"type": "STRING",
+									"value": "2073269088575"
+								},
+								{
+									"id": "FechaAltaEanCompras",
+									"type": "DATE",
+									"value": "20110919_000000"
+								},
+								{
+									"id": "EsEanCompraPrincipal",
+									"type": "FLAG",
+									"value": "false"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0090"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "02"
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 1,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0143"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "02"
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 2,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0424"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "02"
+						}
+					]
+				},
+				{
+					"id": "Impuestos",
+					"ocurrence": 3,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Centro",
+							"type": "STRING",
+							"value": "0909"
+						},
+						{
+							"id": "Impuesto",
+							"type": "STRING",
+							"value": "01"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "131618328"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "11150506011",
+			"hierarchyId": "997",
+			"categoryId": "20160201024728"
+		},
+		{
+			"id_Ext": "15816018",
+			"hierarchyId": "5001",
+			"categoryId": "01.073.269"
+		},
+		{
+			"id_Ext": "5514012",
+			"hierarchyId": "998",
+			"categoryId": "00211"
+		},
+		{
+			"id_Ext": "6932785011",
+			"hierarchyId": "997",
+			"categoryId": "20150130025944"
+		},
+		{
+			"id_Ext": "19488204011",
+			"hierarchyId": "997",
+			"categoryId": "20170528121132"
+		},
+		{
+			"id_Ext": "20940707011",
+			"hierarchyId": "997",
+			"categoryId": "20170809095536"
+		},
+		{
+			"id_Ext": "51647013",
+			"hierarchyId": "999",
+			"categoryId": "081"
+		},
+		{
+			"id_Ext": "17053925011",
+			"hierarchyId": "997",
+			"categoryId": "20170127052714"
+		},
+		{
+			"id_Ext": "13176152011",
+			"hierarchyId": "997",
+			"categoryId": "20160816120955"
+		},
+		{
+			"id_Ext": "11029949011",
+			"hierarchyId": "997",
+			"categoryId": "20160120122323"
+		},
+		{
+			"id_Ext": "9278432011",
+			"hierarchyId": "997",
+			"categoryId": "20150814072133"
+		},
+		{
+			"id_Ext": "19488231011",
+			"hierarchyId": "997",
+			"categoryId": "20170528010209"
+		}
+	],
+	"unlink": [],
+	"specificAttribs": [
+		{
+			"id": "/Menaje_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "CaracteristicasGenerales",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TipoDeProducto",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10002",
+							"id_Ext": "3034996090",
+							"value": "Cuchillos verduleros"
+						},
+						{
+							"id": "Material",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "194",
+							"id_Ext": "12615455090",
+							"value": "Cerámica blanca de zirkonia"
+						},
+						{
+							"id": "AptoPara",
+							"ocurrence": 0,
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10012",
+							"id_Ext": "233783090",
+							"value": "Lavavajillas"
+						},
+						{
+							"id": "Mango",
+							"ocurrence": 0,
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10001",
+							"id_Ext": "234249090",
+							"value": "ABS"
+						}
+					]
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UOM!Dimensiones!Largo",
+							"type": "NUMBER",
+							"value": "11.0"
+						},
+						{
+							"id": "UOM!Dimensiones!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "204",
+							"id_Ext": "374387090",
+							"value": "cm de hoja"
+						},
+						{
+							"id": "UOM!Peso!Peso",
+							"type": "NUMBER",
+							"value": "50.0"
+						},
+						{
+							"id": "UOM!Peso!Unidad",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "206",
+							"id_Ext": "347187090",
+							"value": "g"
+						}
+					]
+				},
+				{
+					"id": "Recomendaciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Descripcion",
+							"ocurrence": 0,
+							"type": "STRING",
+							"value": "Limpiar immediatamente después del uso, preferiblemente a mano."
+						},
+						{
+							"id": "Descripcion",
+							"ocurrence": 1,
+							"type": "STRING",
+							"value": "No usar jabones o utensilios de limpieza agresivos que puedan dañar al cuchillo."
+						},
+						{
+							"id": "Descripcion",
+							"ocurrence": 2,
+							"type": "STRING",
+							"value": "Cuchillo no flexible."
+						}
+					]
+				},
+				{
+					"id": "Observaciones",
+					"ocurrence": 0,
+					"type": "STRING",
+					"value": "No apto para huesos y espinas"
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "131618328"
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "DespublicadoPorMargen",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "DespublicadoPorStock",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20170306_000000"
+						},
+						{
+							"id": "MotivoPubDesDetalladoWWW",
+							"type": "STRING",
+							"value": "A 11/06/14 se modifica t.prod s/email Gracia G. Hogar."
+						},
+						{
+							"id": "NovedadWWW",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "PublicarAutomaticamente",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "FechaDePrimeraPublicacionWWW",
+							"type": "DATE",
+							"value": "20120607_144000"
+						},
+						{
+							"id": "NoPublicarAutomaticamente",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "XPUBLICA",
+							"type": "STRING",
+							"value": "P"
+						},
+						{
+							"id": "MotivoPubDesWWW",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "10110",
+							"id_Ext": "233767090",
+							"value": "010"
+						},
+						{
+							"id": "ModSP2",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "Foto",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "OtrasCondiciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Destacado",
+							"type": "INTEGER",
+							"value": "555555"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "131618328"
+				}
+			]
+		},
+		{
+			"id": "/Carteleria_ISS",
+			"type": "SPEC",
+			"children": []
+		}
+	],
+	"prices": [
+		{
+			"productId": "001007326908857   ",
+			"centerId": "0090",
+			"regularPrice": "32.00",
+			"catalogPrice": "40.00",
+			"taxPercentage": "02",
+			"igic": "93"
+		},
+		{
+			"productId": "001007326908857   ",
+			"centerId": "0143",
+			"regularPrice": "32.00",
+			"catalogPrice": "40.00",
+			"taxPercentage": "02",
+			"igic": "93"
+		},
+		{
+			"productId": "001007326908857   ",
+			"centerId": "0424",
+			"regularPrice": "32.00",
+			"catalogPrice": "40.00",
+			"taxPercentage": "02",
+			"igic": "93"
+		},
+		{
+			"productId": "001007326908857   ",
+			"centerId": "0909",
+			"regularPrice": "31.74",
+			"catalogPrice": "39.67",
+			"taxPercentage": "02",
+			"igic": "93"
+		}
+	]
+}

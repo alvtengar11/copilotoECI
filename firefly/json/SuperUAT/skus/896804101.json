@@ -1,0 +1,685 @@
+{
+  "idExt": "896804101",
+  "coreAttribs": [
+    {
+      "children": [
+        {
+          "id": "Codigo",
+          "type": "STRING",
+          "value": "0118733302386"
+        },
+        {
+          "children": [
+            {
+              "id": "MetadataEstado",
+              "type": "STRING_ENUMERATION",
+              "value": "Revisado"
+            },
+            {
+              "idExt": "26871190",
+              "featureGroupID": "6616",
+              "id_Ext": "26871190",
+              "id": "CodigoArea",
+              "type": "LOOKUP_TABLE",
+              "value": "1"
+            },
+            {
+              "id": "AreaDescripcion",
+              "type": "STRING",
+              "value": "Supermercado"
+            },
+            {
+              "id": "Reasignado",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CategoriaSupermercado",
+              "type": "STRING",
+              "value": "Supermercado/Licores y Alcoholes/Ron/Ron blanco"
+            }
+          ],
+          "id": "Informacion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "idExt": "30889190",
+              "featureGroupID": "6602",
+              "id_Ext": "30889190",
+              "id": "CodigoMarca",
+              "type": "LOOKUP_TABLE",
+              "value": "03695"
+            },
+            {
+              "id": "MarcaDescripcion",
+              "type": "STRING",
+              "value": "SANTA CRUZ"
+            },
+            {
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "ron y fresa de las Islas Canarias"
+                },
+                {
+                  "id": "en_GB",
+                  "type": "STRING",
+                  "value": "rum and strawberry from the Canary Islands"
+                },
+                {
+                  "id": "de_DE",
+                  "type": "STRING",
+                  "value": "Rum und Erdbeeren von den Kanarischen Inseln"
+                }
+              ],
+              "id": "DescripcionVariedad",
+              "type": "STRING"
+            },
+            {
+              "id": "Cantidad",
+              "type": "STRING",
+              "value": "75"
+            },
+            {
+              "idExt": "27991190",
+              "featureGroupID": "6610",
+              "id_Ext": "27991190",
+              "id": "CodigoFormato",
+              "type": "LOOKUP_TABLE",
+              "value": "CL"
+            },
+            {
+              "id": "FormatoDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "cl"
+            },
+            {
+              "id": "CodigoFormatoHidden",
+              "type": "STRING",
+              "value": "CL"
+            },
+            {
+              "id": "DescripcionArticulo",
+              "type": "STRING",
+              "value": "SANTA CRUZ ron y fresa de las Islas Canarias 75 cl"
+            },
+            {
+              "children": [
+                {
+                  "id": "Visible",
+                  "type": "FLAG",
+                  "value": "true"
+                }
+              ],
+              "id": "Temporal",
+              "type": "GROUPING"
+            },
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ],
+          "id": "Descripcion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "idExt": "47143190",
+              "featureGroupID": "6614",
+              "id_Ext": "47143190",
+              "id": "CodigoTipoVenta",
+              "type": "LOOKUP_TABLE",
+              "value": "U"
+            },
+            {
+              "id": "TipoVentaDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "Unidad"
+            },
+            {
+              "id": "CodigoTipoVentaHidden",
+              "type": "STRING",
+              "value": "U"
+            },
+            {
+              "id": "PesoPieza",
+              "type": "STRING",
+              "value": "700"
+            }
+          ],
+          "id": "Venta",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "id": "OrdenacionMarca",
+              "type": "STRING",
+              "value": "32"
+            },
+            {
+              "id": "OrdenacionTamano",
+              "type": "STRING",
+              "value": "15"
+            }
+          ],
+          "id": "Ordenacion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "id": "ImagenDiminutaUrl",
+              "type": "IMAGE_URL",
+              "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201606/15/00118733302386____1__40x40.jpg"
+            },
+            {
+              "id": "ImagenPequenaUrl",
+              "type": "IMAGE_URL",
+              "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201606/15/00118733302386____1__75x75.jpg"
+            },
+            {
+              "id": "ImagenMedianaUrl",
+              "type": "IMAGE_URL",
+              "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201606/15/00118733302386____1__150x150.jpg"
+            },
+            {
+              "id": "ImagenPrincipalUrl",
+              "type": "IMAGE_URL",
+              "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201606/15/00118733302386____1__325x325.jpg"
+            },
+            {
+              "id": "ImagenGrandeUrl",
+              "type": "IMAGE_URL",
+              "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201606/15/00118733302386____1__600x600.jpg"
+            }
+          ],
+          "id": "Imagenes",
+          "type": "GROUPING"
+        },
+        {
+          "id": "FechaAlta",
+          "type": "DATE",
+          "value": "20160517_044546"
+        },
+        {
+          "id": "MetadataFechaModificacion",
+          "type": "DATE",
+          "value": "20170106_054825"
+        },
+        {
+          "children": [
+            {
+              "id": "CodigoRegion",
+              "type": "STRING",
+              "value": "Supermercado Peninsula"
+            },
+            {
+              "id": "Promocion",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Publicado",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "PublicadoEnum",
+              "type": "STRING_ENUMERATION",
+              "value": "Publicar"
+            },
+            {
+              "id": "FechaDesde",
+              "type": "DATE",
+              "value": "20160616_115947"
+            },
+            {
+              "id": "PublicadoCanarias",
+              "type": "STRING_ENUMERATION",
+              "value": "Publicar"
+            }
+          ],
+          "id": "Publicacion",
+          "type": "GROUPING"
+        },
+        {
+          "id": "MetadataPerecedero",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "CodigoReferencia",
+                  "type": "STRING",
+                  "value": "18733302386"
+                },
+                {
+                  "id": "CodigoUneco",
+                  "type": "STRING",
+                  "value": "187"
+                },
+                {
+                  "id": "CodigoFamilia",
+                  "type": "STRING",
+                  "value": "333"
+                },
+                {
+                  "id": "CodigoBarra",
+                  "type": "STRING",
+                  "value": "02386"
+                }
+              ],
+              "id": "Referencia",
+              "type": "GROUPING"
+            },
+            {
+              "id": "NumeroMaterialSAP",
+              "type": "STRING",
+              "value": "000000000142918048"
+            },
+            {
+              "children": [
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "8437011073075"
+                }
+              ],
+              "id": "Ean",
+              "type": "GROUPING"
+            },
+            {
+              "id": "TipoGestion",
+              "type": "STRING",
+              "value": "14"
+            },
+            {
+              "children": [
+                {
+                  "id": "CodigoProveedor",
+                  "type": "STRING",
+                  "value": "0009486"
+                },
+                {
+                  "id": "ProveedorDescripcion",
+                  "type": "STRING",
+                  "value": "AHEMBO, S.L."
+                },
+                {
+                  "id": "ReferenciaFabricante",
+                  "type": "STRING",
+                  "value": "SANTA CRUZ"
+                },
+                {
+                  "idExt": "972666160",
+                  "id_Ext": "972666160",
+                  "groupID": "666",
+                  "id": "Proveedor",
+                  "type": "RELATIONSHIP",
+                  "value": "010009486"
+                },
+                {
+                  "idExt": "515006160",
+                  "id_Ext": "515006160",
+                  "groupID": "666",
+                  "id": "Fabricante",
+                  "type": "RELATIONSHIP",
+                  "value": "010371278"
+                }
+              ],
+              "id": "Proveedor",
+              "type": "GROUPING"
+            },
+            {
+              "id": "CodigoCalificacion1",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "CodigoCalificacion2",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "CodigoCalificacion4",
+              "type": "STRING",
+              "value": "VV"
+            },
+            {
+              "id": "CodigoCalificacion5",
+              "type": "STRING",
+              "value": "1I"
+            },
+            {
+              "children": [
+                {
+                  "id": "CodigoMarcaCodificacion",
+                  "type": "STRING",
+                  "value": "SANTA CRUZ"
+                },
+                {
+                  "id": "DescripcionArticuloCodificacion",
+                  "type": "STRING",
+                  "value": "RON"
+                },
+                {
+                  "id": "Variedad1",
+                  "type": "STRING",
+                  "value": "RON & FRESA"
+                },
+                {
+                  "id": "PresentacionCodificacion",
+                  "type": "STRING",
+                  "value": "BOT"
+                },
+                {
+                  "id": "CantidadCodificacion",
+                  "type": "STRING",
+                  "value": "00075"
+                },
+                {
+                  "id": "FormatoCodificacion",
+                  "type": "STRING",
+                  "value": "CL"
+                }
+              ],
+              "id": "Descripcion",
+              "type": "GROUPING"
+            },
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PesoPiezaCodificacion",
+              "type": "STRING",
+              "value": "700.0"
+            },
+            {
+              "id": "Entorno",
+              "type": "STRING",
+              "value": "4"
+            },
+            {
+              "id": "CodigoCompraEmpresa",
+              "type": "STRING",
+              "value": "50"
+            },
+            {
+              "id": "CodigoCompraReferencia",
+              "type": "STRING",
+              "value": "5018733303632"
+            },
+            {
+              "id": "FechaAgenda",
+              "type": "DATE",
+              "value": "20160516_000000"
+            },
+            {
+              "id": "ReferenciaVinos",
+              "type": "STRING",
+              "value": "18733302386"
+            },
+            {
+              "id": "IsMercanciaGeneral",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "GPER",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CantidadProducto",
+              "type": "STRING",
+              "value": "000000,000"
+            },
+            {
+              "id": "UnidadesProducto",
+              "type": "STRING",
+              "value": "000"
+            },
+            {
+              "id": "UnidadEmbalaje",
+              "type": "STRING",
+              "value": "6"
+            },
+            {
+              "id": "UnidadSurtido",
+              "type": "STRING",
+              "value": "6"
+            }
+          ],
+          "id": "Codificacion",
+          "type": "GROUPING"
+        },
+        {
+          "children": [
+            {
+              "ocurrence": 0,
+              "children": [
+                {
+                  "idExt": "26867190",
+                  "featureGroupID": "6619",
+                  "id_Ext": "26867190",
+                  "id": "CodigoRegion",
+                  "type": "LOOKUP_TABLE",
+                  "value": "CANARIAS"
+                },
+                {
+                  "id": "Promocion",
+                  "type": "FLAG",
+                  "value": "false"
+                },
+                {
+                  "id": "Publicado",
+                  "type": "FLAG",
+                  "value": "true"
+                },
+                {
+                  "id": "PublicadoEnum",
+                  "type": "STRING_ENUMERATION",
+                  "value": "Publicar"
+                },
+                {
+                  "id": "FechaDesde",
+                  "type": "DATE",
+                  "value": "20120726_072133"
+                }
+              ],
+              "id": "Region",
+              "type": "GROUPING"
+            }
+          ],
+          "id": "Excepciones",
+          "type": "GROUPING"
+        },
+        {
+          "id": "Enviado",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "TipoDocumentacion",
+          "type": "STRING",
+          "value": "Gran Consumo"
+        },
+        {
+          "id": "IsInWorkFlow",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Filled",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "896804101"
+        },
+        {
+          "id": "NumDiasCadGarantizadaRef",
+          "type": "INTEGER",
+          "value": "0"
+        },
+        {
+          "children": [
+            {
+              "ocurrence": 0,
+              "children": [
+                {
+                  "idExt": "896803159",
+                  "id_Ext": "896803159",
+                  "groupID": "6636",
+                  "id": "CodigoVariante",
+                  "type": "RELATIONSHIP",
+                  "value": "8437011073075"
+                },
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "8437011073075"
+                },
+                {
+                  "id": "FechaAltaEanCompras",
+                  "type": "DATE",
+                  "value": "20160516_000000"
+                },
+                {
+                  "id": "FechaHastaEanPromocional",
+                  "type": "DATE",
+                  "value": "20160517_000000"
+                },
+                {
+                  "id": "EsEanCompraPrincipal",
+                  "type": "FLAG",
+                  "value": "true"
+                }
+              ],
+              "id": "EanVariante",
+              "type": "GROUPING"
+            }
+          ],
+          "id": "EansVariantes",
+          "type": "GROUPING"
+        },
+        {
+          "id": "Modificado",
+          "type": "FLAG",
+          "value": "false"
+        }
+      ],
+      "id": "/Supermercado Peninsula CPS",
+      "type": "SPEC"
+    }
+  ],
+  "specificAttribs": [
+    {
+      "id": "/Vinos ISS",
+      "type": "SPEC"
+    }
+  ],
+  "id_Ext": "896804101",
+  "entryContainerID": "6639",
+  "link": [
+    {
+      "idExt": "8564123",
+      "hierarchyId": "6809",
+      "id_Ext": "8564123",
+      "categoryId": "010012"
+    },
+    {
+      "idExt": "26837111",
+      "hierarchyId": "25402",
+      "id_Ext": "26837111",
+      "categoryId": "0002"
+    },
+    {
+      "idExt": "1064601123",
+      "hierarchyId": "6809",
+      "id_Ext": "1064601123",
+      "categoryId": "010701"
+    },
+    {
+      "idExt": "915212119",
+      "hierarchyId": "6807",
+      "id_Ext": "915212119",
+      "categoryId": "12000042778"
+    },
+    {
+      "idExt": "8580123",
+      "hierarchyId": "6809",
+      "id_Ext": "8580123",
+      "categoryId": "010098"
+    },
+    {
+      "idExt": "3996113",
+      "hierarchyId": "6803",
+      "id_Ext": "3996113",
+      "categoryId": "01187333"
+    }
+  ],
+  "id": "001018733302386   ",
+  "prices": [
+    {
+      "idExt": "8968041010012199",
+      "offerType": "00",
+      "centerId": "010012",
+      "offerPrice": "0000010,15",
+      "productId": "001018733302386   ",
+      "avaliable": "true",
+      "applyGlobalDiscount": "false",
+      "regularPrice": "0000010,15",
+      "id_Ext": "8968041010012199",
+      "containerId": "6639",
+      "delete": "false",
+      "startDate": "20160616"
+    },
+    {
+      "idExt": "8968041010098199",
+      "offerType": "00",
+      "centerId": "010098",
+      "offerPrice": "0000010,15",
+      "productId": "001018733302386   ",
+      "avaliable": "true",
+      "applyGlobalDiscount": "false",
+      "regularPrice": "0000010,15",
+      "id_Ext": "8968041010098199",
+      "containerId": "6639",
+      "delete": "false",
+      "startDate": "20140101"
+    },
+    {
+      "centerId": "010701",
+      "offerPrice": "0000009,95",
+      "productId": "001018733302386   ",
+      "endDate": "        ",
+      "regularPrice": "0000009,95",
+      "id_Ext": "8968041010701199",
+      "delete": "false",
+      "globalDiscount": "      ",
+      "idExt": "8968041010701199",
+      "offerType": "00",
+      "depublishStartDate": "        ",
+      "depublishEndDate": "        ",
+      "avaliable": "false",
+      "applyGlobalDiscount": "false",
+      "containerId": "6639",
+      "startDate": "20171015"
+    }
+  ],
+  "movement": "MODIFIED"
+}

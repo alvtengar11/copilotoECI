@@ -1,0 +1,692 @@
+{
+	"id_Ext": "4446616059",
+	"id": "8433329055284",
+	"entryContainerID": "5005",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Variantes_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Code",
+					"type": "STRING",
+					"value": "8433329055284"
+				},
+				{
+					"id": "EAN",
+					"type": "STRING",
+					"value": "8433329055284"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "4446616059"
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaCreacion",
+							"type": "DATE",
+							"value": "20141114_000000"
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20141114_000000"
+						}
+					]
+				}
+			]
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Informacion_Alimentaria_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Gtin",
+					"type": "STRING",
+					"value": "08433329055284"
+				},
+				{
+					"id": "Mercado",
+					"type": "GROUPING",
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "MercadoObjetivo",
+							"type": "STRING",
+							"value": "724"
+						},
+						{
+							"id": "Variante",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "MARQUESAS"
+								}
+							]
+						},
+						{
+							"id": "Basicos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarca",
+									"type": "STRING",
+									"value": "Club del Gourmet"
+								}
+							]
+						},
+						{
+							"id": "DatosProducto",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "DenominacionAlimento",
+									"type": "STRING",
+									"children": [
+										{
+											"id": "en_GB",
+											"type": "STRING",
+											"value": "MARQUESAS (ALMOND CAKES)."
+										},
+										{
+											"id": "es_ES",
+											"type": "STRING",
+											"value": "MARQUESAS."
+										},
+										{
+											"id": "fr_FR",
+											"type": "STRING",
+											"value": "Marquesas."
+										},
+										{
+											"id": "pt_PT",
+											"type": "STRING",
+											"value": "MARQUESAS."
+										}
+									]
+								},
+								{
+									"id": "Operador",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Nombre",
+											"type": "STRING",
+											"value": "El Corte Inglés, S.A.\nHermosilla, 112 ? 28009 Madrid ? España"
+										}
+									]
+								},
+								{
+									"id": "Instrucciones",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "InstruccionesConsumidor",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "en_GB",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Store in a cool, dry place and away from strong odours."
+												},
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Conservar en lugar fresco, seco y alejado de olores extraños."
+												},
+												{
+													"id": "fr_FR",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Conserver dans un endroit frais, sec et à l'abri d'odeurs étranges."
+												},
+												{
+													"id": "pt_PT",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Conservar em lugar fresco, seco e afastado de odores estranhos"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Medidas",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "ContenidoNeto",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "250"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "5019",
+													"id_Ext": "4366415090"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "Alimentacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Alergenicos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionAlergenicos",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "en_GB",
+													"type": "STRING",
+													"value": "almond,egg,wheat"
+												},
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"value": "almendra,huevo,trigo"
+												},
+												{
+													"id": "fr_FR",
+													"type": "STRING",
+													"value": "amandes, œuf, blé"
+												},
+												{
+													"id": "pt_PT",
+													"type": "STRING",
+													"value": "amêndoa,ovo,trigo"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Ingredientes",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionIngredientes",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Descripcion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "en_GB",
+															"type": "STRING",
+															"value": "INGREDIENTS:\nSugar, almond (30%), pasteurised liquid egg (30%), wheat starch, lemon flavouring, preservative (E-200) and acidifier (E-330)."
+														},
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "INGREDIENTES:\nAzúcar, almendra (30%), huevo líquido pasteurizado (30%), almidón de trigo, aroma de limón, conservador (E-200) y acidulante (E-330)."
+														},
+														{
+															"id": "pt_PT",
+															"type": "STRING",
+															"value": "INGREDIENTES:\nAçúcar, amêndoa (30%), ovo líquido pasteurizado (30%), amido de trigo, aroma de limão, conservante (E-200) e acidificante (E-330)."
+														}
+													]
+												},
+												{
+													"id": "PatronResaltado",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "en_GB",
+															"type": "STRING",
+															"value": "(21,em),(27,/em),(56,em),(59,/em),(69,em),(74,/em)"
+														},
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "(23,em),(31,/em),(41,em),(46,/em),(88,em),(93,/em)"
+														},
+														{
+															"id": "pt_PT",
+															"type": "STRING",
+															"value": "(23,em),(30,/em),(40,em),(43,/em),(83,em),(88,/em)"
+														}
+													]
+												},
+												{
+													"id": "DescripcionResaltada",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "en_GB",
+															"type": "STRING",
+															"value": "INGREDIENTS:\nSugar, #!#almond#!# (30%), pasteurised liquid #!#egg#!# (30%), #!#wheat#!# starch, lemon flavouring, preservative (E-200) and acidifier (E-330)."
+														},
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "INGREDIENTES:\nAzúcar, #!#almendra#!# (30%), #!#huevo#!# líquido pasteurizado (30%), almidón de #!#trigo#!#, aroma de limón, conservador (E-200) y acidulante (E-330)."
+														},
+														{
+															"id": "fr_FR",
+															"type": "STRING",
+															"value": "Ingrédients :\nSucre, #!#amande#!# (30 %), #!#œuf#!# liquide pasteurisé (30 %), amidon de #!#blé#!#, arôme de citron, conservateur (E-200) et acidifiant (E-330)."
+														},
+														{
+															"id": "pt_PT",
+															"type": "STRING",
+															"value": "INGREDIENTES:\nAçúcar, #!#amêndoa#!# (30%), #!#ovo#!# líquido pasteurizado (30%), amido de #!#trigo#!#, aroma de limão, conservante (E-200) e acidificante (E-330)."
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Nutrientes",
+									"type": "GROUPING",
+									"ocurrence": 0,
+									"children": [
+										{
+											"id": "EstadoPreparacion",
+											"type": "LOOKUP_TABLE",
+											"value": "PREPARED",
+											"featureGroupID": "5017",
+											"id_Ext": "4366287090"
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 0,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "5018",
+													"id_Ext": "4366297090"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "1833/438"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "KJ/KCAL",
+															"featureGroupID": "5019",
+															"id_Ext": "6333148090"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "5016",
+													"id_Ext": "4366284090"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 1,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FAT",
+													"featureGroupID": "5018",
+													"id_Ext": "4366300090"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "22"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "5019",
+															"id_Ext": "4366415090"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "5016",
+													"id_Ext": "4366284090"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 2,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FASAT",
+													"featureGroupID": "5018",
+													"id_Ext": "4366301090"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "2,6"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "5019",
+															"id_Ext": "4366415090"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "5016",
+													"id_Ext": "4366284090"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 3,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "CHOAVL",
+													"featureGroupID": "5018",
+													"id_Ext": "4366291090"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "47"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "5019",
+															"id_Ext": "4366415090"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "5016",
+													"id_Ext": "4366284090"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 4,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SUGAR-",
+													"featureGroupID": "5018",
+													"id_Ext": "4366322090"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "40"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "5019",
+															"id_Ext": "4366415090"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "5016",
+													"id_Ext": "4366284090"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 5,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "PRO-",
+													"featureGroupID": "5018",
+													"id_Ext": "4366317090"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "12"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "5019",
+															"id_Ext": "4366415090"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "5016",
+													"id_Ext": "4366284090"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 6,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "PRO-",
+													"featureGroupID": "5018",
+													"id_Ext": "4366317090"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "12"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "5019",
+															"id_Ext": "4366415090"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "5016",
+													"id_Ext": "4366284090"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 7,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SALTEQ",
+													"featureGroupID": "5018",
+													"id_Ext": "4366319090"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "0,1"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "5019",
+															"id_Ext": "4366415090"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "5016",
+													"id_Ext": "4366284090"
+												}
+											]
+										},
+										{
+											"id": "TamanoRacion",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "100"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "5019",
+													"id_Ext": "4366415090"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Nutrientes",
+									"type": "GROUPING",
+									"ocurrence": 1,
+									"children": [
+										{
+											"id": "EstadoPreparacion",
+											"type": "LOOKUP_TABLE",
+											"value": "PREPARED",
+											"featureGroupID": "5017",
+											"id_Ext": "4366287090"
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "ProveedorInformacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Codigo",
+									"type": "STRING",
+									"value": "8422416000504"
+								},
+								{
+									"id": "Descripcion",
+									"type": "STRING",
+									"value": "El Corte Inglés"
+								}
+							]
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20191031_025832"
+						}
+					]
+				}
+			]
+		}
+	]
+}

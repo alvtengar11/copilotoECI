@@ -1,0 +1,1849 @@
+{
+  "id_Ext": "8599951001",
+  "id": "001007750966280",
+  "entryContainerID": "1",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Product_CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "8599951001"
+        },
+        {
+          "id": "RefECI",
+          "type": "STRING",
+          "value": "001007750966280   "
+        },
+        {
+          "id": "General",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoEmpresa",
+              "type": "STRING",
+              "value": "01"
+            },
+            {
+              "id": "EanGtin",
+              "type": "STRING",
+              "value": "8710103761709"
+            },
+            {
+              "id": "Eani",
+              "type": "STRING",
+              "value": "2401555797618"
+            },
+            {
+              "id": "COTRATIE",
+              "type": "STRING",
+              "value": "ELE"
+            },
+            {
+              "id": "UnidadVenta",
+              "type": "STRING",
+              "value": "0001"
+            },
+            {
+              "id": "UnidadSurtidoCodificacion",
+              "type": "STRING",
+              "value": "0004"
+            },
+            {
+              "id": "SenalEntorno",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "395",
+              "id_Ext": "274979090",
+              "value": "Mercancía general ECI"
+            },
+            {
+              "id": "Serie",
+              "type": "STRING",
+              "value": "50940073010"
+            },
+            {
+              "id": "CodigoModelo",
+              "type": "STRING",
+              "value": "HP6548/01"
+            },
+            {
+              "id": "DescripcionModelo",
+              "type": "STRING",
+              "value": "DEPILADORA"
+            },
+            {
+              "id": "DescripcionModeloWeb",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "type": "STRING",
+                  "value": "Depiladora Philips HP6548/00 con perfilador para zona del bikini"
+                }
+              ]
+            },
+            {
+              "id": "Perecedero",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "UOM!Garantia!Garantia",
+              "type": "NUMBER",
+              "value": "2.0"
+            },
+            {
+              "id": "UOM!Garantia!Unidad",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "211",
+              "id_Ext": "347185090",
+              "value": "años"
+            },
+            {
+              "id": "Validated",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "CodigoUnico",
+              "type": "STRING",
+              "value": "000000000107894742"
+            },
+            {
+              "id": "CodigoUnicoPrincipal",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "Royaltis",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PermiteDevolucion",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "PedidoPersonalizado",
+              "type": "STRING",
+              "value": "0"
+            },
+            {
+              "id": "StockInfinito",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ReferenciaGenerica",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PeticionPrecioDeVenta",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "ReferenciaDigital",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "AnillosDeCompromiso",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ReferenciaDeLujo",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "ReferenciaMadre",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VentaSinStock",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "SenyalInternetCodificacion",
+              "type": "FLAG",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "id": "ProveedorMarca",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "NumeroProveedor",
+              "type": "STRING",
+              "value": "0371476"
+            },
+            {
+              "id": "NombreProveedor",
+              "type": "STRING",
+              "value": "PHILIPS IBERICA, S.A.DIV.APAR.DOMEST.PER"
+            },
+            {
+              "id": "Fabricante",
+              "type": "STRING",
+              "value": "0371476"
+            },
+            {
+              "id": "DescripcionFabricante",
+              "type": "STRING",
+              "value": "PHILIPS IBERICA, S.A.DIV.APAR.DOMEST.PER"
+            },
+            {
+              "id": "Marca",
+              "type": "STRING",
+              "value": "PHILIPS"
+            },
+            {
+              "id": "MarcaMostradaEnWeb",
+              "type": "RELATIONSHIP",
+              "groupID": "391",
+              "id_Ext": "128308056",
+              "value": "PHILIPS"
+            }
+          ]
+        },
+        {
+          "id": "DescripcionCorta",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "DescripcionTicket",
+              "type": "STRING",
+              "value": "PÑO.ELECTROD."
+            }
+          ]
+        },
+        {
+          "id": "GestionComprasStock",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Calificacion1",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "Calificacion2",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "Calificacion4",
+              "type": "STRING",
+              "value": "AC"
+            },
+            {
+              "id": "Calificacion5",
+              "type": "STRING",
+              "value": "AE"
+            },
+            {
+              "id": "TipoDeGestion",
+              "type": "STRING",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "id": "DimensionesYPeso",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "UOM!Dimensiones!Unidad",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "204",
+              "id_Ext": "347186090",
+              "value": "cm"
+            },
+            {
+              "id": "UOM!PesoBruto!Unidad",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "206",
+              "id_Ext": "347187090",
+              "value": "g"
+            },
+            {
+              "id": "UOM!VolumenContenidoNeto!VolumenContenidoNeto",
+              "type": "NUMBER",
+              "value": "0.0"
+            },
+            {
+              "id": "UOM!VolumenContenidoNeto!Unidad",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "213",
+              "id_Ext": "347188090",
+              "value": "ml"
+            }
+          ]
+        },
+        {
+          "id": "ColoresYTallas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ColorFabricante",
+              "type": "STRING",
+              "value": "SATINELLE PACK"
+            },
+            {
+              "id": "TamanoHorma",
+              "type": "STRING",
+              "value": "05211551865"
+            },
+            {
+              "id": "Dibujo",
+              "type": "STRING",
+              "value": "."
+            }
+          ]
+        },
+        {
+          "id": "Variantes",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoVarianteWeb",
+              "type": "STRING",
+              "value": "A15221251"
+            },
+            {
+              "id": "VariantesTallas",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosColores",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariantesModelos",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosTamanos",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosFormatos",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VariosTipoPiel",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaDeAltaCompras",
+              "type": "DATE",
+              "value": "20150421_000000"
+            },
+            {
+              "id": "FechaDeAltaPrecatalogo",
+              "type": "DATE",
+              "value": "20150422_055816"
+            },
+            {
+              "id": "FechaDeAltaCatalogo",
+              "type": "DATE",
+              "value": "20150609_122417"
+            }
+          ]
+        },
+        {
+          "id": "Multimedia",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Fotos",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "SecondaryFotos",
+                  "ocurrence": 0,
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Id",
+                      "type": "STRING",
+                      "value": "6"
+                    },
+                    {
+                      "id": "UrlImagenT",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____7__100x100.jpg"
+                    },
+                    {
+                      "id": "UrlImagenX",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____7__40x40.jpg"
+                    },
+                    {
+                      "id": "UrlImagenL",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____7__225x225.jpg"
+                    },
+                    {
+                      "id": "UrlImagenM",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____7__150x150.jpg"
+                    },
+                    {
+                      "id": "UrlImagenG",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____7__600x600.jpg"
+                    },
+                    {
+                      "id": "UrlImagenP",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____7__1000x1000.jpg"
+                    },
+                    {
+                      "id": "UrlImagen170x170",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____7__170x170.jpg"
+                    },
+                    {
+                      "id": "UrlImagen1200x1200",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____7__1200x1200.jpg"
+                    },
+                    {
+                      "id": "UrlImagen640x640",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____7__640x640.jpg"
+                    },
+                    {
+                      "id": "UrlImagen440x440",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____7__440x440.jpg"
+                    },
+                    {
+                      "id": "UrlImagen210x210",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____7__210x210.jpg"
+                    }
+                  ]
+                },
+                {
+                  "id": "SecondaryFotos",
+                  "ocurrence": 1,
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Id",
+                      "type": "STRING",
+                      "value": "1"
+                    },
+                    {
+                      "id": "UrlImagenT",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____2__100x100.jpg"
+                    },
+                    {
+                      "id": "UrlImagenX",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____2__40x40.jpg"
+                    },
+                    {
+                      "id": "UrlImagenL",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____2__225x225.jpg"
+                    },
+                    {
+                      "id": "UrlImagenM",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____2__150x150.jpg"
+                    },
+                    {
+                      "id": "UrlImagenG",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____2__600x600.jpg"
+                    },
+                    {
+                      "id": "UrlImagenP",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____2__1000x1000.jpg"
+                    },
+                    {
+                      "id": "UrlImagen170x170",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____2__170x170.jpg"
+                    },
+                    {
+                      "id": "UrlImagen1200x1200",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____2__1200x1200.jpg"
+                    },
+                    {
+                      "id": "UrlImagen640x640",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____2__640x640.jpg"
+                    },
+                    {
+                      "id": "UrlImagen440x440",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____2__440x440.jpg"
+                    },
+                    {
+                      "id": "UrlImagen210x210",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____2__210x210.jpg"
+                    }
+                  ]
+                },
+                {
+                  "id": "SecondaryFotos",
+                  "ocurrence": 2,
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Id",
+                      "type": "STRING",
+                      "value": "3"
+                    },
+                    {
+                      "id": "UrlImagenT",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____4__100x100.jpg"
+                    },
+                    {
+                      "id": "UrlImagenX",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____4__40x40.jpg"
+                    },
+                    {
+                      "id": "UrlImagenL",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____4__225x225.jpg"
+                    },
+                    {
+                      "id": "UrlImagenM",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____4__150x150.jpg"
+                    },
+                    {
+                      "id": "UrlImagenG",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____4__600x600.jpg"
+                    },
+                    {
+                      "id": "UrlImagenP",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____4__1000x1000.jpg"
+                    },
+                    {
+                      "id": "UrlImagen170x170",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____4__170x170.jpg"
+                    },
+                    {
+                      "id": "UrlImagen1200x1200",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____4__1200x1200.jpg"
+                    },
+                    {
+                      "id": "UrlImagen640x640",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____4__640x640.jpg"
+                    },
+                    {
+                      "id": "UrlImagen440x440",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____4__440x440.jpg"
+                    },
+                    {
+                      "id": "UrlImagen210x210",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____4__210x210.jpg"
+                    }
+                  ]
+                },
+                {
+                  "id": "SecondaryFotos",
+                  "ocurrence": 3,
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Id",
+                      "type": "STRING",
+                      "value": "4"
+                    },
+                    {
+                      "id": "UrlImagenT",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____5__100x100.jpg"
+                    },
+                    {
+                      "id": "UrlImagenX",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____5__40x40.jpg"
+                    },
+                    {
+                      "id": "UrlImagenL",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____5__225x225.jpg"
+                    },
+                    {
+                      "id": "UrlImagenM",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____5__150x150.jpg"
+                    },
+                    {
+                      "id": "UrlImagenG",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____5__600x600.jpg"
+                    },
+                    {
+                      "id": "UrlImagenP",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____5__1000x1000.jpg"
+                    },
+                    {
+                      "id": "UrlImagen170x170",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____5__170x170.jpg"
+                    },
+                    {
+                      "id": "UrlImagen1200x1200",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____5__1200x1200.jpg"
+                    },
+                    {
+                      "id": "UrlImagen640x640",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____5__640x640.jpg"
+                    },
+                    {
+                      "id": "UrlImagen440x440",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____5__440x440.jpg"
+                    },
+                    {
+                      "id": "UrlImagen210x210",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____5__210x210.jpg"
+                    }
+                  ]
+                },
+                {
+                  "id": "SecondaryFotos",
+                  "ocurrence": 4,
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Id",
+                      "type": "STRING",
+                      "value": "5"
+                    },
+                    {
+                      "id": "UrlImagenT",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____6__100x100.jpg"
+                    },
+                    {
+                      "id": "UrlImagenX",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____6__40x40.jpg"
+                    },
+                    {
+                      "id": "UrlImagenL",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____6__225x225.jpg"
+                    },
+                    {
+                      "id": "UrlImagenM",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____6__150x150.jpg"
+                    },
+                    {
+                      "id": "UrlImagenG",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____6__600x600.jpg"
+                    },
+                    {
+                      "id": "UrlImagenP",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____6__1000x1000.jpg"
+                    },
+                    {
+                      "id": "UrlImagen170x170",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____6__170x170.jpg"
+                    },
+                    {
+                      "id": "UrlImagen1200x1200",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____6__1200x1200.jpg"
+                    },
+                    {
+                      "id": "UrlImagen640x640",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____6__640x640.jpg"
+                    },
+                    {
+                      "id": "UrlImagen440x440",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____6__440x440.jpg"
+                    },
+                    {
+                      "id": "UrlImagen210x210",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____6__210x210.jpg"
+                    }
+                  ]
+                },
+                {
+                  "id": "SecondaryFotos",
+                  "ocurrence": 5,
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Id",
+                      "type": "STRING",
+                      "value": "2"
+                    },
+                    {
+                      "id": "UrlImagenT",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____3__100x100.jpg"
+                    },
+                    {
+                      "id": "UrlImagenX",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____3__40x40.jpg"
+                    },
+                    {
+                      "id": "UrlImagenL",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____3__225x225.jpg"
+                    },
+                    {
+                      "id": "UrlImagenM",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____3__150x150.jpg"
+                    },
+                    {
+                      "id": "UrlImagenG",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____3__600x600.jpg"
+                    },
+                    {
+                      "id": "UrlImagenP",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____3__1000x1000.jpg"
+                    },
+                    {
+                      "id": "UrlImagen170x170",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____3__170x170.jpg"
+                    },
+                    {
+                      "id": "UrlImagen1200x1200",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____3__1200x1200.jpg"
+                    },
+                    {
+                      "id": "UrlImagen640x640",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____3__640x640.jpg"
+                    },
+                    {
+                      "id": "UrlImagen440x440",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____3__440x440.jpg"
+                    },
+                    {
+                      "id": "UrlImagen210x210",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____3__210x210.jpg"
+                    }
+                  ]
+                },
+                {
+                  "id": "SecondaryFotos",
+                  "ocurrence": 6,
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Id",
+                      "type": "STRING",
+                      "value": "7"
+                    },
+                    {
+                      "id": "UrlImagenT",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____8__100x100.jpg"
+                    },
+                    {
+                      "id": "UrlImagenX",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____8__40x40.jpg"
+                    },
+                    {
+                      "id": "UrlImagenL",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____8__225x225.jpg"
+                    },
+                    {
+                      "id": "UrlImagenM",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____8__150x150.jpg"
+                    },
+                    {
+                      "id": "UrlImagenG",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____8__600x600.jpg"
+                    },
+                    {
+                      "id": "UrlImagenP",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____8__1000x1000.jpg"
+                    },
+                    {
+                      "id": "UrlImagen170x170",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____8__170x170.jpg"
+                    },
+                    {
+                      "id": "UrlImagen1200x1200",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____8__1200x1200.jpg"
+                    },
+                    {
+                      "id": "UrlImagen640x640",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____8__640x640.jpg"
+                    },
+                    {
+                      "id": "UrlImagen440x440",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____8__440x440.jpg"
+                    },
+                    {
+                      "id": "UrlImagen210x210",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____8__210x210.jpg"
+                    }
+                  ]
+                },
+                {
+                  "id": "SecondaryFotos",
+                  "ocurrence": 7,
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Id",
+                      "type": "STRING",
+                      "value": "8"
+                    },
+                    {
+                      "id": "UrlImagenT",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____9__100x100.jpg"
+                    },
+                    {
+                      "id": "UrlImagenX",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____9__40x40.jpg"
+                    },
+                    {
+                      "id": "UrlImagenL",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____9__225x225.jpg"
+                    },
+                    {
+                      "id": "UrlImagenM",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____9__150x150.jpg"
+                    },
+                    {
+                      "id": "UrlImagenG",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____9__600x600.jpg"
+                    },
+                    {
+                      "id": "UrlImagenP",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____9__1000x1000.jpg"
+                    },
+                    {
+                      "id": "UrlImagen170x170",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____9__170x170.jpg"
+                    },
+                    {
+                      "id": "UrlImagen1200x1200",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____9__1200x1200.jpg"
+                    },
+                    {
+                      "id": "UrlImagen640x640",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____9__640x640.jpg"
+                    },
+                    {
+                      "id": "UrlImagen440x440",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____9__440x440.jpg"
+                    },
+                    {
+                      "id": "UrlImagen210x210",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____9__210x210.jpg"
+                    }
+                  ]
+                },
+                {
+                  "id": "SecondaryFotos",
+                  "ocurrence": 8,
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Id",
+                      "type": "STRING",
+                      "value": "10"
+                    },
+                    {
+                      "id": "UrlImagenT",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____11__100x100.jpg"
+                    },
+                    {
+                      "id": "UrlImagenX",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____11__40x40.jpg"
+                    },
+                    {
+                      "id": "UrlImagenL",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____11__225x225.jpg"
+                    },
+                    {
+                      "id": "UrlImagenM",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____11__150x150.jpg"
+                    },
+                    {
+                      "id": "UrlImagenG",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____11__600x600.jpg"
+                    },
+                    {
+                      "id": "UrlImagenP",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____11__1000x1000.jpg"
+                    },
+                    {
+                      "id": "UrlImagen170x170",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____11__170x170.jpg"
+                    },
+                    {
+                      "id": "UrlImagen1200x1200",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____11__1200x1200.jpg"
+                    },
+                    {
+                      "id": "UrlImagen640x640",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____11__640x640.jpg"
+                    },
+                    {
+                      "id": "UrlImagen440x440",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____11__440x440.jpg"
+                    },
+                    {
+                      "id": "UrlImagen210x210",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____11__210x210.jpg"
+                    }
+                  ]
+                },
+                {
+                  "id": "SecondaryFotos",
+                  "ocurrence": 9,
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Id",
+                      "type": "STRING",
+                      "value": "9"
+                    },
+                    {
+                      "id": "UrlImagenT",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____10__100x100.jpg"
+                    },
+                    {
+                      "id": "UrlImagenX",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____10__40x40.jpg"
+                    },
+                    {
+                      "id": "UrlImagenL",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____10__225x225.jpg"
+                    },
+                    {
+                      "id": "UrlImagenM",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____10__150x150.jpg"
+                    },
+                    {
+                      "id": "UrlImagenG",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____10__600x600.jpg"
+                    },
+                    {
+                      "id": "UrlImagenP",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____10__1000x1000.jpg"
+                    },
+                    {
+                      "id": "UrlImagen170x170",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____10__170x170.jpg"
+                    },
+                    {
+                      "id": "UrlImagen1200x1200",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____10__1200x1200.jpg"
+                    },
+                    {
+                      "id": "UrlImagen640x640",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____10__640x640.jpg"
+                    },
+                    {
+                      "id": "UrlImagen440x440",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____10__440x440.jpg"
+                    },
+                    {
+                      "id": "UrlImagen210x210",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____10__210x210.jpg"
+                    }
+                  ]
+                },
+                {
+                  "id": "MainFotos",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "UrlImagenT",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____1__100x100.jpg"
+                    },
+                    {
+                      "id": "UrlImagenX",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____1__40x40.jpg"
+                    },
+                    {
+                      "id": "UrlImagenL",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____1__225x225.jpg"
+                    },
+                    {
+                      "id": "UrlImagenM",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____1__150x150.jpg"
+                    },
+                    {
+                      "id": "UrlImagenG",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____1__600x600.jpg"
+                    },
+                    {
+                      "id": "UrlImagenP",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____1__1000x1000.jpg"
+                    },
+                    {
+                      "id": "UrlImagen170x170",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____1__170x170.jpg"
+                    },
+                    {
+                      "id": "UrlImagen210x210",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____1__210x210.jpg"
+                    },
+                    {
+                      "id": "UrlImagen440x440",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____1__440x440.jpg"
+                    },
+                    {
+                      "id": "UrlImagen640x640",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____1__640x640.jpg"
+                    },
+                    {
+                      "id": "UrlImagen1200x1200",
+                      "type": "IMAGE_URL",
+                      "value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201506/10/00107750966280____1__1200x1200.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Target",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "BestSellersExcluded",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Transporte",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "SusceptibleDeEnvolver",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "Voluminoso",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "401",
+              "id_Ext": "347190090",
+              "value": "No voluminoso"
+            },
+            {
+              "id": "InStorePickUp",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "400",
+              "id_Ext": "274969090",
+              "value": "Recogida en tienda"
+            },
+            {
+              "id": "EntregaDomicilio",
+              "type": "FLAG",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "id": "ServiciosDeRetirada",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ServicioDeRetirada",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "1029",
+              "id_Ext": "347191090",
+              "value": "N - No Disponible"
+            }
+          ]
+        },
+        {
+          "id": "ServiciosDePuestaEnMarcha",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ServicioDePuestaEnMarcha",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "1029",
+              "id_Ext": "347191090",
+              "value": "N - No Disponible"
+            },
+            {
+              "id": "ModoDeServicioPuestaEnMarcha",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "1030",
+              "id_Ext": "347192090",
+              "value": "N - No Disponible"
+            }
+          ]
+        },
+        {
+          "id": "ServiciosDePuerta",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ServiciosDePuerta",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "1029",
+              "id_Ext": "347191090",
+              "value": "N - No Disponible"
+            },
+            {
+              "id": "ModoDeServiciocambiodePuerta",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "1028",
+              "id_Ext": "347193090",
+              "value": "N - No Disponible"
+            }
+          ]
+        },
+        {
+          "id": "Financiacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FinancedServiceNoInterest",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Calculadora",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Pending",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Precios",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "IvaPorcentaje",
+              "type": "STRING",
+              "value": "02"
+            },
+            {
+              "id": "IgicPorcentaje",
+              "type": "STRING",
+              "value": "92"
+            }
+          ]
+        },
+        {
+          "id": "Validar",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "Carteleria",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Reference",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ReferenceType",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "1686",
+              "id_Ext": "346300090",
+              "value": "E"
+            },
+            {
+              "id": "ReferenceSourceOrigin",
+              "type": "STRING",
+              "value": "C"
+            }
+          ]
+        },
+        {
+          "id": "Enviado",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "x",
+          "type": "STRING",
+          "value": "x"
+        },
+        {
+          "id": "Buscable",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "EnvioAtg",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "EansVariantes",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "EanVariante",
+              "ocurrence": 0,
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoVariante",
+                  "type": "RELATIONSHIP",
+                  "groupID": "5005",
+                  "id_Ext": "11906938059",
+                  "value": "8710103761709"
+                },
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "8710103761709"
+                },
+                {
+                  "id": "FechaAltaEanCompras",
+                  "type": "DATE",
+                  "value": "20160408_000000"
+                },
+                {
+                  "id": "EsEanCompraPrincipal",
+                  "type": "FLAG",
+                  "value": "true"
+                }
+              ]
+            },
+            {
+              "id": "EanVariante",
+              "ocurrence": 1,
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoVariante",
+                  "type": "RELATIONSHIP",
+                  "groupID": "5005",
+                  "id_Ext": "8279831059",
+                  "value": "8710103708766"
+                },
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "8710103708766"
+                },
+                {
+                  "id": "FechaAltaEanCompras",
+                  "type": "DATE",
+                  "value": "20150421_000000"
+                },
+                {
+                  "id": "EsEanCompraPrincipal",
+                  "type": "FLAG",
+                  "value": "false"
+                }
+              ]
+            },
+            {
+              "id": "EanVariante",
+              "ocurrence": 2,
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoVariante",
+                  "type": "RELATIONSHIP",
+                  "groupID": "5005",
+                  "id_Ext": "17983608059",
+                  "value": "2077509662808"
+                },
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "2077509662808"
+                },
+                {
+                  "id": "FechaAltaEanCompras",
+                  "type": "DATE",
+                  "value": "20150421_000000"
+                },
+                {
+                  "id": "EsEanCompraPrincipal",
+                  "type": "FLAG",
+                  "value": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Impuestos",
+          "ocurrence": 0,
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Centro",
+              "type": "STRING",
+              "value": "0090"
+            },
+            {
+              "id": "Impuesto",
+              "type": "STRING",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "id": "Impuestos",
+          "ocurrence": 1,
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Centro",
+              "type": "STRING",
+              "value": "0143"
+            },
+            {
+              "id": "Impuesto",
+              "type": "STRING",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "id": "Impuestos",
+          "ocurrence": 2,
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Centro",
+              "type": "STRING",
+              "value": "0424"
+            },
+            {
+              "id": "Impuesto",
+              "type": "STRING",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "id": "Impuestos",
+          "ocurrence": 3,
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Centro",
+              "type": "STRING",
+              "value": "0909"
+            },
+            {
+              "id": "Impuesto",
+              "type": "STRING",
+              "value": "01"
+            }
+          ]
+        },
+        {
+          "id": "RepositoryModificationControl",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "IdMensajeAnterior",
+          "type": "NUMBER",
+          "value": "127732348"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "id_Ext": "12001695013",
+      "hierarchyId": "999",
+      "categoryId": "1461323613"
+    },
+    {
+      "id_Ext": "5453012",
+      "hierarchyId": "998",
+      "categoryId": "00134"
+    },
+    {
+      "id_Ext": "3283454022",
+      "hierarchyId": "5004",
+      "categoryId": "9909683442"
+    },
+    {
+      "id_Ext": "1277011",
+      "hierarchyId": "997",
+      "categoryId": "20110328062308"
+    },
+    {
+      "id_Ext": "52281013",
+      "hierarchyId": "999",
+      "categoryId": "1300972281"
+    },
+    {
+      "id_Ext": "17206667011",
+      "hierarchyId": "997",
+      "categoryId": "20170202010037"
+    },
+    {
+      "id_Ext": "17126018",
+      "hierarchyId": "5001",
+      "categoryId": "01.077.509"
+    },
+    {
+      "id_Ext": "9130908011",
+      "hierarchyId": "997",
+      "categoryId": "20150731042234"
+    },
+    {
+      "id_Ext": "4560500013",
+      "hierarchyId": "999",
+      "categoryId": "1416390055"
+    },
+    {
+      "id_Ext": "10228814013",
+      "hierarchyId": "999",
+      "categoryId": "1445498160"
+    },
+    {
+      "id_Ext": "18781958011",
+      "hierarchyId": "997",
+      "categoryId": "20170419120231"
+    }
+  ],
+  "unlink": [],
+  "specificAttribs": [
+    {
+      "id": "/Depiladoras_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "CaracteristicasGenerales",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "TipoDeDepilacion",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "9997",
+              "id_Ext": "2676802090",
+              "value": "Arranque"
+            },
+            {
+              "id": "NumeroDeVelocidades",
+              "type": "NUMBER",
+              "value": "1.0"
+            },
+            {
+              "id": "CaracteristicasDelCabezal",
+              "ocurrence": 0,
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "1203",
+              "id_Ext": "352704090",
+              "value": "Lavable"
+            },
+            {
+              "id": "NumeroDePinzasOPuntosDeAgarre!Numero",
+              "type": "INTEGER",
+              "value": "20"
+            },
+            {
+              "id": "NumeroDePinzasOPuntosDeAgarre!Unidad",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "214",
+              "id_Ext": "351869090",
+              "value": "pinzas"
+            },
+            {
+              "id": "Equipamiento",
+              "ocurrence": 0,
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "1204",
+              "id_Ext": "473391090",
+              "value": "Mango ergonómico"
+            }
+          ]
+        },
+        {
+          "id": "Accesorios",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Accesorios",
+              "ocurrence": 0,
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "1202",
+              "id_Ext": "8320386090",
+              "value": "Perfilador zona bikini con peine guía"
+            },
+            {
+              "id": "Accesorios",
+              "ocurrence": 1,
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "1202",
+              "id_Ext": "473281090",
+              "value": "Cepillo de limpieza"
+            },
+            {
+              "id": "Accesorios",
+              "ocurrence": 2,
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "1202",
+              "id_Ext": "2447478090",
+              "value": "Adaptador"
+            }
+          ]
+        },
+        {
+          "id": "DatosTecnicosYDeEnergia",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Alimentacion",
+              "ocurrence": 0,
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "742",
+              "id_Ext": "347535090",
+              "value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "CaracteristicasAdicionales",
+          "ocurrence": 0,
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Descripcion",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "es_ES",
+                  "ocurrence": 0,
+                  "type": "STRING",
+                  "value": "Eliminación del vello rápida y duradera en piernas y brazos y recorta y perfila la zona del bikini con el perfilador con peine-guía de 3 mm que podrás utilizar tanto dentro como fuera de la ducha ya que funciona con batería."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "RepositoryModificationControl",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "IdMensajeAnterior",
+          "type": "NUMBER",
+          "value": "127732348"
+        }
+      ]
+    }
+  ],
+  "stores": [
+    {
+      "id": "/Fechas_WWW_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "DespublicadoPorMargen",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "DespublicadoPorStock",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaDePublicacionWWW",
+              "type": "DATE",
+              "value": "20161111_000000"
+            },
+            {
+              "id": "NovedadWWW",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "PublicarAutomaticamente",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "FechaDePrimeraPublicacionWWW",
+              "type": "DATE",
+              "value": "20150609_124058"
+            },
+            {
+              "id": "NoPublicarAutomaticamente",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "FechaDesPubAutomaticaWWW",
+              "type": "DATE",
+              "value": "20160112_153810"
+            },
+            {
+              "id": "XPUBLICA",
+              "type": "STRING",
+              "value": "P"
+            },
+            {
+              "id": "MotivoPubDesWWW",
+              "type": "LOOKUP_TABLE",
+              "featureGroupID": "10110",
+              "id_Ext": "233767090",
+              "value": "010"
+            },
+            {
+              "id": "ModSP2",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Foto",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "RepositoryModificationControl",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "IdMensajeAnterior",
+          "type": "NUMBER",
+          "value": "127732348"
+        }
+      ]
+    },
+    {
+      "id": "/Hipercor_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "destacado",
+          "type": "INTEGER",
+          "value": "9999999"
+        },
+        {
+          "id": "MostrarSoloRebajado",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "FechaDePublicacionHPR",
+          "type": "DATE",
+          "value": "20170613_000000"
+        },
+        {
+          "id": "DespublicadoPorMargen",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "DespublicadoPorStock",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "MotivoPubDesHPR",
+          "type": "LOOKUP_TABLE",
+          "featureGroupID": "10110",
+          "id_Ext": "233767090",
+          "value": "010"
+        },
+        {
+          "id": "NovedadHPR",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "PublicarAutomaticamenteHPR",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "id": "Foto",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "RepositoryModificationControl",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "IdMensajeAnterior",
+          "type": "NUMBER",
+          "value": "127732348"
+        }
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "productId": "001007750966280   ",
+      "centerId": "0090",
+      "regularPrice": "42.00",
+      "catalogPrice": "45.00",
+      "taxPercentage": "02",
+      "igic": "92"
+    },
+    {
+      "productId": "001007750966280   ",
+      "centerId": "0143",
+      "regularPrice": "45.00",
+      "catalogPrice": "45.00",
+      "taxPercentage": "02",
+      "igic": "92"
+    },
+    {
+      "productId": "001007750966280   ",
+      "centerId": "0143",
+      "regularPrice": "45.00",
+      "catalogPrice": "45.00",
+      "taxPercentage": "02",
+      "igic": "92"
+    },
+    {
+      "productId": "001007750966280   ",
+      "centerId": "0424",
+      "regularPrice": "42.00",
+      "catalogPrice": "45.00",
+      "taxPercentage": "02",
+      "igic": "92"
+    },
+    {
+      "productId": "001007750966280   ",
+      "centerId": "0909",
+      "regularPrice": "44.63",
+      "catalogPrice": "44.63",
+      "taxPercentage": "02",
+      "igic": "92"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id_Ext": "1264225119",
+  "id": "10060022544",
+  "entryContainerID": "6807",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Supermercado Peninsula Jerarquia HPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Codigo",
+          "type": "STRING",
+          "value": "10060022544"
+        },
+        {
+          "id": "Descripcion",
+          "type": "STRING",
+          "children": [
+            {
+              "id": "es_ES",
+              "type": "STRING",
+              "value": "Refresco cola"
+            },
+            {
+              "id": "ca_ES",
+              "type": "STRING",
+              "value": "Refresc cola"
+            },
+            {
+              "id": "en_GB",
+              "type": "STRING",
+              "value": "Cola soft drink"
+            },
+            {
+              "id": "de_DE",
+              "type": "STRING",
+              "value": "Cola-Erfrischungsgetränk"
+            }
+          ]
+        },
+        {
+          "id": "MetadataFechaModificacion",
+          "type": "DATE",
+          "value": "20240214_110250"
+        },
+        {
+          "id": "FechaEntradaProduccion",
+          "type": "DATE",
+          "value": "20190311_000000"
+        },
+        {
+          "id": "Tipo",
+          "type": "STRING",
+          "value": "Variedad"
+        },
+        {
+          "id": "Variedad",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoVariedad",
+              "type": "STRING",
+              "value": "2544"
+            },
+            {
+              "id": "TipoVenta",
+              "type": "LOOKUP_TABLE",
+              "value": "U",
+              "featureGroupID": "6614",
+              "id_Ext": "47143190"
+            },
+            {
+              "id": "TipoVentaDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "Unidad"
+            },
+            {
+              "id": "Orden",
+              "type": "STRING",
+              "value": "0002"
+            }
+          ]
+        },
+        {
+          "id": "skipPostProcessing",
+          "type": "STRING",
+          "value": "FALSE"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "1264225119"
+        },
+        {
+          "id": "OrdenGlovo",
+          "type": "INTEGER",
+          "value": "617"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "id_Ext": "185119",
+      "hierarchyId": "6807",
+      "categoryId": "1006002"
+    }
+  ]
+}

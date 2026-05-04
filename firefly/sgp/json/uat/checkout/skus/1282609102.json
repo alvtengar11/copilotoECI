@@ -1,0 +1,996 @@
+{
+  "id": "052018610202097   ",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Supermercado Portugal CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Codigo",
+          "type": "STRING",
+          "value": "5218610202097"
+        },
+        {
+          "id": "Informacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "MetadataEstado",
+              "type": "STRING_ENUMERATION",
+              "value": "Revisado"
+            },
+            {
+              "id": "CategoriaSupermercado",
+              "type": "STRING",
+              "value": "Supermercado/Águas, Sumos e Refrigerantes/Refrigerantes/Refrigerante com gás"
+            },
+            {
+              "id": "Reasignado",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Descripcion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoMarca",
+              "type": "LOOKUP_TABLE",
+              "value": "08104",
+              "idExt": "48963190",
+              "featureGroupID": "6603",
+              "id_Ext": "48963190"
+            },
+            {
+              "id": "MarcaDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "Pepsi"
+            },
+            {
+              "id": "DescripcionVariedad",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "pt_PT",
+                  "type": "STRING",
+                  "value": "Refrigerante com Gás"
+                }
+              ]
+            },
+            {
+              "id": "CodigoPresentacion",
+              "type": "LOOKUP_TABLE",
+              "value": "GFA.",
+              "idExt": "55880190",
+              "featureGroupID": "6613",
+              "id_Ext": "55880190"
+            },
+            {
+              "id": "PresentacionDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "garrafa"
+            },
+            {
+              "id": "CodigoPresentacionHidden",
+              "type": "STRING",
+              "value": "GFA."
+            },
+            {
+              "id": "Cantidad",
+              "type": "STRING",
+              "value": "1,75"
+            },
+            {
+              "id": "CodigoFormato",
+              "type": "LOOKUP_TABLE",
+              "value": "L",
+              "idExt": "47246190",
+              "featureGroupID": "6611",
+              "id_Ext": "47246190"
+            },
+            {
+              "id": "FormatoDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "L"
+            },
+            {
+              "id": "CodigoFormatoHidden",
+              "type": "STRING",
+              "value": "L"
+            },
+            {
+              "id": "DescripcionArticulo",
+              "type": "STRING",
+              "value": "Pepsi Refrigerante com Gás garrafa 1,75 L"
+            },
+            {
+              "id": "Temporal",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Visible",
+                  "type": "FLAG",
+                  "value": "true"
+                }
+              ]
+            },
+            {
+              "id": "DescripcionTicket",
+              "type": "STRING",
+              "children": [
+                {
+                  "id": "pt_PT",
+                  "type": "STRING",
+                  "value": "REFR.PEPSI"
+                }
+              ]
+            },
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Venta",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoTipoVenta",
+              "type": "LOOKUP_TABLE",
+              "value": "U",
+              "idExt": "58716190",
+              "featureGroupID": "6615",
+              "id_Ext": "58716190"
+            },
+            {
+              "id": "TipoVentaDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "Unidad"
+            },
+            {
+              "id": "CodigoTipoVentaHidden",
+              "type": "STRING",
+              "value": "U"
+            },
+            {
+              "id": "EsProductoAlCorte",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "UsuarioSalvadoAlCorte",
+              "type": "STRING",
+              "value": "PostProcesing"
+            },
+            {
+              "id": "FechaSalvadoAlCorte",
+              "type": "DATE",
+              "value": "20260220_132837"
+            }
+          ]
+        },
+        {
+          "id": "Imagenes",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "ImagenDiminutaUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202402/06/05218610202097____3__40x40.jpg"
+            },
+            {
+              "id": "ImagenPequenaUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202402/06/05218610202097____3__75x75.jpg"
+            },
+            {
+              "id": "ImagenMedianaUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202402/06/05218610202097____3__150x150.jpg"
+            },
+            {
+              "id": "ImagenGrandeUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202402/06/05218610202097____3__600x600.jpg"
+            },
+            {
+              "id": "ImagenPrincipalUrl",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202402/06/05218610202097____3__325x325.jpg"
+            },
+            {
+              "id": "Imagen520x520Url",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202402/06/05218610202097____3__520x520.jpg"
+            },
+            {
+              "id": "Imagen520x640Url",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202402/06/05218610202097____3__520x640.jpg"
+            },
+            {
+              "id": "Imagen1200x1200Url",
+              "type": "IMAGE_URL",
+              "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202402/06/05218610202097____3__1200x1200.jpg"
+            },
+            {
+              "id": "Mobile",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "UrlTamVariablePrincipal",
+                  "type": "IMAGE_URL",
+                  "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202402/06/05218610202097____3__1x1.png"
+                },
+                {
+                  "id": "UrlTamVariableGrande",
+                  "type": "IMAGE_URL",
+                  "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202402/06/05218610202097____3__380x380.png"
+                },
+                {
+                  "id": "UrlTamVariableMediana",
+                  "type": "IMAGE_URL",
+                  "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202402/06/05218610202097____3__300x300.png"
+                },
+                {
+                  "id": "UrlTamVariablePequena",
+                  "type": "IMAGE_URL",
+                  "value": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202402/06/05218610202097____3__200x200.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FechaAlta",
+          "type": "DATE",
+          "value": "20190424_004138"
+        },
+        {
+          "id": "MetadataFechaModificacion",
+          "type": "DATE",
+          "value": "20240126_014112"
+        },
+        {
+          "id": "Publicacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoRegion",
+              "type": "STRING",
+              "value": "Supermercado Portugal"
+            },
+            {
+              "id": "Promocion",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "Publicado",
+              "type": "FLAG",
+              "value": "true"
+            },
+            {
+              "id": "PublicadoEnum",
+              "type": "STRING_ENUMERATION",
+              "value": "Publicar"
+            },
+            {
+              "id": "FechaDesde",
+              "type": "DATE",
+              "value": "20200327_102532"
+            },
+            {
+              "id": "IndicadorBloqueoPublicacionConceptosSAP",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "MetadataPerecedero",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Codificacion",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Referencia",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoReferencia",
+                  "type": "STRING",
+                  "value": "18610202097"
+                },
+                {
+                  "id": "CodigoUneco",
+                  "type": "STRING",
+                  "value": "186"
+                },
+                {
+                  "id": "CodigoFamilia",
+                  "type": "STRING",
+                  "value": "102"
+                },
+                {
+                  "id": "CodigoBarra",
+                  "type": "STRING",
+                  "value": "02097"
+                }
+              ]
+            },
+            {
+              "id": "NumeroMaterialSAP",
+              "type": "STRING",
+              "value": "000000000108621702"
+            },
+            {
+              "id": "Ean",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "5601151974018"
+                }
+              ]
+            },
+            {
+              "id": "TipoGestion",
+              "type": "STRING",
+              "value": "14"
+            },
+            {
+              "id": "Proveedor",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoProveedor",
+                  "type": "STRING",
+                  "value": "0983874"
+                },
+                {
+                  "id": "ProveedorDescripcion",
+                  "type": "STRING",
+                  "value": "SUMOL COMPAL MARCAS, S.A"
+                },
+                {
+                  "id": "ReferenciaFabricante",
+                  "type": "STRING",
+                  "value": "5601151974018"
+                },
+                {
+                  "id": "Proveedor",
+                  "type": "RELATIONSHIP",
+                  "value": "010983874",
+                  "idExt": "553726160",
+                  "id_Ext": "553726160",
+                  "groupID": "666"
+                }
+              ]
+            },
+            {
+              "id": "CodigoCalificacion1",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "CodigoCalificacion2",
+              "type": "STRING",
+              "value": "A"
+            },
+            {
+              "id": "CodigoCalificacion4",
+              "type": "STRING",
+              "value": "JD"
+            },
+            {
+              "id": "CodigoCalificacion5",
+              "type": "STRING",
+              "value": "BA"
+            },
+            {
+              "id": "Descripcion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoMarcaCodificacion",
+                  "type": "STRING",
+                  "value": "PEPSI"
+                },
+                {
+                  "id": "DescripcionArticuloCodificacion",
+                  "type": "STRING",
+                  "value": "REFRIGERANTE PEPSI GFA. 1,750"
+                },
+                {
+                  "id": "Variedad1",
+                  "type": "STRING",
+                  "value": "REFRIGERANTE"
+                },
+                {
+                  "id": "Variedad2",
+                  "type": "STRING",
+                  "value": "PEPSI"
+                },
+                {
+                  "id": "PresentacionCodificacion",
+                  "type": "STRING",
+                  "value": "GFA."
+                },
+                {
+                  "id": "CantidadCodificacion",
+                  "type": "STRING",
+                  "value": "1,750"
+                },
+                {
+                  "id": "FormatoCodificacion",
+                  "type": "STRING",
+                  "value": "L"
+                }
+              ]
+            },
+            {
+              "id": "IndicadorBalanza",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "PesoPiezaCodificacion",
+              "type": "STRING",
+              "value": "0.0"
+            },
+            {
+              "id": "Entorno",
+              "type": "STRING",
+              "value": "4"
+            },
+            {
+              "id": "CodigoCompraEmpresa",
+              "type": "STRING",
+              "value": "80"
+            },
+            {
+              "id": "CodigoCompraReferencia",
+              "type": "STRING",
+              "value": "8018610202089"
+            },
+            {
+              "id": "FechaAgenda",
+              "type": "DATE",
+              "value": "20190423_000000"
+            },
+            {
+              "id": "EnlacePUM",
+              "type": "LOOKUP_TABLE",
+              "value": "004",
+              "idExt": "26847190",
+              "featureGroupID": "6618",
+              "id_Ext": "26847190"
+            },
+            {
+              "id": "GPER",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "IsMercanciaGeneral",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "CantidadProducto",
+              "type": "STRING",
+              "value": "000001,750"
+            },
+            {
+              "id": "UnidadesProducto",
+              "type": "STRING",
+              "value": "001"
+            },
+            {
+              "id": "UnidadEmbalaje",
+              "type": "STRING",
+              "value": "6"
+            },
+            {
+              "id": "UnidadSurtido",
+              "type": "STRING",
+              "value": "6"
+            },
+            {
+              "id": "UnidadDeMedidaBase",
+              "type": "STRING",
+              "value": "UNI"
+            },
+            {
+              "id": "StockInfinito",
+              "type": "FLAG",
+              "value": "false"
+            },
+            {
+              "id": "VentaSinStock",
+              "type": "FLAG",
+              "value": "false"
+            }
+          ]
+        },
+        {
+          "id": "Excepciones",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "Regiones",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "CodigoRegion",
+                  "type": "LOOKUP_TABLE",
+                  "value": "CANARIAS",
+                  "idExt": "26867190",
+                  "featureGroupID": "6619",
+                  "id_Ext": "26867190"
+                },
+                {
+                  "id": "Temporal",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Anulacion",
+                      "type": "FLAG",
+                      "value": "true"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Enviado",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "TipoDocumentacion",
+          "type": "STRING",
+          "value": "Gran Consumo"
+        },
+        {
+          "id": "IsInWorkFlow",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Filled",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "1282609102"
+        },
+        {
+          "id": "NumDiasCadGarantizadaRef",
+          "type": "INTEGER",
+          "value": "0"
+        },
+        {
+          "id": "EansVariantes",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "EanVariante",
+              "type": "GROUPING",
+              "ocurrence": 0,
+              "children": [
+                {
+                  "id": "CodigoVariante",
+                  "type": "RELATIONSHIP",
+                  "value": "5601151974018",
+                  "idExt": "1282608159",
+                  "id_Ext": "1282608159",
+                  "groupID": "6636"
+                },
+                {
+                  "id": "CodigoEan",
+                  "type": "STRING",
+                  "value": "5601151974018"
+                },
+                {
+                  "id": "FechaAltaEanCompras",
+                  "type": "DATE",
+                  "value": "20190423_000000"
+                },
+                {
+                  "id": "FechaHastaEanPromocional",
+                  "type": "DATE",
+                  "value": "20190424_000000"
+                },
+                {
+                  "id": "EsEanCompraPrincipal",
+                  "type": "FLAG",
+                  "value": "true"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Modificado",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Oferta",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "EciExpress",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "EsAlcohol",
+          "type": "FLAG",
+          "value": "false"
+        },
+        {
+          "id": "Buscable",
+          "type": "FLAG",
+          "value": "true"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "Pais",
+                  "type": "STRING",
+                  "value": "PT"
+                },
+                {
+                  "id": "ConceptoRegulacion",
+                  "type": "STRING",
+                  "value": "06"
+                },
+                {
+                  "id": "CodigoRegulacion",
+                  "type": "STRING",
+                  "value": "001"
+                },
+                {
+                  "id": "Unidades",
+                  "type": "INTEGER",
+                  "value": "1"
+                }
+              ],
+              "id": "RegulacionesSap",
+              "ocurrence": 0,
+              "type": "GROUPING"
+            }
+          ],
+          "id": "DatoMaestro",
+          "type": "GROUPING"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "hierarchyId": "27202",
+      "categoryId": "0001",
+      "idExt": "1112",
+      "id_Ext": "1112"
+    },
+    {
+      "hierarchyId": "6808",
+      "categoryId": "17776785380",
+      "idExt": "11021120",
+      "id_Ext": "11021120"
+    },
+    {
+      "hierarchyId": "6810",
+      "categoryId": "520141",
+      "idExt": "333803124",
+      "id_Ext": "333803124"
+    },
+    {
+      "hierarchyId": "6810",
+      "categoryId": "520158",
+      "idExt": "8700124",
+      "id_Ext": "8700124"
+    },
+    {
+      "hierarchyId": "6810",
+      "categoryId": "520157",
+      "idExt": "333804124",
+      "id_Ext": "333804124"
+    },
+    {
+      "hierarchyId": "6804",
+      "categoryId": "52186102",
+      "idExt": "9464114",
+      "id_Ext": "9464114"
+    },
+    {
+      "hierarchyId": "6810",
+      "categoryId": "520155",
+      "idExt": "8698124",
+      "id_Ext": "8698124"
+    },
+    {
+      "hierarchyId": "6810",
+      "categoryId": "520144",
+      "idExt": "1505526124",
+      "id_Ext": "1505526124"
+    },
+    {
+      "hierarchyId": "6810",
+      "categoryId": "520142",
+      "idExt": "8697124",
+      "id_Ext": "8697124"
+    },
+    {
+      "hierarchyId": "6810",
+      "categoryId": "520145",
+      "idExt": "333802124",
+      "id_Ext": "333802124"
+    },
+    {
+      "hierarchyId": "6810",
+      "categoryId": "520140",
+      "idExt": "8696124",
+      "id_Ext": "8696124"
+    }
+  ],
+  "specificAttribs": [
+    {
+      "id": "/Alimentacion Portugal ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "InformacionGeneral6",
+          "type": "STRING",
+          "children": [
+            {
+              "id": "pt_PT",
+              "type": "STRING",
+              "value": "<BR>SUMOL+COMPAL, S.A.</BR>Rua Dr. António João Eusébio, 24. \n2790-179 Carnaxide - Portugal.</BR>"
+            }
+          ]
+        },
+        {
+          "id": "InformacionGeneral7",
+          "type": "STRING",
+          "children": [
+            {
+              "id": "pt_PT",
+              "type": "STRING",
+              "value": "<BR><strong>Declaração nutricional para: 100 Mililitro</strong><BR>Lista de nutrientes: energia 78 Quilojoule; energia 18 Quilocaloria; lípidos 0 Grama; lípidos > saturados 0 Grama; hidratos de carbono 4.6 Grama; hidratos de carbono > açúcares 4.6 Grama; proteínas 0 Grama; sal  0 Grama;"
+            }
+          ]
+        },
+        {
+          "id": "InformacionGeneral9",
+          "type": "STRING",
+          "children": [
+            {
+              "id": "pt_PT",
+              "type": "STRING",
+              "value": "Dose de referência para um adulto médio (8400 kJ/2000 kcal)"
+            }
+          ]
+        },
+        {
+          "id": "Ingredientes",
+          "type": "STRING",
+          "children": [
+            {
+              "id": "pt_PT",
+              "type": "STRING",
+              "value": "Água gaseificada, açúcar, corante: E 150d, acidificante: ácido fosfórico, aromas (contém cafeína), edulcorantes (acessulfame K, sucralose)."
+            }
+          ]
+        },
+        {
+          "id": "ActivarDocPropia",
+          "type": "FLAG",
+          "value": "true"
+        }
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "containerId": "6640",
+      "offerPrice": "1.99",
+      "offerType": "01",
+      "globalDiscount": "",
+      "avaliable": "true",
+      "startDate": "20200327",
+      "endDate": "",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "productId": "052018610202097   ",
+      "centerId": "0140",
+      "regularPrice": "1.99",
+      "idExt": "12826091020140199",
+      "taxPercentage": "02",
+      "igic": "02",
+      "id_Ext": "12826091020140199",
+      "TaxPercentage": "02",
+      "Igic": "02"
+    },
+    {
+      "containerId": "6640",
+      "offerPrice": "1.99",
+      "offerType": "01",
+      "globalDiscount": "",
+      "avaliable": "true",
+      "startDate": "20200327",
+      "endDate": "",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "productId": "052018610202097   ",
+      "centerId": "0141",
+      "regularPrice": "1.99",
+      "idExt": "12826091020141199",
+      "taxPercentage": "02",
+      "igic": "02",
+      "id_Ext": "12826091020141199",
+      "TaxPercentage": "02",
+      "Igic": "02"
+    },
+    {
+      "containerId": "6640",
+      "offerPrice": "1.99",
+      "offerType": "01",
+      "globalDiscount": "",
+      "avaliable": "true",
+      "startDate": "20200327",
+      "endDate": "",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "productId": "052018610202097   ",
+      "centerId": "0142",
+      "regularPrice": "1.99",
+      "idExt": "12826091020142199",
+      "taxPercentage": "02",
+      "igic": "02",
+      "id_Ext": "12826091020142199",
+      "TaxPercentage": "02",
+      "Igic": "02"
+    },
+    {
+      "containerId": "6640",
+      "offerPrice": "1.99",
+      "offerType": "01",
+      "globalDiscount": "",
+      "avaliable": "true",
+      "startDate": "20210303",
+      "endDate": "",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "productId": "052018610202097   ",
+      "centerId": "0144",
+      "regularPrice": "1.99",
+      "idExt": "12826091020144199",
+      "taxPercentage": "02",
+      "igic": "02",
+      "id_Ext": "12826091020144199",
+      "TaxPercentage": "02",
+      "Igic": "02"
+    },
+    {
+      "containerId": "6640",
+      "offerPrice": "1.99",
+      "offerType": "01",
+      "globalDiscount": "",
+      "avaliable": "true",
+      "startDate": "20200327",
+      "endDate": "",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "productId": "052018610202097   ",
+      "centerId": "0145",
+      "regularPrice": "1.99",
+      "idExt": "12826091020145199",
+      "taxPercentage": "02",
+      "igic": "02",
+      "id_Ext": "12826091020145199",
+      "TaxPercentage": "02",
+      "Igic": "02"
+    },
+    {
+      "containerId": "6640",
+      "offerPrice": "1.99",
+      "offerType": "01",
+      "globalDiscount": "",
+      "avaliable": "true",
+      "startDate": "20200327",
+      "endDate": "",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "productId": "052018610202097   ",
+      "centerId": "0155",
+      "regularPrice": "1.99",
+      "idExt": "12826091020155199",
+      "taxPercentage": "02",
+      "igic": "02",
+      "id_Ext": "12826091020155199",
+      "TaxPercentage": "02",
+      "Igic": "02"
+    },
+    {
+      "containerId": "6640",
+      "offerPrice": "1.99",
+      "offerType": "01",
+      "globalDiscount": "",
+      "avaliable": "true",
+      "startDate": "20200327",
+      "endDate": "",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "productId": "052018610202097   ",
+      "centerId": "0157",
+      "regularPrice": "1.99",
+      "idExt": "12826091020157199",
+      "taxPercentage": "02",
+      "igic": "02",
+      "id_Ext": "12826091020157199",
+      "TaxPercentage": "02",
+      "Igic": "02"
+    },
+    {
+      "containerId": "6640",
+      "offerPrice": "1.99",
+      "offerType": "01",
+      "globalDiscount": "",
+      "avaliable": "true",
+      "startDate": "20200327",
+      "endDate": "",
+      "delete": "false",
+      "applyGlobalDiscount": "false",
+      "depublishStartDate": "",
+      "depublishEndDate": "",
+      "productId": "052018610202097   ",
+      "centerId": "0158",
+      "regularPrice": "1.99",
+      "idExt": "12826091020158199",
+      "taxPercentage": "02",
+      "igic": "02",
+      "id_Ext": "12826091020158199",
+      "TaxPercentage": "02",
+      "Igic": "02"
+    }
+  ],
+  "idExt": "1282609102",
+  "id_Ext": "1282609102",
+  "entryContainerID": "6640"
+}

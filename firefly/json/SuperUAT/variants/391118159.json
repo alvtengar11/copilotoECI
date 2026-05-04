@@ -1,0 +1,842 @@
+{
+  "id_Ext": "391118159",
+  "id": "8410032003160",
+  "entryContainerID": "6636",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Variantes_CPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Code",
+          "type": "STRING",
+          "value": "8410032003160"
+        },
+        {
+          "id": "EAN",
+          "type": "STRING",
+          "value": "8410032003160"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "391118159"
+        },
+        {
+          "id": "Fechas",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "FechaCreacion",
+              "type": "DATE",
+              "value": "20141113_000000"
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20141113_000000"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "specificAttribs": [
+    {
+      "id": "/Informacion_Alimentaria_ISS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Gtin",
+          "type": "STRING",
+          "value": "08410032003160"
+        },
+        {
+          "id": "Mercado",
+          "type": "GROUPING",
+          "ocurrence": 0,
+          "children": [
+            {
+              "id": "MercadoObjetivo",
+              "type": "STRING",
+              "value": "724"
+            },
+            {
+              "id": "Basicos",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "CodigoMarca",
+                  "type": "STRING",
+                  "value": "ALBO"
+                }
+              ]
+            },
+            {
+              "id": "DatosProducto",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "DenominacionAlimento",
+                  "type": "STRING",
+                  "children": [
+                    {
+                      "id": "es_ES",
+                      "type": "STRING",
+                      "value": "Atún claro en escabeche"
+                    }
+                  ]
+                },
+                {
+                  "id": "Operador",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "Nombre",
+                      "type": "STRING",
+                      "value": "HIJOS DE CARLOS ALBO S.L."
+                    },
+                    {
+                      "id": "Direccion",
+                      "type": "STRING",
+                      "value": "Rúa Jacinto Benavente, 41, 36208 Vigo, Pontevedra ESPAÑA"
+                    }
+                  ]
+                },
+                {
+                  "id": "MarcasProducto",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "SignoE",
+                      "type": "FLAG",
+                      "value": "false"
+                    }
+                  ]
+                },
+                {
+                  "id": "Medidas",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "ContenidoNeto",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "112"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "GR",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387540190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "PesoNetoEscurrido",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "0.082"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "KG",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387559190"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Alimentacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Alergenicos",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "DescripcionAlergenicos",
+                      "type": "STRING",
+                      "children": [
+                        {
+                          "id": "es_ES",
+                          "type": "STRING",
+                          "value": "Contiene Pescado. Libre de Gluten."
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AW",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386189190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FREE_FROM",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386176190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Alergeno",
+                      "type": "GROUPING",
+                      "ocurrence": 1,
+                      "children": [
+                        {
+                          "id": "Codigo",
+                          "type": "LOOKUP_TABLE",
+                          "value": "AF",
+                          "featureGroupID": "6638",
+                          "id_Ext": "386180190"
+                        },
+                        {
+                          "id": "NivelPresencia",
+                          "type": "LOOKUP_TABLE",
+                          "value": "CONTAINS",
+                          "featureGroupID": "6646",
+                          "id_Ext": "386174190"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Ingredientes",
+                  "type": "GROUPING",
+                  "children": [
+                    {
+                      "id": "DescripcionIngredientes",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Descripcion",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Atún claro, vinagre de vino, aceite de girasol y sal."
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PatronResaltado",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "(1,em),(11,/em)"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "DescripcionResaltada",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "#!#Atún claro#!#, vinagre de vino, aceite de girasol y sal."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Atún claro"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "true"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 1,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Vinagre de vino"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 2,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Aceite de girasol"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "3"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ingrediente",
+                      "type": "GROUPING",
+                      "ocurrence": 3,
+                      "children": [
+                        {
+                          "id": "Nombre",
+                          "type": "STRING",
+                          "children": [
+                            {
+                              "id": "es_ES",
+                              "type": "STRING",
+                              "value": "Sal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Resaltado",
+                          "type": "FLAG",
+                          "value": "false"
+                        },
+                        {
+                          "id": "Orden",
+                          "type": "STRING",
+                          "value": "4"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Nutrientes",
+                  "type": "GROUPING",
+                  "ocurrence": 0,
+                  "children": [
+                    {
+                      "id": "EstadoPreparacion",
+                      "type": "LOOKUP_TABLE",
+                      "value": "UNPREPARED",
+                      "featureGroupID": "6652",
+                      "id_Ext": "387413190"
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 0,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "ENER-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387422190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "484"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "KJO",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387561190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 1,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "ENERC",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387421190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "115"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "E14",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387527190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 2,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FAT",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387425190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "4.8"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 3,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "FASAT",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387426190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0.5"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 4,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "CHOAVL",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387416190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 5,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "SUGAR-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387447190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 6,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "PRO-",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387442190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "18"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 7,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "SALTEQ",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387444190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "0.8"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "GR",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387540190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 8,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "P",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387439190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "170"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "ME",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387573190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        },
+                        {
+                          "id": "PorcentajeCantDiariaRecom",
+                          "type": "STRING",
+                          "value": "24"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Nutriente",
+                      "type": "GROUPING",
+                      "ocurrence": 9,
+                      "children": [
+                        {
+                          "id": "CodigoINFOOD",
+                          "type": "LOOKUP_TABLE",
+                          "value": "NIA",
+                          "featureGroupID": "6650",
+                          "id_Ext": "387438190"
+                        },
+                        {
+                          "id": "CantidadContenida",
+                          "type": "GROUPING",
+                          "children": [
+                            {
+                              "id": "Cantidad",
+                              "type": "STRING",
+                              "value": "14"
+                            },
+                            {
+                              "id": "UM",
+                              "type": "LOOKUP_TABLE",
+                              "value": "ME",
+                              "featureGroupID": "6653",
+                              "id_Ext": "387573190"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PrecisionMedida",
+                          "type": "LOOKUP_TABLE",
+                          "value": "APPROXIMATELY",
+                          "featureGroupID": "6648",
+                          "id_Ext": "387409190"
+                        },
+                        {
+                          "id": "PorcentajeCantDiariaRecom",
+                          "type": "STRING",
+                          "value": "88"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "TamanoRacion",
+                      "type": "GROUPING",
+                      "children": [
+                        {
+                          "id": "Cantidad",
+                          "type": "STRING",
+                          "value": "100"
+                        },
+                        {
+                          "id": "UM",
+                          "type": "LOOKUP_TABLE",
+                          "value": "GR",
+                          "featureGroupID": "6653",
+                          "id_Ext": "387540190"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ProveedorInformacion",
+              "type": "GROUPING",
+              "children": [
+                {
+                  "id": "Codigo",
+                  "type": "STRING",
+                  "value": "8410032000015"
+                },
+                {
+                  "id": "Descripcion",
+                  "type": "STRING",
+                  "value": "HIJOS DE CARLOS ALBO S.L."
+                }
+              ]
+            },
+            {
+              "id": "FechaModificacion",
+              "type": "DATE",
+              "value": "20201210_212204"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+SET DEFINE OFF;
+
+-------------------------------------------------
+--       PD00000460-10010418
+-------------------------------------------------
+-- Productos de departamentos 0021 para CnC
+delete FROM ECI_SITE_TO_STORE.ECI_STS_SKUS
+WHERE CATALOG_REF_ID in (
+'001002112100017038',
+'001002112100058038'
+);
+
+Insert into ECI_STS_SKUS (COMPANY_ID,CATALOG_REF_ID,IDX) values ('001','001002112100017038','9479');
+Insert into ECI_STS_SKUS (COMPANY_ID,CATALOG_REF_ID,IDX) values ('002','001002112100017038','9480');
+Insert into ECI_STS_SKUS (COMPANY_ID,CATALOG_REF_ID,IDX) values ('004','001002112100017038','9481');
+Insert into ECI_STS_SKUS (COMPANY_ID,CATALOG_REF_ID,IDX) values ('006','001002112100017038','9482');
+Insert into ECI_STS_SKUS (COMPANY_ID,CATALOG_REF_ID,IDX) values ('001','001002112100058038','9483');
+Insert into ECI_STS_SKUS (COMPANY_ID,CATALOG_REF_ID,IDX) values ('002','001002112100058038','9484');
+Insert into ECI_STS_SKUS (COMPANY_ID,CATALOG_REF_ID,IDX) values ('004','001002112100058038','9485');
+Insert into ECI_STS_SKUS (COMPANY_ID,CATALOG_REF_ID,IDX) values ('006','001002112100058038','9486');
+
+
+DELETE FROM ECI_SITE_TO_STORE.click_and_collect_availability WHERE CATALOG_REF_ID in (
+'001002112100017038',
+'001002112100058038'
+);
+
+Insert into CLICK_AND_COLLECT_AVAILABILITY (CATALOG_REF_ID,UNIQUE_CODE,COMPANY_ID) values ('001002112100017038','000001425991700038','001');
+Insert into CLICK_AND_COLLECT_AVAILABILITY (CATALOG_REF_ID,UNIQUE_CODE,COMPANY_ID) values ('001002112100058038','000001429368060038','001');
+
+-- Dar CnC Hipercor 
+
+DELETE FROM ECI_SITE_TO_STORE.click_and_collect_hipercor WHERE CATALOG_REF_ID in (
+'001002112100017038',
+'001002112100058038'
+);
+
+insert into click_and_collect_hipercor (catalog_ref_id,unique_code, sell_company_id) values ('001002112100017038','000001425991700038','001');
+insert into click_and_collect_hipercor (catalog_ref_id,unique_code, sell_company_id) values ('001002112100058038','000001429368060038','001');
+
+COMMIT;
+-------------------------------------------------

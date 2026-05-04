@@ -1,0 +1,110 @@
+{
+  "id_Ext": "1307119",
+  "id": "10500015001",
+  "entryContainerID": "6807",
+  "movement": "MODIFIED",
+  "coreAttribs": [
+    {
+      "id": "/Supermercado Peninsula Jerarquia HPS",
+      "type": "SPEC",
+      "children": [
+        {
+          "id": "Codigo",
+          "type": "STRING",
+          "value": "10500015001"
+        },
+        {
+          "id": "Descripcion",
+          "type": "STRING",
+          "children": [
+            {
+              "id": "es_ES",
+              "type": "STRING",
+              "value": "Cítricos"
+            },
+            {
+              "id": "ca_ES",
+              "type": "STRING",
+              "value": "Cítrics"
+            },
+            {
+              "id": "en_GB",
+              "type": "STRING",
+              "value": "Citrus"
+            },
+            {
+              "id": "de_DE",
+              "type": "STRING",
+              "value": "Zitrusfrüchte"
+            }
+          ]
+        },
+        {
+          "id": "MetadataFechaModificacion",
+          "type": "DATE",
+          "value": "20241202_110403"
+        },
+        {
+          "id": "FechaEntradaProduccion",
+          "type": "DATE",
+          "value": "20050822_010000"
+        },
+        {
+          "id": "Tipo",
+          "type": "STRING",
+          "value": "Variedad"
+        },
+        {
+          "id": "Variedad",
+          "type": "GROUPING",
+          "children": [
+            {
+              "id": "CodigoVariedad",
+              "type": "STRING",
+              "value": "5001"
+            },
+            {
+              "id": "TipoVenta",
+              "type": "LOOKUP_TABLE",
+              "value": "A",
+              "featureGroupID": "6614",
+              "id_Ext": "47138190"
+            },
+            {
+              "id": "TipoVentaDescripcion",
+              "type": "STRING_ENUMERATION",
+              "value": "Peso o Pieza"
+            },
+            {
+              "id": "Orden",
+              "type": "STRING",
+              "value": "9999"
+            }
+          ]
+        },
+        {
+          "id": "skipPostProcessing",
+          "type": "STRING",
+          "value": "FALSE"
+        },
+        {
+          "id": "ExternalCode",
+          "type": "STRING",
+          "value": "1307119"
+        },
+        {
+          "id": "OrdenGlovo",
+          "type": "INTEGER",
+          "value": "1304"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "id_Ext": "1306119",
+      "hierarchyId": "6807",
+      "categoryId": "1050001"
+    }
+  ]
+}

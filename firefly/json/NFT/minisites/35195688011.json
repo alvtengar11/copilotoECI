@@ -1,0 +1,185 @@
+{
+	"id_Ext": "35195688011",
+	"id": "20200522113412",
+	"entryContainerID": "997",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Campania_HPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "35195688011"
+				},
+				{
+					"id": "Key",
+					"type": "STRING",
+					"value": "20200522113412"
+				},
+				{
+					"id": "KeyATG",
+					"type": "STRING",
+					"value": "1590140052"
+				},
+				{
+					"id": "Type",
+					"type": "LOOKUP_TABLE",
+					"featureGroupID": "1026",
+					"id_Ext": "348613090",
+					"value": "N"
+				},
+				{
+					"id": "Description",
+					"type": "STRING",
+					"children": [
+						{
+							"id": "es_ES",
+							"type": "STRING",
+							"value": "Infantiles"
+						}
+					]
+				},
+				{
+					"id": "StartDate",
+					"type": "DATE",
+					"value": "20200505_112800"
+				},
+				{
+					"id": "FinishDate",
+					"type": "DATE",
+					"value": "20250726_124500"
+				},
+				{
+					"id": "Sangrado",
+					"type": "STRING_ENUMERATION",
+					"value": "null"
+				},
+				{
+					"id": "DiasNovedad",
+					"type": "STRING_ENUMERATION",
+					"value": "15"
+				},
+				{
+					"id": "BestSellersExcluded",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Site",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "JerarquiaVenta",
+							"type": "STRING_ENUMERATION",
+							"value": "Jerarquía de Venta"
+						},
+						{
+							"id": "Categoria",
+							"ocurrence": 0,
+							"type": "STRING_ENUMERATION",
+							"value": "Libros"
+						},
+						{
+							"id": "CodCategoria",
+							"ocurrence": 0,
+							"type": "STRING",
+							"value": "533"
+						}
+					]
+				},
+				{
+					"id": "TipoSite",
+					"type": "STRING_ENUMERATION",
+					"value": "Puntual"
+				},
+				{
+					"id": "LimpiezaCampanas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Prioridad",
+							"type": "INTEGER",
+							"value": "100"
+						}
+					]
+				},
+				{
+					"id": "SiteDeCampana",
+					"ocurrence": 0,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SiteC",
+							"type": "STRING_ENUMERATION",
+							"value": "ECI"
+						},
+						{
+							"id": "Tienda",
+							"ocurrence": 0,
+							"type": "STRING_ENUMERATION",
+							"value": "Libros"
+						},
+						{
+							"id": "index",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "follow",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "SiteDeCampana",
+					"ocurrence": 1,
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SiteC",
+							"type": "STRING_ENUMERATION",
+							"value": "Hipercor"
+						},
+						{
+							"id": "Tienda",
+							"ocurrence": 0,
+							"type": "STRING_ENUMERATION",
+							"value": "Libros"
+						},
+						{
+							"id": "index",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "follow",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "RepositoryModificationControl",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "IdMensajeAnterior",
+					"type": "NUMBER",
+					"value": "400949861"
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "35195687011",
+			"hierarchyId": "997",
+			"categoryId": "20200522113137",
+			"order": "1"
+		}
+	]
+}

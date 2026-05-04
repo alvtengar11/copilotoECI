@@ -1,0 +1,1206 @@
+ {
+	"id_Ext": "85070101",
+	"id": "001018246100061",
+	"entryContainerID": "6639",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Product_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Buscable",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "DimensionesYPeso",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PUM",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "UnidadesProducto",
+									"type": "STRING",
+									"value": "001"
+								},
+								{
+									"id": "EnlacePUM",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6618",
+									"id_Ext": "26844190",
+									"value": "001"
+								},
+								{
+									"id": "CantidadProducto",
+									"type": "NUMBER",
+									"value": "1.000"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "EciExpress",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "Multimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fotos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "MainFotos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "UrlImagen440x440",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201411/25/00118246100061____1__325x325.jpg"
+										},
+										{
+											"id": "UrlImagen640x640",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201411/25/00118246100061____1__600x600.jpg"
+										},
+										{
+											"id": "UrlImagen210x210",
+											"type": "IMAGE_URL",
+											"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201411/25/00118246100061____1__150x150.jpg"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "GestionComprasStock",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "TipoDeGestion",
+							"type": "STRING",
+							"value": "23"
+						},
+						{
+							"id": "Calificacion5",
+							"type": "STRING",
+							"value": "2P"
+						},
+						{
+							"id": "Calificacion6",
+							"type": "STRING",
+							"value": "CM"
+						},
+						{
+							"id": "Calificacion3",
+							"type": "STRING",
+							"value": "FO"
+						},
+						{
+							"id": "Calificacion4",
+							"type": "STRING",
+							"value": "VV"
+						},
+						{
+							"id": "Calificacion1",
+							"type": "STRING",
+							"value": "A"
+						},
+						{
+							"id": "Calificacion2",
+							"type": "STRING",
+							"value": "VB"
+						}
+					]
+				},
+				{
+					"id": "ProveedorMarca",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Fabricante",
+							"type": "RELATIONSHIP",
+							"groupID": "666",
+							"id_Ext": "505600160",
+							"value": "010250027"
+						},
+						{
+							"id": "NumeroProveedor",
+							"type": "STRING",
+							"value": "0250027"
+						},
+						{
+							"id": "NombreProveedor",
+							"type": "STRING",
+							"value": "PARTIDAS A JUSTIFICAR GRUPO VI"
+						}
+					]
+				},
+				{
+					"id": "General",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "SenyalInternetCodificacion",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "CodigoUnico",
+							"type": "STRING",
+							"value": "000000000105818060"
+						},
+						{
+							"id": "COTRATIE",
+							"type": "STRING",
+							"value": "SUP"
+						},
+						{
+							"id": "DescripcionModeloWeb",
+							"type": "STRING",
+							"value": "Bonito al corte"
+						},
+						{
+							"id": "PedidoPersonalizado",
+							"type": "STRING",
+							"value": " "
+						},
+						{
+							"id": "CodigoEmpresa",
+							"type": "STRING",
+							"value": "01"
+						}
+					]
+				},
+				{
+					"id": "Variantes",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "VariantesModelos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariantesTallas",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTipoPiel",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosColores",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosFormatos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "VariosTamanos",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "CodigoVarianteWeb",
+							"type": "STRING",
+							"value": "B001018246100061"
+						}
+					]
+				},
+				{
+					"id": "Transporte",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Voluminoso",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "401",
+							"id_Ext": "347190090",
+							"value": "No voluminoso"
+						},
+						{
+							"id": "SusceptibleDeEnvolver",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "InStorePickUp",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "400",
+							"id_Ext": "274969090",
+							"value": "Recogida en tienda"
+						},
+						{
+							"id": "DeliveryPoint",
+							"type": "STRING_ENUMERATION",
+							"value": "C"
+						},
+						{
+							"id": "EntregaDomicilio",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "85070101"
+				},
+				{
+					"id": "RefECI",
+					"type": "STRING",
+					"value": "001018246100061   "
+				},
+				{
+					"id": "Precios",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IvaPorcentaje",
+							"type": "STRING",
+							"value": "01"
+						}
+					]
+				}
+			]
+		}
+	],
+	"link": [
+		{
+			"id_Ext": "1348119",
+			"hierarchyId": "6807",
+			"categoryId": "10510035250"
+		},
+		{
+			"id_Ext": "3320113",
+			"hierarchyId": "6803",
+			"categoryId": "01182461"
+		},
+		{
+			"id_Ext": "24385031012",
+			"hierarchyId": "998",
+			"categoryId": "00326"
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Supermercado_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Oferta",
+					"type": "FLAG",
+					"value": "true"
+				},
+				{
+					"id": "ProductoExclusivoEciExpress",
+					"type": "FLAG",
+					"value": "false"
+				},
+				{
+					"id": "Tematicos",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Tematico",
+							"ocurrence": 1,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6604",
+									"id_Ext": "46914190",
+									"value": "refrigerado"
+								}
+							]
+						},
+						{
+							"id": "Tematico",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Codigo",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6604",
+									"id_Ext": "46907190",
+									"value": "al peso"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "NumDiasCadGarantizadaRef",
+					"type": "INTEGER",
+					"value": "0"
+				},
+				{
+					"id": "Excepciones",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Regiones",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoRegion",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6619",
+									"id_Ext": "26867190",
+									"value": "CANARIAS"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Alimentacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "ActivarDocPropia",
+							"type": "FLAG",
+							"value": "false"
+						}
+					]
+				},
+				{
+					"id": "LimiteUnidades",
+					"type": "NUMBER",
+					"value": "100.0"
+				},
+				{
+					"id": "Venta",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "CodigoTipoVenta",
+							"type": "LOOKUP_TABLE",
+							"featureGroupID": "6614",
+							"id_Ext": "47138190",
+							"value": "A"
+						},
+						{
+							"id": "PesoPieza",
+							"type": "STRING",
+							"value": "1500"
+						},
+						{
+							"id": "ProductoDePanificacion",
+							"type": "FLAG",
+							"value": "false"
+						},
+						{
+							"id": "EsProductoAlCorte",
+							"type": "FLAG",
+							"value": "true"
+						}
+					]
+				},
+				{
+					"id": "Codificacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "UnidadesProducto",
+							"type": "STRING",
+							"value": "001"
+						},
+						{
+							"id": "UnidadSurtido",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "UnidadEmbalaje",
+							"type": "STRING",
+							"value": "1"
+						},
+						{
+							"id": "CantidadProducto",
+							"type": "STRING",
+							"value": "000001,000"
+						},
+						{
+							"id": "Proveedor",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Fabricante",
+									"type": "RELATIONSHIP",
+									"groupID": "666",
+									"id_Ext": "505600160",
+									"value": "010250027"
+								},
+								{
+									"id": "Proveedor",
+									"type": "RELATIONSHIP",
+									"groupID": "666",
+									"id_Ext": "505600160",
+									"value": "010250027"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Ordenacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "OrdenacionMarca",
+							"type": "STRING",
+							"value": "020"
+						},
+						{
+							"id": "OrdenacionTamano",
+							"type": "STRING",
+							"value": "40"
+						}
+					]
+				},
+				{
+					"id": "Descripcion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "IndicadorBalanza",
+							"type": "FLAG",
+							"value": "true"
+						},
+						{
+							"id": "DescripcionVariedad",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "de_DE",
+									"type": "STRING",
+									"value": "Bonito frisch geschnitten"
+								},
+								{
+									"id": "ca_ES",
+									"type": "STRING",
+									"value": "Bonitol al tall"
+								},
+								{
+									"id": "en_GB",
+									"type": "STRING",
+									"value": "Freshly cut skipjack tuna"
+								},
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Bonito al corte"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "ArchivosMultimedia",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Imagenes",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "ImagenDiminutaUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201411/25/00118246100061____1__40x40.jpg"
+								},
+								{
+									"id": "ImagenPrincipalUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201411/25/00118246100061____1__325x325.jpg"
+								},
+								{
+									"id": "ImagenPequenaUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201411/25/00118246100061____1__75x75.jpg"
+								},
+								{
+									"id": "ImagenMedianaUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201411/25/00118246100061____1__150x150.jpg"
+								},
+								{
+									"id": "ImagenGrandeUrl",
+									"type": "IMAGE_URL",
+									"value": "http://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201411/25/00118246100061____1__600x600.jpg"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Perecederos",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "Preparacion",
+							"ocurrence": 1,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "TipoPreparacion",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6608",
+									"id_Ext": "47106190",
+									"value": "0029"
+								},
+								{
+									"id": "LiteralDesc",
+									"type": "STRING",
+									"children": [
+										{
+											"id": "es_ES",
+											"type": "STRING",
+											"value": "Trozos de peso aproximado de 60 g."
+										}
+									]
+								},
+								{
+									"id": "TipoVenta",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6614",
+									"id_Ext": "47138190",
+									"value": "A"
+								}
+							]
+						},
+						{
+							"id": "Preparacion",
+							"ocurrence": 0,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "TipoPreparacion",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6608",
+									"id_Ext": "47101190",
+									"value": "0024"
+								},
+								{
+									"id": "TipoVenta",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6614",
+									"id_Ext": "47138190",
+									"value": "A"
+								},
+								{
+									"id": "LiteralDesc",
+									"type": "STRING",
+									"children": [
+										{
+											"id": "es_ES",
+											"type": "STRING",
+											"value": "En rodajas de un peso aproximado de 300 g."
+										}
+									]
+								},
+								{
+									"id": "PesoPieza",
+									"type": "STRING",
+									"value": "300"
+								}
+							]
+						},
+						{
+							"id": "Preparacion",
+							"ocurrence": 2,
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "PesoPieza",
+									"type": "STRING",
+									"value": "350"
+								},
+								{
+									"id": "TipoVenta",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6614",
+									"id_Ext": "47138190",
+									"value": "A"
+								},
+								{
+									"id": "LiteralDesc",
+									"type": "STRING",
+									"children": [
+										{
+											"id": "es_ES",
+											"type": "STRING",
+											"value": "En filetes de peso aproximado de 350 g."
+										}
+									]
+								},
+								{
+									"id": "TipoPreparacion",
+									"type": "LOOKUP_TABLE",
+									"featureGroupID": "6608",
+									"id_Ext": "47095190",
+									"value": "0018"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "Publicacion",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "PublicadoEnum",
+							"type": "STRING_ENUMERATION",
+							"value": "Publicar"
+						},
+						{
+							"id": "FechaDesde",
+							"type": "DATE",
+							"value": "20200618_000000"
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "/Fechas_WWW_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaDePublicacionWWW",
+							"type": "DATE",
+							"value": "20200618_000000"
+						},
+						{
+							"id": "FechaDespublicacionWWW",
+							"type": "DATE",
+							"value": "29991230_000001"
+						}
+					]
+				}
+			]
+		}
+	],
+	"prices": [
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0001",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0002",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "15.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0003",
+			"regularPrice": "8.90",
+			"avaliable": "true",
+			"startDate": "20161110",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0004",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0005",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0006",
+			"regularPrice": "8.90",
+			"avaliable": "true",
+			"startDate": "20161110",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0007",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "26.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0008",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "0.01",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0009",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"catalogPrice": "16.95",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0010",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0011",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0013",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0014",
+			"regularPrice": "25.95",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "25.95",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0015",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "0.01",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0017",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0018",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0019",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0020",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "0.01",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0021",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "19.60",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0022",
+			"regularPrice": "7.50",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "7.50",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0023",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "7.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0025",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0027",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0029",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "10.95",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0036",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "9.95",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0097",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0692",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0695",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0697",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0701",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"endDate": "        ",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0702",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"endDate": "        ",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0707",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"endDate": "        ",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0814",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0864",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0897",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0900",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "0.01",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0901",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0906",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0907",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "0.01",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0911",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0913",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0915",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0916",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0923",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "7.95",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0941",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0970",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "9.95",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0973",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0974",
+			"regularPrice": "0.01",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "10.50",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0975",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		},
+		{
+			"productId": "001018246100061   ",
+			"centerId": "0989",
+			"regularPrice": "8.90",
+			"avaliable": "false",
+			"startDate": "20200617",
+			"catalogPrice": "8.90",
+			"taxPercentage": "01",
+			"igic": "01"
+		}
+	]
+}

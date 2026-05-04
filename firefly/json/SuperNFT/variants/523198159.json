@@ -1,0 +1,699 @@
+{
+	"id_Ext": "523198159",
+	"id": "8410109000078",
+	"entryContainerID": "6636",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Variantes_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Code",
+					"type": "STRING",
+					"value": "8410109000078"
+				},
+				{
+					"id": "EAN",
+					"type": "STRING",
+					"value": "8410109000078"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "523198159"
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaCreacion",
+							"type": "DATE",
+							"value": "20141128_000000"
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20141128_000000"
+						}
+					]
+				}
+			]
+		}
+	],
+	"specificAttribs": [
+		{
+			"id": "/Informacion_Alimentaria_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Gtin",
+					"type": "STRING",
+					"value": "08410109000078"
+				},
+				{
+					"id": "Mercado",
+					"type": "GROUPING",
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "MercadoObjetivo",
+							"type": "STRING",
+							"value": "724"
+						},
+						{
+							"id": "Basicos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarca",
+									"type": "STRING",
+									"value": "Chocolates Valor"
+								}
+							]
+						},
+						{
+							"id": "DatosProducto",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "DenominacionAlimento",
+									"type": "STRING",
+									"children": [
+										{
+											"id": "es_ES",
+											"type": "STRING",
+											"value": "Chocolate con leche con almendras"
+										},
+										{
+											"id": "ca_ES",
+											"type": "STRING",
+											"value": "Xocolata amb llet i ametlles"
+										}
+									]
+								},
+								{
+									"id": "Operador",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Nombre",
+											"type": "STRING",
+											"value": "Chocolates Valor,S.A."
+										},
+										{
+											"id": "Direccion",
+											"type": "STRING",
+											"value": "Av. Pianista Gonzalo Soriano, 13 - 03570 - Villajoyosa (Alicante)"
+										}
+									]
+								},
+								{
+									"id": "MarcasProducto",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "MedioAmbiente",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "GREEN_DOT"
+												}
+											]
+										},
+										{
+											"id": "Eticas",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "FREE_FROM_GLUTEN"
+												}
+											]
+										},
+										{
+											"id": "SignoE",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								},
+								{
+									"id": "Instrucciones",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "InstruccionesConsumidor",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Conservar en lugar fresco y seco, alejado de olores."
+												},
+												{
+													"id": "ca_ES",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Conserveu-la en un lloc fresc, sec i allunyat d'olors."
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Medidas",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "ContenidoNeto",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "250"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "Alimentacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Alergenicos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionAlergenicos",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"value": "almendra,leche,soja,avellana"
+												},
+												{
+													"id": "ca_ES",
+													"type": "STRING",
+													"value": "ametlla, llet, soja, avellana"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Ingredientes",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionIngredientes",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Descripcion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Azúcar, almendra (25%), manteca de cacao, pasta de cacao, leche en polvo, lactosuero en polvo (leche), emulgente: lecitina de soja, aromas. Puede contener trazas de avellana."
+														}
+													]
+												},
+												{
+													"id": "PatronResaltado",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "(1,p),(9,em),(17,/em),(59,em),(64,/em),(96,em),(101,/em),(127,em),(131,/em),(166,em),(174,/em),(175,/p)"
+														}
+													]
+												},
+												{
+													"id": "DescripcionResaltada",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Azúcar, #!#almendra#!# (25%), manteca de cacao, pasta de cacao, #!#leche#!# en polvo, lactosuero en polvo (#!#leche#!#), emulgente: lecitina de #!#soja#!#, aromas. Puede contener trazas de #!#avellana#!#."
+														},
+														{
+															"id": "ca_ES",
+															"type": "STRING",
+															"value": "Sucre, #!#ametlla#!# (25%), mantega de cacau, pasta de cacau, #!#llet#!# en pols, xerigot en pols (#!#llet#!#), emulgent: lecitina de #!#soja#!#, aromes. Pot contenir traces d'#!#avellana#!#."
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": "MencionesObligatorias",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Mencion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Cacao: 37% mínimo. Advertencia: Este producto contiene almendras enteras y presenta un riesgo de atragantamiento para niños pequeños."
+														},
+														{
+															"id": "ca_ES",
+															"type": "STRING",
+															"value": "Cacau: 37% mínim. Advertència: Aquest producte conté ametlles senceres i presenta un risc d'ennuegada per a nens petits."
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Nutrientes",
+									"type": "GROUPING",
+									"ocurrence": 0,
+									"children": [
+										{
+											"id": "EstadoPreparacion",
+											"type": "LOOKUP_TABLE",
+											"value": "PREPARED",
+											"featureGroupID": "6652",
+											"id_Ext": "387412190"
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 0,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "2360"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "KJO",
+															"featureGroupID": "6653",
+															"id_Ext": "387561190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 1,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "567"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "E14",
+															"featureGroupID": "6653",
+															"id_Ext": "387527190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 2,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FAT",
+													"featureGroupID": "6650",
+													"id_Ext": "387425190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "39"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 3,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FASAT",
+													"featureGroupID": "6650",
+													"id_Ext": "387426190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "16"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 4,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "CHOAVL",
+													"featureGroupID": "6650",
+													"id_Ext": "387416190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "41"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 5,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SUGAR-",
+													"featureGroupID": "6650",
+													"id_Ext": "387447190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "41"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 6,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "PRO-",
+													"featureGroupID": "6650",
+													"id_Ext": "387442190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "11"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 7,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SALTEQ",
+													"featureGroupID": "6650",
+													"id_Ext": "387444190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "0.26"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190"
+												}
+											]
+										},
+										{
+											"id": "CantDiariaRecomenda",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"value": "Ingesta de referencia de un adulto medio (8400 kJ/2000 kcal)"
+												},
+												{
+													"id": "ca_ES",
+													"type": "STRING",
+													"value": "Ingesta de referència d'un adult mitjà (8400 kJ / 2000 kcal)"
+												}
+											]
+										},
+										{
+											"id": "TamRacionFamiliar",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"value": "Tamaño de referencia 100GR"
+												},
+												{
+													"id": "ca_ES",
+													"type": "STRING",
+													"value": "Mida de referència 100 g"
+												}
+											]
+										},
+										{
+											"id": "TamanoRacion",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "100"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "ProveedorInformacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Codigo",
+									"type": "STRING",
+									"value": "8410109000009"
+								},
+								{
+									"id": "Descripcion",
+									"type": "STRING",
+									"value": "Chocolates Valor"
+								}
+							]
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20220202_080156"
+						}
+					]
+				}
+			]
+		}
+	]
+}

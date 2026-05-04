@@ -1,0 +1,2238 @@
+{
+	"id_Ext": "1610708159",
+	"id": "8410199023094",
+	"entryContainerID": "6636",
+	"movement": "MODIFIED",
+	"coreAttribs": [
+		{
+			"id": "/Variantes_CPS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Code",
+					"type": "STRING",
+					"value": "8410199023094"
+				},
+				{
+					"id": "EAN",
+					"type": "STRING",
+					"value": "8410199023094"
+				},
+				{
+					"id": "ExternalCode",
+					"type": "STRING",
+					"value": "1610708159"
+				},
+				{
+					"id": "Fechas",
+					"type": "GROUPING",
+					"children": [
+						{
+							"id": "FechaCreacion",
+							"type": "DATE",
+							"value": "20220125_000000"
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20220125_000000"
+						}
+					]
+				}
+			]
+		}
+	],
+	"link": [],
+	"specificAttribs": [
+		{
+			"id": "/Informacion_Alimentaria_ISS",
+			"type": "SPEC",
+			"children": [
+				{
+					"id": "Gtin",
+					"type": "STRING",
+					"value": "08410199023094"
+				},
+				{
+					"id": "Mercado",
+					"type": "GROUPING",
+					"ocurrence": 0,
+					"children": [
+						{
+							"id": "MercadoObjetivo",
+							"type": "STRING",
+							"value": "620"
+						},
+						{
+							"id": "Variante",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "pt_PT",
+									"type": "STRING",
+									"value": "Lay's Gourmet 170g"
+								}
+							]
+						},
+						{
+							"id": "Basicos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarca",
+									"type": "STRING",
+									"value": "Lay?s"
+								}
+							]
+						},
+						{
+							"id": "DatosProducto",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "DenominacionAlimento",
+									"type": "STRING",
+									"children": [
+										{
+											"id": "pt_PT",
+											"type": "STRING",
+											"value": "Batatas fritas"
+										}
+									]
+								},
+								{
+									"id": "Operador",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Nombre",
+											"type": "STRING",
+											"value": "Matudis. Lda."
+										},
+										{
+											"id": "Direccion",
+											"type": "STRING",
+											"value": "Lagoas Park. edifício 5C-5º 2740-298 Porto Salvo Portugal"
+										}
+									]
+								},
+								{
+									"id": "MarcasProducto",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "SignoE",
+											"type": "FLAG",
+											"value": "false"
+										}
+									]
+								},
+								{
+									"id": "Instrucciones",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "InstruccionesConsumidor",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "pt_PT",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Conservar em lugar fresco e seco."
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Medidas",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "ContenidoNeto",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "1"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190",
+													"idExt": "387540190"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "Alimentacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Ingredientes",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionIngredientes",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Descripcion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "pt_PT",
+															"type": "STRING",
+															"value": "Batatas, óleo de girassol, sal."
+														}
+													]
+												},
+												{
+													"id": "DescripcionResaltada",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "pt_PT",
+															"type": "STRING",
+															"value": "Batatas, óleo de girassol, sal."
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": "MencionesObligatorias",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Mencion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "pt_PT",
+															"type": "STRING",
+															"value": "Embalado em atmosfera protetora."
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Nutrientes",
+									"type": "GROUPING",
+									"ocurrence": 0,
+									"children": [
+										{
+											"id": "EstadoPreparacion",
+											"type": "LOOKUP_TABLE",
+											"value": "PREPARED",
+											"featureGroupID": "6652",
+											"id_Ext": "387412190",
+											"idExt": "387412190"
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 0,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190",
+													"idExt": "387422190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "2115"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "KJO",
+															"featureGroupID": "6653",
+															"id_Ext": "387561190",
+															"idExt": "387561190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 1,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190",
+													"idExt": "387422190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "507"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "E14",
+															"featureGroupID": "6653",
+															"id_Ext": "387527190",
+															"idExt": "387527190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 2,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FAT",
+													"featureGroupID": "6650",
+													"id_Ext": "387425190",
+													"idExt": "387425190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "31.7"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 3,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FASAT",
+													"featureGroupID": "6650",
+													"id_Ext": "387426190",
+													"idExt": "387426190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "2.6"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 4,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "CHOAVL",
+													"featureGroupID": "6650",
+													"id_Ext": "387416190",
+													"idExt": "387416190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "45.6"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 5,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SUGAR-",
+													"featureGroupID": "6650",
+													"id_Ext": "387447190",
+													"idExt": "387447190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "0.5"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 6,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "PRO-",
+													"featureGroupID": "6650",
+													"id_Ext": "387442190",
+													"idExt": "387442190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "7.7"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 7,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SALTEQ",
+													"featureGroupID": "6650",
+													"id_Ext": "387444190",
+													"idExt": "387444190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "1.2"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 8,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FIBTG",
+													"featureGroupID": "6650",
+													"id_Ext": "387429190",
+													"idExt": "387429190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "4.5"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "TamanoRacion",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "100"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190",
+													"idExt": "387540190"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Nutrientes",
+									"type": "GROUPING",
+									"ocurrence": 1,
+									"children": [
+										{
+											"id": "EstadoPreparacion",
+											"type": "LOOKUP_TABLE",
+											"value": "PREPARED",
+											"featureGroupID": "6652",
+											"id_Ext": "387412190",
+											"idExt": "387412190"
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 0,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190",
+													"idExt": "387422190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "653"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "KJO",
+															"featureGroupID": "6653",
+															"id_Ext": "387561190",
+															"idExt": "387561190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 1,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190",
+													"idExt": "387422190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "156"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "E14",
+															"featureGroupID": "6653",
+															"id_Ext": "387527190",
+															"idExt": "387527190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 2,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FAT",
+													"featureGroupID": "6650",
+													"id_Ext": "387425190",
+													"idExt": "387425190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "9.2"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 3,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FASAT",
+													"featureGroupID": "6650",
+													"id_Ext": "387426190",
+													"idExt": "387426190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "0.8"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 4,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "CHOAVL",
+													"featureGroupID": "6650",
+													"id_Ext": "387416190",
+													"idExt": "387416190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "16.2"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 5,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SUGAR-",
+													"featureGroupID": "6650",
+													"id_Ext": "387447190",
+													"idExt": "387447190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "0.2"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 6,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "PRO-",
+													"featureGroupID": "6650",
+													"id_Ext": "387442190",
+													"idExt": "387442190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "1.5"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 7,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SALTEQ",
+													"featureGroupID": "6650",
+													"id_Ext": "387444190",
+													"idExt": "387444190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "0.3"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 8,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FIBTG",
+													"featureGroupID": "6650",
+													"id_Ext": "387429190",
+													"idExt": "387429190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "1.1"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												}
+											]
+										},
+										{
+											"id": "TamRacionFamiliar",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "pt_PT",
+													"type": "STRING",
+													"value": "**30g=dose média. Esta embalagem contém 5-6 doses."
+												}
+											]
+										},
+										{
+											"id": "TamanoRacion",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "30"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190",
+													"idExt": "387540190"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "ProveedorInformacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Codigo",
+									"type": "STRING",
+									"value": "5600055458051"
+								},
+								{
+									"id": "Descripcion",
+									"type": "STRING",
+									"value": "MATUDIS - COMÉRCIO DE PRODUTOS ALIM"
+								}
+							]
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20250829_140100"
+						}
+					]
+				},
+				{
+					"id": "Mercado",
+					"type": "GROUPING",
+					"ocurrence": 1,
+					"children": [
+						{
+							"id": "MercadoObjetivo",
+							"type": "STRING",
+							"value": "724"
+						},
+						{
+							"id": "Variante",
+							"type": "STRING",
+							"children": [
+								{
+									"id": "es_ES",
+									"type": "STRING",
+									"value": "Lay's Gourmet Original Patatas Fritas 170gr"
+								}
+							]
+						},
+						{
+							"id": "Basicos",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "CodigoMarca",
+									"type": "STRING",
+									"value": "Lay's"
+								}
+							]
+						},
+						{
+							"id": "DatosProducto",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "DenominacionAlimento",
+									"type": "STRING",
+									"children": [
+										{
+											"id": "es_ES",
+											"type": "STRING",
+											"value": "Patatas fritas"
+										},
+										{
+											"id": "ca_ES",
+											"type": "STRING",
+											"value": "Patates fregides"
+										}
+									]
+								},
+								{
+									"id": "Operador",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Nombre",
+											"type": "STRING",
+											"value": "PEPSICO FOODS AIE"
+										},
+										{
+											"id": "Direccion",
+											"type": "STRING",
+											"value": "CALLE MARIE CURIE, 7 PLANTA 1, EDIFICIO 8 VITORIA-GASTEIZ, ALAVA"
+										}
+									]
+								},
+								{
+									"id": "MarcasProducto",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "SignoE",
+											"type": "FLAG",
+											"value": "true"
+										}
+									]
+								},
+								{
+									"id": "Instrucciones",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "InstruccionesConsumidor",
+											"type": "STRING",
+											"children": [
+												{
+													"id": "es_ES",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Conservar en lugar fresco y seco"
+												},
+												{
+													"id": "ca_ES",
+													"type": "STRING",
+													"ocurrence": 0,
+													"value": "Conservar en un lloc fresc i sec"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Medidas",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "ContenidoNeto",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "170"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190",
+													"idExt": "387540190"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "Alimentacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Alergenicos",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 0,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "AW",
+													"featureGroupID": "6638",
+													"id_Ext": "386189190",
+													"idExt": "386189190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 1,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "AC",
+													"featureGroupID": "6638",
+													"id_Ext": "386178190",
+													"idExt": "386178190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 2,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "AE",
+													"featureGroupID": "6638",
+													"id_Ext": "386179190",
+													"idExt": "386179190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 3,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "AF",
+													"featureGroupID": "6638",
+													"id_Ext": "386180190",
+													"idExt": "386180190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 4,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "AP",
+													"featureGroupID": "6638",
+													"id_Ext": "386186190",
+													"idExt": "386186190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 5,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "AY",
+													"featureGroupID": "6638",
+													"id_Ext": "386191190",
+													"idExt": "386191190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 6,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "AM",
+													"featureGroupID": "6638",
+													"id_Ext": "386184190",
+													"idExt": "386184190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 7,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "AN",
+													"featureGroupID": "6638",
+													"id_Ext": "386185190",
+													"idExt": "386185190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 8,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "BC",
+													"featureGroupID": "6638",
+													"id_Ext": "386194190",
+													"idExt": "386194190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 9,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "BM",
+													"featureGroupID": "6638",
+													"id_Ext": "386197190",
+													"idExt": "386197190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 10,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "AS",
+													"featureGroupID": "6638",
+													"id_Ext": "386187190",
+													"idExt": "386187190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 11,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "AU",
+													"featureGroupID": "6638",
+													"id_Ext": "386188190",
+													"idExt": "386188190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 12,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "NL",
+													"featureGroupID": "6638",
+													"id_Ext": "386821190",
+													"idExt": "386821190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										},
+										{
+											"id": "Alergeno",
+											"type": "GROUPING",
+											"ocurrence": 13,
+											"children": [
+												{
+													"id": "Codigo",
+													"type": "LOOKUP_TABLE",
+													"value": "UM",
+													"featureGroupID": "6638",
+													"id_Ext": "386836190",
+													"idExt": "386836190"
+												},
+												{
+													"id": "Agencia",
+													"type": "STRING",
+													"value": "European Union"
+												},
+												{
+													"id": "VersionRegulacion",
+													"type": "STRING",
+													"value": "2003/89/EC"
+												},
+												{
+													"id": "NivelPresencia",
+													"type": "LOOKUP_TABLE",
+													"value": "FREE_FROM",
+													"featureGroupID": "6646",
+													"id_Ext": "386176190",
+													"idExt": "386176190"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Ingredientes",
+									"type": "GROUPING",
+									"children": [
+										{
+											"id": "DescripcionIngredientes",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Descripcion",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Patatas, aceite de girasol, sal. Sin gluten."
+														},
+														{
+															"id": "ca_ES",
+															"type": "STRING",
+															"value": "Patates, oli de gira-sol, sal. Sense gluten."
+														}
+													]
+												},
+												{
+													"id": "PatronResaltado",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "ca_ES",
+															"type": "STRING",
+															"value": "(1,p),(45,/p)"
+														},
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "(1,p),(44,/p)"
+														}
+													]
+												},
+												{
+													"id": "DescripcionResaltada",
+													"type": "STRING",
+													"children": [
+														{
+															"id": "es_ES",
+															"type": "STRING",
+															"value": "Patatas, aceite de girasol, sal. Sin gluten."
+														},
+														{
+															"id": "ca_ES",
+															"type": "STRING",
+															"value": "Patates, oli de gira-sol, sal. Sense gluten."
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "Nutrientes",
+									"type": "GROUPING",
+									"ocurrence": 0,
+									"children": [
+										{
+											"id": "EstadoPreparacion",
+											"type": "LOOKUP_TABLE",
+											"value": "PREPARED",
+											"featureGroupID": "6652",
+											"id_Ext": "387412190",
+											"idExt": "387412190"
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 0,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190",
+													"idExt": "387422190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "2176"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "KJO",
+															"featureGroupID": "6653",
+															"id_Ext": "387561190",
+															"idExt": "387561190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												},
+												{
+													"id": "PorcentajeCantDiariaRecom",
+													"type": "STRING",
+													"value": "25"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 1,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "ENER-",
+													"featureGroupID": "6650",
+													"id_Ext": "387422190",
+													"idExt": "387422190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "520"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "E14",
+															"featureGroupID": "6653",
+															"id_Ext": "387527190",
+															"idExt": "387527190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												},
+												{
+													"id": "PorcentajeCantDiariaRecom",
+													"type": "STRING",
+													"value": "26"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 2,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FAT",
+													"featureGroupID": "6650",
+													"id_Ext": "387425190",
+													"idExt": "387425190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "30.8"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												},
+												{
+													"id": "PorcentajeCantDiariaRecom",
+													"type": "STRING",
+													"value": "44"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 3,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FASAT",
+													"featureGroupID": "6650",
+													"id_Ext": "387426190",
+													"idExt": "387426190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "2.7"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												},
+												{
+													"id": "PorcentajeCantDiariaRecom",
+													"type": "STRING",
+													"value": "13"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 4,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "CHOAVL",
+													"featureGroupID": "6650",
+													"id_Ext": "387416190",
+													"idExt": "387416190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "53.9"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												},
+												{
+													"id": "PorcentajeCantDiariaRecom",
+													"type": "STRING",
+													"value": "20"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 5,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SUGAR-",
+													"featureGroupID": "6650",
+													"id_Ext": "387447190",
+													"idExt": "387447190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "0.6"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												},
+												{
+													"id": "PorcentajeCantDiariaRecom",
+													"type": "STRING",
+													"value": "0"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 6,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "PRO-",
+													"featureGroupID": "6650",
+													"id_Ext": "387442190",
+													"idExt": "387442190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "5"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												},
+												{
+													"id": "PorcentajeCantDiariaRecom",
+													"type": "STRING",
+													"value": "10"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 7,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "SALTEQ",
+													"featureGroupID": "6650",
+													"id_Ext": "387444190",
+													"idExt": "387444190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "0.9"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												},
+												{
+													"id": "PorcentajeCantDiariaRecom",
+													"type": "STRING",
+													"value": "15"
+												}
+											]
+										},
+										{
+											"id": "Nutriente",
+											"type": "GROUPING",
+											"ocurrence": 8,
+											"children": [
+												{
+													"id": "CodigoINFOOD",
+													"type": "LOOKUP_TABLE",
+													"value": "FIBTG",
+													"featureGroupID": "6650",
+													"id_Ext": "387429190",
+													"idExt": "387429190"
+												},
+												{
+													"id": "CantidadContenida",
+													"type": "GROUPING",
+													"children": [
+														{
+															"id": "Cantidad",
+															"type": "STRING",
+															"value": "3.8"
+														},
+														{
+															"id": "UM",
+															"type": "LOOKUP_TABLE",
+															"value": "GR",
+															"featureGroupID": "6653",
+															"id_Ext": "387540190",
+															"idExt": "387540190"
+														}
+													]
+												},
+												{
+													"id": "PrecisionMedida",
+													"type": "LOOKUP_TABLE",
+													"value": "APPROXIMATELY",
+													"featureGroupID": "6648",
+													"id_Ext": "387409190",
+													"idExt": "387409190"
+												},
+												{
+													"id": "PorcentajeCantDiariaRecom",
+													"type": "STRING",
+													"value": "15"
+												}
+											]
+										},
+										{
+											"id": "TamanoRacion",
+											"type": "GROUPING",
+											"children": [
+												{
+													"id": "Cantidad",
+													"type": "STRING",
+													"value": "100"
+												},
+												{
+													"id": "UM",
+													"type": "LOOKUP_TABLE",
+													"value": "GR",
+													"featureGroupID": "6653",
+													"id_Ext": "387540190",
+													"idExt": "387540190"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "ProveedorInformacion",
+							"type": "GROUPING",
+							"children": [
+								{
+									"id": "Codigo",
+									"type": "STRING",
+									"value": "8410199000002"
+								},
+								{
+									"id": "Descripcion",
+									"type": "STRING",
+									"value": "PepsiCo Foods Iberia"
+								}
+							]
+						},
+						{
+							"id": "FechaModificacion",
+							"type": "DATE",
+							"value": "20250829_140100"
+						}
+					]
+				}
+			]
+		}
+	],
+	"idExt": "1610708159"
+}
